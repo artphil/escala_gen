@@ -5,7 +5,7 @@ from openpyxl.utils import column_index_from_string
 import numpy as np
 
 def imprime(tabela):
-	# Definindo planilha
+	# Definindo a planilha
 	wb = Workbook()
 	ws = wb.active
 	ws.page_setup.orientation = ws.ORIENTATION_LANDSCAPE
@@ -15,12 +15,6 @@ def imprime(tabela):
 
 	# Titulo da aba
 	ws.title = 'Escala'
-
-	# Definindo largura das células das sequência
-	for i in range(1,34):
-	    # ws.col(i).width = 800
-	    # ws.row(i-1).height = 300
-		pass
 
 	# Preenchendo com dados da tabela
 	i = 0;
@@ -43,8 +37,8 @@ def imprime(tabela):
 				celula.fill = PatternFill("solid", fgColor="000000")
 				celula.font = Font(color='FFFFFF')
 
+	# Definindo largura das células das sequência
 	ws.row_dimensions[ws['A1'].row].height = 30.0
-
 	for col in ws['B:AG']:
 	     ws.column_dimensions[col[0].column].width = 4.0
 
@@ -54,19 +48,18 @@ def imprime(tabela):
 
 
 def le_dados():
-	estacao = input("nome estacao: ")
-	dia = int(input("dia da mudança: "))
-	func_num = int(input("numero de funcionarios: "))
+	data = {}
+
+	data['estacao'] = input("nome estacao: ")
+	data['dia_inicio'] = int(input("dia da mudança: "))
+	data['func_num'] = int(input("numero de funcionarios: "))
+
 	func_nomes = []
 	func_Ps = []
 	for i in range(func_num):
 		func_nomes.append(input("nome: "))
 		func_Ps.append(int(input("P: ")))
 
-	data = {}
-	data['estacao'] = estacao
-	data['dia_inicio'] = dias
-	data['func_num'] = func_num
 	data['func_nomes'] = func_nomes
 	data['func_Ps'] = func_Ps
 
@@ -91,34 +84,36 @@ def gera_tabela():
 	semana = ["D", "S", "T", "Q", "Q", "S", "S", "D"]
 
 
-	estacao = "Central"
-	dia = 3
-	mes = 'Agosto'
-	func_num = 4
-	func_nomes = ['Artphil', 'D.Maia', 'Waguim', 'Zeze']
-	func_Ps = [7, 8, 9, 4]
+	data = {}
+	data['estacao'] = "Central"
+	data['dia_inicio'] = 3
+	data['mes'] = 'Julho'
+	data['func_num'] = 4
+	data['func_nomes'] = ['Artphil', 'D.Maia', 'Waguim', 'Zeze']
+	data['func_Ps'] = [7, 8, 9, 4]
 
+	# data = le_dados()
 
-	escala.append(["Escala ASO1 - " + estacao + " - " + mes, ""])
+	escala.append(["Escala ASO1 - " + data['estacao'] + " - " + data['mes'], ""])
 
 	lista_dias = ["Dias", "P"]
-	for d in range(dias_mes[mes]):
-		lista_dias.append((dia+d-1)%dias_mes[mes]+1)
+	for d in range(dias_mes[data['mes']]):
+		lista_dias.append((data['dia_inicio']+d-1)%dias_mes[data['mes']]+1)
 	escala.append(lista_dias)
 
 	lista_sem = ["", ""]
-	for d in range(dias_mes[mes]):
+	for d in range(dias_mes[data['mes']]):
 		lista_sem.append(semana[d%7])
 	escala.append(lista_sem)
 
-	distrib = preenche(func_num, dias_mes[mes])
+	distrib = preenche(data['func_num'], dias_mes[data['mes']])
 	postos = []
 	c = 0
-	for f in range(func_num):
+	for f in range(data['func_num']):
 		p = []
-		p.append(func_nomes[f])
-		p.append(func_Ps[f])
-		for i in range(dias_mes[mes]):
+		p.append(data['func_nomes'][f])
+		p.append(data['func_Ps'][f])
+		for i in range(dias_mes[data['mes']]):
 			if distrib[c][i] == 1:
 				p.append("F")
 			elif distrib[c][i] == 2:
