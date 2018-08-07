@@ -9,6 +9,9 @@ def imprime(tabela):
 	wb = Workbook()
 	ws = wb.active
 	ws.page_setup.orientation = ws.ORIENTATION_LANDSCAPE
+	ws.page_setup.paperSize = ws.PAPERSIZE_A4
+	ws.page_setup.fitToPage = True
+	ws.print_area = 'A1:AG15'
 
 	# Titulo da aba
 	ws.title = 'Escala'
@@ -24,18 +27,17 @@ def imprime(tabela):
 	for linha in tabela:
 		ws.append(linha)
 
-	# Aplica merge as celulas do titulo
+	# Aplica merge e formata as celulas do titulo
 	ws.merge_cells("A1:AG1")
-
 	ws['A1'].alignment = Alignment(horizontal='center', vertical='center')
 	ws['A1'].font = Font(bold=True)
 
+	# Aplica formatacao as demais celulas
 	for linha in ws['A2:AG15']:
 		ws.row_dimensions[linha[0].row].height = 20.0
 		for celula in linha:
 			celula.alignment = Alignment(horizontal='center', vertical='center')
 			if celula.col_idx < 3 or celula.row < 4:
-				# print (column_index_from_string[celula.column])
 				celula.font = Font(bold=True)
 			if celula.value == 'F':
 				celula.fill = PatternFill("solid", fgColor="000000")
