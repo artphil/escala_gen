@@ -49,7 +49,8 @@ def imprime(tabela):
 	     ws.column_dimensions[col[0].column].width = 4.0
 
 	# Salvando
-	wb.save(filename='escala_ASO1.xlsx')
+	nome_arquivo = tabela[0][0]+'.xlsx'
+	wb.save(filename=nome_arquivo)
 
 
 def le_dados():
@@ -61,6 +62,15 @@ def le_dados():
 	for i in range(func_num):
 		func_nomes.append(input("nome: "))
 		func_Ps.append(int(input("P: ")))
+
+	data = {}
+	data['estacao'] = estacao
+	data['dia_inicio'] = dias
+	data['func_num'] = func_num
+	data['func_nomes'] = func_nomes
+	data['func_Ps'] = func_Ps
+
+	return data
 
 def gera_tabela():
 	escala = []
@@ -123,13 +133,7 @@ def gera_tabela():
 				p.append("")
 		c += 1
 		escala.append(p)
-	'''
-	for i in range(func_num):
-		linha = postos[i][:]
-		linha.insert(0,func_nomes[i])
-		linha.insert(1,func_Ps[i])
-		escala.append(linha)
-	'''
+
 	imprime(escala)
 
 	print ("Arquivo gerado no diretorio: ")
