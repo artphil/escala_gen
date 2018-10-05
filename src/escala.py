@@ -43,6 +43,20 @@ def imprime(tabela):
 	for col in ws['B:AG']:
 	     ws.column_dimensions[col[0].column].width = 4.0
 
+	ws["AI3"] = "B1"
+	ws["AJ3"] = "B2"
+	ws["AK3"] = "B3"
+	ws["AL3"] = "B4"
+	ws["AM3"] = "Q1"
+	ws["AN3"] = "Q2"
+	for i in range(4,11):
+		ws["AI"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=B1")'
+		ws["AJ"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=B2")'
+		ws["AK"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=B3")'
+		ws["AL"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=B4")'
+		ws["AM"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=Q1")'
+		ws["AN"+str(i)] = '=CONT.SE(B'+str(i)+':AG'+str(i)+'; "=Q2")'
+
 	# Salvando
 	nome_arquivo = tabela[0][0]+'.xlsx'
 	wb.save(filename=nome_arquivo)
@@ -88,12 +102,14 @@ def gera_tabela():
 	semana = ["D", "S", "T", "Q", "Q", "S", "S", "D"]
 
 	data = {}
-	data['estacao'] = "Central"
+	data['estacao'] = "Teste1"
 	data['dia_inicio'] = 3
 	data['mes'] = 'Julho'
 	data['func_num'] = 6
-	data['func_nomes'] = ['Artphil', 'D.Maia', 'Waguim', 'Zeze', 'Tata', 'Tretas']
+	data['func_nomes'] = ['Artphil', 'D.Maia', 'Waguim', 'Zeze', 'Renato', 'Tretas']
 	data['func_Ps'] = [1, 4, 10, 2, 5, 11]
+
+	# data = le_dados()
 
 	data['folgas'] = [
 	[0,5,10,11,15,20,25,26],
@@ -104,7 +120,6 @@ def gera_tabela():
 	[2,5,13,16,21,22,27]]
 	data['postos'] = [2,1]
 
-	# data = le_dados()
 
 	escala.append(["Escala ASO1 - " + data['estacao'] + " - " + data['mes'], ""])
 
@@ -150,6 +165,8 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 
 	func_fixos = int(func/2)
 	postos_trab = np.zeros((func,func_fixos))
+	trab_fix = np.zeros((func_fixos,func_fixos))
+	trab_res = np.zeros((func_fixos,func_fixos))
 
 	f=0
 	for lista in folgas:
@@ -166,7 +183,14 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 
 	postos.sort()
 	print (postos)
-	
+
+	''' funcao duplo minimo
+
+	for d in range(dias):
+
+	'''
+
+	''' funcao linear
 	for j in range(dias):
 		k = j%func_fixos;
 		for i in range(func_fixos):
@@ -176,10 +200,11 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 			dist_postos[i][j] = postos[k]
 			k = (k+1)%func_fixos
 	'''
+	'''
 	for d in range(dias):
 		postos_ocp = np.zeros(func_fixos)
 		num_postos = func_fixos
-		f = random.randint(0,func_fixos)
+		f = random.randint(0,func_fixos-1)
 		while num_postos > 0:
 			print(f)
 			if dist_postos[f][d] != 0:
@@ -192,15 +217,19 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 				p_i = 0
 				for i in range(func_fixos):
 					if postos_ocp[i] == 0 and postos_trab[f][i] < p_min:
+						# if i == 0 or postos_trab[f][i-1] != postos[i]:
 						p_min = postos_trab[f][i]
 						p_i = i
+
 				print(f, p_i)
 				postos_ocp[p_i] = 1
 				postos_trab[f][p_i] += 1
 				dist_postos[f][d] = postos[p_i]
 				num_postos -= 1
-				# f = (f+1)%func_fixos
-	''' '''
+				f = (f+1)%func_fixos
+	'''
+	'''
+	'''
 	for d in range(dias):
 		fix = []
 		res = []
@@ -219,7 +248,7 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 					f_i = i
 
 			postos_trab[f_i][p] += 1
-			postos_trab[f_i += func_fixos][p] += 1
+			postos_trab[f_i + func_fixos][p] += 1
 
 			if dist_postos[f_i][d] == 1:
 				f_i += func_fixos
@@ -227,13 +256,34 @@ def preenche(func=6, dias=15, postos_num=[2,1], folgas=[[0,4,7,8,11,14],[1,4,7,8
 			print(f_i, p)
 
 			dist_postos[f_i][d] = postos[p]
-	'''
+
 	print (dist_postos)
 	return dist_postos
 
 def aloca():
+	for f in postos:
+		if aloca_posto(f):
+			return
+
+
+def aloca_posto(f):
 	pass
 
+def testa_posto(tabela):
+	for p in range(len(tabela)):
+		if max(tabela[:][p]) - min(tabela[:][p]) > 1:
+			return False
 
+	return True
+
+
+def testa_func(tabela):
+	for p in tabela:
+		if max(p) - min(p) > 1:
+			return False
+
+	return True
+
+# Chamada do programa
 gera_tabela()
 # preenche()
