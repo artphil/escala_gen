@@ -1,8 +1,15 @@
+'''
+Programa de geracao automatica de escala de postos de servico
+Gerador de probabilidades
+autor: Arthur Phillip Silva
+'''
+
 import numpy as np
 from random import shuffle
 
 p = []
 
+# Arranja e lista todas as combinacoes
 def gerador(final, vetor, vistos, aux):
 	tam = len(vetor)
 
@@ -18,7 +25,7 @@ def gerador(final, vetor, vistos, aux):
 				v[i] = 1
 				gerador(final, vetor, v, a)
 
-
+# Lista de combinacoes de um vetor
 def gera_p(vetor):
 	global p
 	tam = len(vetor)
@@ -26,8 +33,11 @@ def gera_p(vetor):
 	aux = []
 	final = []
 
+	# Gera combinacoes
 	gerador(final, vetor, vistos, aux)
 
+	# Embaralha resultado
 	shuffle(final)
+
 	p = final
 	return final
