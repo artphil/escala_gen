@@ -1,6 +1,6 @@
 '''
 Programa de geracao automatica de escala de postos de servico
-Gerador da planilha excel
+Gerador da planilha Excel
 autor: Arthur Phillip Silva
 '''
 
@@ -9,6 +9,7 @@ from openpyxl.styles import Font, Color, Alignment, PatternFill, Border
 from openpyxl.utils import column_index_from_string
 from openpyxl import formula
 from openpyxl.cell.cell import Cell
+
 # Cria a planilha excel
 def gera_xls(tabela):
 	# Definindo a planilha
@@ -71,18 +72,20 @@ def gera_xls(tabela):
 	ws["AO3"] = "Q1"
 	ws["AP3"] = "Q2"
 	ws["AQ3"] = "Q3"
+	ws["AR3"] = "Q4"
 
 	for i in range(4,len(tabela)+1):
 		# ws["AI"+str(i)]='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B1")'
-		ws["AI"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B1")', data_type=Cell.TYPE_FORMULA)
-		ws["AJ"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B2")', data_type=Cell.TYPE_FORMULA)
-		ws["AK"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B3")', data_type=Cell.TYPE_FORMULA)
-		ws["AL"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B4")', data_type=Cell.TYPE_FORMULA)
-		ws["AM"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B5")', data_type=Cell.TYPE_FORMULA)
-		ws["AN"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "B6")', data_type=Cell.TYPE_FORMULA)
-		ws["AO"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "Q1")', data_type=Cell.TYPE_FORMULA)
-		ws["AP"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "Q2")', data_type=Cell.TYPE_FORMULA)
-		ws["AQ"+str(i)].set_explicit_value(value='=CONT.SE(B'+str(i)+':AG'+str(i)+'; "Q3")', data_type=Cell.TYPE_FORMULA)
+		ws["AI"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B1")', data_type=Cell.TYPE_FORMULA)
+		ws["AJ"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B2")', data_type=Cell.TYPE_FORMULA)
+		ws["AK"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B3")', data_type=Cell.TYPE_FORMULA)
+		ws["AL"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B4")', data_type=Cell.TYPE_FORMULA)
+		ws["AM"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B5")', data_type=Cell.TYPE_FORMULA)
+		ws["AN"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "B6")', data_type=Cell.TYPE_FORMULA)
+		ws["AO"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "Q1")', data_type=Cell.TYPE_FORMULA)
+		ws["AP"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "Q2")', data_type=Cell.TYPE_FORMULA)
+		ws["AQ"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "Q3")', data_type=Cell.TYPE_FORMULA)
+		ws["AR"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "Q4")', data_type=Cell.TYPE_FORMULA)
 
 	# Salva a planilha
 	nome_arquivo = 'planilha/'+tabela[0][0]+'.xls'

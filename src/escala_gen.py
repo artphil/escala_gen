@@ -9,6 +9,7 @@ import json
 import sys
 import numpy as np
 from planilha import gera_xls
+from datetime import datetime, timedelta
 import prob
 
 
@@ -22,16 +23,27 @@ def le_dados_auto():
 	with open(sys.argv[1], "r") as entrada:
 		# print (sys.argv[1])
 		data['estacao'] = entrada.readline()[:-1]
-		data['mes'] = entrada.readline()[:-1]
+		data['mes'], data['ano'] = entrada.readline()[:-1].split(' ')
 		data['dia_inicio'] = int(entrada.readline())
 		data['func_nomes'] = entrada.readline()[:-1].split(',')
+
+	#  Tratamento de erro da entrada
+	if not data['estacao'] in bd['est']:
+		print("Estação não encontrada", '\n')
+		print(error)
+	if not data['mes'] in bd['mes']:
+		print("Mes não encontrado", '\n')
+		print(error)
+	if len(data['func_nomes']) != 2*len(bd['est'][data['estacao']]['postos']):
+		print("Numero de funcionarios difere", '\n')
+		print(error)
 
 # cria a matriz da escala e exporta como xlsx
 def gera_tabela():
 	# Titulo
-	escala.append(["Escala ASO1 - " + data['estacao'] + " - " + data['mes'], ""])
+	escala.append(["Escala ASO1 - " + bd['est'][data['estacao']]['nome'] + " - " + data['mes'], ""])
 
-	dias = bd['dias_mes'][data['mes']]
+	dias = bd['mes'][data['mes']]['dias']
 
 	# Sequencia de dias
 	lista_dias = ["", "Dias"]
@@ -41,8 +53,10 @@ def gera_tabela():
 
 	# Sequencia de dias da semana
 	lista_sem = ["", "Ps"]
+	data_dia = datetime(int(data['ano']),bd['mes'][data['mes']]['id'],data['dia_inicio'])
 	for d in range(dias):
-		lista_sem.append(bd['semana'][d%7])
+		lista_sem.append(bd['semana'][int(data_dia.strftime('%w'))])
+		data_dia += timedelta(days=1)
 	escala.append(lista_sem)
 
 	# Distribuicao de postos e folgas
@@ -54,8 +68,8 @@ def gera_tabela():
 	for f in range(len(data['func_nomes'])):
 		p = []
 		f_nome = data['func_nomes'][f]
-		p.append(f_nome)
-		p.append(bd['pessoal'][f_nome])
+		p.append(bd['aso'][f_nome]['alias'])
+		p.append(bd['aso'][f_nome]['p'])
 
 		for i in range(dias):
 			if distrib[c][i] == 0:
@@ -69,9 +83,6 @@ def gera_tabela():
 
 		c += 1
 		escala.append(p)
-
-
-	print ("Arquivo gerado no diretorio: ")
 
 # Coloca postos do dia a todos os funcionario
 def insere_p(tabela, c, coluna, postos, vistos):
@@ -130,7 +141,7 @@ def aloca():
 	nomes = data['func_nomes']
 	func = len(nomes)		# Quantidade de funcionarioa
 	fixos = int(func/2)		# Quantidade de postos
-	dias = bd['dias_mes'][data['mes']]
+	dias = bd['mes'][data['mes']]['dias']
 
 	# Tabela de distribuicao de postos
 	dist_postos = np.zeros((func,dias))
@@ -140,9 +151,9 @@ def aloca():
 	# Atribui as folgas do funcionario
 	f=0
 	ini42 = int(bd['folgas']['0']) + data['dia_inicio'] -1
-	ini31 = data['dia_inicio'] -1
+	ini31 = int(bd['folgas']['00']) + data['dia_inicio'] -1
 	for n in nomes:
-		p = bd['pessoal'][n]
+		p = bd['aso'][n]['p']
 		inip = int(bd['folgas'][p])
 		# print(len(esc42), len(esc31))
 		if p == '7' or p == '8' or p == '9':
@@ -158,14 +169,14 @@ def aloca():
 		f += 1
 
 	# Cria a sequencia de postos a trabalhar
-	postos = bd['estacao'][data['estacao']]['postos']
+	postos = bd['est'][data['estacao']]['postos']
 	# Lista todas as combinacoes possiveis de postos
 	arranjos = prob.gera_p(postos)
 	n_arranjos = len(arranjos)
 
 	# Aloca os postos aos funcionarios
 	d = a = t = 0
-	limite = 1
+	limite = 1 # Nivel de erro no banlanco de postos
 	while d < dias:
 		# Coloca uma combinacao
 		insere_p(dist_postos, d, arranjos[a], postos, balanc_postos)
@@ -175,13 +186,18 @@ def aloca():
 			d += 1
 			a = (a+1)%n_arranjos
 			t = 0
+			# Reduz o erro do balanco
+			if limite > 1:
+				limite -= 1
 		else:
-			# remove combinacao se nao passa no teste
+			# Remove combinacao se nao passa no teste
 			remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
 			a = (a+1)%n_arranjos
 			t += 1
+			# Verifica se tentou todas a possibilidades
 			if t == n_arranjos:
 				t = 0
+				# Aumenta o erro do balanço
 				limite += 1
 	# print(postos)
 	# print(balanc_postos)
@@ -205,8 +221,13 @@ with open("data/escala.dat", "r") as read_escala:
 escala = []
 data = {}
 
+print('Lendo arquivos')
 le_dados_auto()
 
+print('Gerando tabela')
 gera_tabela()
 
+print('Criando planilha')
 gera_xls(escala)
+
+print ("Arquivo gerado no diretorio: ")
