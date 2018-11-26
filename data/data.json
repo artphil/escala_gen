@@ -75,6 +75,10 @@
 		"UVL":{
 			"nome":"Vilarinho",
 			"postos": [2,4,6,8,10,12,3,5,7]
+		},
+		"UTS":{
+			"nome":"Teste",
+			"postos": [2,4,3,5]
 		}
 	},
 	"aso":{
@@ -463,11 +467,51 @@
 	        "alias": "Willian",
 	        "nome": "Willian"
 	    },
-	    "Willy": {
+		"Willy": {
 	        "p": "15",
 	        "alias": "Willy",
 	        "nome": "Willy"
-	    }
+	    },
+		"A": {
+		   "p": "16",
+		   "alias": "Willy One",
+		   "nome": "Willy"
+	   },
+	   "B": {
+		   "p": "17",
+		   "alias": "Willy Two",
+		   "nome": "Willy"
+	   },
+	   "C": {
+		   "p": "18",
+		   "alias": "Willy Tree",
+		   "nome": "Willy"
+	   },
+	   "D": {
+		   "p": "16",
+		   "alias": "Willy Flour",
+		   "nome": "Willy"
+	   },
+	   "AA": {
+		   "p": "17",
+		   "alias": "Willy Once",
+		   "nome": "Willy"
+	   },
+	   "BB": {
+		   "p": "18",
+		   "alias": "Willy Twice",
+		   "nome": "Willy"
+	   },
+	   "CC": {
+		   "p": "16",
+		   "alias": "Willy Apple",
+		   "nome": "Willy"
+	   },
+	   "DD": {
+		   "p": "17",
+		   "alias": "Willy Bread",
+		   "nome": "Willy"
+	   }
 	},
 	"folgas":
 	{
@@ -488,7 +532,11 @@
 		"00":0,
 		"7":0,
 		"8":7,
-		"9":14
+		"9":14,
+
+		"16":0,
+		"17":7,
+		"18":14
 	},
 	"mes":
 	{

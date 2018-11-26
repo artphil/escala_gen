@@ -160,11 +160,14 @@ def aloca():
 			for d in range(dias):
 				dist_postos[f][d] = int(esc31[(d+ini31+inip)%21])
 			# print(n, p, (ini31+inip)%21, '= (', ini31, '+', inip,')')
-		else:
+		elif int(p) < 16:
 			for d in range(dias):
 				dist_postos[f][d] = int(esc42[(d+ini42+inip)%84])
 			# print(n, p, (ini42+inip)%84, '= (', ini42, '+', inip,')')
 
+		else:
+			for d in range(dias):
+				dist_postos[f][d] = int(esc42aj[(d+ini31+inip)%21])
 		# print(dist_postos[f])
 		f += 1
 
@@ -216,6 +219,8 @@ with open("data/escala.dat", "r") as read_escala:
 	# print(esc42)
 	esc31 = read_escala.readline().split('	')
 	# print(esc31)
+	esc42aj = read_escala.readline().split('	')
+	# print(esc31)
 
 # print_dic (bd)
 escala = []
@@ -227,7 +232,10 @@ le_dados_auto()
 print('Gerando tabela')
 gera_tabela()
 
+for h in escala:
+	print(h)
+
 print('Criando planilha')
 gera_xls(escala)
 
-print ("Arquivo gerado no diretorio: ")
+print ("Arquivo gerado no diretorio: ", escala[0][0])
