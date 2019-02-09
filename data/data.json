@@ -1,79 +1,79 @@
 {
 	"est":{
-		"UEL":{
-			"nome":"Eldorado",
+		"UEL1":{
+			"nome":"Eldorado - 1° Turno",
 			"postos": [2,4,6,8,10,3,5,7,9]
 		},
-		"UCI":{
-			"nome":"Cidade Industrial",
+		"UCI1":{
+			"nome":"Cidade Industrial - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UVO":{
-			"nome":"Vila Oeste",
+		"UVO1":{
+			"nome":"Vila Oeste - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UGM":{
-			"nome":"Gameleira",
+		"UGM1":{
+			"nome":"Gameleira - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UCL":{
-			"nome":"Calafate",
+		"UCL1":{
+			"nome":"Calafate - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UCP":{
-			"nome":"Carlos Prates",
+		"UCP1":{
+			"nome":"Carlos Prates - 1° Turno",
 			"postos": [2,4,3,5,7]
 		},
-		"ULG":{
-			"nome":"Lagoinha",
+		"ULG1":{
+			"nome":"Lagoinha - 1° Turno",
 			"postos": [2,4,6,3,5]
 		},
-		"UCT":{
-			"nome":"Central",
-			"postos": [2,4,6,8,3,5]
+		"UCT1":{
+			"nome":"Central - 1° Turno",
+			"postos": [2,4,6,3,5]
 		},
-		"USE":{
-			"nome":"Santa Efigênia",
+		"USE1":{
+			"nome":"Santa Efigênia - 1° Turno",
+			"postos": [2,4,3]
+		},
+		"UST1":{
+			"nome":"Santa Tereza - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UST":{
-			"nome":"Santa Tereza",
+		"UHF1":{
+			"nome":"Horto Florestal - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UHF":{
-			"nome":"Horto Florestal",
+		"USI1":{
+			"nome":"Santa Inês - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"USI":{
-			"nome":"Santa Inês",
+		"UJC1":{
+			"nome":"Jose Cândido - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UJC":{
-			"nome":"Jose Cândido",
+		"UMS1":{
+			"nome":"Minas Shopping - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UMS":{
-			"nome":"Minas Shopping",
-			"postos": [2,4,3,5]
-		},
-		"USG":{
-			"nome":"São Gabriel",
+		"USG1":{
+			"nome":"São Gabriel - 1° Turno",
 			"postos": [2,4,6,3,5,7]
 		},
-		"UPM":{
-			"nome":"Primeiro de Maio",
+		"UPM1":{
+			"nome":"Primeiro de Maio - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UWL":{
-			"nome":"Waldomiro Lobo",
+		"UWL1":{
+			"nome":"Waldomiro Lobo - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UFL":{
-			"nome":"Floramar",
+		"UFL1":{
+			"nome":"Floramar - 1° Turno",
 			"postos": [2,4,3,5]
 		},
-		"UVL":{
-			"nome":"Vilarinho",
+		"UVL1":{
+			"nome":"Vilarinho - 1° Turno",
 			"postos": [2,4,6,8,10,12,3,5,7]
 		},
 		"UTS":{
@@ -92,7 +92,7 @@
 	        "alias": "Alexandre",
 	        "nome": "Alexandre"
 	    },
-	    "Ana Raquel": {
+	    "ana_raquel": {
 	        "p": "13",
 	        "alias": "Ana Raquel",
 	        "nome": "Ana Raquel"
@@ -107,12 +107,12 @@
 	        "alias": "Ayslan",
 	        "nome": "Ayslan"
 	    },
-	    "Barbara": {
+	    "barbara": {
 	        "p": "7",
 	        "alias": "Bárbara",
 	        "nome": "Bárbara"
 	    },
-	    "Bernard": {
+	    "bernard": {
 	        "p": "10",
 	        "alias": "Bernard",
 	        "nome": "Bernard Magacho"
@@ -122,10 +122,10 @@
 	        "alias": "Blenda",
 	        "nome": "Blenda"
 	    },
-	    "Bruno": {
-	        "p": "7",
+	    "bruno": {
+	        "p": "1",
 	        "alias": "Bruno",
-	        "nome": "Bruno"
+	        "nome": "Bruno Duarte"
 	    },
 	    "Carlos": {
 	        "p": "13",
@@ -137,8 +137,8 @@
 	        "alias": "Claudiney",
 	        "nome": "Claudiney"
 	    },
-	    "Daniel F": {
-	        "p": "9",
+	    "daniel_f": {
+	        "p": "3",
 	        "alias": "Daniel F",
 	        "nome": "Daniel Fernando"
 	    },
@@ -202,20 +202,20 @@
 	        "alias": "Gisele",
 	        "nome": "Gisele"
 	    },
-	    "Glauber": {
+	    "glauber": {
 	        "p": "5",
-	        "alias": "Gl\u00e1uber",
-	        "nome": "Gl\u00e1uber"
+	        "alias": "Gláuber",
+	        "nome": "Gláuber Figueredo"
 	    },
 	    "Guilherme": {
 	        "p": "6",
 	        "alias": "Guilherme",
 	        "nome": "Guilherme"
 	    },
-	    "Gustavo": {
+	    "gustavo": {
 	        "p": "4",
 	        "alias": "Gustavo",
-	        "nome": "Gustavo"
+	        "nome": "Gustavo Concolato"
 	    },
 	    "Grazielle": {
 	        "p": "15",
@@ -232,8 +232,8 @@
 	        "alias": "Israel",
 	        "nome": "Israel"
 	    },
-	    "Izabelle L": {
-	        "p": "8",
+	    "izabelle": {
+	        "p": "2",
 	        "alias": "Izabelle L",
 	        "nome": "Izabelle Liz"
 	    },
@@ -247,7 +247,7 @@
 	        "alias": "Leandro",
 	        "nome": "Leandro"
 	    },
-	    "Leonardo A": {
+	    "albuquerque": {
 	        "p": "14",
 	        "alias": "Leonardo A",
 	        "nome": "Leonardo Albuquerque"
@@ -256,6 +256,11 @@
 	        "p": "8",
 	        "alias": "L Akio",
 	        "nome": "Leonardo Akio"
+	    },
+	    "ligia": {
+	        "p": "2",
+	        "alias": "Lígia Souza",
+	        "nome": "Lígia Souza"
 	    },
 	    "Lilian": {
 	        "p": "12",
@@ -277,7 +282,7 @@
 	        "alias": "Lucas H",
 	        "nome": "Lucas Henrique"
 	    },
-	    "Lucia": {
+	    "lucia": {
 	        "p": "5",
 	        "alias": "Lúcia",
 	        "nome": "Lúcia"
@@ -292,20 +297,20 @@
 	        "alias": "Marcelo",
 	        "nome": "Marcelo"
 	    },
-	    "Marco A": {
+	    "marco_a": {
 	        "p": "15",
 	        "alias": "Marco A",
 	        "nome": "Marco Alves"
 	    },
-	    "M Madalena": {
+	    "madalena": {
 	        "p": "6",
 	        "alias": "M Madalena",
 	        "nome": "Maria Madalena"
 	    },
-	    "Mayara": {
+	    "mayara": {
 	        "p": "11",
 	        "alias": "Mayara",
-	        "nome": "Mayara"
+	        "nome": "Mayara Maia"
 	    },
 	    "Marcia T": {
 	        "p": "12",
@@ -322,17 +327,17 @@
 	        "alias": "Nayara A",
 	        "nome": "Nayara A"
 	    },
-	    "Nayara G": {
-	        "p": "15",
+	    "nayara_g": {
+	        "p": "9",
 	        "alias": "Nayara G",
 	        "nome": "Nayara G"
 	    },
-	    "Paula P": {
+	    "paula_p": {
 	        "p": "4",
 	        "alias": "Paula P",
 	        "nome": "Paula P"
 	    },
-	    "Paulo B": {
+	    "paulo_b": {
 	        "p": "12",
 	        "alias": "Paulo B",
 	        "nome": "Paulo Banfi"
@@ -367,7 +372,7 @@
 	        "alias": "Raphael",
 	        "nome": "Raphael"
 	    },
-	    "Renan": {
+	    "renan": {
 	        "p": "13",
 	        "alias": "Renan",
 	        "nome": "Renan Segantini"
@@ -377,25 +382,25 @@
 	        "alias": "Renata",
 	        "nome": "Renata Goltara"
 	    },
-	    "Renato": {
+	    "renato_f": {
 	        "p": "14",
-	        "alias": "Renato",
+	        "alias": "Renato F",
 	        "nome": "Renato Gomes Ferreira"
 	    },
-	    "Rodrigo P": {
+	    "Rodrigo_P": {
 	        "p": "1",
 	        "alias": "Rodrigo P",
 	        "nome": "Rodrigo Prado"
 	    },
-	    "Rodrigo R": {
+	    "Rodrigo_R": {
 	        "p": "10",
 	        "alias": "Rodrigo R",
 	        "nome": "Rodrigo R"
 	    },
-	    "Rosa": {
+	    "rosa_l": {
 	        "p": "1",
-	        "alias": "Rosa",
-	        "nome": "Rosa"
+	        "alias": "Rosa Lima",
+	        "nome": "Rosa Lima"
 	    },
 	    "Samuel": {
 	        "p": "3",
@@ -407,7 +412,7 @@
 	        "alias": "Scarlat",
 	        "nome": "Scarlat"
 	    },
-	    "Sergio": {
+	    "sergio_m": {
 	        "p": "5",
 	        "alias": "Sergio",
 	        "nome": "Sergio Maia"
@@ -422,8 +427,8 @@
 	        "alias": "Silvana",
 	        "nome": "Silvana"
 	    },
-	    "Stefano": {
-	        "p": "6",
+	    "stefano": {
+	        "p": "9",
 	        "alias": "Stefano",
 	        "nome": "Stefano Hallack"
 	    },
@@ -441,6 +446,11 @@
 	        "p": "4",
 	        "alias": "Thais A",
 	        "nome": "Thais Almeida"
+		},
+		"thiago_p": {
+	        "p": "3",
+	        "alias": "Thiago P",
+	        "nome": "Thiago Philippe"
 	    },
 	    "Tiago": {
 	        "p": "11",
@@ -452,7 +462,7 @@
 	        "alias": "Victor S",
 	        "nome": "Victor Shirier"
 	    },
-	    "Vinicius": {
+	    "vinicius": {
 	        "p": "4",
 	        "alias": "Vinicius",
 	        "nome": "Vinicius Lara"
@@ -515,7 +525,7 @@
 	},
 	"folgas":
 	{
-		"0":25,
+		"0":3,
 		"1":0,
 		"2":28,
 		"3":56,
@@ -529,7 +539,7 @@
 		"14":91,
 		"15":119,
 
-		"00":0,
+		"00":10,
 		"7":0,
 		"8":7,
 		"9":14,
@@ -540,35 +550,35 @@
 	},
 	"mes":
 	{
-		"Janeiro" :{
+		"Janeiro":{
 			"dias":31,
 			"id":1
 		},
-		"Fevereiro" :{
+		"Fevereiro":{
 			"dias":28,
 			"id":2
 		},
-		"Marco" : {
+		"Marco":{
 			"dias":31,
 			"id":3
 		},
-		"Abril": {
+		"Abril":{
 			"dias":30,
 			"id":4
 		},
-		"Maio" : {
+		"Maio":{
 			"dias":31,
 			"id":5
 		},
-		"Junho" : {
+		"Junho":{
 			"dias":30,
 			"id":6
 		},
-		"Julho": {
+		"Julho":{
 			"dias":31,
 			"id":7
 		},
-		"Agosto" :{
+		"Agosto":{
 			"dias":31,
 			"id":8
 		},
@@ -580,11 +590,11 @@
 			"dias":31,
 			"id":10
 		},
-		"Novembro" :{
+		"Novembro":{
 			"dias":31,
 			"id":11
 		},
-		"Dezembro" :{
+		"Dezembro":{
 			"dias":31,
 			"id":12
 		}

@@ -24,24 +24,29 @@ def le_dados_auto():
 		# print (sys.argv[1])
 		data['estacao'] = entrada.readline()[:-1]
 		data['mes'], data['ano'] = entrada.readline()[:-1].split(' ')
-		data['dia_inicio'] = int(entrada.readline())
-		data['func_nomes'] = entrada.readline()[:-1].split(',')
+		data['func_nomes'] = entrada.readline()[:-1].split(' ')
+
+		for n in range(1,8):
+			this_day = datetime(int(data['ano']), bd['mes'][data['mes']]['id'],n)
+			if this_day.today().weekday() == 6:
+				data['dia_inicio'] = n
+				break
 
 	#  Tratamento de erro da entrada
 	if not data['estacao'] in bd['est']:
 		print("Estação não encontrada", '\n')
-		print(error)
+		print('error')
 	if not data['mes'] in bd['mes']:
 		print("Mes não encontrado", '\n')
-		print(error)
+		print('error')
 	if len(data['func_nomes']) != 2*len(bd['est'][data['estacao']]['postos']):
 		print("Numero de funcionarios difere", '\n')
-		print(error)
+		print('error')
 
 # cria a matriz da escala e exporta como xlsx
 def gera_tabela():
 	# Titulo
-	escala.append(["Escala ASO1 - " + bd['est'][data['estacao']]['nome'] + " - " + data['mes'], ""])
+	escala.append(["Escala ASO1 - "+bd['est'][data['estacao']]['nome']+" - "+data['mes'], ""])
 
 	dias = bd['mes'][data['mes']]['dias']
 
