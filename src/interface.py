@@ -16,7 +16,7 @@ class application(tk.Tk):
 
 		self.title("** Escala ASO 1 **")
 
-		wsize = 1000
+		wsize = 500
 		hsize = 400
 		self.minsize(wsize, hsize)
 		# self.maxsize(wsize, hsize)
@@ -57,7 +57,8 @@ class start_page(tk.Frame):
 		# Botões
 		self.c_button = tk.Frame(self)
 		self.c_button["padx"] = 40
-		self.c_button.pack()
+		self.c_title["pady"] = 80
+		self.c_button.pack(side=tk.BOTTOM)
 
 		# Campo do titulo
 		label = tk.Label(self.c_title)
@@ -118,7 +119,7 @@ class data_page(tk.Frame):
 
 		# Campo dos dados
 		## Texto
-		self.l_data = tk.Label(self.c_title)
+		self.l_data = tk.Label(self.c_data)
 		self.l_data['text'] = "Procure por ID ou Alias" 
 		self.l_data['font'] = controller.font_body
 		self.l_data.pack()
@@ -181,7 +182,7 @@ class data_page(tk.Frame):
 		self.fp.pack(side=tk.RIGHT)
 
 		## Resultado 
-		self.l_result = tk.Label(self.c_data)
+		self.l_result = tk.Label(self)
 		self.l_result['text'] = ''
 		self.l_result['font'] = controller.font_body
 		self.l_result.pack(side=tk.BOTTOM)
@@ -400,7 +401,7 @@ class gen_page(tk.Frame):
 		self.l_data.pack()
 
 		## Resultado 
-		self.l_result = tk.Label(self.c_data)
+		self.l_result = tk.Label(self)
 		self.l_result['text'] = ''
 		self.l_result['font'] = self.controller.font_body
 		self.l_result.pack(side=tk.BOTTOM)
@@ -431,9 +432,10 @@ class gen_page(tk.Frame):
 
 	# Procura estação
 	def search(self):
-		sid = self.sid.get()
+		sid = self.sid.get().upper()
 
 		if sid:
+			self.sid.delete(0,tk.END)
 			self.name.delete(0,tk.END)
 			
 			for a in self.asos:
@@ -442,6 +444,7 @@ class gen_page(tk.Frame):
 			self.asos = []
 
 			if sid in self.db['est']:
+				self.sid.insert(0,sid)
 				self.name.insert(0,self.db['est'][sid]['nome'])
 
 				nf = len(self.db['est'][sid]['postos'])
@@ -503,6 +506,7 @@ class gen_page(tk.Frame):
 			# arq.write('1\n')
 			for a in asos:
 				arq.write(a)
+				arq.write(' ')
 
 		os.system('python src/escala_gen.py data/ests/'+sid)
 
@@ -514,12 +518,17 @@ class help_page(tk.Frame):
 		self.controller = controller
 
 		# Campos da janela
-		# Titulo
+		## Titulo
 		self.c_title = tk.Frame(self)
 		self.c_title["padx"] = 20
 		self.c_title.pack()
 
-		# Botões
+		## Dados
+		self.c_data = tk.Frame(self)
+		self.c_data["padx"] = 40
+		self.c_data.pack()
+		
+		## Botões
 		self.c_button = tk.Frame(self)
 		self.c_button["padx"] = 40
 		self.c_button.pack()
@@ -530,6 +539,18 @@ class help_page(tk.Frame):
 		label['font'] = controller.font_title
 		label['pady'] = 10
 		label.pack()
+
+		# Campo dos dados
+		## Texto
+		self.l_data = tk.Label(self.c_data)
+		self.l_data['text'] = "Perguntas frequentes" 
+		self.l_data['font'] = controller.font_body
+		self.l_data.pack()
+
+		self.l_q1 = tk.Label(self.c_data)
+		self.l_q1['text'] = "Perguntas frequentes" 
+		self.l_q1['font'] = controller.font_body
+		self.l_q1.pack()
 
 		# Campo dos botões
 		button_back = tk.Button(self.c_button)

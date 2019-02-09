@@ -25,10 +25,11 @@ def le_dados_auto():
 		data['estacao'] = entrada.readline()[:-1]
 		data['mes'], data['ano'] = entrada.readline()[:-1].split(' ')
 		data['func_nomes'] = entrada.readline()[:-1].split(' ')
+		print(data['func_nomes'])
 
 		for n in range(1,8):
 			this_day = datetime(int(data['ano']), bd['mes'][data['mes']]['id'],n)
-			if this_day.today().weekday() == 6:
+			if this_day.weekday() == 6:
 				data['dia_inicio'] = n
 				break
 
@@ -36,12 +37,17 @@ def le_dados_auto():
 	if not data['estacao'] in bd['est']:
 		print("Estação não encontrada", '\n')
 		print('error')
+		return False
 	if not data['mes'] in bd['mes']:
 		print("Mes não encontrado", '\n')
 		print('error')
+		return False
 	if len(data['func_nomes']) != 2*len(bd['est'][data['estacao']]['postos']):
 		print("Numero de funcionarios difere", '\n')
 		print('error')
+		return False
+	
+	return True
 
 # cria a matriz da escala e exporta como xlsx
 def gera_tabela():
@@ -215,7 +221,7 @@ def aloca():
 '''                    Programa                           '''
 
 # Banco de dados
-with open("data/data.json", "r") as read_json:
+with open("data/data.jnew", "r") as read_json:
 	bd = json.load(read_json)
 
 # Escalas vigentes
@@ -232,7 +238,8 @@ escala = []
 data = {}
 
 print('Lendo arquivos')
-le_dados_auto()
+if not le_dados_auto():
+	pass
 
 print('Gerando tabela')
 gera_tabela()
