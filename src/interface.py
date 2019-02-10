@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import font  as tkfont
 import json
 import os
+from escala_gen import gen
 
 
 # Gerenciador da aplicação
@@ -508,8 +509,9 @@ class gen_page(tk.Frame):
 				arq.write(a)
 				arq.write(' ')
 
-		os.system('python src/escala_gen.py data/ests/'+sid)
-
+		# os.system('python src/escala_gen.py data/ests/'+sid)
+		esc = gen()
+		self.l_result['text'] = esc.esc_int(self.db,sid,asos,month,year,self.l_result['text'])
 		
 class help_page(tk.Frame):
 	
