@@ -5,320 +5,275 @@
             "nome": "Arthur Phillip Ferreira da Silva",
             "p": "11"
         },
-        "A": {
-            "alias": "A",
-            "nome": "Willy",
-            "p": "16"
-        },
-        "AA": {
+        "aa": {
             "alias": "AA",
             "nome": "Willy",
             "p": "17"
         },
-        "Alexandre": {
+        "alexandre": {
             "alias": "Alexandre",
             "nome": "Alexandre",
             "p": "12"
         },
-        "Andre": {
+        "andre": {
             "alias": "Andr\u00e9",
             "nome": "Andr\u00e9 Silveira",
-            "p": "9"
+            "p": "12"
         },
-        "Ayslan": {
+        "ayslan": {
             "alias": "Ayslan",
             "nome": "Ayslan",
             "p": "15"
         },
-        "B": {
-            "alias": "B",
-            "nome": "Willy",
-            "p": "17"
-        },
-        "BB": {
+        "bb": {
             "alias": "BB",
             "nome": "Willy",
             "p": "18"
         },
-        "Blenda": {
+        "blenda": {
             "alias": "Blenda",
             "nome": "Blenda",
             "p": "4"
         },
-        "C": {
-            "alias": "C",
-            "nome": "Willy",
-            "p": "18"
-        },
-        "CC": {
+        "cc": {
             "alias": "CC",
             "nome": "Willy",
             "p": "16"
         },
-        "Carlos": {
+        "carlos": {
             "alias": "Carlos",
             "nome": "Carlos Eduardo",
             "p": "13"
         },
-        "Claudiney": {
+        "claudiney": {
             "alias": "Claudiney",
             "nome": "Claudiney",
             "p": "14"
         },
-        "D": {
-            "alias": "D",
-            "nome": "Willy",
-            "p": "16"
-        },
-        "DD": {
+        "dd": {
             "alias": "DD",
             "nome": "Willy",
             "p": "17"
         },
-        "Daniel C": {
+        "daniel_c": {
             "alias": "Daniel C",
             "nome": "Daniel Can\u00e7ado",
             "p": "13"
         },
-        "Daniel R": {
+        "daniel_R": {
             "alias": "Daniel R",
             "nome": "Daniel R",
             "p": "7"
         },
-        "Elisio": {
-            "alias": "El\u00edsio",
-            "nome": "El\u00edsio",
-            "p": "8"
-        },
-        "Felipe M": {
+        "felipe_m": {
             "alias": "Felipe M",
             "nome": "Felipe M",
             "p": "11"
         },
-        "Frederico": {
+        "frederico": {
             "alias": "Frederico",
             "nome": "Frederico",
             "p": "3"
         },
-        "Gabriela C": {
+        "gabriela_c": {
             "alias": "Gabriela C",
             "nome": "Gabriela Correia",
             "p": "6"
         },
-        "Gisele": {
-            "alias": "Gisele",
-            "nome": "Gisele",
-            "p": "9"
-        },
-        "Grazielle": {
+        "grazielle": {
             "alias": "Grazielle",
             "nome": "Grazielle",
             "p": "15"
         },
-        "Guilherme": {
+        "guilherme": {
             "alias": "Guilherme",
             "nome": "Guilherme",
             "p": "6"
         },
-        "Hudson": {
+        "hudson": {
             "alias": "Hudson",
             "nome": "Hudson",
             "p": "5"
         },
-        "Israel": {
+        "israel": {
             "alias": "Israel",
-            "nome": "Israel",
+            "nome": "Israel Santos",
             "p": "3"
         },
-        "Jeferson": {
+        "jeferson": {
             "alias": "J\u00e9ferson",
             "nome": "J\u00e9ferson",
             "p": "3"
         },
-        "Jessica A": {
+        "jessica_a": {
             "alias": "J\u00e9ssica A",
             "nome": "J\u00e9ssica Agnes",
             "p": "11"
         },
-        "Jessica S": {
+        "jessica_s": {
             "alias": "Jessica S",
             "nome": "Jessica S",
             "p": "13"
         },
-        "Jucileia": {
-            "alias": "Jucil\u00e9ia",
-            "nome": "Jucil\u00e9ia",
-            "p": "9"
-        },
-        "Juliana M": {
+        "juliana M": {
             "alias": "Juliana M",
             "nome": "Juliana M",
             "p": "6"
         },
-        "L Akio": {
-            "alias": "L Akio",
-            "nome": "Leonardo Akio",
-            "p": "8"
-        },
-        "Lais": {
-            "alias": "La\u00eds",
-            "nome": "La\u00eds",
-            "p": "7"
-        },
-        "Leandro": {
+        "leandro": {
             "alias": "Leandro",
             "nome": "Leandro",
             "p": "3"
         },
-        "Lilian": {
+        "lilian": {
             "alias": "Lilian",
             "nome": "Lilian",
             "p": "12"
         },
-        "Lisyane": {
+        "lisyane": {
             "alias": "Lisyane",
             "nome": "Lisyane",
             "p": "13"
         },
-        "Lucas C": {
+        "lucas_c": {
             "alias": "Lucas C",
             "nome": "Lucas C",
             "p": "15"
         },
-        "Lucas H": {
-            "alias": "Lucas H",
-            "nome": "Lucas Henrique",
-            "p": "9"
-        },
-        "Marcela": {
+        "marcela": {
             "alias": "Marcela",
             "nome": "Marcela",
             "p": "14"
         },
-        "Marcelo": {
+        "marcelo": {
             "alias": "Marcelo",
             "nome": "Marcelo",
             "p": "4"
         },
-        "Marcia T": {
+        "marcia_t": {
             "alias": "Marcia T",
             "nome": "Marcia Tannes",
             "p": "12"
         },
-        "Nathalia": {
+        "nathalia": {
             "alias": "Nath\u00e1lia",
             "nome": "Nath\u00e1lia",
             "p": "2"
         },
-        "Nayara A": {
+        "nayara_a": {
             "alias": "Nayara A",
             "nome": "Nayara A",
             "p": "11"
         },
-        "Paulo D": {
+        "paulo_d": {
             "alias": "Paulo D",
             "nome": "Paulo Dener",
             "p": "15"
         },
-        "Pedro A": {
+        "pedro_a": {
             "alias": "Pedro A",
             "nome": "Pedro A",
             "p": "1"
         },
-        "Pedro R": {
+        "pedro_r": {
             "alias": "Pedro R",
             "nome": "Pedro Rodrigues",
             "p": "14"
         },
-        "Pedro V": {
+        "pedro_v": {
             "alias": "Pedro V",
             "nome": "Pedro Vaz",
             "p": "2"
         },
-        "Poliana": {
+        "poliana": {
             "alias": "Poliana",
             "nome": "Poliana Gomes Ferreira",
             "p": "10"
         },
-        "Raphael": {
+        "raphael": {
             "alias": "Raphael",
             "nome": "Raphael",
             "p": "14"
         },
-        "Renata": {
+        "renata": {
             "alias": "Renata",
             "nome": "Renata Goltara",
             "p": "2"
         },
-        "Rodrigo_P": {
+        "rodrigo_p": {
             "alias": "Rodrigo P",
             "nome": "Rodrigo Prado",
             "p": "1"
         },
-        "Rodrigo_R": {
+        "rodrigo_r": {
             "alias": "Rodrigo R",
             "nome": "Rodrigo R",
             "p": "10"
         },
-        "Samuel": {
+        "samuel": {
             "alias": "Samuel",
             "nome": "Samuel",
             "p": "3"
         },
-        "Scarlat": {
+        "scarlat": {
             "alias": "Scarlat",
             "nome": "Scarlat",
             "p": "4"
         },
-        "Sergio G": {
+        "sergio_g": {
             "alias": "Sergio G",
             "nome": "Sergio G",
             "p": "15"
         },
-        "Silvana": {
+        "silvana": {
             "alias": "Silvana",
             "nome": "Silvana",
             "p": "1"
         },
-        "Suellen": {
+        "suellen": {
             "alias": "Suellen",
             "nome": "Suellen Assis",
             "p": "3"
         },
-        "Taylla": {
+        "taylla": {
             "alias": "Taylla",
             "nome": "Taylla",
             "p": "6"
         },
-        "Thais A": {
+        "thais_a": {
             "alias": "Thais A",
             "nome": "Thais Almeida",
             "p": "4"
         },
-        "Tiago": {
+        "tiago": {
             "alias": "Tiago",
             "nome": "Tiago",
             "p": "11"
         },
-        "Victor S": {
+        "victor_s": {
             "alias": "Victor S",
-            "nome": "Victor Shirier",
+            "nome": "Victor Schrier",
             "p": "12"
         },
-        "Wagner": {
+        "wagner": {
             "alias": "Wagner",
             "nome": "Wagner Forapani",
             "p": "6"
         },
-        "Willian": {
+        "willian": {
             "alias": "Willian",
             "nome": "Willian",
             "p": "10"
         },
-        "Willy": {
+        "willy": {
             "alias": "Willy",
             "nome": "Willy",
             "p": "15"
+        },
+        "a": {
+            "alias": "A",
+            "nome": "Willy",
+            "p": "16"
         },
         "albuquerque": {
             "alias": "Leonardo A",
@@ -330,10 +285,15 @@
             "nome": "Ana Raquel",
             "p": "13"
         },
+        "b": {
+            "alias": "B",
+            "nome": "Willy",
+            "p": "17"
+        },
         "barbara": {
             "alias": "B\u00e1rbara",
             "nome": "B\u00e1rbara Andrade",
-            "p": "7"
+            "p": "10"
         },
         "bernard": {
             "alias": "Bernard",
@@ -345,10 +305,30 @@
             "nome": "Bruno Duarte",
             "p": "1"
         },
+        "c": {
+            "alias": "C",
+            "nome": "Willy",
+            "p": "18"
+        },
+        "d": {
+            "alias": "D",
+            "nome": "Willy",
+            "p": "16"
+        },
         "daniel_f": {
             "alias": "Daniel F",
             "nome": "Daniel Fernando",
             "p": "3"
+        },
+        "elisio": {
+            "alias": "El\u00edsio",
+            "nome": "El\u00edsio",
+            "p": "8"
+        },
+        "gisele": {
+            "alias": "Gisele",
+            "nome": "Gisele",
+            "p": "9"
         },
         "glauber": {
             "alias": "Gl\u00e1uber",
@@ -365,10 +345,25 @@
             "nome": "Izabelle Liz",
             "p": "2"
         },
+        "l_akio": {
+            "alias": "L Akio",
+            "nome": "Leonardo Akio Hamada",
+            "p": "8"
+        },
+        "lais": {
+            "alias": "La\u00eds",
+            "nome": "La\u00eds",
+            "p": "7"
+        },
         "ligia": {
             "alias": "L\u00edgia Souza",
             "nome": "L\u00edgia Souza",
             "p": "2"
+        },
+        "lucas_h": {
+            "alias": "Lucas H",
+            "nome": "Lucas Henrique",
+            "p": "9"
         },
         "lucia": {
             "alias": "L\u00facia",
@@ -451,8 +446,26 @@
                 5
             ]
         },
+        "UCI2": {
+            "nome": "Cidade Industrial - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
         "UCL1": {
             "nome": "Calafate - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UCL2": {
+            "nome": "Calafate - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -470,8 +483,28 @@
                 7
             ]
         },
+        "UCP2": {
+            "nome": "Carlos Prates - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5,
+                7
+            ]
+        },
         "UCT1": {
             "nome": "Central - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                6,
+                3,
+                5
+            ]
+        },
+        "UCT2": {
+            "nome": "Central - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -494,8 +527,31 @@
                 9
             ]
         },
+        "UEL2": {
+            "nome": "Eldorado - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                3,
+                5,
+                7,
+                9
+            ]
+        },
         "UFL1": {
             "nome": "Floramar - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UFL2": {
+            "nome": "Floramar - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -512,6 +568,15 @@
                 5
             ]
         },
+        "UGM2": {
+            "nome": "Gameleira - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
         "UHF1": {
             "nome": "Horto Florestal - 1\u00b0 Turno",
             "postos": [
@@ -521,8 +586,26 @@
                 5
             ]
         },
+        "UHF2": {
+            "nome": "Horto Florestal - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
         "UJC1": {
             "nome": "Jose C\u00e2ndido - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UJC2": {
+            "nome": "Jose C\u00e2ndido - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -540,8 +623,27 @@
                 5
             ]
         },
+        "ULG2": {
+            "nome": "Lagoinha - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                6,
+                3,
+                5
+            ]
+        },
         "UMS1": {
             "nome": "Minas Shopping - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UMS2": {
+            "nome": "Minas Shopping - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -558,6 +660,15 @@
                 5
             ]
         },
+        "UPM2": {
+            "nome": "Primeiro de Maio - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
         "USE1": {
             "nome": "Santa Efig\u00eania - 1\u00b0 Turno",
             "postos": [
@@ -566,8 +677,27 @@
                 3
             ]
         },
+        "USE2": {
+            "nome": "Santa Efig\u00eania - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3
+            ]
+        },
         "USG1": {
             "nome": "S\u00e3o Gabriel - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                6,
+                3,
+                5,
+                7
+            ]
+        },
+        "USG2": {
+            "nome": "S\u00e3o Gabriel - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -586,8 +716,26 @@
                 5
             ]
         },
+        "USI2": {
+            "nome": "Santa In\u00eas - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
         "UST1": {
             "nome": "Santa Tereza - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UST2": {
+            "nome": "Santa Tereza - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -618,8 +766,31 @@
                 7
             ]
         },
+        "UVL2": {
+            "nome": "Vilarinho - 2\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                3,
+                5,
+                7
+            ]
+        },
         "UVO1": {
             "nome": "Vila Oeste - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
+        },
+        "UVO2": {
+            "nome": "Vila Oeste - 2\u00b0 Turno",
             "postos": [
                 2,
                 4,
@@ -635,11 +806,20 @@
                 3,
                 5
             ]
+        },
+        "UWL2": {
+            "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+            "postos": [
+                2,
+                4,
+                3,
+                5
+            ]
         }
     },
     "folgas": {
-        "0": 3,
-        "00": 10,
+        "0": 55,
+        "00": 9,
         "1": 0,
         "10": 42,
         "11": 70,
@@ -647,9 +827,6 @@
         "13": 63,
         "14": 91,
         "15": 119,
-        "16": 0,
-        "17": 7,
-        "18": 14,
         "2": 28,
         "3": 56,
         "4": 21,
@@ -657,7 +834,13 @@
         "6": 77,
         "7": 0,
         "8": 7,
-        "9": 14
+        "9": 14,
+        "a1": 0,
+        "a2": 7,
+        "a3": 14,
+        "a4": 0,
+        "a5": 7,
+        "a6": 14
     },
     "mes": {
         "Abril": {
@@ -692,7 +875,7 @@
             "dias": 31,
             "id": 5
         },
-        "Marco": {
+        "Mar\u00e7o": {
             "dias": 31,
             "id": 3
         },

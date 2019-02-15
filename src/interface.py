@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import font  as tkfont
+from tkinter import ttk
 import json
 import os
 from escala_gen import gen
@@ -139,20 +140,6 @@ class data_page(tk.Frame):
 		self.fid["font"] = controller.font_body
 		self.fid.pack(side=tk.RIGHT)
 
-		## Nome
-		self.c_name = tk.Frame(self.c_data)
-		self.c_name.pack()
-		
-		self.nameLabel = tk.Label(self.c_name)
-		self.nameLabel['text'] ="Nome 	"
-		self.nameLabel['font'] = controller.font_body
-		self.nameLabel.pack(side=tk.LEFT)
-  
-		self.name = tk.Entry(self.c_name)
-		self.name["width"] = 30
-		self.name["font"] = controller.font_body
-		self.name.pack(side=tk.RIGHT)
-
 		## Alias
 		self.c_alias = tk.Frame(self.c_data)
 		self.c_alias.pack()
@@ -167,6 +154,20 @@ class data_page(tk.Frame):
 		self.alias['text'] ="teste"
 		self.alias["font"] = controller.font_body
 		self.alias.pack(side=tk.RIGHT)
+
+		## Nome
+		self.c_name = tk.Frame(self.c_data)
+		self.c_name.pack()
+		
+		self.nameLabel = tk.Label(self.c_name)
+		self.nameLabel['text'] ="Nome 	"
+		self.nameLabel['font'] = controller.font_body
+		self.nameLabel.pack(side=tk.LEFT)
+  
+		self.name = tk.Entry(self.c_name)
+		self.name["width"] = 30
+		self.name["font"] = controller.font_body
+		self.name.pack(side=tk.RIGHT)
 
 		## Posto
 		self.c_fp = tk.Frame(self.c_data)
@@ -238,16 +239,27 @@ class data_page(tk.Frame):
 			self.name.delete(0,tk.END)
 			self.fid.delete(0,tk.END)
 			self.fp.delete(0,tk.END)
+			self.alias.delete(0,tk.END)
 
 			for f, v in self.db['aso'].items():
-				if alias == v['alias']:
-					self.fid.insert(0,f)
-				
-					self.name.insert(0,self.db['aso'][fid]['nome'])
+				if alias.lower() == v['alias'].lower():
 					
-					self.fp.insert(0,self.db['aso'][fid]['p'])
+					self.fid.insert(0,f)
+	
+					self.alias.insert(0,self.db['aso'][f]['alias'])
+				
+					self.name.insert(0,self.db['aso'][f]['nome'])
+					
+					self.fp.insert(0,self.db['aso'][f]['p'])
+
 					self.l_result['text'] = '** OK **'
 					return
+			
+			if not alias:
+				self.l_result['text'] = '** ASO não encontrado **'
+		
+		else:
+			self.l_result['text'] = '** Digite ID ou Alias **'
 
 	# Atualiza ASO
 	def update(self):
@@ -360,9 +372,9 @@ class gen_page(tk.Frame):
 		self.monthLabel['text'] ="Mes 		"
 		self.monthLabel['font'] = controller.font_body
 		self.monthLabel.pack(side=tk.LEFT)
-  
-		self.month = tk.Entry(self.c_date)
-		self.month["width"] = 14
+
+		self.month = ttk.Combobox(self.c_date, state='readonly', values=[' ','Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'])
+		self.month["width"] = 12
 		self.month["font"] = controller.font_body
 		self.month.pack(side=tk.LEFT)
 
@@ -378,7 +390,7 @@ class gen_page(tk.Frame):
 
 		## Texto
 		self.l_data = tk.Label(self.c_data)
-		self.l_data['text'] = " ---------------------------------- " 
+		self.l_data['text'] = " ------------------------------------------------------- " 
 		self.l_data['font'] = controller.font_body
 		self.l_data.pack()
 
@@ -389,7 +401,7 @@ class gen_page(tk.Frame):
 		self.c_asot.pack(side=tk.LEFT)
 
 		self.l_data = tk.Label(self.c_asot)
-		self.l_data['text'] = "Titulares (Alias)" 
+		self.l_data['text'] = "Titulares" 
 		self.l_data['font'] = controller.font_body
 		self.l_data.pack()
 
@@ -397,7 +409,7 @@ class gen_page(tk.Frame):
 		self.c_asor.pack(side=tk.RIGHT)
 
 		self.l_data = tk.Label(self.c_asor)
-		self.l_data['text'] = "Resesrvas (Alias)" 
+		self.l_data['text'] = "Resesrvas" 
 		self.l_data['font'] = self.controller.font_body
 		self.l_data.pack()
 
@@ -444,6 +456,8 @@ class gen_page(tk.Frame):
 
 			self.asos = []
 
+			self.aso_alias()
+
 			if sid in self.db['est']:
 				self.sid.insert(0,sid)
 				self.name.insert(0,self.db['est'][sid]['nome'])
@@ -451,16 +465,19 @@ class gen_page(tk.Frame):
 				nf = len(self.db['est'][sid]['postos'])
 
 				self.l_result['text'] = '** OK **'
+				
 
 				for n in range(nf):
-					self.asos.append(tk.Entry(self.c_asot))
-					self.asos[n]["width"] = 30
+					self.asos.append(ttk.Combobox(self.c_asot, state='readonly', values = self.alias_list))
+					self.asos[n].set = self.alias_list[0]
+					self.asos[n]["width"] = 20
 					self.asos[n]["font"] = self.controller.font_body
 					self.asos[n].pack()
 
 				for n in range(nf):
-					self.asos.append(tk.Entry(self.c_asor))
-					self.asos[n+nf]["width"] = 30
+					self.asos.append(ttk.Combobox(self.c_asor, state='readonly', values = self.alias_list))
+					self.asos[n+nf].set = self.alias_list[0]
+					self.asos[n+nf]["width"] = 20
 					self.asos[n+nf]["font"] = self.controller.font_body
 					self.asos[n+nf].pack()
 
@@ -472,6 +489,7 @@ class gen_page(tk.Frame):
 		with open('data/data.jnew', "r") as arq:
 			self.db = json.load(arq)
 
+	# Gera escala
 	def generate(self):
 		sid = self.sid.get()
 		if sid not in self.db['est']:
@@ -479,6 +497,7 @@ class gen_page(tk.Frame):
 			return
 
 		month = self.month.get()
+		# month = self.month.current()
 		if month not in self.db['mes']:
 			self.l_result['text'] = '** Mês inválido **'
 			return
@@ -512,6 +531,14 @@ class gen_page(tk.Frame):
 		# os.system('python src/escala_gen.py data/ests/'+sid)
 		esc = gen()
 		self.l_result['text'] = esc.esc_int(self.db,sid,asos,month,year,self.l_result['text'])
+
+	def aso_alias(self):
+		self.alias_list = ['  ']
+		for k,v in self.db['aso'].items():
+			self.alias_list.append(v['alias'])
+
+		self.alias_list.sort()
+
 		
 class help_page(tk.Frame):
 	

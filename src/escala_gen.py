@@ -9,7 +9,7 @@ import json
 import sys
 import numpy as np
 from planilha import gera_xls
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 import prob
 
 class gen:
@@ -99,10 +99,11 @@ class gen:
 	# Primeiro sabado do mes
 	def sabado(self):
 		for n in range(1,8):
-			dia = datetime(int(self.ano), self.bd['mes'][self.mes]['id'], n)
+			dia = date(int(self.ano), self.bd['mes'][self.mes]['id'], n)
 			# Se sabado
 			if dia.weekday() == 6 : 
-				self.dia_inicio = n
+				self.dia_inicio = n-1
+				self.data_inicio = dia
 				break
 
 	# Escalas vigentes
@@ -183,9 +184,11 @@ class gen:
 
 		# Atribui as folgas do funcionario
 		f=0
-		ini42 = int(self.bd['folgas']['0']) + self.dia_inicio -1
-		ini31 = int(self.bd['folgas']['00']) + self.dia_inicio -1
+		ini42 = self.bd['folgas']['0'] + abs(self.data_inicio - date(2019,1,1)).days 
+		ini31 = self.bd['folgas']['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 		
+		print(date(2019,1,1).day)
+
 		for n in self.funcs:
 			p = self.bd['aso'][n]['p']
 			inip = int(self.bd['folgas'][p])
