@@ -11,14 +11,25 @@ import numpy as np
 from planilha import gera_xls
 from datetime import datetime, timedelta, date
 import prob
+import os
 
 class gen:
 	
 	def esc_auto(self):
 	
 		# Banco de dados
-		with open("data/data.jnew", "r") as read_bd:
-			self.bd = json.load(read_bd)
+		self.path_data 		= 'data/data'
+		self.path_data_aso 	= 'data/data_aso'
+		self.path_data_est 	= 'data/data_est'
+
+		with open(self.path_data+'.json', "r") as arq:
+			self.db = json.load(arq)
+		
+		with open(self.path_data_aso+'.json', "r") as arq:
+			self.db['aso'] = json.load(arq)
+		
+		with open(self.path_data_est+'.json', "r") as arq:
+			self.db['est'] = json.load(arq)
 
 		print('Lendo arquivos')
 		if len(sys.argv) <= 1: 
@@ -27,8 +38,6 @@ class gen:
 		if not self.le_dados_auto():
 			return
 		
-		print(self.bd)
-
 		# Escalas vigentes
 		self.folgas()
 
@@ -44,6 +53,9 @@ class gen:
 
 		print ("Arquivo gerado no diretorio: ", self.escala[0][0])
 
+		self.pdf()
+
+		print ("PDF criado")
 		
 
 	def esc_int(self, bd, estacao, funcs, mes, ano, *msg):
@@ -295,6 +307,19 @@ class gen:
 		# print(resultado, x)
 		return resultado
 
+	def pdf(self):
+		file_name = ''
+		for a in self.escala[0][0]:
+			if a == ' ':
+				file_name += "\\"
+
+			file_name += a
+
+		print('soffice --convert-to pdf "planilha/'+file_name+'.xls" --outdir pdf/ ')
+
+		os.system('soffice --convert-to pdf "planilha/'+file_name+'.xls" --outdir pdf/ ')
+		os.system('pdf/'+file_name+'.pdf')
+
 
 '''                       Funcoes                              ''' '''
 # Imprime dicionarios
@@ -504,7 +529,7 @@ def aloca():
 '''                    Programa                           '''
 '''
 # Banco de dados
-with open("data/data.jnew", "r") as read_json:
+with open("data/data.json", "r") as read_json:
 	bd = json.load(read_json)
 
 # Escalas vigentes

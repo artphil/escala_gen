@@ -1,8 +1,10 @@
 import tkinter as tk
 from tkinter import font  as tkfont
 from tkinter import ttk
+from datetime import datetime
 import json
 import os
+# import difflib as df
 from escala_gen import gen
 
 
@@ -11,6 +13,18 @@ class application(tk.Tk):
 
 	def __init__(self):
 		tk.Tk.__init__(self)
+		self.path_data 		= 'data/data'
+		self.path_data_aso 	= 'data/data_aso'
+		self.path_data_est 	= 'data/data_est'
+
+		with open(self.path_data+'.json', "r") as arq:
+			self.db = json.load(arq)
+		
+		with open(self.path_data_aso+'.json', "r") as arq:
+			self.db_aso = json.load(arq)
+		
+		with open(self.path_data_est+'.json', "r") as arq:
+			self.db_est = json.load(arq)
 		
 		# Fontes padrão
 		self.font_title = tkfont.Font(family='Arial', size=12, weight="bold")
@@ -29,9 +43,9 @@ class application(tk.Tk):
 
 		# Gerenciador de janelas
 		self.frames = {}
-		for func in (start_page, data_page, gen_page, help_page):
+		for func in (start_page, aso_page, gen_page, help_page):
 			page_name = func.__name__
-			frame = func(parent=container, controller=self)
+			frame = func(parent=container, ctrl=self)
 			self.frames[page_name] = frame
 			frame.grid(row=0, column=0, sticky="nsew")
 
@@ -42,12 +56,32 @@ class application(tk.Tk):
 		frame = self.frames[page_name]
 		frame.tkraise()
 
+	# Salva banco de dados
+	def save(self, db, file_name):
+		with open(file_name+'.mod', "w") as arq:
+			arq.write(json.dumps(db, sort_keys=True, indent=4))
+			
+			# orig = json.load(open(file_name+'.json', "r")
+			# adiff = open(file_name+'.diff', "r+")
+			# adiff.write(datetime)
+
+			# print(df.Differ())
+			os.system('date >> '+file_name+'.diff')
+			os.system('diff '+file_name+'.json '+file_name+'.mod >> '+file_name+'.diff')
+			os.remove(file_name+'.json')
+			os.rename(file_name+'.mod', file_name+'.json')
+
+		
+		# with open(file_name+'.json', "r") as arq:
+		# 	self.ctrl.db = json.load(arq)
+
+
 # Pagina de início
 class start_page(tk.Frame):
 	
-	def __init__(self, parent, controller):
+	def __init__(self, parent, ctrl):
 		tk.Frame.__init__(self, parent)
-		self.controller = controller
+		self.ctrl = ctrl
 
 		# Campos da janela
 		# Titulo
@@ -65,35 +99,40 @@ class start_page(tk.Frame):
 		# Campo do titulo
 		label = tk.Label(self.c_title)
 		label['text'] = "Inicio" 
-		label['font'] = controller.font_title
+		label['font'] = self.ctrl.font_title
 		# label['pady'] = 10
 		label.pack(side=tk.TOP)
 
 		# Campo dos botões
 		button_gen = tk.Button(self.c_button)
 		button_gen['text'] = "Gerar escala"
-		button_gen['command'] = lambda: controller.show_frame("gen_page")
+		button_gen['command'] = lambda: self.ctrl.show_frame("gen_page")
 
-		button_data = tk.Button(self.c_button)
-		button_data['text'] = "Alterar dados"
-		button_data['command'] = lambda: controller.show_frame("data_page")
+		button_aso = tk.Button(self.c_button)
+		button_aso['text'] = "Alterar ASO"
+		button_aso['command'] = lambda: self.ctrl.show_frame("aso_page")
+
+		button_est = tk.Button(self.c_button)
+		button_est['text'] = "Alterar EST"
+		button_est['command'] = lambda: self.ctrl.show_frame("est_page")
 
 		button_help = tk.Button(self.c_button)
 		button_help['text'] = "Ajuda"
-		button_help['command'] = lambda: controller.show_frame("help_page")
+		button_help['command'] = lambda: self.ctrl.show_frame("help_page")
 
 		button_help.pack(side=tk.LEFT)
 		button_gen.pack(side=tk.LEFT)
-		button_data.pack(side=tk.RIGHT)
+		button_aso.pack(side=tk.RIGHT)
+		# button_est.pack(side=tk.RIGHT)
 
-class data_page(tk.Frame):
+class est_page(tk.Frame):
+	pass
+
+class aso_page(tk.Frame):
 	
-	def __init__(self, parent, controller):
+	def __init__(self, parent, ctrl):
 		tk.Frame.__init__(self, parent)
-		self.controller = controller
-
-		with open('data/data.jnew', "r") as arq:
-			self.db = json.load(arq)
+		self.ctrl = ctrl
 
 		# Campos da janela
 		## Titulo
@@ -114,7 +153,7 @@ class data_page(tk.Frame):
 		# Campo do titulo
 		self.label = tk.Label(self.c_title)
 		self.label['text'] = "Banco de dados" 
-		self.label['font'] = controller.font_title
+		self.label['font'] = self.ctrl.font_title
 		self.label['pady'] = 10
 		self.label.pack()
 
@@ -123,7 +162,7 @@ class data_page(tk.Frame):
 		## Texto
 		self.l_data = tk.Label(self.c_data)
 		self.l_data['text'] = "Procure por ID ou Alias" 
-		self.l_data['font'] = controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		## Id
@@ -132,12 +171,12 @@ class data_page(tk.Frame):
 
 		self.fidLabel = tk.Label(self.c_fid)
 		self.fidLabel['text'] ="ID 	"
-		self.fidLabel['font'] = controller.font_body
+		self.fidLabel['font'] = self.ctrl.font_body
 		self.fidLabel.pack(side=tk.LEFT)
   
 		self.fid = tk.Entry(self.c_fid)
 		self.fid["width"] = 30
-		self.fid["font"] = controller.font_body
+		self.fid["font"] = self.ctrl.font_body
 		self.fid.pack(side=tk.RIGHT)
 
 		## Alias
@@ -146,13 +185,13 @@ class data_page(tk.Frame):
 		
 		self.aliasLabel = tk.Label(self.c_alias)
 		self.aliasLabel['text'] ="Alias 	"
-		self.aliasLabel['font'] = controller.font_body
+		self.aliasLabel['font'] = self.ctrl.font_body
 		self.aliasLabel.pack(side=tk.LEFT)
   
 		self.alias = tk.Entry(self.c_alias)
 		self.alias["width"] = 30
 		self.alias['text'] ="teste"
-		self.alias["font"] = controller.font_body
+		self.alias["font"] = self.ctrl.font_body
 		self.alias.pack(side=tk.RIGHT)
 
 		## Nome
@@ -161,12 +200,12 @@ class data_page(tk.Frame):
 		
 		self.nameLabel = tk.Label(self.c_name)
 		self.nameLabel['text'] ="Nome 	"
-		self.nameLabel['font'] = controller.font_body
+		self.nameLabel['font'] = self.ctrl.font_body
 		self.nameLabel.pack(side=tk.LEFT)
   
 		self.name = tk.Entry(self.c_name)
 		self.name["width"] = 30
-		self.name["font"] = controller.font_body
+		self.name["font"] = self.ctrl.font_body
 		self.name.pack(side=tk.RIGHT)
 
 		## Posto
@@ -175,25 +214,25 @@ class data_page(tk.Frame):
 		
 		self.fpLabel = tk.Label(self.c_fp)
 		self.fpLabel['text'] ="P 	"
-		self.fpLabel['font'] = controller.font_body
+		self.fpLabel['font'] = self.ctrl.font_body
 		self.fpLabel.pack(side=tk.LEFT)
   
 		self.fp = tk.Entry(self.c_fp)
 		self.fp["width"] = 30
-		self.fp["font"] = controller.font_body
+		self.fp["font"] = self.ctrl.font_body
 		self.fp.pack(side=tk.RIGHT)
 
 		## Resultado 
 		self.l_result = tk.Label(self)
 		self.l_result['text'] = ''
-		self.l_result['font'] = controller.font_body
+		self.l_result['font'] = self.ctrl.font_body
 		self.l_result.pack(side=tk.BOTTOM)
 
 		# Campo dos botões
 		## Inicio
 		self.button_start = tk.Button(self.c_button)
 		self.button_start['text'] = "Inicio"
-		self.button_start['command'] = lambda: controller.show_frame("start_page")
+		self.button_start['command'] = lambda: self.ctrl.show_frame("start_page")
 		self.button_start.pack(side=tk.LEFT)
 
 		## Busca
@@ -224,12 +263,12 @@ class data_page(tk.Frame):
 			self.alias.delete(0,tk.END)
 			self.fp.delete(0,tk.END)
 			
-			if fid in self.db['aso']:
-				self.name.insert(0,self.db['aso'][fid]['nome'])
+			if fid in self.ctrl.db_aso:
+				self.name.insert(0,self.ctrl.db_aso[fid]['nome'])
 				
-				self.alias.insert(0,self.db['aso'][fid]['alias'])
+				self.alias.insert(0,self.ctrl.db_aso[fid]['alias'])
 				
-				self.fp.insert(0,self.db['aso'][fid]['p'])
+				self.fp.insert(0,self.ctrl.db_aso[fid]['p'])
 
 				self.l_result['text'] = '** OK **'
 			else:
@@ -241,16 +280,16 @@ class data_page(tk.Frame):
 			self.fp.delete(0,tk.END)
 			self.alias.delete(0,tk.END)
 
-			for f, v in self.db['aso'].items():
+			for f, v in self.ctrl.db_aso.items():
 				if alias.lower() == v['alias'].lower():
 					
 					self.fid.insert(0,f)
 	
-					self.alias.insert(0,self.db['aso'][f]['alias'])
+					self.alias.insert(0,self.ctrl.db_aso[f]['alias'])
 				
-					self.name.insert(0,self.db['aso'][f]['nome'])
+					self.name.insert(0,self.ctrl.db_aso[f]['nome'])
 					
-					self.fp.insert(0,self.db['aso'][f]['p'])
+					self.fp.insert(0,self.ctrl.db_aso[f]['p'])
 
 					self.l_result['text'] = '** OK **'
 					return
@@ -265,33 +304,26 @@ class data_page(tk.Frame):
 	def update(self):
 		fid = self.fid.get()
 		if fid:
-			if fid not in self.db['aso']:
-				self.db['aso'][fid] = {}
+			if fid not in self.ctrl.db_aso:
+				self.ctrl.db_aso[fid] = {}
 			
-			self.db['aso'][fid]['nome'] = self.name.get()
+			self.ctrl.db_aso[fid]['nome'] = self.name.get()
 			
-			self.db['aso'][fid]['alias'] = self.alias.get()
+			self.ctrl.db_aso[fid]['alias'] = self.alias.get()
 			
-			self.db['aso'][fid]['p'] = self.fp.get()
+			self.ctrl.db_aso[fid]['p'] = self.fp.get()
 
 			self.l_result['text'] = '** ASO atualizado **'
 
-			self.save()
+			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
 
 	# Remove ASO
 	def delete(self):
 		fid = self.fid.get()
-		if fid and fid in self.db['aso']:
-			del self.db['aso'][fid]
-			self.save()
+		if fid and fid in ctrl.db_aso:
+			del self.ctrl.db_aso[fid]
+			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
 
-
-	def save(self):
-		with open('data/data.jnew', "w") as arq:
-			arq.write(json.dumps(self.db, sort_keys=True, indent=4))
-		
-		with open('data/data.jnew', "r") as arq:
-			self.db = json.load(arq)
 
 
 
@@ -299,12 +331,9 @@ class data_page(tk.Frame):
 
 class gen_page(tk.Frame):
 	
-	def __init__(self, parent, controller):
+	def __init__(self, parent, ctrl):
 		tk.Frame.__init__(self, parent)
-		self.controller = controller
-		
-		with open('data/data.jnew', "r") as arq:
-			self.db = json.load(arq)
+		self.ctrl = ctrl
 
 		# Campos da janela
 		## Titulo
@@ -325,7 +354,7 @@ class gen_page(tk.Frame):
 		# Campo do titulo
 		label = tk.Label(self.c_title)
 		label['text'] = "Gerador de escala" 
-		label['font'] = controller.font_title
+		label['font'] = self.ctrl.font_title
 		label['pady'] = 10
 		label.pack()
 
@@ -333,7 +362,7 @@ class gen_page(tk.Frame):
 		## Texto
 		self.l_data = tk.Label(self.c_title)
 		self.l_data['text'] = "Procure por ID - exemplo: Central 1º turno = UCT1" 
-		self.l_data['font'] = controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		## Id
@@ -342,12 +371,12 @@ class gen_page(tk.Frame):
 
 		self.sidLabel = tk.Label(self.c_sid)
 		self.sidLabel['text'] ="ID estação 	"
-		self.sidLabel['font'] = controller.font_body
+		self.sidLabel['font'] = self.ctrl.font_body
 		self.sidLabel.pack(side=tk.LEFT)
   
 		self.sid = tk.Entry(self.c_sid)
 		self.sid["width"] = 30
-		self.sid["font"] = controller.font_body
+		self.sid["font"] = self.ctrl.font_body
 		self.sid.pack(side=tk.RIGHT)
 
 		## Estação
@@ -356,12 +385,12 @@ class gen_page(tk.Frame):
 		
 		self.nameLabel = tk.Label(self.c_name)
 		self.nameLabel['text'] ="Nome 		"
-		self.nameLabel['font'] = controller.font_body
+		self.nameLabel['font'] = self.ctrl.font_body
 		self.nameLabel.pack(side=tk.LEFT)
   
 		self.name = tk.Entry(self.c_name)
 		self.name["width"] = 30
-		self.name["font"] = controller.font_body
+		self.name["font"] = self.ctrl.font_body
 		self.name.pack(side=tk.RIGHT)
 
 		## Mes e ano
@@ -370,28 +399,28 @@ class gen_page(tk.Frame):
 		
 		self.monthLabel = tk.Label(self.c_date)
 		self.monthLabel['text'] ="Mes 		"
-		self.monthLabel['font'] = controller.font_body
+		self.monthLabel['font'] = self.ctrl.font_body
 		self.monthLabel.pack(side=tk.LEFT)
 
 		self.month = ttk.Combobox(self.c_date, state='readonly', values=[' ','Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'])
 		self.month["width"] = 12
-		self.month["font"] = controller.font_body
+		self.month["font"] = self.ctrl.font_body
 		self.month.pack(side=tk.LEFT)
 
 		self.yearLabel = tk.Label(self.c_date)
 		self.yearLabel['text'] ="	Ano"
-		self.yearLabel['font'] = controller.font_body
+		self.yearLabel['font'] = self.ctrl.font_body
 		self.yearLabel.pack(side=tk.LEFT)
   
 		self.year = tk.Entry(self.c_date)
 		self.year["width"] = 4
-		self.year["font"] = controller.font_body
+		self.year["font"] = self.ctrl.font_body
 		self.year.pack(side=tk.LEFT)
 
 		## Texto
 		self.l_data = tk.Label(self.c_data)
 		self.l_data['text'] = " ------------------------------------------------------- " 
-		self.l_data['font'] = controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		## ASOs
@@ -402,7 +431,7 @@ class gen_page(tk.Frame):
 
 		self.l_data = tk.Label(self.c_asot)
 		self.l_data['text'] = "Titulares" 
-		self.l_data['font'] = controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		self.c_asor = tk.Frame(self.c_data)
@@ -410,19 +439,19 @@ class gen_page(tk.Frame):
 
 		self.l_data = tk.Label(self.c_asor)
 		self.l_data['text'] = "Resesrvas" 
-		self.l_data['font'] = self.controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		## Resultado 
 		self.l_result = tk.Label(self)
 		self.l_result['text'] = ''
-		self.l_result['font'] = self.controller.font_body
+		self.l_result['font'] = self.ctrl.font_body
 		self.l_result.pack(side=tk.BOTTOM)
 		
 		# Campo dos botões
 		self.button_start = tk.Button(self.c_button)
 		self.button_start['text'] = "Inicio"
-		self.button_start['command'] = lambda: self.controller.show_frame("start_page")
+		self.button_start['command'] = lambda: self.ctrl.show_frame("start_page")
 		self.button_start.pack(side=tk.LEFT)
 
 		## Busca
@@ -431,11 +460,11 @@ class gen_page(tk.Frame):
 		self.button_search['command'] = lambda: self.search()
 		self.button_search.pack(side=tk.LEFT)
 
-		## Atualiza
-		self.button_update = tk.Button(self.c_button)
-		self.button_update['text'] = "Atualizar"
-		self.button_update['command'] = lambda: self.update()
-		self.button_update.pack(side=tk.LEFT)
+		# ## Atualiza
+		# self.button_update = tk.Button(self.c_button)
+		# self.button_update['text'] = "Atualizar"
+		# self.button_update['command'] = lambda: self.update()
+		# self.button_update.pack(side=tk.LEFT)
 
 		## Gerador
 		self.button_search = tk.Button(self.c_button)
@@ -458,11 +487,11 @@ class gen_page(tk.Frame):
 
 			self.aso_alias()
 
-			if sid in self.db['est']:
+			if sid in self.ctrl.db_est:
 				self.sid.insert(0,sid)
-				self.name.insert(0,self.db['est'][sid]['nome'])
+				self.name.insert(0,self.ctrl.db_est[sid]['nome'])
 
-				nf = len(self.db['est'][sid]['postos'])
+				nf = len(self.ctrl.db_est[sid]['postos'])
 
 				self.l_result['text'] = '** OK **'
 				
@@ -471,34 +500,33 @@ class gen_page(tk.Frame):
 					self.asos.append(ttk.Combobox(self.c_asot, state='readonly', values = self.alias_list))
 					self.asos[n].set = self.alias_list[0]
 					self.asos[n]["width"] = 20
-					self.asos[n]["font"] = self.controller.font_body
+					self.asos[n]["font"] = self.ctrl.font_body
 					self.asos[n].pack()
 
 				for n in range(nf):
 					self.asos.append(ttk.Combobox(self.c_asor, state='readonly', values = self.alias_list))
 					self.asos[n+nf].set = self.alias_list[0]
 					self.asos[n+nf]["width"] = 20
-					self.asos[n+nf]["font"] = self.controller.font_body
+					self.asos[n+nf]["font"] = self.ctrl.font_body
 					self.asos[n+nf].pack()
 
 			else:
 				self.l_result['text'] = '** Estação não encontrada **'
 
-	# Atualiza ASO
-	def update(self):
-		with open('data/data.jnew', "r") as arq:
-			self.db = json.load(arq)
+	# # Atualiza ASO
+	# def update(self):
+	# 	with open('data/data.json', "r") as arq:
+	# 		self.ctrl.db = json.load(arq)
 
 	# Gera escala
 	def generate(self):
 		sid = self.sid.get()
-		if sid not in self.db['est']:
+		if sid not in self.ctrl.db_est:
 			self.l_result['text'] = '** Estação não encontrada **'
 			return
 
 		month = self.month.get()
-		# month = self.month.current()
-		if month not in self.db['mes']:
+		if month not in self.ctrl.db['mes']:
 			self.l_result['text'] = '** Mês inválido **'
 			return
 
@@ -511,7 +539,7 @@ class gen_page(tk.Frame):
 		for a in self.asos:
 			found = False
 			aname = a.get()
-			for k, v in self.db['aso'].items():
+			for k, v in self.ctrl.db_aso.items():
 				if aname == v['alias']:
 					asos.append(k)
 					found = True
@@ -529,12 +557,19 @@ class gen_page(tk.Frame):
 				arq.write(' ')
 
 		# os.system('python src/escala_gen.py data/ests/'+sid)
+		
+		db_gen = self.ctrl.db.copy()
+		db_gen['aso'] = self.ctrl.db_aso.copy()
+		db_gen['est'] = self.ctrl.db_est.copy()
+
 		esc = gen()
-		self.l_result['text'] = esc.esc_int(self.db,sid,asos,month,year,self.l_result['text'])
+		self.l_result['text'] = esc.esc_int(db_gen,sid,asos,month,year,self.l_result['text'])
+		
+		esc.pdf()
 
 	def aso_alias(self):
 		self.alias_list = ['  ']
-		for k,v in self.db['aso'].items():
+		for k,v in self.ctrl.db_aso.items():
 			self.alias_list.append(v['alias'])
 
 		self.alias_list.sort()
@@ -542,9 +577,9 @@ class gen_page(tk.Frame):
 		
 class help_page(tk.Frame):
 	
-	def __init__(self, parent, controller):
+	def __init__(self, parent, ctrl):
 		tk.Frame.__init__(self, parent)
-		self.controller = controller
+		self.ctrl = ctrl
 
 		# Campos da janela
 		## Titulo
@@ -565,7 +600,7 @@ class help_page(tk.Frame):
 		# Campo do titulo
 		label = tk.Label(self.c_title)
 		label['text'] = "AJUDA" 
-		label['font'] = controller.font_title
+		label['font'] = self.ctrl.font_title
 		label['pady'] = 10
 		label.pack()
 
@@ -573,18 +608,18 @@ class help_page(tk.Frame):
 		## Texto
 		self.l_data = tk.Label(self.c_data)
 		self.l_data['text'] = "Perguntas frequentes" 
-		self.l_data['font'] = controller.font_body
+		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
 		self.l_q1 = tk.Label(self.c_data)
 		self.l_q1['text'] = "Perguntas frequentes" 
-		self.l_q1['font'] = controller.font_body
+		self.l_q1['font'] = self.ctrl.font_body
 		self.l_q1.pack()
 
 		# Campo dos botões
 		button_back = tk.Button(self.c_button)
 		button_back['text'] = "Inicio"
-		button_back['command'] = lambda: controller.show_frame("start_page")
+		button_back['command'] = lambda: self.ctrl.show_frame("start_page")
 
 		button_back.pack()
 

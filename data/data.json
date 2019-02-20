@@ -1,604 +1,83 @@
 {
-	"est":{
-		"UEL1":{
-			"nome":"Eldorado - 1° Turno",
-			"postos": [2,4,6,8,10,3,5,7,9]
-		},
-		"UCI1":{
-			"nome":"Cidade Industrial - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UVO1":{
-			"nome":"Vila Oeste - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UGM1":{
-			"nome":"Gameleira - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UCL1":{
-			"nome":"Calafate - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UCP1":{
-			"nome":"Carlos Prates - 1° Turno",
-			"postos": [2,4,3,5,7]
-		},
-		"ULG1":{
-			"nome":"Lagoinha - 1° Turno",
-			"postos": [2,4,6,3,5]
-		},
-		"UCT1":{
-			"nome":"Central - 1° Turno",
-			"postos": [2,4,6,3,5]
-		},
-		"USE1":{
-			"nome":"Santa Efigênia - 1° Turno",
-			"postos": [2,4,3]
-		},
-		"UST1":{
-			"nome":"Santa Tereza - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UHF1":{
-			"nome":"Horto Florestal - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"USI1":{
-			"nome":"Santa Inês - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UJC1":{
-			"nome":"Jose Cândido - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UMS1":{
-			"nome":"Minas Shopping - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"USG1":{
-			"nome":"São Gabriel - 1° Turno",
-			"postos": [2,4,6,3,5,7]
-		},
-		"UPM1":{
-			"nome":"Primeiro de Maio - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UWL1":{
-			"nome":"Waldomiro Lobo - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UFL1":{
-			"nome":"Floramar - 1° Turno",
-			"postos": [2,4,3,5]
-		},
-		"UVL1":{
-			"nome":"Vilarinho - 1° Turno",
-			"postos": [2,4,6,8,10,12,3,5,7]
-		},
-		"UTS":{
-			"nome":"Teste",
-			"postos": [2,4,3,5]
-		}
-	},
-	"aso":{
-		"2001273":{
-			"p":"11",
-			"alias":"Phillip",
-			"nome":"Arthur Phillip Ferreira da Silva"
-		},
-		"Alexandre": {
-	        "p": "12",
-	        "alias": "Alexandre",
-	        "nome": "Alexandre"
-	    },
-	    "ana_raquel": {
-	        "p": "13",
-	        "alias": "Ana Raquel",
-	        "nome": "Ana Raquel"
-	    },
-	    "Andre": {
-	        "p": "9",
-	        "alias": "André",
-	        "nome": "André Silveira"
-	    },
-	    "Ayslan": {
-	        "p": "15",
-	        "alias": "Ayslan",
-	        "nome": "Ayslan"
-	    },
-	    "barbara": {
-	        "p": "7",
-	        "alias": "Bárbara",
-	        "nome": "Bárbara"
-	    },
-	    "bernard": {
-	        "p": "10",
-	        "alias": "Bernard",
-	        "nome": "Bernard Magacho"
-	    },
-	    "Blenda": {
-	        "p": "4",
-	        "alias": "Blenda",
-	        "nome": "Blenda"
-	    },
-	    "bruno": {
-	        "p": "1",
-	        "alias": "Bruno",
-	        "nome": "Bruno Duarte"
-	    },
-	    "Carlos": {
-	        "p": "13",
-	        "alias": "Carlos",
-	        "nome": "Carlos Eduardo"
-	    },
-	    "Claudiney": {
-	        "p": "14",
-	        "alias": "Claudiney",
-	        "nome": "Claudiney"
-	    },
-	    "daniel_f": {
-	        "p": "3",
-	        "alias": "Daniel F",
-	        "nome": "Daniel Fernando"
-	    },
-	    "Daniel C": {
-	        "p": "13",
-	        "alias": "Daniel C",
-	        "nome": "Daniel Cançado"
-	    },
-	    "Daniel R": {
-	        "p": "7",
-	        "alias": "Daniel R",
-	        "nome": "Daniel R"
-	    },
-	    "Elisio": {
-	        "p": "8",
-	        "alias": "Elísio",
-	        "nome": "Elísio"
-	    },
-	    "Felipe M": {
-	        "p": "11",
-	        "alias": "Felipe M",
-	        "nome": "Felipe M"
-	    },
-	    "Frederico": {
-	        "p": "3",
-	        "alias": "Frederico",
-	        "nome": "Frederico"
-	    },
-	    "Jeferson": {
-	        "p": "3",
-	        "alias": "Jéferson",
-	        "nome": "Jéferson"
-	    },
-	    "Jessica A": {
-	        "p": "11",
-	        "alias": "Jéssica A",
-	        "nome": "Jéssica Agnes"
-	    },
-	    "Jessica S": {
-	        "p": "13",
-	        "alias": "Jessica S",
-	        "nome": "Jessica S"
-	    },
-	    "Jucileia": {
-	        "p": "9",
-	        "alias": "Juciléia",
-	        "nome": "Juciléia"
-	    },
-	    "Juliana M": {
-	        "p": "6",
-	        "alias": "Juliana M",
-	        "nome": "Juliana M"
-	    },
-	    "Gabriela C": {
-	        "p": "6",
-	        "alias": "Gabriela C",
-	        "nome": "Gabriela Correia"
-	    },
-	    "Gisele": {
-	        "p": "9",
-	        "alias": "Gisele",
-	        "nome": "Gisele"
-	    },
-	    "glauber": {
-	        "p": "5",
-	        "alias": "Gláuber",
-	        "nome": "Gláuber Figueredo"
-	    },
-	    "Guilherme": {
-	        "p": "6",
-	        "alias": "Guilherme",
-	        "nome": "Guilherme"
-	    },
-	    "gustavo": {
-	        "p": "4",
-	        "alias": "Gustavo",
-	        "nome": "Gustavo Concolato"
-	    },
-	    "Grazielle": {
-	        "p": "15",
-	        "alias": "Grazielle",
-	        "nome": "Grazielle"
-	    },
-	    "Hudson": {
-	        "p": "5",
-	        "alias": "Hudson",
-	        "nome": "Hudson"
-	    },
-	    "Israel": {
-	        "p": "3",
-	        "alias": "Israel",
-	        "nome": "Israel"
-	    },
-	    "izabelle": {
-	        "p": "2",
-	        "alias": "Izabelle L",
-	        "nome": "Izabelle Liz"
-	    },
-	    "Lais": {
-	        "p": "7",
-	        "alias": "Laís",
-	        "nome": "Laís"
-	    },
-	    "Leandro": {
-	        "p": "3",
-	        "alias": "Leandro",
-	        "nome": "Leandro"
-	    },
-	    "albuquerque": {
-	        "p": "14",
-	        "alias": "Leonardo A",
-	        "nome": "Leonardo Albuquerque"
-	    },
-	    "L Akio": {
-	        "p": "8",
-	        "alias": "L Akio",
-	        "nome": "Leonardo Akio"
-	    },
-	    "ligia": {
-	        "p": "2",
-	        "alias": "Lígia Souza",
-	        "nome": "Lígia Souza"
-	    },
-	    "Lilian": {
-	        "p": "12",
-	        "alias": "Lilian",
-	        "nome": "Lilian"
-	    },
-	    "Lisyane": {
-	        "p": "13",
-	        "alias": "Lisyane",
-	        "nome": "Lisyane"
-	    },
-	    "Lucas C": {
-	        "p": "15",
-	        "alias": "Lucas C",
-	        "nome": "Lucas C"
-	    },
-	    "Lucas H": {
-	        "p": "9",
-	        "alias": "Lucas H",
-	        "nome": "Lucas Henrique"
-	    },
-	    "lucia": {
-	        "p": "5",
-	        "alias": "Lúcia",
-	        "nome": "Lúcia"
-	    },
-	    "Marcela": {
-	        "p": "14",
-	        "alias": "Marcela",
-	        "nome": "Marcela"
-	    },
-	    "Marcelo": {
-	        "p": "4",
-	        "alias": "Marcelo",
-	        "nome": "Marcelo"
-	    },
-	    "marco_a": {
-	        "p": "15",
-	        "alias": "Marco A",
-	        "nome": "Marco Alves"
-	    },
-	    "madalena": {
-	        "p": "6",
-	        "alias": "M Madalena",
-	        "nome": "Maria Madalena"
-	    },
-	    "mayara": {
-	        "p": "11",
-	        "alias": "Mayara",
-	        "nome": "Mayara Maia"
-	    },
-	    "Marcia T": {
-	        "p": "12",
-	        "alias": "Marcia T",
-	        "nome": "Marcia Tannes"
-	    },
-	    "Nathalia": {
-	        "p": "2",
-	        "alias": "Nathália",
-	        "nome": "Nathália"
-	    },
-	    "Nayara A": {
-	        "p": "11",
-	        "alias": "Nayara A",
-	        "nome": "Nayara A"
-	    },
-	    "nayara_g": {
-	        "p": "9",
-	        "alias": "Nayara G",
-	        "nome": "Nayara G"
-	    },
-	    "paula_p": {
-	        "p": "4",
-	        "alias": "Paula P",
-	        "nome": "Paula P"
-	    },
-	    "paulo_b": {
-	        "p": "12",
-	        "alias": "Paulo B",
-	        "nome": "Paulo Banfi"
-	    },
-	    "Paulo D": {
-	        "p": "15",
-	        "alias": "Paulo D",
-	        "nome": "Paulo Dener"
-	    },
-	    "Pedro A": {
-	        "p": "1",
-	        "alias": "Pedro A",
-	        "nome": "Pedro A"
-	    },
-	    "Pedro R": {
-	        "p": "14",
-	        "alias": "Pedro R",
-	        "nome": "Pedro Rodrigues"
-	    },
-	    "Pedro V": {
-	        "p": "2",
-	        "alias": "Pedro V",
-	        "nome": "Pedro Vaz"
-	    },
-	    "Poliana": {
-	        "p": "10",
-	        "alias": "Poliana",
-	        "nome": "Poliana Gomes Ferreira"
-	    },
-	    "Raphael": {
-	        "p": "14",
-	        "alias": "Raphael",
-	        "nome": "Raphael"
-	    },
-	    "renan": {
-	        "p": "13",
-	        "alias": "Renan",
-	        "nome": "Renan Segantini"
-	    },
-	    "Renata": {
-	        "p": "2",
-	        "alias": "Renata",
-	        "nome": "Renata Goltara"
-	    },
-	    "renato_f": {
-	        "p": "14",
-	        "alias": "Renato F",
-	        "nome": "Renato Gomes Ferreira"
-	    },
-	    "Rodrigo_P": {
-	        "p": "1",
-	        "alias": "Rodrigo P",
-	        "nome": "Rodrigo Prado"
-	    },
-	    "Rodrigo_R": {
-	        "p": "10",
-	        "alias": "Rodrigo R",
-	        "nome": "Rodrigo R"
-	    },
-	    "rosa_l": {
-	        "p": "1",
-	        "alias": "Rosa Lima",
-	        "nome": "Rosa Lima"
-	    },
-	    "Samuel": {
-	        "p": "3",
-	        "alias": "Samuel",
-	        "nome": "Samuel"
-	    },
-	    "Scarlat": {
-	        "p": "4",
-	        "alias": "Scarlat",
-	        "nome": "Scarlat"
-	    },
-	    "sergio_m": {
-	        "p": "5",
-	        "alias": "Sergio",
-	        "nome": "Sergio Maia"
-	    },
-	    "Sergio G": {
-	        "p": "15",
-	        "alias": "Sergio G",
-	        "nome": "Sergio G"
-	    },
-	    "Silvana": {
-	        "p": "1",
-	        "alias": "Silvana",
-	        "nome": "Silvana"
-	    },
-	    "stefano": {
-	        "p": "9",
-	        "alias": "Stefano",
-	        "nome": "Stefano Hallack"
-	    },
-	    "Suellen": {
-	        "p": "3",
-	        "alias": "Suellen",
-	        "nome": "Suellen Assis"
-	    },
-	    "Taylla": {
-	        "p": "6",
-	        "alias": "Taylla",
-	        "nome": "Taylla"
-	    },
-	    "Thais A": {
-	        "p": "4",
-	        "alias": "Thais A",
-	        "nome": "Thais Almeida"
-		},
-		"thiago_p": {
-	        "p": "3",
-	        "alias": "Thiago P",
-	        "nome": "Thiago Philippe"
-	    },
-	    "Tiago": {
-	        "p": "11",
-	        "alias": "Tiago",
-	        "nome": "Tiago"
-	    },
-	    "Victor S": {
-	        "p": "12",
-	        "alias": "Victor S",
-	        "nome": "Victor Shirier"
-	    },
-	    "vinicius": {
-	        "p": "4",
-	        "alias": "Vinicius",
-	        "nome": "Vinicius Lara"
-	    },
-	    "Wagner": {
-	        "p": "6",
-	        "alias": "Wagner",
-	        "nome": "Wagner Forapani"
-	    },
-	    "Willian": {
-	        "p": "10",
-	        "alias": "Willian",
-	        "nome": "Willian"
-	    },
-		"Willy": {
-	        "p": "15",
-	        "alias": "Willy",
-	        "nome": "Willy"
-	    },
-		"A": {
-		   "p": "16",
-		   "alias": "Willy One",
-		   "nome": "Willy"
-	   },
-	   "B": {
-		   "p": "17",
-		   "alias": "Willy Two",
-		   "nome": "Willy"
-	   },
-	   "C": {
-		   "p": "18",
-		   "alias": "Willy Tree",
-		   "nome": "Willy"
-	   },
-	   "D": {
-		   "p": "16",
-		   "alias": "Willy Flour",
-		   "nome": "Willy"
-	   },
-	   "AA": {
-		   "p": "17",
-		   "alias": "Willy Once",
-		   "nome": "Willy"
-	   },
-	   "BB": {
-		   "p": "18",
-		   "alias": "Willy Twice",
-		   "nome": "Willy"
-	   },
-	   "CC": {
-		   "p": "16",
-		   "alias": "Willy Apple",
-		   "nome": "Willy"
-	   },
-	   "DD": {
-		   "p": "17",
-		   "alias": "Willy Bread",
-		   "nome": "Willy"
-	   }
-	},
-	"folgas":
-	{
-		"0":3,
-		"1":0,
-		"2":28,
-		"3":56,
-		"4":21,
-		"5":49,
-		"6":77,
-		"10":42,
-		"11":70,
-		"12":98,
-		"13":63,
-		"14":91,
-		"15":119,
-
-		"00":10,
-		"7":0,
-		"8":7,
-		"9":14,
-
-		"16":0,
-		"17":7,
-		"18":14
-	},
-	"mes":
-	{
-		"Janeiro":{
-			"dias":31,
-			"id":1
-		},
-		"Fevereiro":{
-			"dias":28,
-			"id":2
-		},
-		"Marco":{
-			"dias":31,
-			"id":3
-		},
-		"Abril":{
-			"dias":30,
-			"id":4
-		},
-		"Maio":{
-			"dias":31,
-			"id":5
-		},
-		"Junho":{
-			"dias":30,
-			"id":6
-		},
-		"Julho":{
-			"dias":31,
-			"id":7
-		},
-		"Agosto":{
-			"dias":31,
-			"id":8
-		},
-		"Setembro":{
-			"dias":30,
-			"id":9
-		},
-		"Outubro":{
-			"dias":31,
-			"id":10
-		},
-		"Novembro":{
-			"dias":31,
-			"id":11
-		},
-		"Dezembro":{
-			"dias":31,
-			"id":12
-		}
-	},
-	"semana" : ["D", "S", "T", "Q", "Q", "S", "S"]
-
+    "folgas": {
+        "0": 55,
+        "00": 9,
+        "1": 0,
+        "10": 42,
+        "11": 70,
+        "12": 98,
+        "13": 63,
+        "14": 91,
+        "15": 119,
+        "16": 0,
+        "17": 7,
+        "18": 14,
+        "2": 28,
+        "3": 56,
+        "4": 21,
+        "5": 49,
+        "6": 77,
+        "7": 0,
+        "8": 7,
+        "9": 14
+    },
+    "mes": {
+        "Abril": {
+            "dias": 30,
+            "id": 4
+        },
+        "Agosto": {
+            "dias": 31,
+            "id": 8
+        },
+        "Dezembro": {
+            "dias": 31,
+            "id": 12
+        },
+        "Fevereiro": {
+            "dias": 28,
+            "id": 2
+        },
+        "Janeiro": {
+            "dias": 31,
+            "id": 1
+        },
+        "Julho": {
+            "dias": 31,
+            "id": 7
+        },
+        "Junho": {
+            "dias": 30,
+            "id": 6
+        },
+        "Maio": {
+            "dias": 31,
+            "id": 5
+        },
+        "Mar\u00e7o": {
+            "dias": 31,
+            "id": 3
+        },
+        "Novembro": {
+            "dias": 31,
+            "id": 11
+        },
+        "Outubro": {
+            "dias": 31,
+            "id": 10
+        },
+        "Setembro": {
+            "dias": 30,
+            "id": 9
+        }
+    },
+    "semana": [
+        "D",
+        "S",
+        "T",
+        "Q",
+        "Q",
+        "S",
+        "S"
+    ]
 }
