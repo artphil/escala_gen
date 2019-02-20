@@ -17,7 +17,7 @@ def gera_xls(tabela):
 	ws.page_setup.orientation = ws.ORIENTATION_LANDSCAPE
 	ws.page_setup.paperSize = ws.PAPERSIZE_A4
 	ws.page_setup.fitToPage = True
-	ws.print_area = 'A1:AG27'
+	ws.print_area = 'A1:AG30'
 
 	# Titulo da aba
 	ws.title = 'tabela'
@@ -31,9 +31,10 @@ def gera_xls(tabela):
 	# ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
 
 	qrcode = drawing.image.Image('img/qrcode_pdf.png')
+	qrcode.width = qrcode.height = 100
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
-	ws.add_image(qrcode, 'AA20')
+	ws.add_image(qrcode, 'AE23')
 
 	# Aplica merge e formata as celulas do titulo
 	ws.merge_cells("A1:AG1")
