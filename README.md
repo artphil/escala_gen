@@ -1,8 +1,9 @@
-## Gerador de escalas ASO1 CBTU
-
 ### Arquivos
+Escalas prontas
 
 [PDFs](https://github.com/artphil/escala_gen/tree/master/pdf)
+
+Arquivos editaveis
 
 [Planilhas](https://github.com/artphil/escala_gen/tree/master/planilha)
 

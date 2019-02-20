@@ -30,7 +30,7 @@ def gera_xls(tabela):
 
 	# ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
 
-	qrcode = drawing.image.Image('img/qrcode_pdf.png')
+	qrcode = drawing.image.Image('img/qrcode.png')
 	qrcode.width = qrcode.height = 100
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
