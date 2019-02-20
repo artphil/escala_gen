@@ -1,11 +1,7 @@
 ### Arquivos
-Escalas prontas
+[Escalas prontas em PDFs](https://github.com/artphil/escala_gen/tree/master/pdf)
 
-[PDFs](https://github.com/artphil/escala_gen/tree/master/pdf)
-
-Arquivos editaveis
-
-[Planilhas](https://github.com/artphil/escala_gen/tree/master/planilha)
+[Arquivos editaveis](https://github.com/artphil/escala_gen/tree/master/planilha)
 
 ### Código
 
