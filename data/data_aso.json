@@ -74,6 +74,11 @@
         "nome": "Willy Lylly",
         "p": "18"
     },
+    "carla_e": {
+        "alias": "Carla Erica",
+        "nome": "Carla Erica",
+        "p": "3"
+    },
     "carlos": {
         "alias": "Carlos",
         "nome": "Carlos Eduardo",
@@ -117,7 +122,7 @@
     "elisio": {
         "alias": "El\u00edsio",
         "nome": "El\u00edsio",
-        "p": "8"
+        "p": "11"
     },
     "felipe_m": {
         "alias": "Felipe M",
@@ -149,9 +154,19 @@
         "nome": "Grazielle",
         "p": "15"
     },
+    "guaracy": {
+        "alias": "Guaracy",
+        "nome": "Guaracy",
+        "p": "1"
+    },
     "guilherme": {
         "alias": "Guilherme",
         "nome": "Guilherme",
+        "p": "6"
+    },
+    "guilherme_v": {
+        "alias": "Guilherme V",
+        "nome": "Guilherme Viana",
         "p": "6"
     },
     "gustavo": {
@@ -163,6 +178,11 @@
         "alias": "Hudson",
         "nome": "Hudson",
         "p": "5"
+    },
+    "i_roosewelt": {
+        "alias": "Icaro R",
+        "nome": "Icaro Roosewelt",
+        "p": "13"
     },
     "israel": {
         "alias": "Israel",
@@ -239,6 +259,11 @@
         "nome": "L\u00facia",
         "p": "8"
     },
+    "luiz_h": {
+        "alias": "Luiz H",
+        "nome": "Luiz Herculano",
+        "p": "5"
+    },
     "madalena": {
         "alias": "M Madalena",
         "nome": "Maria Madalena",
@@ -264,6 +289,11 @@
         "nome": "Marco Alves",
         "p": "15"
     },
+    "marcos_s": {
+        "alias": "Marcos S",
+        "nome": "Marcos Santos",
+        "p": "15"
+    },
     "mayara": {
         "alias": "Mayara",
         "nome": "Mayara Maia",
@@ -282,7 +312,7 @@
     "nayara_g": {
         "alias": "Nayara G",
         "nome": "Nayara G",
-        "p": "9"
+        "p": "15"
     },
     "paula_p": {
         "alias": "Paula P",
@@ -318,6 +348,11 @@
         "alias": "Poliana",
         "nome": "Poliana Gomes Ferreira",
         "p": "10"
+    },
+    "r_vidigal": {
+        "alias": "Rafael V",
+        "nome": "Rafael Vidigal",
+        "p": "12"
     },
     "raphael": {
         "alias": "Raphael",
@@ -382,7 +417,7 @@
     "stefano": {
         "alias": "Stefano",
         "nome": "Stefano Hallack",
-        "p": "9"
+        "p": "6"
     },
     "suellen": {
         "alias": "Suellen",
@@ -417,7 +452,7 @@
     "vinicius": {
         "alias": "Vinicius",
         "nome": "Vinicius Lara",
-        "p": "4"
+        "p": "7"
     },
     "wagner": {
         "alias": "Wagner",

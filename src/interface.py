@@ -58,7 +58,7 @@ class application(tk.Tk):
 
 	# Salva banco de dados
 	def save(self, db, file_name):
-		with open(file_name+'.mod', "w") as arq:
+		with open(file_name+'.aux', "w") as arq:
 			arq.write(json.dumps(db, sort_keys=True, indent=4))
 			
 			# orig = json.load(open(file_name+'.json', "r")
@@ -123,10 +123,211 @@ class start_page(tk.Frame):
 		button_help.pack(side=tk.LEFT)
 		button_gen.pack(side=tk.LEFT)
 		button_aso.pack(side=tk.RIGHT)
-		# button_est.pack(side=tk.RIGHT)
+		button_est.pack(side=tk.RIGHT)
 
 class est_page(tk.Frame):
-	pass
+	
+	def __init__(self, parent, ctrl):
+		tk.Frame.__init__(self, parent)
+		self.ctrl = ctrl
+
+		# Campos da janela
+		## Titulo
+		self.c_title = tk.Frame(self)
+		self.c_title["padx"] = 20
+		self.c_title.pack()
+
+		## Dados
+		self.c_data = tk.Frame(self)
+		self.c_data["padx"] = 40
+		self.c_data.pack()
+
+		## Botões
+		self.c_button = tk.Frame(self)
+		self.c_button["padx"] = 40
+		self.c_button.pack()
+
+		# Campo do titulo
+		self.label = tk.Label(self.c_title)
+		self.label['text'] = "Estações" 
+		self.label['font'] = self.ctrl.font_title
+		self.label['pady'] = 10
+		self.label.pack()
+
+
+		# Campo dos dados
+		## Texto
+		self.l_data = tk.Label(self.c_data)
+		self.l_data['text'] = "Procure por ID - exemplo: Central 1º turno = UCT1" 
+		self.l_data['font'] = self.ctrl.font_body
+		self.l_data.pack()
+
+		## Id
+		self.c_fid = tk.Frame(self.c_data)
+		self.c_fid.pack()
+
+		self.fidLabel = tk.Label(self.c_fid)
+		self.fidLabel['text'] ="ID 	"
+		self.fidLabel['font'] = self.ctrl.font_body
+		self.fidLabel.pack(side=tk.LEFT)
+  
+		self.fid = tk.Entry(self.c_fid)
+		self.fid["width"] = 30
+		self.fid["font"] = self.ctrl.font_body
+		self.fid.pack(side=tk.RIGHT)
+
+		## Nome
+		self.c_name = tk.Frame(self.c_data)
+		self.c_name.pack()
+		
+		self.nameLabel = tk.Label(self.c_name)
+		self.nameLabel['text'] ="Nome 	"
+		self.nameLabel['font'] = self.ctrl.font_body
+		self.nameLabel.pack(side=tk.LEFT)
+  
+		self.name = tk.Entry(self.c_name)
+		self.name["width"] = 30
+		self.name["font"] = self.ctrl.font_body
+		self.name.pack(side=tk.RIGHT)
+
+		## Postos
+		self.c_fp = tk.Frame(self.c_data)
+		self.c_fp.pack()
+		
+		### PEB
+		self.fpebLabel = tk.Label(self.c_fp)
+		self.fpebLabel['text'] ="PEB 	"
+		self.fpebLabel['font'] = self.ctrl.font_body
+		self.fpebLabel.pack(side=tk.LEFT)
+  
+		self.fpeb = tk.Entry(self.c_fp)
+		self.fpeb["width"] = 10
+		self.fpeb["font"] = self.ctrl.font_body
+		self.fpeb.pack(side=tk.LEFT)
+
+		### PEQ
+		self.fpeqLabel = tk.Label(self.c_fp)
+		self.fpeqLabel['text'] ="PEQ 	"
+		self.fpeqLabel['font'] = self.ctrl.font_body
+		self.fpeqLabel.pack(side=tk.LEFT)
+  
+		self.fpeq = tk.Entry(self.c_fp)
+		self.fpeq["width"] = 10
+		self.fpeq["font"] = self.ctrl.font_body
+		self.fpeq.pack(side=tk.LEFT)
+
+		## Resultado 
+		self.l_result = tk.Label(self)
+		self.l_result['text'] = ''
+		self.l_result['font'] = self.ctrl.font_body
+		self.l_result.pack(side=tk.BOTTOM)
+
+		# Campo dos botões
+		## Inicio
+		self.button_start = tk.Button(self.c_button)
+		self.button_start['text'] = "Inicio"
+		self.button_start['command'] = lambda: self.ctrl.show_frame("start_page")
+		self.button_start.pack(side=tk.LEFT)
+
+		## Busca
+		self.button_search = tk.Button(self.c_button)
+		self.button_search['text'] = "Buscar"
+		self.button_search['command'] = lambda: self.search()
+		self.button_search.pack(side=tk.LEFT)
+
+		## Atualiza
+		self.button_update = tk.Button(self.c_button)
+		self.button_update['text'] = "Atualizar"
+		self.button_update['command'] = lambda: self.update()
+		self.button_update.pack(side=tk.LEFT)
+
+		# ## Remover
+		# self.button_delete = tk.Button(self.c_button)
+		# self.button_delete['text'] = "Remover"
+		# self.button_delete['command'] = lambda: self.delete()
+		# self.button_delete.pack(side=tk.LEFT)
+
+	# Procura Est
+	def search(self):
+		fid = self.fid.get()
+
+		if fid:
+			self.name.delete(0,tk.END)
+			self.fpeb.delete(0,tk.END)
+			self.fpeq.delete(0,tk.END)
+
+			peb = 0
+			peq = 0
+			
+			if fid in self.ctrl.db_aso:
+				self.name.insert(0,self.ctrl.db_est[fid]['nome'])
+				
+				
+				for p in self.ctrl.db_est[f]['postos']:
+					if p % 2 == 0:
+						peb += 1
+					else:
+						peq += 1
+
+				self.fpeb.insert(0,peb)
+				self.fpeb.insert(0,peq)
+
+				self.l_result['text'] = '** OK **'
+			else:
+				self.l_result['text'] = '** Estação não encontrada **'
+		
+		else:
+			self.l_result['text'] = '** Digite ID **'
+
+	# Atualiza Est
+	def update(self):
+		fid = self.fid.get()
+		peb = self.fpeb.get()
+		peq = self.fpeq.get()
+
+		if not peb or peb < 1:
+			self.l_result['text'] = '** PEB inválido **'
+			return
+
+		if not peq or peq < 1:
+			self.l_result['text'] = '** PEQ inválido **'
+			return
+
+		if fid :
+			if fid not in self.ctrl.db_est:
+				self.ctrl.db_est[fid] = {}
+			
+			self.ctrl.db_est[fid]['nome'] = self.name.get()
+			
+			l = []
+
+			a = 2
+			for p in range(fpeb):
+				l.append(a)
+				a += 2
+
+			a = 3
+			for p in range(fpeq):
+				l.append(a)
+				a += 2
+
+			self.ctrl.db_est[fid]['postos'] = l 
+
+			self.l_result['text'] = '** Estação atualizada **'
+
+			self.ctrl.save(self.ctrl.db_est, self.ctrl.path_data_est)
+
+	# Remove ASO
+	def delete(self):
+		fid = self.fid.get()
+		if fid and fid in ctrl.db_est:
+			del self.ctrl.db_est[fid]
+			self.ctrl.save(self.ctrl.db_est, self.ctrl.path_data_est)
+
+
+
+
+
 
 class aso_page(tk.Frame):
 	

@@ -4,10 +4,9 @@ Gerador da planilha Excel
 autor: Arthur Phillip Silva
 '''
 
-from openpyxl import Workbook
+from openpyxl import Workbook, formula, drawing
 from openpyxl.styles import Font, Color, Alignment, PatternFill, Border
 from openpyxl.utils import column_index_from_string
-from openpyxl import formula
 from openpyxl.cell.cell import Cell
 
 # Cria a planilha excel
@@ -18,7 +17,7 @@ def gera_xls(tabela):
 	ws.page_setup.orientation = ws.ORIENTATION_LANDSCAPE
 	ws.page_setup.paperSize = ws.PAPERSIZE_A4
 	ws.page_setup.fitToPage = True
-	ws.print_area = 'A1:AG23'
+	ws.print_area = 'A1:AG27'
 
 	# Titulo da aba
 	ws.title = 'tabela'
@@ -26,9 +25,15 @@ def gera_xls(tabela):
 	# Preenchendo com dados da tabela
 	i = 0;
 	for linha in tabela:
+		i += 1
 		ws.append(linha)
 
-	ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
+	# ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
+
+	qrcode = drawing.image.Image('img/qrcode_pdf.png')
+	# qrcode.anchor(ws.cell('AD20'))
+	# ws.add_image(qrcode)
+	ws.add_image(qrcode, 'AA20')
 
 	# Aplica merge e formata as celulas do titulo
 	ws.merge_cells("A1:AG1")

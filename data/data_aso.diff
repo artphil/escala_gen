@@ -892,3 +892,81 @@ qua fev 20 09:15:36 -03 2019
 <         "p": "6"
 ---
 >         "p": "9"
+qua fev 20 10:25:13 -03 2019
+151a152,156
+>     "guaracy": {
+>         "alias": "Guaracy",
+>         "nome": "Guaracy",
+>         "p": "1"
+>     },
+qua fev 20 10:26:51 -03 2019
+76a77,81
+>     "carla_e": {
+>         "alias": "Carla Erica",
+>         "nome": "Carla Erica",
+>         "p": "3"
+>     },
+qua fev 20 10:28:08 -03 2019
+176a177,181
+>     "i_roosewelt": {
+>         "alias": "Igor R",
+>         "nome": "Igor Roosewelt",
+>         "p": "13"
+>     },
+qua fev 20 10:29:03 -03 2019
+281a282,286
+>     "marcos_s": {
+>         "alias": "Marcos S",
+>         "nome": "Marcos Santos",
+>         "p": "15"
+>     },
+qua fev 20 10:29:10 -03 2019
+qua fev 20 10:29:36 -03 2019
+256a257,261
+>     "luiz_h": {
+>         "alias": "Luiz H",
+>         "nome": "Luiz Herculano",
+>         "p": "5"
+>     },
+qua fev 20 10:29:38 -03 2019
+qua fev 20 10:30:50 -03 2019
+166a167,171
+>     "guilherme_v": {
+>         "alias": "Guilherme V",
+>         "nome": "Guilherme Viana",
+>         "p": "6"
+>     },
+qua fev 20 10:35:25 -03 2019
+183,184c183,184
+<         "alias": "Igor R",
+<         "nome": "Igor Roosewelt",
+---
+>         "alias": "Icaro R",
+>         "nome": "Icaro Roosewelt",
+qua fev 20 10:51:41 -03 2019
+125c125
+<         "p": "8"
+---
+>         "p": "11"
+qua fev 20 11:26:17 -03 2019
+351a352,356
+>     "r_vidigal": {
+>         "alias": "Rafael V",
+>         "nome": "Rafael Vidigal",
+>         "p": "12"
+>     },
+qua fev 20 11:31:11 -03 2019
+455c455
+<         "p": "4"
+---
+>         "p": "7"
+qua fev 20 11:31:45 -03 2019
+315c315
+<         "p": "9"
+---
+>         "p": "15"
+qua fev 20 11:32:36 -03 2019
+420c420
+<         "p": "9"
+---
+>         "p": "6"
