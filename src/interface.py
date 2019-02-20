@@ -43,7 +43,12 @@ class application(tk.Tk):
 
 		# Gerenciador de janelas
 		self.frames = {}
-		for func in (start_page, aso_page, gen_page, help_page):
+		for func in (	start_page, 
+						aso_page, 
+						est_page, 
+						gen_page, 
+						help_page):
+			
 			page_name = func.__name__
 			frame = func(parent=container, ctrl=self)
 			self.frames[page_name] = frame
@@ -67,9 +72,9 @@ class application(tk.Tk):
 
 			# print(df.Differ())
 			os.system('date >> '+file_name+'.diff')
-			os.system('diff '+file_name+'.json '+file_name+'.mod >> '+file_name+'.diff')
+			os.system('diff '+file_name+'.json '+file_name+'.aux >> '+file_name+'.diff')
 			os.remove(file_name+'.json')
-			os.rename(file_name+'.mod', file_name+'.json')
+			os.rename(file_name+'.aux', file_name+'.json')
 
 		
 		# with open(file_name+'.json', "r") as arq:
@@ -207,7 +212,7 @@ class est_page(tk.Frame):
 
 		### PEQ
 		self.fpeqLabel = tk.Label(self.c_fp)
-		self.fpeqLabel['text'] ="PEQ 	"
+		self.fpeqLabel['text'] ="   PEQ 	"
 		self.fpeqLabel['font'] = self.ctrl.font_body
 		self.fpeqLabel.pack(side=tk.LEFT)
   
@@ -249,9 +254,10 @@ class est_page(tk.Frame):
 
 	# Procura Est
 	def search(self):
-		fid = self.fid.get()
+		fid = self.fid.get().upper()
 
 		if fid:
+			self.fid.delete(0,tk.END)
 			self.name.delete(0,tk.END)
 			self.fpeb.delete(0,tk.END)
 			self.fpeq.delete(0,tk.END)
@@ -259,18 +265,19 @@ class est_page(tk.Frame):
 			peb = 0
 			peq = 0
 			
-			if fid in self.ctrl.db_aso:
+			if fid in self.ctrl.db_est:
+				self.fid.insert(0, fid)
+
 				self.name.insert(0,self.ctrl.db_est[fid]['nome'])
 				
-				
-				for p in self.ctrl.db_est[f]['postos']:
+				for p in self.ctrl.db_est[fid]['postos']:
 					if p % 2 == 0:
 						peb += 1
 					else:
 						peq += 1
 
 				self.fpeb.insert(0,peb)
-				self.fpeb.insert(0,peq)
+				self.fpeq.insert(0,peq)
 
 				self.l_result['text'] = '** OK **'
 			else:
@@ -282,8 +289,8 @@ class est_page(tk.Frame):
 	# Atualiza Est
 	def update(self):
 		fid = self.fid.get()
-		peb = self.fpeb.get()
-		peq = self.fpeq.get()
+		peb = int(self.fpeb.get())
+		peq = int(self.fpeq.get())
 
 		if not peb or peb < 1:
 			self.l_result['text'] = '** PEB inválido **'
@@ -302,12 +309,12 @@ class est_page(tk.Frame):
 			l = []
 
 			a = 2
-			for p in range(fpeb):
+			for p in range(peb):
 				l.append(a)
 				a += 2
 
 			a = 3
-			for p in range(fpeq):
+			for p in range(peq):
 				l.append(a)
 				a += 2
 

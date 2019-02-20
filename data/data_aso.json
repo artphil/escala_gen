@@ -94,6 +94,11 @@
         "nome": "Claudiney",
         "p": "14"
     },
+    "cybele_b": {
+        "alias": "Cybele B",
+        "nome": "Cybele Braga",
+        "p": "15"
+    },
     "d": {
         "alias": "D",
         "nome": "Willy Wonder",
@@ -123,6 +128,16 @@
         "alias": "El\u00edsio",
         "nome": "El\u00edsio",
         "p": "11"
+    },
+    "fabiana_t": {
+        "alias": "Fabiana T",
+        "nome": "Fabiana Tornelli",
+        "p": "15"
+    },
+    "felipe_a": {
+        "alias": "Felipe A",
+        "nome": "Felipe Augusto",
+        "p": "5"
     },
     "felipe_m": {
         "alias": "Felipe M",
@@ -174,6 +189,11 @@
         "nome": "Gustavo Concolato",
         "p": "4"
     },
+    "gustavo_m": {
+        "alias": "Gustavo M",
+        "nome": "gustavo Matta",
+        "p": "6"
+    },
     "hudson": {
         "alias": "Hudson",
         "nome": "Hudson",
@@ -192,6 +212,11 @@
     "izabelle": {
         "alias": "Izabelle L",
         "nome": "Izabelle Liz",
+        "p": "2"
+    },
+    "janine_a": {
+        "alias": "Janine A",
+        "nome": "Janine Almeida",
         "p": "2"
     },
     "jeferson": {
@@ -259,6 +284,11 @@
         "nome": "L\u00facia",
         "p": "8"
     },
+    "luciano_m": {
+        "alias": "Luciano M",
+        "nome": "Luciano Malta",
+        "p": "14"
+    },
     "luiz_h": {
         "alias": "Luiz H",
         "nome": "Luiz Herculano",
@@ -293,6 +323,11 @@
         "alias": "Marcos S",
         "nome": "Marcos Santos",
         "p": "15"
+    },
+    "maria_f": {
+        "alias": "Maria F",
+        "nome": "Maria Fernada",
+        "p": "14"
     },
     "mayara": {
         "alias": "Mayara",
@@ -369,10 +404,20 @@
         "nome": "Renata Goltara",
         "p": "2"
     },
+    "renata_c": {
+        "alias": "Renata C",
+        "nome": "Renata Cardoso",
+        "p": "14"
+    },
     "renato_f": {
         "alias": "Renato F",
         "nome": "Renato Gomes Ferreira",
         "p": "14"
+    },
+    "robson_r": {
+        "alias": "Robson R",
+        "nome": "Robson Reis",
+        "p": "3"
     },
     "rodrigo_p": {
         "alias": "Rodrigo P",
@@ -393,6 +438,11 @@
         "alias": "Samuel",
         "nome": "Samuel",
         "p": "3"
+    },
+    "sara_a": {
+        "alias": "Sara A",
+        "nome": "Sara Alves",
+        "p": "15"
     },
     "scarlat": {
         "alias": "Scarlat",
