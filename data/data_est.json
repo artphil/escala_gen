@@ -1,11 +1,19 @@
 {
-    "UCI1": {
-        "nome": "Cidade Industrial - 1\u00b0 Turno",
+    "TST": {
+        "nome": "Teste",
         "postos": [
             2,
             4,
             3,
             5
+        ]
+    },
+    "UCI1": {
+        "nome": "Cidade Industrial - 1\u00b0 Turno",
+        "postos": [
+            2,
+            4,
+            3
         ]
     },
     "UCI2": {
@@ -142,9 +150,7 @@
         "nome": "Horto Florestal - 1\u00b0 Turno",
         "postos": [
             2,
-            4,
-            3,
-            5
+            3
         ]
     },
     "UHF2": {
@@ -299,15 +305,6 @@
     },
     "UST2": {
         "nome": "Santa Tereza - 2\u00b0 Turno",
-        "postos": [
-            2,
-            4,
-            3,
-            5
-        ]
-    },
-    "TST": {
-        "nome": "Teste",
         "postos": [
             2,
             4,

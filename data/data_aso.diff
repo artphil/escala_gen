@@ -1040,3 +1040,217 @@ qua fev 20 12:53:37 -03 2019
 >         "nome": "Maria Fernada",
 >         "p": "14"
 >     },
+sex fev 22 09:00:24 -03 2019
+511a512,516
+>     "wellington_s": {
+>         "alias": "Wellington",
+>         "nome": "Welington Santos",
+>         "p": "2"
+>     },
+sex fev 22 09:01:44 -03 2019
+512,516d511
+<     "wellington_s": {
+<         "alias": "Wellington",
+<         "nome": "Welington Santos",
+<         "p": "2"
+<     },
+sex fev 22 09:02:30 -03 2019
+sex fev 22 09:02:31 -03 2019
+sex fev 22 09:02:32 -03 2019
+sex fev 22 09:02:32 -03 2019
+sex fev 22 09:02:32 -03 2019
+sex fev 22 09:02:32 -03 2019
+sex fev 22 09:08:34 -03 2019
+511a512,516
+>     "wellington_s": {
+>         "alias": "Wellington",
+>         "nome": "Wellington Santos",
+>         "p": "2"
+>     },
+sex fev 22 09:11:25 -03 2019
+156a157,161
+>     "gasper": {
+>         "alias": " ",
+>         "nome": "Buraco an escala",
+>         "p": "14"
+>     },
+sex fev 22 09:18:38 -03 2019
+sex fev 22 09:20:49 -03 2019
+158c158
+<         "alias": " ",
+---
+>         "alias": "***",
+sex fev 22 09:39:00 -03 2019
+441a442,446
+>     "roseanne_r": {
+>         "alias": "Roseanne",
+>         "nome": "Roseanne Rodrigues",
+>         "p": "11"
+>     },
+sex fev 22 09:40:21 -03 2019
+434c434
+<         "nome": "Rodrigo R",
+---
+>         "nome": "Rodrigo Ribeiro",
+sex fev 22 09:40:35 -03 2019
+252,256d251
+<     "lais": {
+<         "alias": "La\u00eds",
+<         "nome": "La\u00eds",
+<         "p": "7"
+<     },
+sex fev 22 09:40:50 -03 2019
+251a252,256
+>     "lais_f": {
+>         "alias": "La\u00eds F",
+>         "nome": "La\u00eds Freitas",
+>         "p": "7"
+>     },
+sex fev 22 09:41:14 -03 2019
+255c255
+<         "p": "7"
+---
+>         "p": "13"
+sex fev 22 09:41:39 -03 2019
+472,476d471
+<     "silvana": {
+<         "alias": "Silvana",
+<         "nome": "Silvana",
+<         "p": "1"
+<     },
+sex fev 22 09:42:04 -03 2019
+471a472,476
+>     "silvana_s": {
+>         "alias": "Silvana",
+>         "nome": "Silvana Souza",
+>         "p": "15"
+>     },
+sex fev 22 09:42:42 -03 2019
+374c374
+<         "nome": "Pedro A",
+---
+>         "nome": "Pedro Apolin\u00e1rio",
+sex fev 22 09:43:18 -03 2019
+147,151d146
+<     "frederico": {
+<         "alias": "Frederico",
+<         "nome": "Frederico",
+<         "p": "3"
+<     },
+sex fev 22 09:43:28 -03 2019
+146a147,151
+>     "frederico_s": {
+>         "alias": "Frederico",
+>         "nome": "Frederico Sans\u00e3o",
+>         "p": "3"
+>     },
+sex fev 22 09:46:40 -03 2019
+506a507,511
+>     "victor_p": {
+>         "alias": "Victor P",
+>         "nome": "Victor Prata",
+>         "p": "8"
+>     },
+sex fev 22 09:47:38 -03 2019
+241a242,246
+>     "joseanne_f": {
+>         "alias": "Joseanne F",
+>         "nome": "Joseanne Ferreira",
+>         "p": "9"
+>     },
+sex fev 22 09:50:33 -03 2019
+312,316d311
+<     "marcela": {
+<         "alias": "Marcela",
+<         "nome": "Marcela",
+<         "p": "14"
+<     },
+sex fev 22 09:50:50 -03 2019
+311a312,316
+>     "marcela_a": {
+>         "alias": "Marcela A",
+>         "nome": "Marcela Alves",
+>         "p": "14"
+>     },
+sex fev 22 09:51:45 -03 2019
+37,41d36
+<     "ayslan": {
+<         "alias": "Ayslan",
+<         "nome": "Ayslan",
+<         "p": "15"
+<     },
+sex fev 22 09:52:02 -03 2019
+36a37,41
+>     "ayslan_r": {
+>         "alias": "Ayslan",
+>         "nome": "Ayslan Rogger",
+>         "p": "15"
+>     },
+sex fev 22 09:52:53 -03 2019
+412,416d411
+<     "renata": {
+<         "alias": "Renata",
+<         "nome": "Renata Goltara",
+<         "p": "2"
+<     },
+sex fev 22 09:53:02 -03 2019
+416a417,421
+>     "renata_g": {
+>         "alias": "Renata",
+>         "nome": "Renata Goltara",
+>         "p": "2"
+>     },
+sex fev 22 09:53:22 -03 2019
+487,491d486
+<     "suellen": {
+<         "alias": "Suellen",
+<         "nome": "Suellen Assis",
+<         "p": "3"
+<     },
+sex fev 22 09:53:55 -03 2019
+486a487,491
+>     "suellen_l": {
+>         "alias": "Suellen",
+>         "nome": "Suellen Lima Assis",
+>         "p": "3"
+>     },
+sex fev 22 09:55:19 -03 2019
+86a87,91
+>     "caroline_a": {
+>         "alias": "Caroline",
+>         "nome": "Caroline Aguiar",
+>         "p": "10"
+>     },
+sex fev 22 09:56:07 -03 2019
+126a127,131
+>     "david_l": {
+>         "alias": "David",
+>         "nome": "David Lacerda",
+>         "p": "12"
+>     },
+sex fev 22 09:56:32 -03 2019
+249c249
+<         "nome": "Jessica S",
+---
+>         "nome": "Jessica Santos",
+sex fev 22 09:58:01 -03 2019
+176a177,181
+>     "gisele_l": {
+>         "alias": "Gisele L",
+>         "nome": "Gisele Lacerda",
+>         "p": "7"
+>     },
+sex fev 22 09:59:23 -03 2019
+242,246d241
+<     "jeferson": {
+<         "alias": "J\u00e9ferson",
+<         "nome": "J\u00e9ferson",
+<         "p": "3"
+<     },
+sex fev 22 09:59:37 -03 2019
+241a242,246
+>     "jeferson_p": {
+>         "alias": "J\u00e9ferson",
+>         "nome": "J\u00e9ferson Prado",
+>         "p": "9"
+>     },

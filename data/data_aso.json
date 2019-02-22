@@ -34,9 +34,9 @@
         "nome": "Andr\u00e9 Silveira",
         "p": "12"
     },
-    "ayslan": {
+    "ayslan_r": {
         "alias": "Ayslan",
-        "nome": "Ayslan",
+        "nome": "Ayslan Rogger",
         "p": "15"
     },
     "b": {
@@ -84,6 +84,11 @@
         "nome": "Carlos Eduardo",
         "p": "13"
     },
+    "caroline_a": {
+        "alias": "Caroline",
+        "nome": "Caroline Aguiar",
+        "p": "10"
+    },
     "cc": {
         "alias": "CC",
         "nome": "Willy",
@@ -119,6 +124,11 @@
         "nome": "Daniel Fernando",
         "p": "3"
     },
+    "david_l": {
+        "alias": "David",
+        "nome": "David Lacerda",
+        "p": "12"
+    },
     "dd": {
         "alias": "DD",
         "nome": "Willy",
@@ -144,9 +154,9 @@
         "nome": "Felipe M",
         "p": "11"
     },
-    "frederico": {
+    "frederico_s": {
         "alias": "Frederico",
-        "nome": "Frederico",
+        "nome": "Frederico Sans\u00e3o",
         "p": "3"
     },
     "gabriela_c": {
@@ -154,10 +164,20 @@
         "nome": "Gabriela Correia",
         "p": "6"
     },
+    "gasper": {
+        "alias": "***",
+        "nome": "Buraco an escala",
+        "p": "14"
+    },
     "gisele": {
         "alias": "Gisele",
         "nome": "Gisele",
         "p": "9"
+    },
+    "gisele_l": {
+        "alias": "Gisele L",
+        "nome": "Gisele Lacerda",
+        "p": "7"
     },
     "glauber": {
         "alias": "Gl\u00e1uber",
@@ -219,10 +239,10 @@
         "nome": "Janine Almeida",
         "p": "2"
     },
-    "jeferson": {
+    "jeferson_p": {
         "alias": "J\u00e9ferson",
-        "nome": "J\u00e9ferson",
-        "p": "3"
+        "nome": "J\u00e9ferson Prado",
+        "p": "9"
     },
     "jessica_a": {
         "alias": "J\u00e9ssica A",
@@ -231,8 +251,13 @@
     },
     "jessica_s": {
         "alias": "Jessica S",
-        "nome": "Jessica S",
+        "nome": "Jessica Santos",
         "p": "13"
+    },
+    "joseanne_f": {
+        "alias": "Joseanne F",
+        "nome": "Joseanne Ferreira",
+        "p": "9"
     },
     "juliana M": {
         "alias": "Juliana M",
@@ -244,10 +269,10 @@
         "nome": "Leonardo Akio Hamada",
         "p": "8"
     },
-    "lais": {
-        "alias": "La\u00eds",
-        "nome": "La\u00eds",
-        "p": "7"
+    "lais_f": {
+        "alias": "La\u00eds F",
+        "nome": "La\u00eds Freitas",
+        "p": "13"
     },
     "leandro": {
         "alias": "Leandro",
@@ -299,9 +324,9 @@
         "nome": "Maria Madalena",
         "p": "9"
     },
-    "marcela": {
-        "alias": "Marcela",
-        "nome": "Marcela",
+    "marcela_a": {
+        "alias": "Marcela A",
+        "nome": "Marcela Alves",
         "p": "14"
     },
     "marcelo": {
@@ -366,7 +391,7 @@
     },
     "pedro_a": {
         "alias": "Pedro A",
-        "nome": "Pedro A",
+        "nome": "Pedro Apolin\u00e1rio",
         "p": "1"
     },
     "pedro_r": {
@@ -399,15 +424,15 @@
         "nome": "Renan Segantini",
         "p": "13"
     },
-    "renata": {
-        "alias": "Renata",
-        "nome": "Renata Goltara",
-        "p": "2"
-    },
     "renata_c": {
         "alias": "Renata C",
         "nome": "Renata Cardoso",
         "p": "14"
+    },
+    "renata_g": {
+        "alias": "Renata",
+        "nome": "Renata Goltara",
+        "p": "2"
     },
     "renato_f": {
         "alias": "Renato F",
@@ -426,13 +451,18 @@
     },
     "rodrigo_r": {
         "alias": "Rodrigo R",
-        "nome": "Rodrigo R",
+        "nome": "Rodrigo Ribeiro",
         "p": "10"
     },
     "rosa_l": {
         "alias": "Rosa Lima",
         "nome": "Rosa Lima",
         "p": "1"
+    },
+    "roseanne_r": {
+        "alias": "Roseanne",
+        "nome": "Roseanne Rodrigues",
+        "p": "11"
     },
     "samuel": {
         "alias": "Samuel",
@@ -459,19 +489,19 @@
         "nome": "Sergio Maia",
         "p": "5"
     },
-    "silvana": {
+    "silvana_s": {
         "alias": "Silvana",
-        "nome": "Silvana",
-        "p": "1"
+        "nome": "Silvana Souza",
+        "p": "15"
     },
     "stefano": {
         "alias": "Stefano",
         "nome": "Stefano Hallack",
         "p": "6"
     },
-    "suellen": {
+    "suellen_l": {
         "alias": "Suellen",
-        "nome": "Suellen Assis",
+        "nome": "Suellen Lima Assis",
         "p": "3"
     },
     "taylla": {
@@ -494,6 +524,11 @@
         "nome": "Tiago",
         "p": "11"
     },
+    "victor_p": {
+        "alias": "Victor P",
+        "nome": "Victor Prata",
+        "p": "8"
+    },
     "victor_s": {
         "alias": "Victor S",
         "nome": "Victor Schrier",
@@ -508,6 +543,11 @@
         "alias": "Wagner",
         "nome": "Wagner Forapani",
         "p": "6"
+    },
+    "wellington_s": {
+        "alias": "Wellington",
+        "nome": "Wellington Santos",
+        "p": "2"
     },
     "willian": {
         "alias": "Willian",

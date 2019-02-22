@@ -1,3 +1,9 @@
+'''
+Programa de geracao automatica de escala de postos de servico
+Interface
+autor: Arthur Phillip Silva
+''' 
+
 import tkinter as tk
 from tkinter import font  as tkfont
 from tkinter import ttk
@@ -320,11 +326,11 @@ class est_page(tk.Frame):
 
 			self.ctrl.db_est[fid]['postos'] = l 
 
-			self.l_result['text'] = '** Estação atualizada **'
+			self.l_result['text'] = '** Estação '+fid+' atualizada **'
 
 			self.ctrl.save(self.ctrl.db_est, self.ctrl.path_data_est)
 
-	# Remove ASO
+	# Remove Est
 	def delete(self):
 		fid = self.fid.get()
 		if fid and fid in ctrl.db_est:
@@ -517,19 +523,23 @@ class aso_page(tk.Frame):
 			
 			self.ctrl.db_aso[fid]['nome'] = self.name.get()
 			
-			self.ctrl.db_aso[fid]['alias'] = self.alias.get()
+			alias = self.ctrl.db_aso[fid]['alias'] = self.alias.get()
 			
 			self.ctrl.db_aso[fid]['p'] = self.fp.get()
 
-			self.l_result['text'] = '** ASO atualizado **'
+			self.l_result['text'] = '** ASO '+alias+' atualizado **'
 
 			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
 
 	# Remove ASO
 	def delete(self):
 		fid = self.fid.get()
-		if fid and fid in ctrl.db_aso:
+		alias = self.alias.get()
+
+		if fid and fid in self.ctrl.db_aso:
 			del self.ctrl.db_aso[fid]
+			self.l_result['text'] = '** ASO '+alias+' removido **'
+
 			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
 
 
