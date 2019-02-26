@@ -230,29 +230,39 @@ class gen:
 		d = a = t = 0
 		limite = 1 # Nivel de erro no banlanco de postos
 		while d < dias:
+			# print ("\nTentando dia", d)
+			# print ("Teste:", t, '/', n_arranjos,'\n')
 			# Coloca uma combinacao
-			self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos)
-			# print (dist_postos)
-			print ("\nTentando dia", d)
-			print ("Teste:", t, '/', n_arranjos,'\n')
-			# Testa parametros
-			if self.checksum(dist_postos, d, balanc_postos, limite):
-				d += 1
-				a = (a+1)%n_arranjos
-				t = 0
-				# Reduz o erro do balanco
-				if limite > 1:
-					limite -= 1
-			else:
-				# Remove combinacao se nao passa no teste
-				self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
-				a = (a+1)%n_arranjos
+			if self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos):
+				# print (dis't_postos)
+				# Testa parametros
+				if self.checksum(dist_postos, d, balanc_postos, limite):
+					print ("\nDia {} alocado".format(d+1))
+					d += 1
+					# a = (a+1)%n_arranjos
+					t = 0
+					# Reduz o erro do balanco
+					if limite > 1:
+						limite -= 1
+				else:
+					# Remove combinacao se nao passa no teste
+					self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
+					# a = (a+1)%n_arranjos
+					t += 1
+					# Verifica se tentou todas a possibilidades
+					if t == n_arranjos:
+						t = 0
+						# Aumenta o erro do balanço
+						limite += 1
+			else: 
 				t += 1
 				# Verifica se tentou todas a possibilidades
 				if t == n_arranjos:
 					t = 0
 					# Aumenta o erro do balanço
 					limite += 1
+			
+			a = (a+1)%n_arranjos
 			# print(postos)
 			# print(balanc_postos)
 		return dist_postos
@@ -261,6 +271,18 @@ class gen:
 	def insere_p(self, tabela, c, coluna, postos, vistos):
 		func = len(tabela)
 		fixos = int(func/2)
+		# Filtro para evitar repetir posto
+		if (c > 0):
+			for i in range(len(coluna)):
+				if tabela[i][c] == 1:
+					# print ('reserva',tabela[i+fixos][c-1], coluna[c])
+					if tabela[i+fixos][c-1] == coluna[i]:
+						return False
+				else:
+					# print ('titular',tabela[i][c-1], coluna[c])
+					if tabela[i][c-1] == coluna[i]:
+						return False
+		
 		for i in range(len(coluna)):
 			if tabela[i][c] == 1:
 				tabela[i+fixos][c] = coluna[i]
@@ -268,6 +290,8 @@ class gen:
 			else:
 				tabela[i][c] = coluna[i]
 				vistos[i][postos.index(coluna[i])] += 1
+
+		return True
 
 	# Retira postos do dia de todos os funcionario
 	def remove_p(self, tabela, c, coluna, postos, vistos):
@@ -290,7 +314,7 @@ class gen:
 
 		# Verifica se alguem trabalha dois dias no mesmo posto
 		if resultado and (c > 0):
-			print('		dup')
+			# print('		dup')
 			for f in postos:
 				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-1]:
@@ -298,8 +322,8 @@ class gen:
 					break
 
 		# Verifica se alguem trabalha dois dias intercalados no mesmo posto
-		if resultado and (len(postos) > 4) and (len(postos) < 6) and (c > 1):
-			print('		inter')
+		if resultado and (len(postos) > 4) and (c > 1): #and (len(postos) < 6) 
+			# print('		inter')
 			for f in postos:
 				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-2]:
@@ -308,14 +332,14 @@ class gen:
 
 		# Verifica se alguem trabalha 4 dias no mesmo tipo de podto (PEB/PEQ)
 		if resultado and (len(postos) > 2) and (c > 2):
-			print('		4 dias')
+			# print('		4 dias')
 			for f in postos:
 				# print(c, '->', f[c-3], f[c-2], f[c-1], f[c])
 				if (f[c]>1 and f[c-1]>1 and f[c-2]>1 and f[c-2]>1):
 					if (f[c]%2 == f[c-1]%2 and f[c]%2 == f[c-2]%2 and f[c]%2 == f[c-3]%2):
 						resultado = False
 						break
-		print(resultado, x)
+		# print(resultado, x)
 		return resultado
 
 	def pdf(self):
