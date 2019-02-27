@@ -4,6 +4,11 @@
         "nome": "Furo de escala",
         "p": "11"
     },
+    "14": {
+        "alias": "*(14)",
+        "nome": "Furo de escala",
+        "p": "14"
+    },
     "2": {
         "alias": "*(2)",
         "nome": "Furo de escala",
@@ -682,7 +687,7 @@
     "2001961": {
         "alias": "Stefano Hallack",
         "nome": "Stefano Carvalho Hallack",
-        "p": "1"
+        "p": "3"
     },
     "2001962": {
         "alias": "Alvaro Antonio",
@@ -877,7 +882,7 @@
     "2002022": {
         "alias": "Silvana Souza",
         "nome": "Silvana De Souza Silva",
-        "p": "15"
+        "p": "7"
     },
     "2002024": {
         "alias": "Lucas Curvelano",
@@ -1277,7 +1282,7 @@
     "2002216": {
         "alias": "Gisele Lacerda",
         "nome": "Gisele Lacerda Da Silva",
-        "p": "1"
+        "p": "15"
     },
     "2002308": {
         "alias": "Bruno Vinicius",

@@ -60,7 +60,7 @@ def gera_xls(tabela):
 				celula.font = Font(bold=True)
 			# Linhas cinzas intercaladas
 			if cinza:
-				celula.fill = PatternFill("solid", fgColor="F0F0F0")
+				celula.fill = PatternFill("solid", fgColor="F5F5F5")
 			# celulas de folga em negativo
 			if celula.value == 'F':
 				celula.fill = PatternFill("solid", fgColor="000000")

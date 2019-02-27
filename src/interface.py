@@ -738,6 +738,9 @@ class gen_page(tk.Frame):
 
 	# Gera escala
 	def generate(self):
+
+		self.l_result['text'] = 'Trabalhando.. Aguarde.'
+
 		sid = self.sid.get()
 		if sid not in self.ctrl.db_est:
 			self.l_result['text'] = '** Estação não encontrada **'
