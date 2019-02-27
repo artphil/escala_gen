@@ -8,6 +8,7 @@ from openpyxl import Workbook, formula, drawing
 from openpyxl.styles import Font, Color, Alignment, PatternFill, Border
 from openpyxl.utils import column_index_from_string
 from openpyxl.cell.cell import Cell
+from datetime import date
 
 # Cria a planilha excel
 def gera_xls(tabela):
@@ -30,11 +31,15 @@ def gera_xls(tabela):
 
 	# ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
 
+	# Aplicando QRCODE
 	qrcode = drawing.image.Image('img/qrcode.png')
 	qrcode.width = qrcode.height = 100
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
 	ws.add_image(qrcode, 'AE23')
+
+	# Inserindo Data
+	ws["A30"].value = date.today().strftime("%d/%m/%y")
 
 	# Aplica merge e formata as celulas do titulo
 	ws.merge_cells("A1:AG1")

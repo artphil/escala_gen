@@ -62,7 +62,7 @@ class alocador:
 			self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos)
 			# print (dist_postos)
 			print ("\nTentando dia", d)
-			print ("Teste:", t, '/', n_arranjos,'\n')
+			# print ("Teste:", t, '/', n_arranjos,'\n')
 			# Testa parametros
 			if self.checksum(dist_postos, d, balanc_postos, limite):
 				d += 1

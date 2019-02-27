@@ -1362,3 +1362,47 @@ ter fev 26 10:24:52 -03 2019
 <         "alias": "p1",
 ---
 >         "alias": "1",
+qua fev 27 09:44:08 -03 2019
+385c385
+<         "p": "1o"
+---
+>         "p": "10"
+qua fev 27 09:45:06 -03 2019
+1356,1360d1355
+<     },
+<     "2\u00ba turno": {
+<         "alias": "Israel Santos",
+<         "nome": "Israel Dos Santos Leite Junior",
+<         "p": "3"
+qua fev 27 09:45:14 -03 2019
+821a822,826
+>     "2002009": {
+>         "alias": "Israel Santos",
+>         "nome": "Israel Dos Santos Leite Junior",
+>         "p": "3"
+>     },
+qua fev 27 10:42:37 -03 2019
+1a2,6
+>     "2": {
+>         "alias": "*",
+>         "nome": "Furo de escala P2",
+>         "p": "2"
+>     },
+qua fev 27 10:49:25 -03 2019
+3,4c3,4
+<         "alias": "*",
+<         "nome": "Furo de escala P2",
+---
+>         "alias": "*(2)",
+>         "nome": "Furo de escala",
+1088c1088
+<         "alias": "Marcelo Vilhena",
+---
+>         "alias": "Marcelo De Vilhena",
+qua fev 27 10:49:36 -03 2019
+1a2,6
+>     "11": {
+>         "alias": "*(11)",
+>         "nome": "Furo de escala",
+>         "p": "11"
+>     },

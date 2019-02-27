@@ -1,4 +1,14 @@
 {
+    "11": {
+        "alias": "*(11)",
+        "nome": "Furo de escala",
+        "p": "11"
+    },
+    "2": {
+        "alias": "*(2)",
+        "nome": "Furo de escala",
+        "p": "2"
+    },
     "2001692": {
         "alias": "Talita Aquino",
         "nome": "Talita Aquino Da Silva",
@@ -27,7 +37,7 @@
     "2001701": {
         "alias": "Glauber Figueiredo",
         "nome": "Glauber Lucas Meireles De Figueiredo",
-        "p": "1"
+        "p": "5"
     },
     "2001702": {
         "alias": "Nayara Alves",
@@ -47,7 +57,7 @@
     "2001707": {
         "alias": "Silvia Schiavo",
         "nome": "Silvia Schiavo Siqueira",
-        "p": "1"
+        "p": "2"
     },
     "2001708": {
         "alias": "Gabriela Correia",
@@ -72,7 +82,7 @@
     "2001714": {
         "alias": "Yuri Paiva",
         "nome": "Yuri Augusto De Paiva Silva",
-        "p": "1"
+        "p": "4"
     },
     "2001715": {
         "alias": "Carlos Eduardo",
@@ -82,7 +92,7 @@
     "2001716": {
         "alias": "Jucileia Sousa",
         "nome": "Jucileia Ferreira De Sousa",
-        "p": "1"
+        "p": "12"
     },
     "2001718": {
         "alias": "Derlem Aparecida",
@@ -92,7 +102,7 @@
     "2001784": {
         "alias": "Paulo Bittencourt",
         "nome": "Paulo Augusto Bittencourt",
-        "p": "1"
+        "p": "3"
     },
     "2001788": {
         "alias": "Iandra Miranda",
@@ -117,12 +127,12 @@
     "2001795": {
         "alias": "Diego Salerno",
         "nome": "Diego Andrade Salerno",
-        "p": "1"
+        "p": "10"
     },
     "2001796": {
         "alias": "Vinicius Lara",
         "nome": "Vinicius Lara Braga De Souza",
-        "p": "1"
+        "p": "7"
     },
     "2001797": {
         "alias": "Anderson Nunes",
@@ -147,7 +157,7 @@
     "2001803": {
         "alias": "Marco Alves",
         "nome": "Marco Tulio Alves Do Nascimento",
-        "p": "1"
+        "p": "15"
     },
     "2001804": {
         "alias": "Danilo Duarte",
@@ -157,7 +167,7 @@
     "2001806": {
         "alias": "Bernard Magacho",
         "nome": "Bernard Pereira Magacho",
-        "p": "1"
+        "p": "10"
     },
     "2001807": {
         "alias": "Guilherme Gomes",
@@ -192,12 +202,12 @@
     "2001813": {
         "alias": "Igor Moreira",
         "nome": "Igor Moreira De Miranda",
-        "p": "1"
+        "p": "4"
     },
     "2001814": {
         "alias": "Gabriela Pereira",
         "nome": "Gabriela Pereira Pinto",
-        "p": "1"
+        "p": "5"
     },
     "2001815": {
         "alias": "Barbara Jaza",
@@ -272,12 +282,12 @@
     "2001850": {
         "alias": "Carla Erica",
         "nome": "Carla Erica Da Silva",
-        "p": "1"
+        "p": "3"
     },
     "2001851": {
         "alias": "Lisyane Kaizer",
         "nome": "Lisyane Rachel De Cristo Kaizer",
-        "p": "1"
+        "p": "13"
     },
     "2001853": {
         "alias": "Jose De Almeida",
@@ -297,7 +307,7 @@
     "2001856": {
         "alias": "Alexandre Dias",
         "nome": "Alexandre Dias Drumond",
-        "p": "1"
+        "p": "12"
     },
     "2001857": {
         "alias": "Flavia Cristina",
@@ -327,7 +337,7 @@
     "2001864": {
         "alias": "Renan Segantini",
         "nome": "Renan Campos Segantini",
-        "p": "1"
+        "p": "13"
     },
     "2001865": {
         "alias": "Kalebe Daniel",
@@ -357,12 +367,12 @@
     "2001870": {
         "alias": "Ygor Vinicius",
         "nome": "Ygor Vinicius Vieira Thibau",
-        "p": "1"
+        "p": "9"
     },
     "2001872": {
         "alias": "Paulo Renato",
         "nome": "Paulo Renato Braga Camilo",
-        "p": "1"
+        "p": "5"
     },
     "2001874": {
         "alias": "Paulo Henrique",
@@ -377,12 +387,12 @@
     "2001876": {
         "alias": "Mariana Silvano",
         "nome": "Mariana De Freitas Silvano",
-        "p": "1"
+        "p": "7"
     },
     "2001878": {
         "alias": "Poliana Ferreira",
         "nome": "Poliana Ferreira Gomes",
-        "p": "1"
+        "p": "10"
     },
     "2001879": {
         "alias": "Euler Mendes",
@@ -422,7 +432,7 @@
     "2001888": {
         "alias": "Pedro Rodrigues",
         "nome": "Pedro Henrique Araujo Rodrigues",
-        "p": "1"
+        "p": "11"
     },
     "2001890": {
         "alias": "Antonio Aurelio",
@@ -437,7 +447,7 @@
     "2001892": {
         "alias": "Diogo Guilherme",
         "nome": "Diogo Bonfim Guilherme",
-        "p": "1"
+        "p": "2"
     },
     "2001893": {
         "alias": "Nelmara Ines",
@@ -457,12 +467,12 @@
     "2001897": {
         "alias": "Daiane De Castro",
         "nome": "Daiane De Castro",
-        "p": "1"
+        "p": "10"
     },
     "2001898": {
         "alias": "Jessica Agnes",
         "nome": "Jessica Agnes De Almeida Barros",
-        "p": "1"
+        "p": "8"
     },
     "2001900": {
         "alias": "Elidiane Vilarino",
@@ -472,7 +482,7 @@
     "2001901": {
         "alias": "Raphael Ferreira",
         "nome": "Raphael Neves Ferreira",
-        "p": "1"
+        "p": "8"
     },
     "2001902": {
         "alias": "Frederico Sans\u00e3o",
@@ -492,17 +502,17 @@
     "2001907": {
         "alias": "Scarlat Oliveira",
         "nome": "Scarlat Oliveira Rodrigues",
-        "p": "1"
+        "p": "4"
     },
     "2001909": {
         "alias": "Wagner Clemente",
         "nome": "Wagner Forapani Clemente",
-        "p": "1"
+        "p": "6"
     },
     "2001910": {
         "alias": "Lucia Gon\u00e7alves",
         "nome": "Lucia Gon\u00e7alves De Pinho",
-        "p": "1"
+        "p": "8"
     },
     "2001911": {
         "alias": "Moema Carvalho",
@@ -512,17 +522,17 @@
     "2001912": {
         "alias": "Ana Carolina",
         "nome": "Ana Carolina Coelho De Oliveira",
-        "p": "1"
+        "p": "14"
     },
     "2001913": {
         "alias": "Mayara Maia",
         "nome": "Mayara Lorena Barbosa Maia",
-        "p": "1"
+        "p": "11"
     },
     "2001914": {
         "alias": "Barbara Andrade",
         "nome": "Barbara Andrade Neves",
-        "p": "1"
+        "p": "10"
     },
     "2001915": {
         "alias": "Guilherme Junior",
@@ -532,7 +542,7 @@
     "2001916": {
         "alias": "Thiago Philippe",
         "nome": "Thiago Philippe Soares",
-        "p": "1"
+        "p": "3"
     },
     "2001917": {
         "alias": "Samuel Salom\u00e3o",
@@ -552,12 +562,12 @@
     "2001921": {
         "alias": "Matheus Le\u00e3o",
         "nome": "Matheus Silva Le\u00e3o",
-        "p": "1"
+        "p": "7"
     },
     "2001925": {
         "alias": "Felipe Maciel",
         "nome": "Felipe De Assis Maciel",
-        "p": "1"
+        "p": "11"
     },
     "2001926": {
         "alias": "Victor Prata",
@@ -592,7 +602,7 @@
     "2001936": {
         "alias": "Paula Pessoa",
         "nome": "Paula Helena Pessoa Costa Cabral",
-        "p": "1"
+        "p": "4"
     },
     "2001938": {
         "alias": "Gustavo Matta",
@@ -607,17 +617,17 @@
     "2001940": {
         "alias": "Lenise Moraes",
         "nome": "Lenise Glaucia De Souza Moraes",
-        "p": "1"
+        "p": "12"
     },
     "2001941": {
         "alias": "Francisco Monteiro",
         "nome": "Francisco De Assis Monteiro",
-        "p": "1"
+        "p": "13"
     },
     "2001942": {
         "alias": "Eliane Helena",
         "nome": "Eliane Helena Dos Santos",
-        "p": "1"
+        "p": "5"
     },
     "2001943": {
         "alias": "Alexandre Rondon",
@@ -627,7 +637,7 @@
     "2001944": {
         "alias": "Ana Raquel",
         "nome": "Ana Raquel Almeida E Franco",
-        "p": "1"
+        "p": "13"
     },
     "2001951": {
         "alias": "Maria Silva",
@@ -677,7 +687,7 @@
     "2001962": {
         "alias": "Alvaro Antonio",
         "nome": "Alvaro Antonio Drumond Rosa",
-        "p": "1"
+        "p": "8"
     },
     "2001963": {
         "alias": "Flavia Froes",
@@ -692,7 +702,7 @@
     "2001965": {
         "alias": "Willy Almeida",
         "nome": "Willy Thiago De Almeida",
-        "p": "1"
+        "p": "9"
     },
     "2001966": {
         "alias": "Felipe Martins",
@@ -707,7 +717,7 @@
     "2001968": {
         "alias": "Tiago Moreno",
         "nome": "Tiago Moreno Pascoal",
-        "p": "1"
+        "p": "11"
     },
     "2001984": {
         "alias": "Luan Carlos",
@@ -737,22 +747,22 @@
     "2001989": {
         "alias": "Vinicius Melo",
         "nome": "Vinicius Melo Pedrosa",
-        "p": "1"
+        "p": "4"
     },
     "2001991": {
         "alias": "Delric Lucas",
         "nome": "Delric Lucas Bento De Jesus Ferreira",
-        "p": "1"
+        "p": "14"
     },
     "2001992": {
         "alias": "Paulo Banfi",
         "nome": "Paulo Cesar Banfi Souza",
-        "p": "1"
+        "p": "12"
     },
     "2001993": {
         "alias": "Leonardo Albuquerque",
         "nome": "Leonardo Pinto Albuquerque",
-        "p": "1"
+        "p": "14"
     },
     "2001994": {
         "alias": "Guilherme Silveira",
@@ -772,7 +782,7 @@
     "2001997": {
         "alias": "Sidney Ferreira",
         "nome": "Sidney Alexandre Gil Ferreira",
-        "p": "1"
+        "p": "10"
     },
     "2001999": {
         "alias": "Luciano Malta",
@@ -782,7 +792,7 @@
     "2002000": {
         "alias": "Elisio Rocha",
         "nome": "Elisio Rocha Breguez Gon\u00e7alves",
-        "p": "1"
+        "p": "11"
     },
     "2002001": {
         "alias": "Wesley Elias",
@@ -802,12 +812,12 @@
     "2002005": {
         "alias": "Lucas Soares",
         "nome": "Lucas Soares Rezende",
-        "p": "1"
+        "p": "9"
     },
     "2002006": {
         "alias": "Sergio Gon\u00e7alves",
         "nome": "Sergio Pereira Gon\u00e7alves",
-        "p": "1"
+        "p": "15"
     },
     "2002007": {
         "alias": "Claudinei Martins",
@@ -817,7 +827,12 @@
     "2002008": {
         "alias": "Daniel Fernando",
         "nome": "Daniel Fernando Vieira De Paula",
-        "p": "1"
+        "p": "6"
+    },
+    "2002009": {
+        "alias": "Israel Santos",
+        "nome": "Israel Dos Santos Leite Junior",
+        "p": "3"
     },
     "2002010": {
         "alias": "Adriano Lagares",
@@ -827,12 +842,12 @@
     "2002011": {
         "alias": "Grazielle Sanches",
         "nome": "Grazielle Cristine Neves Sanches",
-        "p": "1"
+        "p": "9"
     },
     "2002012": {
         "alias": "Nayara Guedes",
         "nome": "Nayara Guedes Pereira Guimar\u00e3es",
-        "p": "1"
+        "p": "15"
     },
     "2002013": {
         "alias": "Sabrina Vieira",
@@ -842,12 +857,12 @@
     "2002016": {
         "alias": "Larissa Elias",
         "nome": "Larissa De Lima Silva Elias",
-        "p": "1"
+        "p": "7"
     },
     "2002018": {
         "alias": "Renato Junior",
         "nome": "Renato Alves Junior",
-        "p": "1"
+        "p": "2"
     },
     "2002020": {
         "alias": "Bruno Martins",
@@ -857,7 +872,7 @@
     "2002021": {
         "alias": "Sergio Maia",
         "nome": "Sergio Maia Pereira",
-        "p": "1"
+        "p": "5"
     },
     "2002022": {
         "alias": "Silvana Souza",
@@ -867,7 +882,7 @@
     "2002024": {
         "alias": "Lucas Curvelano",
         "nome": "Lucas Curvelano Ferreira",
-        "p": "1"
+        "p": "15"
     },
     "2002025": {
         "alias": "Guilherme Fernando",
@@ -877,12 +892,12 @@
     "2002026": {
         "alias": "Juliana Miranda",
         "nome": "Juliana Miranda Martins Da Silva",
-        "p": "1"
+        "p": "6"
     },
     "2002027": {
         "alias": "Daniel Ribeiro",
         "nome": "Daniel Ribeiro Araujo",
-        "p": "1"
+        "p": "10"
     },
     "2002028": {
         "alias": "Jonas Abrantes",
@@ -937,22 +952,22 @@
     "2002058": {
         "alias": "Daniel Can\u00e7ado",
         "nome": "Daniel Can\u00e7ado Duarte",
-        "p": "1"
+        "p": "7"
     },
     "2002059": {
         "alias": "Renato Ferreira",
         "nome": "Renato Gomes Ferreira",
-        "p": "1"
+        "p": "14"
     },
     "2002060": {
         "alias": "Nathalia Dias",
         "nome": "Nathalia Dias Gomes",
-        "p": "1"
+        "p": "3"
     },
     "2002061": {
         "alias": "Gustavo Concolato",
         "nome": "Gustavo Machado Concolato",
-        "p": "1"
+        "p": "4"
     },
     "2002062": {
         "alias": "Marluana Almeida",
@@ -972,7 +987,7 @@
     "2002065": {
         "alias": "Wildenberg Paezante",
         "nome": "Wildenberg Bernardes Paezante",
-        "p": "1"
+        "p": "5"
     },
     "2002066": {
         "alias": "Thiago Mendes",
@@ -982,7 +997,7 @@
     "2002067": {
         "alias": "Andre Silveira",
         "nome": "Andre Luiz Da Silveira Silva",
-        "p": "1"
+        "p": "12"
     },
     "2002068": {
         "alias": "Junio Jorge",
@@ -992,12 +1007,12 @@
     "2002069": {
         "alias": "Kenya Morais",
         "nome": "Kenya Tatiana Frade Morais",
-        "p": "1"
+        "p": "14"
     },
     "2002070": {
         "alias": "Guilherme Viana",
         "nome": "Guilherme Viana Reis",
-        "p": "1"
+        "p": "6"
     },
     "2002071": {
         "alias": "David Lacerda",
@@ -1007,7 +1022,7 @@
     "2002072": {
         "alias": "Taylla Dos Santos",
         "nome": "Taylla Fernanda Dos Santos",
-        "p": "1"
+        "p": "6"
     },
     "2002073": {
         "alias": "Jonathas De Assis",
@@ -1017,7 +1032,7 @@
     "2002075": {
         "alias": "Victor Schrier",
         "nome": "Victor Schrier Alves",
-        "p": "1"
+        "p": "12"
     },
     "2002076": {
         "alias": "Daniel Radtke",
@@ -1025,14 +1040,14 @@
         "p": "1"
     },
     "2002077": {
-        "alias": "Marcos Dos Santos",
+        "alias": "Marcos Santos",
         "nome": "Marcos Vinicius Dos Santos Filho",
-        "p": "1"
+        "p": "15"
     },
     "2002078": {
         "alias": "Willian Lopes",
         "nome": "Willian Lopes Pe\u00e7anha",
-        "p": "1"
+        "p": "13"
     },
     "2002079": {
         "alias": "Cledio Gabriel",
@@ -1042,7 +1057,7 @@
     "2002080": {
         "alias": "Lilian Londe",
         "nome": "Lilian Oliveira Londe",
-        "p": "1"
+        "p": "12"
     },
     "2002081": {
         "alias": "Mateus Rodrigues",
@@ -1077,7 +1092,7 @@
     "2002087": {
         "alias": "Marcelo De Vilhena",
         "nome": "Marcelo De Vilhena Guimar\u00e3es",
-        "p": "1"
+        "p": "4"
     },
     "2002088": {
         "alias": "Izabella Louren\u00e7a",
@@ -1087,12 +1102,12 @@
     "2002089": {
         "alias": "Luiz Herculano",
         "nome": "Luiz Guilherme Herculano Dos Santos",
-        "p": "1"
+        "p": "5"
     },
     "2002181": {
         "alias": "Daniella Dutra",
         "nome": "Daniella Bruno Dutra",
-        "p": "1"
+        "p": "6"
     },
     "2002182": {
         "alias": "Lucas Henryque",
@@ -1117,7 +1132,7 @@
     "2002186": {
         "alias": "Ligia Souza",
         "nome": "Ligia De Oliveira Souza",
-        "p": "1"
+        "p": "2"
     },
     "2002187": {
         "alias": "Mauricio Moura",
@@ -1147,7 +1162,7 @@
     "2002192": {
         "alias": "Kandace Riani",
         "nome": "Kandace Amanda Silveira Castro V. Riani",
-        "p": "1"
+        "p": "15"
     },
     "2002193": {
         "alias": "Hudson Rodrigo",
@@ -1177,7 +1192,7 @@
     "2002198": {
         "alias": "Icaro Roosewelt",
         "nome": "Icaro Roosewelt Faria Xavier",
-        "p": "1"
+        "p": "13"
     },
     "2002199": {
         "alias": "Rafaela Faria",
@@ -1200,14 +1215,14 @@
         "p": "1"
     },
     "2002203": {
-        "alias": "Welington Santos",
-        "nome": "Welington Santos Correa",
-        "p": "1"
+        "alias": "Wellington Santos",
+        "nome": "Wellington Santos Correa",
+        "p": "2"
     },
     "2002204": {
         "alias": "Helena Brito",
         "nome": "Helena Duarte Pedrosa Brito",
-        "p": "1"
+        "p": "8"
     },
     "2002205": {
         "alias": "Neimar Monteiro",
@@ -1217,7 +1232,7 @@
     "2002206": {
         "alias": "Maria Madalena",
         "nome": "Maria Madalena Ferreira",
-        "p": "1"
+        "p": "9"
     },
     "2002207": {
         "alias": "Karine Nolasco",
@@ -1227,7 +1242,7 @@
     "2002208": {
         "alias": "Samura Ribeiro",
         "nome": "Samura Ribeiro De Souza",
-        "p": "1"
+        "p": "11"
     },
     "2002209": {
         "alias": "Luis Portela",
@@ -1252,7 +1267,7 @@
     "2002214": {
         "alias": "Samuel Paulo",
         "nome": "Samuel Paulo Da Silva",
-        "p": "1"
+        "p": "3"
     },
     "2002215": {
         "alias": "Wanderson Ferreira",
@@ -1332,7 +1347,7 @@
     "2002321": {
         "alias": "Patrick Ronald",
         "nome": "Patrick Ronald Iglesias Coelho",
-        "p": "1"
+        "p": "6"
     },
     "2002322": {
         "alias": "Priscila Viana",
@@ -1352,11 +1367,6 @@
     "2002325": {
         "alias": "Celio Santana",
         "nome": "Celio Santana Lopes",
-        "p": "1"
-    },
-    "2\u00ba turno": {
-        "alias": "Israel Santos",
-        "nome": "Israel Dos Santos Leite Junior",
         "p": "1"
     }
 }
