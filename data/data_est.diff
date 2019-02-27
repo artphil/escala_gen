@@ -4185,3 +4185,1155 @@ ter fev 26 10:12:23 -03 2019
 <     }
 < }
 \ Nenhum caractere de nova linha no final do arquivo
+qua fev 27 07:59:15 -03 2019
+1,382d0
+< {
+<     "TST": {
+<         "nome": "Teste",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UCI1": {
+<         "nome": "Cidade Industrial - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UCI2": {
+<         "nome": "Cidade Industrial - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UCL1": {
+<         "nome": "Calafate - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCL2": {
+<         "nome": "Calafate - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCP1": {
+<         "nome": "Carlos Prates - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCP2": {
+<         "nome": "Carlos Prates - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCT1": {
+<         "nome": "Central - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCT2": {
+<         "nome": "Central - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UEL1": {
+<         "nome": "Eldorado - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UEL2": {
+<         "nome": "Eldorado - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL1": {
+<         "nome": "Floramar - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL2": {
+<         "nome": "Floramar - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UGM1": {
+<         "nome": "Gameleira - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UGM2": {
+<         "nome": "Gameleira - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UHF1": {
+<         "nome": "Horto Florestal - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             3
+<         ]
+<     },
+<     "UHF2": {
+<         "nome": "Horto Florestal - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC1": {
+<         "nome": "Jose C\u00e2ndido - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC2": {
+<         "nome": "Jose C\u00e2ndido - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG1": {
+<         "nome": "Lagoinha - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG2": {
+<         "nome": "Lagoinha - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UMS1": {
+<         "nome": "Minas Shopping - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UMS2": {
+<         "nome": "Minas Shopping - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM1": {
+<         "nome": "Primeiro de Maio - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM2": {
+<         "nome": "Primeiro de Maio - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USE1": {
+<         "nome": "Santa Efig\u00eania - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "USE2": {
+<         "nome": "Santa Efig\u00eania - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "USG1": {
+<         "nome": "S\u00e3o Gabriel - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USG2": {
+<         "nome": "S\u00e3o Gabriel - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USI1": {
+<         "nome": "Santa In\u00eas - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USI2": {
+<         "nome": "Santa In\u00eas - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UST1": {
+<         "nome": "Santa Tereza - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UST2": {
+<         "nome": "Santa Tereza - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UVL1": {
+<         "nome": "Vilarinho - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVL2": {
+<         "nome": "Vilarinho - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVO1": {
+<         "nome": "Vila Oeste - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UVO2": {
+<         "nome": "Vila Oeste - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UWL1": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UWL2": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     }
+< }
+\ Nenhum caractere de nova linha no final do arquivo
+qua fev 27 08:10:29 -03 2019
+1,381d0
+< {
+<     "TST": {
+<         "nome": "Teste",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UCI1": {
+<         "nome": "Cidade Industrial - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             3
+<         ]
+<     },
+<     "UCI2": {
+<         "nome": "Cidade Industrial - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UCL1": {
+<         "nome": "Calafate - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCL2": {
+<         "nome": "Calafate - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCP1": {
+<         "nome": "Carlos Prates - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCP2": {
+<         "nome": "Carlos Prates - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCT1": {
+<         "nome": "Central - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCT2": {
+<         "nome": "Central - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UEL1": {
+<         "nome": "Eldorado - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UEL2": {
+<         "nome": "Eldorado - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL1": {
+<         "nome": "Floramar - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL2": {
+<         "nome": "Floramar - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UGM1": {
+<         "nome": "Gameleira - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UGM2": {
+<         "nome": "Gameleira - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UHF1": {
+<         "nome": "Horto Florestal - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             3
+<         ]
+<     },
+<     "UHF2": {
+<         "nome": "Horto Florestal - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC1": {
+<         "nome": "Jose C\u00e2ndido - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC2": {
+<         "nome": "Jose C\u00e2ndido - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG1": {
+<         "nome": "Lagoinha - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG2": {
+<         "nome": "Lagoinha - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UMS1": {
+<         "nome": "Minas Shopping - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UMS2": {
+<         "nome": "Minas Shopping - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM1": {
+<         "nome": "Primeiro de Maio - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM2": {
+<         "nome": "Primeiro de Maio - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USE1": {
+<         "nome": "Santa Efig\u00eania - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "USE2": {
+<         "nome": "Santa Efig\u00eania - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "USG1": {
+<         "nome": "S\u00e3o Gabriel - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USG2": {
+<         "nome": "S\u00e3o Gabriel - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USI1": {
+<         "nome": "Santa In\u00eas - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USI2": {
+<         "nome": "Santa In\u00eas - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UST1": {
+<         "nome": "Santa Tereza - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UST2": {
+<         "nome": "Santa Tereza - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UVL1": {
+<         "nome": "Vilarinho - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVL2": {
+<         "nome": "Vilarinho - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVO1": {
+<         "nome": "Vila Oeste - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UVO2": {
+<         "nome": "Vila Oeste - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UWL1": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UWL2": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     }
+< }
+\ Nenhum caractere de nova linha no final do arquivo
+qua fev 27 08:19:55 -03 2019
+1,380d0
+< {
+<     "TST": {
+<         "nome": "Teste",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UCI1": {
+<         "nome": "Cidade Industrial - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             3
+<         ]
+<     },
+<     "UCI2": {
+<         "nome": "Cidade Industrial - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UCL1": {
+<         "nome": "Calafate - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCL2": {
+<         "nome": "Calafate - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCP1": {
+<         "nome": "Carlos Prates - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCP2": {
+<         "nome": "Carlos Prates - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UCT1": {
+<         "nome": "Central - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "UCT2": {
+<         "nome": "Central - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UEL1": {
+<         "nome": "Eldorado - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             3,
+<             5,
+<             7,
+<             9
+<         ]
+<     },
+<     "UEL2": {
+<         "nome": "Eldorado - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL1": {
+<         "nome": "Floramar - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UFL2": {
+<         "nome": "Floramar - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UGM1": {
+<         "nome": "Gameleira - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UGM2": {
+<         "nome": "Gameleira - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UHF1": {
+<         "nome": "Horto Florestal - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             3
+<         ]
+<     },
+<     "UHF2": {
+<         "nome": "Horto Florestal - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC1": {
+<         "nome": "Jose C\u00e2ndido - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UJC2": {
+<         "nome": "Jose C\u00e2ndido - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG1": {
+<         "nome": "Lagoinha - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "ULG2": {
+<         "nome": "Lagoinha - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UMS1": {
+<         "nome": "Minas Shopping - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UMS2": {
+<         "nome": "Minas Shopping - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM1": {
+<         "nome": "Primeiro de Maio - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UPM2": {
+<         "nome": "Primeiro de Maio - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USE1": {
+<         "nome": "Santa Efig\u00eania - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "USE2": {
+<         "nome": "Santa Efig\u00eania - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5
+<         ]
+<     },
+<     "USG1": {
+<         "nome": "S\u00e3o Gabriel - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USG2": {
+<         "nome": "S\u00e3o Gabriel - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "USI1": {
+<         "nome": "Santa In\u00eas - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "USI2": {
+<         "nome": "Santa In\u00eas - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UST1": {
+<         "nome": "Santa Tereza - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UST2": {
+<         "nome": "Santa Tereza - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UVL1": {
+<         "nome": "Vilarinho - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVL2": {
+<         "nome": "Vilarinho - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             6,
+<             8,
+<             10,
+<             12,
+<             3,
+<             5,
+<             7
+<         ]
+<     },
+<     "UVO1": {
+<         "nome": "Vila Oeste - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UVO2": {
+<         "nome": "Vila Oeste - 2\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3
+<         ]
+<     },
+<     "UWL1": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     },
+<     "UWL2": {
+<         "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+<         "postos": [
+<             2,
+<             4,
+<             3,
+<             5
+<         ]
+<     }
+< }
+\ Nenhum caractere de nova linha no final do arquivo

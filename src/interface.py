@@ -620,7 +620,7 @@ class gen_page(tk.Frame):
 		self.monthLabel['font'] = self.ctrl.font_body
 		self.monthLabel.pack(side=tk.LEFT)
 
-		self.month = ttk.Combobox(self.c_date, state='readonly', values=[' ','Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'])
+		self.month = ttk.Combobox(self.c_date, values=[' ','Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'])#, state='readonly')
 		self.month["width"] = 12
 		self.month["font"] = self.ctrl.font_body
 		self.month.pack(side=tk.LEFT)
@@ -715,14 +715,14 @@ class gen_page(tk.Frame):
 				
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asot, state='readonly', values = self.alias_list))
+					self.asos.append(ttk.Combobox(self.c_asot, values = self.alias_list))#, state='readonly'))
 					self.asos[n].set = self.alias_list[0]
 					self.asos[n]["width"] = 20
 					self.asos[n]["font"] = self.ctrl.font_body
 					self.asos[n].pack()
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asor, state='readonly', values = self.alias_list))
+					self.asos.append(ttk.Combobox(self.c_asor, values = self.alias_list))#, state='readonly'))
 					self.asos[n+nf].set = self.alias_list[0]
 					self.asos[n+nf]["width"] = 20
 					self.asos[n+nf]["font"] = self.ctrl.font_body

@@ -17,7 +17,6 @@
         "nome": "Cidade Industrial - 1\u00b0 Turno",
         "postos": [
             2,
-            4,
             3
         ]
     },
@@ -34,8 +33,7 @@
         "postos": [
             2,
             4,
-            3,
-            5
+            3
         ]
     },
     "UCL2": {
@@ -138,8 +136,7 @@
         "postos": [
             2,
             4,
-            3,
-            5
+            3
         ]
     },
     "UGM2": {

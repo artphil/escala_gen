@@ -231,7 +231,7 @@ class gen:
 		limite = 1 # Nivel de erro no banlanco de postos
 		while d < dias:
 			# print ("\nTentando dia", d)
-			# print ("Teste:", t, '/', n_arranjos,'\n')
+			print ("Teste:", t, '/', n_arranjos,'\n')
 			# Coloca uma combinacao
 			if self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos):
 				# print (dis't_postos)
@@ -249,19 +249,16 @@ class gen:
 					self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
 					# a = (a+1)%n_arranjos
 					t += 1
-					# Verifica se tentou todas a possibilidades
-					if t == n_arranjos:
-						t = 0
-						# Aumenta o erro do balanço
-						limite += 1
 			else: 
 				t += 1
-				# Verifica se tentou todas a possibilidades
-				if t == n_arranjos:
-					t = 0
-					# Aumenta o erro do balanço
-					limite += 1
-			
+
+
+			# Verifica se tentou todas a possibilidades
+			if t == n_arranjos:
+				t = 0
+				# Aumenta o erro do balanço
+				limite += 1
+		
 			a = (a+1)%n_arranjos
 			# print(postos)
 			# print(balanc_postos)
@@ -322,7 +319,7 @@ class gen:
 					break
 
 		# Verifica se alguem trabalha dois dias intercalados no mesmo posto
-		if resultado and (len(postos) > 4) and (c > 1): #and (len(postos) < 6) 
+		if resultado and (len(postos) > 8) and (c > 1): #and (len(postos) < 12) 
 			# print('		inter')
 			for f in postos:
 				# print(c, f[c], f[c-1])
