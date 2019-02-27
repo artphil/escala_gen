@@ -82,7 +82,7 @@ class alocador:
 					# Aumenta o erro do balanço
 					limite += 1
 			# print(postos)
-			print(balanc_postos)
+			# print(balanc_postos)
 		return dist_postos
 	
 	# Coloca postos do dia a todos os funcionario
