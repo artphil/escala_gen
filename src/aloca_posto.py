@@ -27,7 +27,7 @@ class alocador:
 		ini42 = self.bd['folgas']['0'] + abs(self.data_inicio - date(2019,1,1)).days 
 		ini31 = self.bd['folgas']['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 		
-		print(date(2019,1,1).day)
+		# print(date(2019,1,1).day)
 
 		for n in self.funcs:
 			p = self.bd['aso'][n]['p']
@@ -118,7 +118,7 @@ class alocador:
 
 		# Verifica se alguem trabalha dois dias no mesmo posto
 		if resultado and (c > 0):
-			print('		dup')
+			# print('		dup')
 			for f in postos:
 				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-1]:
@@ -127,7 +127,7 @@ class alocador:
 
 		# Verifica se alguem trabalha dois dias intercalados no mesmo posto
 		if resultado and (len(postos) > 4) and (c > 1):
-			print('		inter')
+			# print('		inter')
 			for f in postos:
 				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-2]:
@@ -136,13 +136,13 @@ class alocador:
 
 		# Verifica se alguem trabalha 4 dias no mesmo tipo de podto (PEB/PEQ)
 		if resultado and (len(postos) > 2) and (c > 2):
-			print('		4 dias')
+			# print('		4 dias')
 			for f in postos:
 				# print(c, '->', f[c-3], f[c-2], f[c-1], f[c])
 				if (f[c]>1 and f[c-1]>1 and f[c-2]>1 and f[c-2]>1):
 					if (f[c]%2 == f[c-1]%2 and f[c]%2 == f[c-2]%2 and f[c]%2 == f[c-3]%2):
 						resultado = False
 						break
-		print(resultado, x)
+		# print(resultado, x)
 		return resultado
 

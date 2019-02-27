@@ -230,8 +230,8 @@ class gen:
 		d = a = t = 0
 		limite = 1 # Nivel de erro no banlanco de postos
 		while d < dias:
-			# print ("\nTentando dia", d)
-			print ("Teste:", t, '/', n_arranjos,'\n')
+			print ("\nTentando dia", d)
+			# print ("Teste:", t, '/', n_arranjos,'\n')
 			# Coloca uma combinacao
 			if self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos):
 				# print (dis't_postos)
