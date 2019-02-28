@@ -41,8 +41,7 @@
         "postos": [
             2,
             4,
-            3,
-            5
+            3
         ]
     },
     "UCP1": {
@@ -197,8 +196,7 @@
             6,
             8,
             3,
-            5,
-            7
+            5
         ]
     },
     "UMS1": {
@@ -357,7 +355,7 @@
         ]
     },
     "UWL2": {
-        "nome": "Waldomiro Lobo - 1\u00b0 Turno",
+        "nome": "Waldomiro Lobo - 2\u00b0 Turno",
         "postos": [
             2,
             4,

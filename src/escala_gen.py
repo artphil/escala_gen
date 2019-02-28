@@ -237,7 +237,7 @@ class gen:
 				# print (dis't_postos)
 				# Testa parametros
 				if self.checksum(dist_postos, d, balanc_postos, limite):
-					print ("\nDia {} alocado".format(d+1))
+					print ("\nDia {} alocado\n".format(d+1))
 					d += 1
 					# a = (a+1)%n_arranjos
 					t = 0
