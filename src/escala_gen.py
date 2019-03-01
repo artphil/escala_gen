@@ -122,13 +122,15 @@ class gen:
 	def folgas(self):
 		with open("data/escala.dat", "r") as read_escala:
 			self.esc42 = read_escala.readline().split('	')
-			# print(esc42)
+			# print(self.esc4)
 			self.esc31 = read_escala.readline().split('	')
-			# print(esc31)
-			self.esc42aj = read_escala.readline().split('	')
-			# print(esc31)
+			# print(self.esc31)
+			self.esc42aja = read_escala.readline().split('	')
+			# print(self.esc42aja)
+			self.esc42ajb = read_escala.readline().split('	')
+			# print(self.esc42ajb)
 
-			if not self.esc42 or not self.esc31 or not self.esc42aj:
+			if not self.esc42 or not self.esc31 or not self.esc42aja or not self.esc42ajb:
 				print('arquivo de escalas corrompido')
 
 	# cria a matriz da escala
@@ -213,9 +215,16 @@ class gen:
 				for d in range(dias):
 					dist_postos[f][d] = int(self.esc42[(d+ini42+inip)%84])
 				# print(n, p, (ini42+inip)%84, '= (', ini42, '+', inip,')')
-			else:
+			elif int(p) < 19:
 				for d in range(dias):
-					dist_postos[f][d] = int(self.esc42aj[(d+ini31+inip)%21])
+					dist_postos[f][d] = int(self.esc42aja[(d+ini31+inip)%21])
+			elif int(p) < 22:
+				for d in range(dias):
+					dist_postos[f][d] = int(self.esc42ajb[(d+ini31+inip)%21])
+			else:
+				print('P fora do escopo')
+				exit()
+
 			# print(dist_postos[f])
 			f += 1
 

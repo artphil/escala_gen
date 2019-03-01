@@ -12,6 +12,7 @@ import json
 import os
 # import difflib as df
 from escala_gen import gen
+from database import db
 
 
 # Gerenciador da aplicação
@@ -22,6 +23,11 @@ class application(tk.Tk):
 		self.path_data 		= 'data/data'
 		self.path_data_aso 	= 'data/data_aso'
 		self.path_data_est 	= 'data/data_est'
+		try: 
+			self.data = db()
+		except:
+			print("Erro no Banco de Dados")
+			quit()
 
 		with open(self.path_data+'.json', "r") as arq:
 			self.db = json.load(arq)
@@ -38,6 +44,7 @@ class application(tk.Tk):
 
 		self.title("** Escala ASO 1 **")
 
+		# Tamanho da tela
 		wsize = 500
 		hsize = 400
 		self.minsize(wsize, hsize)
