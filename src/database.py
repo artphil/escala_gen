@@ -1,6 +1,6 @@
 '''
 Programa de geracao automatica de escala de postos de servico
-gerenciador de Banco de Dados
+Gerenciador de Banco de Dados
 autor: Arthur Phillip Silva
 '''
 
@@ -10,6 +10,33 @@ class db:
 	def __init__(self):
 		self.aso = data('data/taso.csv')
 		self.est = data('data/test.csv')
+
+		self.folgas = {
+				"0": 55, "00": 9,
+				"1": 0,"2": 28,"3": 56,
+				"4": 21,"5": 49,"6": 77,
+				"7": 0,"8": 7,"9": 14,
+				"10": 42,"11": 70,"12": 98,
+				"13": 63,"14": 91,"15": 119,
+				"16": 0,"17": 7,"18": 14
+		}
+
+		self.mes = {
+			"Janeiro": 	{"dias": 31,"id": 1},
+			"Fevereiro": {"dias": 28,"id": 2},
+			"Março": 	{"dias": 31,"id": 3},
+			"Abril": 	{"dias": 30,"id": 4},
+			"Maio": 	{"dias": 31,"id": 5},
+			"Junho": 	{"dias": 30,"id": 6},
+			"Julho": 	{"dias": 31,"id": 7},
+			"Agosto": 	{"dias": 31,"id": 8},
+			"Setembro": {"dias": 30,"id": 9},
+			"Outubro": 	{"dias": 31,"id": 10},
+			"Novembro": {"dias": 31,"id": 11},
+			"Dezembro": {"dias": 31,"id": 12}
+		}
+
+		self.semana = ["D","S","T","Q","Q","S","S"]
 
 
 class data:
@@ -34,7 +61,6 @@ class data:
 				item[self.titles[i]] = data[i]
 			self.db[data[0]] = item
 		
-		return self
 
 	def write(self):
 		p_tmp = self.path+'.tmp'
@@ -63,8 +89,10 @@ class data:
 		for title in self.titles[1:]:
 			item[title] = jdata[title]
 
-		self.db[self.titles[0]] = item
+		self.db[jdata[self.titles[0]]] = item
 
+		print(item)
+		self.save()
 		return True
 
 	def remove(self, item):
@@ -73,6 +101,7 @@ class data:
 		else:
 			return False
 
+		self.save()
 		return True
 
 	def get_list(self, title):
@@ -85,16 +114,22 @@ class data:
 
 		return colum
 
-	def get(self, item, title=''):
-		if title:
+	def get(self, item, title=None):
+		if title and title in self.titles:
 			for data in self.db:
-				pass
+				if self.db[data][title] == item:
+					i = self.db[data].copy()
+					i[self.titles[0]] = data
+					return i
 		elif item in self.db:
 			i = self.db[item].copy()
 			i[self.titles[0]] = item
 			return i
+		else:
+			return
 
-
+	def save(self):
+		self.write()
 			
 
 

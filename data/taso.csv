@@ -1,7 +1,6 @@
 id;name;alias;p
 1000011;* Furo de escala;*(11);11
 1000014;* Furo de escala;*(14);14
-1000002;* Furo de escala;*(2);2
 2002052;Abel Elias Oliveira;Abel Elias;5
 2001823;Adriana Quadros Godinho;Adriana Godinho;11
 2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;10
@@ -143,7 +142,7 @@ id;name;alias;p
 2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;1
 2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;12
 2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;5
-2001993;Leonardo Pinto Albuquerque;Leonardo Albuquerque;14
+2001993;Leonardo Pinto Albuquerque;Leo Albuquerque;14
 2002185;Leticia Da Silva Dornas Paixão;Leticia Silva;13
 2002186;Ligia De Oliveira Souza;Ligia Souza;2
 2002080;Lilian Oliveira Londe;Lilian Londe;12
@@ -274,3 +273,4 @@ id;name;alias;p
 2001965;Willy Thiago De Almeida;Willy Almeida;9
 2001870;Ygor Vinicius Vieira Thibau;Ygor Vinicius;9
 2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;4
+1000002;* Furo de escala;*(2);2
