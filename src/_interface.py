@@ -7,6 +7,7 @@ autor: Arthur Phillip Silva
 import tkinter as tk
 from tkinter import font  as tkfont
 from tkinter import ttk
+import autocompletion as atk
 from datetime import datetime
 import json
 import os
@@ -586,7 +587,7 @@ class gen_page(tk.Frame):
 		self.name["font"] = self.ctrl.font_body
 		self.name.pack(side=tk.RIGHT)
 
-		## Mes e ano
+		## Mes e Ano
 		self.c_date = tk.Frame(self.c_data)
 		self.c_date.pack()
 		
@@ -689,18 +690,22 @@ class gen_page(tk.Frame):
 				
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asot, values = alias_list))#, state='readonly'
-					self.asos[n].set = '' 
-					self.asos[n]["width"] = 20
-					self.asos[n]["font"] = self.ctrl.font_body
-					self.asos[n].pack()
+					item = atk.AutocompleteCombobox(self.c_asot)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack()
+					item.focus_set()
+					self.asos.append(item)
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asor, values = alias_list))#, state='readonly'
-					self.asos[n+nf].set = ''
-					self.asos[n+nf]["width"] = 20
-					self.asos[n+nf]["font"] = self.ctrl.font_body
-					self.asos[n+nf].pack()
+					item = atk.AutocompleteCombobox(self.c_asor)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack()
+					item.focus_set()
+					self.asos.append(item)
 
 			else:
 				self.l_result['text'] = '** Estação não encontrada **'
@@ -813,8 +818,10 @@ class help_page(tk.Frame):
 
 		button_back.pack()
 
-# Criando aplicação
-myapp = application()
+if __name__ == '__main__':
+	
+	# Criando aplicação
+	myapp = application()
 
-# Iniciando programa
-myapp.mainloop()
+	# Iniciando programa
+	myapp.mainloop()

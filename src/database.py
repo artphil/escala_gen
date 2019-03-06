@@ -18,22 +18,23 @@ class db:
 				"7": 0,"8": 7,"9": 14,
 				"10": 42,"11": 70,"12": 98,
 				"13": 63,"14": 91,"15": 119,
-				"16": 0,"17": 7,"18": 14
+				"16": 0,"17": 7,"18": 14,
+				"19": 0,"20": 7,"21": 14
 		}
 
 		self.mes = {
-			"Janeiro": 	{"dias": 31,"id": 1},
-			"Fevereiro": {"dias": 28,"id": 2},
-			"Março": 	{"dias": 31,"id": 3},
-			"Abril": 	{"dias": 30,"id": 4},
-			"Maio": 	{"dias": 31,"id": 5},
-			"Junho": 	{"dias": 30,"id": 6},
-			"Julho": 	{"dias": 31,"id": 7},
-			"Agosto": 	{"dias": 31,"id": 8},
-			"Setembro": {"dias": 30,"id": 9},
-			"Outubro": 	{"dias": 31,"id": 10},
-			"Novembro": {"dias": 31,"id": 11},
-			"Dezembro": {"dias": 31,"id": 12}
+			"Janeiro": 	{'name':"Janeiro","dias": 31,"id": 1},
+			"Fevereiro": {'name':"Fevereiro","dias": 28,"id": 2},
+			"Março": 	{'name':"Março","dias": 31,"id": 3},
+			"Abril": 	{'name':"Abril","dias": 30,"id": 4},
+			"Maio": 	{'name':"Maio","dias": 31,"id": 5},
+			"Junho": 	{'name':"Junho","dias": 30,"id": 6},
+			"Julho": 	{'name':"Julho","dias": 31,"id": 7},
+			"Agosto": 	{'name':"Agosto","dias": 31,"id": 8},
+			"Setembro": {'name':"Setembro","dias": 30,"id": 9},
+			"Outubro": 	{'name':"Outubro","dias": 31,"id": 10},
+			"Novembro": {'name':"Novembro","dias": 31,"id": 11},
+			"Dezembro": {'name':"Dezembro","dias": 31,"id": 12}
 		}
 
 		self.semana = ["D","S","T","Q","Q","S","S"]
