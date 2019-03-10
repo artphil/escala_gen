@@ -5,36 +5,38 @@ autor: Arthur Phillip Silva
 '''
 
 import os
+import json
 
 class db:
 	def __init__(self):
 		self.aso = data('data/taso.csv')
 		self.est = data('data/test.csv')
+		self.scl = scale('data/scale.json')
 
 		self.folgas = {
-				"0": 55, "00": 9,
-				"1": 0,"2": 28,"3": 56,
-				"4": 21,"5": 49,"6": 77,
-				"7": 0,"8": 7,"9": 14,
-				"10": 42,"11": 70,"12": 98,
-				"13": 63,"14": 91,"15": 119,
-				"16": 0,"17": 7,"18": 14,
-				"19": 0,"20": 7,"21": 14
+				"0": 55, 	"00": 9,
+				"1": 0,		"2": 28,	"3": 56,
+				"4": 21,	"5": 49,	"6": 77,
+				"7": 0,		"8": 7,		"9": 14,
+				"10": 42,	"11": 70,	"12": 14,
+				"13": 63,	"14": 7,	"15": 35,
+				"16": 0,	"17": 7,	"18": 14,
+				"19": 0,	"20": 7,	"21": 14
 		}
 
 		self.mes = {
-			"Janeiro": 	{'name':"Janeiro","dias": 31,"id": 1},
-			"Fevereiro": {'name':"Fevereiro","dias": 28,"id": 2},
-			"Março": 	{'name':"Março","dias": 31,"id": 3},
-			"Abril": 	{'name':"Abril","dias": 30,"id": 4},
-			"Maio": 	{'name':"Maio","dias": 31,"id": 5},
-			"Junho": 	{'name':"Junho","dias": 30,"id": 6},
-			"Julho": 	{'name':"Julho","dias": 31,"id": 7},
-			"Agosto": 	{'name':"Agosto","dias": 31,"id": 8},
-			"Setembro": {'name':"Setembro","dias": 30,"id": 9},
-			"Outubro": 	{'name':"Outubro","dias": 31,"id": 10},
-			"Novembro": {'name':"Novembro","dias": 31,"id": 11},
-			"Dezembro": {'name':"Dezembro","dias": 31,"id": 12}
+			"Janeiro": 	{'name':"Janeiro",	"dias": 31,"id": 1},
+			"Fevereiro":{'name':"Fevereiro","dias": 28,"id": 2},
+			"Março": 	{'name':"Março",	"dias": 31,"id": 3},
+			"Abril": 	{'name':"Abril",	"dias": 30,"id": 4},
+			"Maio": 	{'name':"Maio",		"dias": 31,"id": 5},
+			"Junho": 	{'name':"Junho",	"dias": 30,"id": 6},
+			"Julho": 	{'name':"Julho",	"dias": 31,"id": 7},
+			"Agosto": 	{'name':"Agosto",	"dias": 31,"id": 8},
+			"Setembro": {'name':"Setembro",	"dias": 30,"id": 9},
+			"Outubro": 	{'name':"Outubro",	"dias": 31,"id": 10},
+			"Novembro": {'name':"Novembro",	"dias": 31,"id": 11},
+			"Dezembro": {'name':"Dezembro",	"dias": 31,"id": 12}
 		}
 
 		self.semana = ["D","S","T","Q","Q","S","S"]
@@ -53,6 +55,7 @@ class data:
 			return
 
 		self.titles = file[0][:-1].split(';')
+		
 		self.db = {}
 
 		for line in file[1:]:
@@ -61,7 +64,6 @@ class data:
 			for i in range(1, len(data)):
 				item[self.titles[i]] = data[i]
 			self.db[data[0]] = item
-		
 
 	def write(self):
 		p_tmp = self.path+'.tmp'
@@ -132,9 +134,14 @@ class data:
 	def save(self):
 		self.write()
 			
+class scale:
+	def __init__(self, path):
+		self.path = path
+		self.read()
 
-
-			
-
-			 
-			 		
+	def read(self):
+		try:
+			self.db = json.read(open(self.path, 'r'))
+		except:
+			print('Arquivo {} não encontrado'.format(path))
+			return

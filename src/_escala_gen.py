@@ -118,21 +118,6 @@ class gen:
 				self.data_inicio = dia
 				break
 
-	# Escalas vigentes
-	def folgas(self):
-		with open("data/escala.dat", "r") as read_escala:
-			self.esc42 = read_escala.readline().split('	')
-			# print(self.esc4)
-			self.esc31 = read_escala.readline().split('	')
-			# print(self.esc31)
-			self.esc42aja = read_escala.readline().split('	')
-			# print(self.esc42aja)
-			self.esc42ajb = read_escala.readline().split('	')
-			# print(self.esc42ajb)
-
-			if not self.esc42 or not self.esc31 or not self.esc42aja or not self.esc42ajb:
-				print('arquivo de escalas corrompido')
-
 	# cria a matriz da escala
 	def gera_tabela(self):
 
@@ -197,34 +182,31 @@ class gen:
 
 		# Atribui as folgas do funcionario
 		f=0
-		ini42 = self.data.folgas['0'] + abs(self.data_inicio - date(2019,1,1)).days 
-		ini31 = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 		
 		print(date(2019,1,1).day)
 
 		for func in self.funcs:
 			p = func['p']
-			inip = int(self.data.folgas[p])
-			# print(len(esc42), len(self.esc31))
+			initp = int(self.data.folgas[p])
 			if p == '7' or p == '8' or p == '9':
-				for d in range(dias):
-					dist_postos[f][d] = int(self.esc31[(d+ini31+inip)%21])
-				# print(n, p, (ini31+inip)%21, '= (', ini31, '+', inip,')')
+				scale = self.data.scl['3x1']
+				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 			elif int(p) < 16:
-				for d in range(dias):
-					dist_postos[f][d] = int(self.esc42[(d+ini42+inip)%84])
-				# print(n, p, (ini42+inip)%84, '= (', ini42, '+', inip,')')
+				scale = self.data.scl['4x2']
+				init = self.data.folgas['0'] + abs(self.data_inicio - date(2019,1,1)).days 
 			elif int(p) < 19:
-				for d in range(dias):
-					dist_postos[f][d] = int(self.esc42aja[(d+ini31+inip)%21])
+				scale = self.data.scl['4x2a']
+				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 			elif int(p) < 22:
-				for d in range(dias):
-					dist_postos[f][d] = int(self.esc42ajb[(d+ini31+inip)%21])
+				scale = self.data.scl['4x2b']
+				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 			else:
 				print('P fora do escopo')
 				exit()
 
-			# print(dist_postos[f])
+			for d in range(dias):
+				dist_postos[f][d] = int(scale[(d+init+initp)%len(scale)])
+
 			f += 1
 
 		# Cria a sequencia de postos a trabalhar
@@ -247,23 +229,22 @@ class gen:
 		limite = 1 # Nivel de erro no banlanco de postos
 		while d < dias:
 			print ("\nTentando dia", d)
-			# print ("Teste:", t, '/', n_arranjos,'\n')
+
 			# Coloca uma combinacao
 			if self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos):
-				# print (dis't_postos)
+
 				# Testa parametros
 				if self.checksum(dist_postos, d, balanc_postos, limite):
 					print ("\nDia {} alocado\n".format(d+1))
 					d += 1
-					# a = (a+1)%n_arranjos
 					t = 0
+
 					# Reduz o erro do balanco
 					if limite > 1:
 						limite -= 1
 				else:
 					# Remove combinacao se nao passa no teste
 					self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
-					# a = (a+1)%n_arranjos
 					t += 1
 			else: 
 				t += 1
@@ -272,27 +253,26 @@ class gen:
 			# Verifica se tentou todas a possibilidades
 			if t == n_arranjos:
 				t = 0
+
 				# Aumenta o erro do balanço
 				limite += 1
 		
 			a = (a+1)%n_arranjos
-			# print(postos)
-			# print(balanc_postos)
+
 		return dist_postos
 	
 	# Coloca postos do dia a todos os funcionario
 	def insere_p(self, tabela, c, coluna, postos, vistos):
 		func = len(tabela)
 		fixos = int(func/2)
+
 		# Filtro para evitar repetir posto
 		if (c > 0):
 			for i in range(len(coluna)):
 				if tabela[i][c] == 1:
-					# print ('reserva',tabela[i+fixos][c-1], coluna[c])
 					if tabela[i+fixos][c-1] == coluna[i]:
 						return False
 				else:
-					# print ('titular',tabela[i][c-1], coluna[c])
 					if tabela[i][c-1] == coluna[i]:
 						return False
 		
@@ -319,6 +299,7 @@ class gen:
 	# Verifica parametros especificados
 	def checksum(self, postos, c, tabela, x):
 		resultado = True
+
 		# Verifica se postos colocados estão balanceados
 		for l in tabela:
 			if max(l)-min(l) > x:
@@ -327,34 +308,28 @@ class gen:
 
 		# Verifica se alguem trabalha dois dias no mesmo posto
 		if resultado and (c > 0):
-			# print('		dup')
 			for f in postos:
-				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-1]:
 					resultado = False
 					break
 
 		# Verifica se alguem trabalha dois dias intercalados no mesmo posto
 		if resultado and (len(postos) > 8) and (c > 1): #and (len(postos) < 12) 
-			# print('		inter')
 			for f in postos:
-				# print(c, f[c], f[c-1])
 				if f[c] > 1 and f[c] == f[c-2]:
 					resultado = False
 					break
 
 		# Verifica se alguem trabalha 4 dias no mesmo tipo de podto (PEB/PEQ)
 		if resultado and (len(postos) > 2) and (c > 2):
-			# print('		4 dias')
 			for f in postos:
-				# print(c, '->', f[c-3], f[c-2], f[c-1], f[c])
 				if (f[c]>1 and f[c-1]>1 and f[c-2]>1 and f[c-2]>1):
 					if (f[c]%2 == f[c-1]%2 and f[c]%2 == f[c-2]%2 and f[c]%2 == f[c-3]%2):
 						resultado = False
 						break
-		# print(resultado, x)
 		return resultado
 
+	# Gera o PDF a partir da planilha
 	def pdf(self):
 		file_name = ''
 		for a in self.escala[0][0]:
@@ -365,6 +340,7 @@ class gen:
 
 		print('\nsoffice --convert-to pdf planilha/'+file_name+'.xls --outdir pdf/ \n')
 
+		# Codigo valido para LibreOffife
 		os.system('soffice --convert-to pdf planilha/'+file_name+'.xls --outdir pdf/ ')
 		os.system('gvfs-open pdf/'+file_name+'.pdf')
 
