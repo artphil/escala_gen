@@ -5,6 +5,8 @@
 
 ### Código
 
+[Documentação](./src/scr.md)
+
 [Código](https://github.com/artphil/escala_gen/tree/master/src)
 
 [Banco de dados](https://github.com/artphil/escala_gen/tree/master/data)
