@@ -5,7 +5,7 @@
 
 ### Código
 
-[Documentação](./src/scr.md)
+[Documentação](https://github.com/artphil/escala_gen/tree/master/src/scr.md)
 
 [Código](https://github.com/artphil/escala_gen/tree/master/src)
 
