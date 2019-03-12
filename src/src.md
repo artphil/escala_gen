@@ -10,7 +10,7 @@ escala_gen.py <-------
 ```
 
 
-```python {cmd="/usr/local/bin/python3"}
+```python {hide=true}
 	print("This will run python3 program")
 ```
 
@@ -22,4 +22,10 @@ set samples 50
 set style data points
 
 plot [-10:10] sin(x),atan(x),cos(atan(x))
+```
+
+```python {cmd=true matplotlib=true}
+import matplotlib.pyplot as plt
+plt.plot([1,2,3, 4])
+plt.show() # show figure
 ```
