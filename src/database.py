@@ -12,6 +12,7 @@ class db:
 		self.aso = data('data/taso.csv')
 		self.est = data('data/test.csv')
 		self.scl = scale('data/scale.json')
+		print(self.scl)
 
 		self.folgas = {
 				"0": 55, 	"00": 9,
@@ -141,7 +142,9 @@ class scale:
 
 	def read(self):
 		try:
-			self.db = json.read(open(self.path, 'r'))
+			file = open(self.path, 'r')
+			self.db = json.load(file)
+			file.close()
 		except:
 			print('Arquivo {} não encontrado'.format(path))
 			return

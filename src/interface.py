@@ -7,10 +7,10 @@ autor: Arthur Phillip Silva
 import tkinter as tk
 from tkinter import font  as tkfont
 from tkinter import ttk
+import autocompletion as atk
 from datetime import datetime
 import json
 import os
-# import difflib as df
 from escala_gen import gen
 from database import db
 
@@ -20,29 +20,17 @@ class application(tk.Tk):
 
 	def __init__(self):
 		tk.Tk.__init__(self)
-		self.path_data 		= 'data/data'
-		self.path_data_aso 	= 'data/data_aso'
-		self.path_data_est 	= 'data/data_est'
 		try: 
 			self.data = db()
 		except:
 			print("Erro no Banco de Dados")
 			quit()
 
-		with open(self.path_data+'.json', "r") as arq:
-			self.db = json.load(arq)
-		
-		with open(self.path_data_aso+'.json', "r") as arq:
-			self.db_aso = json.load(arq)
-		
-		with open(self.path_data_est+'.json', "r") as arq:
-			self.db_est = json.load(arq)
-		
 		# Fontes padrão
 		self.font_title = tkfont.Font(family='Arial', size=12, weight="bold")
 		self.font_body = tkfont.Font(family='Arial', size=10)
 
-		self.title("** Escala ASO 1 **")
+		self.title("** Gerador de Escala PEB/PEQ **")
 
 		# Tamanho da tela
 		wsize = 500
@@ -73,26 +61,6 @@ class application(tk.Tk):
 	def show_frame(self, page_name):
 		frame = self.frames[page_name]
 		frame.tkraise()
-
-	# Salva banco de dados
-	def save(self, db, file_name):
-		with open(file_name+'.aux', "w") as arq:
-			arq.write(json.dumps(db, sort_keys=True, indent=4))
-			
-			# orig = json.load(open(file_name+'.json', "r")
-			# adiff = open(file_name+'.diff', "r+")
-			# adiff.write(datetime)
-
-			# print(df.Differ())
-			os.system('date >> '+file_name+'.diff')
-			os.system('diff '+file_name+'.json '+file_name+'.aux >> '+file_name+'.diff')
-			os.remove(file_name+'.json')
-			os.rename(file_name+'.aux', file_name+'.json')
-
-		
-		# with open(file_name+'.json', "r") as arq:
-		# 	self.ctrl.db = json.load(arq)
-
 
 # Pagina de início
 class start_page(tk.Frame):
@@ -259,11 +227,11 @@ class est_page(tk.Frame):
 		self.button_update['command'] = lambda: self.update()
 		self.button_update.pack(side=tk.LEFT)
 
-		# ## Remover
-		# self.button_delete = tk.Button(self.c_button)
-		# self.button_delete['text'] = "Remover"
-		# self.button_delete['command'] = lambda: self.delete()
-		# self.button_delete.pack(side=tk.LEFT)
+		## Remover
+		self.button_delete = tk.Button(self.c_button)
+		self.button_delete['text'] = "Remover"
+		self.button_delete['command'] = lambda: self.delete()
+		self.button_delete.pack(side=tk.LEFT)
 
 	# Procura Est
 	def search(self):
@@ -275,22 +243,14 @@ class est_page(tk.Frame):
 			self.fpeb.delete(0,tk.END)
 			self.fpeq.delete(0,tk.END)
 
-			peb = 0
-			peq = 0
+			item = self.ctrl.data.est.get(fid)
 			
-			if fid in self.ctrl.db_est:
+			if item:
 				self.fid.insert(0, fid)
 
-				self.name.insert(0,self.ctrl.db_est[fid]['nome'])
-				
-				for p in self.ctrl.db_est[fid]['postos']:
-					if p % 2 == 0:
-						peb += 1
-					else:
-						peq += 1
-
-				self.fpeb.insert(0,peb)
-				self.fpeq.insert(0,peq)
+				self.name.insert(0,item['name'])
+				self.fpeb.insert(0,item['peb'])
+				self.fpeq.insert(0,item['peq'])
 
 				self.l_result['text'] = '** OK **'
 			else:
@@ -302,47 +262,53 @@ class est_page(tk.Frame):
 	# Atualiza Est
 	def update(self):
 		fid = self.fid.get()
-		peb = int(self.fpeb.get())
-		peq = int(self.fpeq.get())
-
-		if not peb or peb < 1:
+		name = self.name.get()
+		try: 
+			peb = int(self.fpeb.get())
+		except:
 			self.l_result['text'] = '** PEB inválido **'
 			return
-
-		if not peq or peq < 1:
+			
+		try: 
+			peq = int(self.fpeq.get())
+		except:
 			self.l_result['text'] = '** PEQ inválido **'
 			return
 
-		if fid :
-			if fid not in self.ctrl.db_est:
-				self.ctrl.db_est[fid] = {}
-			
-			self.ctrl.db_est[fid]['nome'] = self.name.get()
-			
-			l = []
+		if not fid:
+			self.l_result['text'] = '** ID inválido **'
+			return
 
-			a = 2
-			for p in range(peb):
-				l.append(a)
-				a += 2
+		if peb < 1:
+			self.l_result['text'] = '** PEB inválido **'
+			return
 
-			a = 3
-			for p in range(peq):
-				l.append(a)
-				a += 2
+		if peq < 1:
+			self.l_result['text'] = '** PEQ inválido **'
+			return
 
-			self.ctrl.db_est[fid]['postos'] = l 
+		item = {
+			'id': fid,
+			'name': name,
+			'peb': str(peb),
+			'peq': str(peq)
+		}
 
+		if self.ctrl.data.est.insert(item) :
 			self.l_result['text'] = '** Estação '+fid+' atualizada **'
 
-			self.ctrl.save(self.ctrl.db_est, self.ctrl.path_data_est)
+		else:
+			self.l_result['text'] = '** Não foi possivel atualizar {} **'.format(fid)
+
 
 	# Remove Est
 	def delete(self):
 		fid = self.fid.get()
-		if fid and fid in ctrl.db_est:
-			del self.ctrl.db_est[fid]
-			self.ctrl.save(self.ctrl.db_est, self.ctrl.path_data_est)
+		if fid and self.ctrl.data.est.remove(fid):
+			self.l_result['text'] = '** Estação '+fid+' removida **'
+		else:
+			self.l_result['text'] = '** Não foi possivel remover {} **'.format(fid)
+
 
 
 
@@ -484,12 +450,14 @@ class aso_page(tk.Frame):
 			self.alias.delete(0,tk.END)
 			self.fp.delete(0,tk.END)
 			
-			if fid in self.ctrl.db_aso:
-				self.name.insert(0,self.ctrl.db_aso[fid]['nome'])
+			item = self.ctrl.data.aso.get(fid)
+
+			if item:
+				self.name.insert(0,item['name'])
 				
-				self.alias.insert(0,self.ctrl.db_aso[fid]['alias'])
+				self.alias.insert(0,item['alias'])
 				
-				self.fp.insert(0,self.ctrl.db_aso[fid]['p'])
+				self.fp.insert(0,item['p'])
 
 				self.l_result['text'] = '** OK **'
 			else:
@@ -501,21 +469,18 @@ class aso_page(tk.Frame):
 			self.fp.delete(0,tk.END)
 			self.alias.delete(0,tk.END)
 
-			for f, v in self.ctrl.db_aso.items():
-				if alias.lower() == v['alias'].lower():
-					
-					self.fid.insert(0,f)
-	
-					self.alias.insert(0,self.ctrl.db_aso[f]['alias'])
-				
-					self.name.insert(0,self.ctrl.db_aso[f]['nome'])
-					
-					self.fp.insert(0,self.ctrl.db_aso[f]['p'])
+			item = self.ctrl.data.aso.get(alias, 'alias')
 
-					self.l_result['text'] = '** OK **'
-					return
+			if item:
+				self.name.insert(0,item['name'])
+				
+				self.alias.insert(0,item['alias'])
+				
+				self.fp.insert(0,item['p'])
+
+				self.l_result['text'] = '** OK **'
 			
-			if not alias:
+			else:
 				self.l_result['text'] = '** ASO não encontrado **'
 		
 		else:
@@ -524,30 +489,34 @@ class aso_page(tk.Frame):
 	# Atualiza ASO
 	def update(self):
 		fid = self.fid.get()
-		if fid:
-			if fid not in self.ctrl.db_aso:
-				self.ctrl.db_aso[fid] = {}
-			
-			self.ctrl.db_aso[fid]['nome'] = self.name.get()
-			
-			alias = self.ctrl.db_aso[fid]['alias'] = self.alias.get()
-			
-			self.ctrl.db_aso[fid]['p'] = self.fp.get()
+		name = self.name.get()
+		alias = self.alias.get()
+		fp = self.fp.get()
 
-			self.l_result['text'] = '** ASO '+alias+' atualizado **'
+		if not fid:
+			self.l_result['text'] = '** ID inválido **'
+			return
 
-			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
+		item = {
+			'id':	fid,
+			'name':	name,
+			'alias':alias,
+			'p':	fp
+		}	
+
+		if self.ctrl.data.aso.insert(item) :
+			self.l_result['text'] = '** ASO '+fid+' atualizado **'
+
+		else:
+			self.l_result['text'] = '** Não foi possivel atualizar {} **'.format(fid)
 
 	# Remove ASO
 	def delete(self):
 		fid = self.fid.get()
-		alias = self.alias.get()
-
-		if fid and fid in self.ctrl.db_aso:
-			del self.ctrl.db_aso[fid]
-			self.l_result['text'] = '** ASO '+alias+' removido **'
-
-			self.ctrl.save(self.ctrl.db_aso, self.ctrl.path_data_aso)
+		if fid and self.ctrl.data.aso.remove(fid):
+			self.l_result['text'] = '** ASO '+fid+' removido **'
+		else:
+			self.l_result['text'] = '** Não foi possivel remover {} **'.format(fid)
 
 
 
@@ -618,7 +587,7 @@ class gen_page(tk.Frame):
 		self.name["font"] = self.ctrl.font_body
 		self.name.pack(side=tk.RIGHT)
 
-		## Mes e ano
+		## Mes e Ano
 		self.c_date = tk.Frame(self.c_data)
 		self.c_date.pack()
 		
@@ -650,22 +619,41 @@ class gen_page(tk.Frame):
 
 		## ASOs
 		self.asos = []
+		self.ps = []
 
+		### ASOs titulares
 		self.c_asot = tk.Frame(self.c_data)
 		self.c_asot.pack(side=tk.LEFT)
 
-		self.l_data = tk.Label(self.c_asot)
-		self.l_data['text'] = "Titulares" 
-		self.l_data['font'] = self.ctrl.font_body
-		self.l_data.pack()
+		self.l_asot = tk.Label(self.c_asot)
+		self.l_asot['text'] = "Titulares" 
+		self.l_asot['font'] = self.ctrl.font_body
+		self.l_asot.pack()
+
+		# self.c_pt = tk.Frame(self.c_data)
+		# self.c_pt.pack(side=tk.LEFT)
+
+		# self.l_pt = tk.Label(self.c_pt)
+		# self.l_pt['text'] = "Ps  " 
+		# self.l_pt['font'] = self.ctrl.font_body
+		# self.l_pt.pack()
+
+		### ASOs reservas
+		# self.c_pr = tk.Frame(self.c_data)
+		# self.c_pr.pack(side=tk.RIGHT)
+
+		# self.l_pr = tk.Label(self.c_pr)
+		# self.l_pr['text'] = "Ps  " 
+		# self.l_pr['font'] = self.ctrl.font_body
+		# self.l_pr.pack()
 
 		self.c_asor = tk.Frame(self.c_data)
 		self.c_asor.pack(side=tk.RIGHT)
 
-		self.l_data = tk.Label(self.c_asor)
-		self.l_data['text'] = "Resesrvas" 
-		self.l_data['font'] = self.ctrl.font_body
-		self.l_data.pack()
+		self.l_asor = tk.Label(self.c_asor)
+		self.l_asor['text'] = "Resesrvas" 
+		self.l_asor['font'] = self.ctrl.font_body
+		self.l_asor.pack()
 
 		## Resultado 
 		self.l_result = tk.Label(self)
@@ -686,9 +674,9 @@ class gen_page(tk.Frame):
 		self.button_search.pack(side=tk.LEFT)
 
 		# ## Atualiza
-		# self.button_update = tk.Button(self.c_button)
-		# self.button_update['text'] = "Atualizar"
-		# self.button_update['command'] = lambda: self.update()
+		self.button_update = tk.Button(self.c_button)
+		self.button_update['text'] = "Atualizar"
+		self.button_update['command'] = lambda: self.update()
 		# self.button_update.pack(side=tk.LEFT)
 
 		## Gerador
@@ -701,39 +689,81 @@ class gen_page(tk.Frame):
 	def search(self):
 		sid = self.sid.get().upper()
 
+		print(self.asos)
+
+		for a in self.asos:
+			a.destroy()
+
+		for p in self.ps:
+			p.destroy()
+		
+		self.asos = []
+		self.ps = []
+		
 		if sid:
 			self.sid.delete(0,tk.END)
 			self.name.delete(0,tk.END)
-			
-			for a in self.asos:
-				a.destroy()
 
-			self.asos = []
+			alias_list = self.ctrl.data.aso.get_list('alias')
 
-			self.aso_alias()
+			aso_list = []
+			try:
+				station = json.load(open('data/ests/'+sid, "r"))
+				for aso in station['asos']:
+					aso_list.append(self.ctrl.data.aso.get(aso)) 
+			except:
+				print('Arquivo invalido estação')
 
-			if sid in self.ctrl.db_est:
+			station = self.ctrl.data.est.get(sid)
+
+			if station:
 				self.sid.insert(0,sid)
-				self.name.insert(0,self.ctrl.db_est[sid]['nome'])
+				self.name.insert(0,station['name'])
 
-				nf = len(self.ctrl.db_est[sid]['postos'])
+				nf = int(station['peb']) + int(station['peq'])
 
 				self.l_result['text'] = '** OK **'
 				
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asot, values = self.alias_list))#, state='readonly'))
-					self.asos[n].set = self.alias_list[0]
-					self.asos[n]["width"] = 20
-					self.asos[n]["font"] = self.ctrl.font_body
-					self.asos[n].pack()
+					item = atk.AutocompleteCombobox(self.c_asot)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack()
+					item.focus_set()
+					self.asos.append(item)
+
+					# p = tk.Entry(self.c_pt)
+					# p["width"] = 3
+					# p["font"] = self.ctrl.font_body
+					# p.pack()
+					# self.ps.append(p)
+				
+					if aso_list and n < len(aso_list):
+						item.insert(0,aso_list[n]['alias'])
+						# p.insert(0,aso_list[n]['p'])
+						# p.configure(state='readonly')
 
 				for n in range(nf):
-					self.asos.append(ttk.Combobox(self.c_asor, values = self.alias_list))#, state='readonly'))
-					self.asos[n+nf].set = self.alias_list[0]
-					self.asos[n+nf]["width"] = 20
-					self.asos[n+nf]["font"] = self.ctrl.font_body
-					self.asos[n+nf].pack()
+					item = atk.AutocompleteCombobox(self.c_asor)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack()
+					item.focus_set()
+					self.asos.append(item)
+
+					# p = tk.Entry(self.c_pr)
+					# p["width"] = 3
+					# p["font"] = self.ctrl.font_body
+					# p.pack()
+					# self.ps.append(p)
+					
+					if aso_list and (n+nf) < len(aso_list):
+						item.insert(0,aso_list[n+nf]['alias'])
+						# p.insert(0,aso_list[n+nf]['p'])
+						# p.configure(state='readonly')
 
 			else:
 				self.l_result['text'] = '** Estação não encontrada **'
@@ -745,16 +775,16 @@ class gen_page(tk.Frame):
 
 	# Gera escala
 	def generate(self):
-
 		self.l_result['text'] = 'Trabalhando.. Aguarde.'
 
 		sid = self.sid.get()
-		if sid not in self.ctrl.db_est:
+		item = self.ctrl.data.est.get(sid)
+		if not item:
 			self.l_result['text'] = '** Estação não encontrada **'
 			return
 
 		month = self.month.get()
-		if month not in self.ctrl.db['mes']:
+		if month not in self.ctrl.data.mes:
 			self.l_result['text'] = '** Mês inválido **'
 			return
 
@@ -765,33 +795,35 @@ class gen_page(tk.Frame):
 		
 		asos = []
 		for a in self.asos:
-			found = False
 			aname = a.get()
-			for k, v in self.ctrl.db_aso.items():
-				if aname == v['alias']:
-					asos.append(k)
-					found = True
-					break
-			if not found:
+			if not aname:
+				self.l_result['text'] = '** Necessario preencher todos ASOs **'
+				return
+
+			item = self.ctrl.data.aso.get(aname, 'alias')
+			if item:
+				asos.append(item['id'])
+			else:
 				self.l_result['text'] = '** ASO ' +aname+ ' não encontrado **'
 				return
 
-		with open('data/ests/'+sid, "w") as arq:
-			arq.write(sid+'\n')
-			arq.write(month+' '+year+'\n')
-			# arq.write('1\n')
-			for a in asos:
-				arq.write(a)
-				arq.write(' ')
+		dat = {
+			'station':sid,
+			'month':month,
+			'year':year,
+			'asos':asos
+		}
+		
+		try:
+			arq = open('data/ests/'+sid, "w")
+			arq.write(json.dumps(dat, indent=4))
+		except:
+			print('Arquivo invalido')
 
 		# os.system('python src/escala_gen.py data/ests/'+sid)
 		
-		db_gen = self.ctrl.db.copy()
-		db_gen['aso'] = self.ctrl.db_aso.copy()
-		db_gen['est'] = self.ctrl.db_est.copy()
-
 		esc = gen()
-		self.l_result['text'] = esc.esc_int(db_gen,sid,asos,month,year,self.l_result['text'])
+		self.l_result['text'] = esc.esc_int(self.ctrl.data, dat)
 		
 		esc.pdf()
 
@@ -851,8 +883,10 @@ class help_page(tk.Frame):
 
 		button_back.pack()
 
-# Criando aplicação
-myapp = application()
+if __name__ == '__main__':
+	
+	# Criando aplicação
+	myapp = application()
 
-# Iniciando programa
-myapp.mainloop()
+	# Iniciando programa
+	myapp.mainloop()
