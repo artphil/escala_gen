@@ -1,6 +1,19 @@
 id;name;alias;p
+1000001;* Furo de escala;*(1);1
+1000002;* Furo de escala;*(2);2
+1000003;* Furo de escala;*(3);3
+1000004;* Furo de escala;*(4);4
+1000005;* Furo de escala;*(5);5
+1000006;* Furo de escala;*(6);6
+1000007;* Furo de escala;*(7);7
+1000008;* Furo de escala;*(8);8
+1000009;* Furo de escala;*(9);9
+1000010;* Furo de escala;*(10);10
 1000011;* Furo de escala;*(11);11
+1000012;* Furo de escala;*(12);12
+1000013;* Furo de escala;*(13);13
 1000014;* Furo de escala;*(14);14
+1000015;* Furo de escala;*(15);15
 2002052;Abel Elias Oliveira;Abel Elias;5
 2001823;Adriana Quadros Godinho;Adriana Godinho;11
 2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;10
@@ -97,7 +110,7 @@ id;name;alias;p
 2002198;Icaro Roosewelt Faria Xavier;Icaro Roosewelt;13
 2002191;Igor Alves Da Silva;Igor Alves;2
 2001813;Igor Moreira De Miranda;Igor Moreira;4
-2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;1
+2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;4
 2001882;Israel De Melo Pedrosa;Israel Pedrosa;11
 2002009;Israel Dos Santos Leite Junior;Israel Santos;3
 2002088;Izabella Lourença Amorim Romualdo;Izabella Lourença;15
@@ -253,7 +266,7 @@ id;name;alias;p
 2002066;Thiago Tadeu Mendes Da Rocha;Thiago Mendes;14
 2001968;Tiago Moreno Pascoal;Tiago Moreno;8
 2001868;Tiago Vinicius Gonçalves Paixão;Tiago Vinicius;1
-2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;1
+2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;13
 2001964;Victor De Jesus Oliveira;Victor Oliveira;15
 2001926;Victor De Sousa Prata;Victor Prata;11
 2001967;Victor De Sousa Santos;Victor Santos;1
@@ -272,11 +285,9 @@ id;name;alias;p
 2001965;Willy Thiago De Almeida;Willy Almeida;15
 2001870;Ygor Vinicius Vieira Thibau;Ygor Vinicius;3
 2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;4
-1000002;* Furo de escala;*(2);2
 1000041;P1;P1;16
 1000042;P2;P2;17
 1000043;P3;P3;18
 1000044;P4;P4;19
 1000045;P5;P5;20
 1000046;P6;P6;21
-1000009;* Furo de escala;*(9);9
