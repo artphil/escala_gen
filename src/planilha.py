@@ -33,7 +33,7 @@ def gera_xls(tabela):
 
 	# Aplicando QRCODE
 	qrcode = drawing.image.Image('img/qrcode.png')
-	qrcode.width = qrcode.height = 100
+	qrcode.width = qrcode.height = 120
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
 	ws.add_image(qrcode, 'AE23')

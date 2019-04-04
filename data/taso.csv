@@ -17,7 +17,7 @@ id;name;alias;p
 2002052;Abel Elias Oliveira;Abel Elias;5
 2001823;Adriana Quadros Godinho;Adriana Godinho;11
 2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;10
-2002063;Adriano Manna Brito;Adriano Manna;9
+2002063;Adriano Manna Brito;Adriano Manna;15
 2001799;Alan Marcelo Da Silva;Alan Marcelo;1
 2002318;Alex Paulo Maia Dos Santos;Alex Santos;13
 2001856;Alexandre Dias Drumond;Alexandre Dias;9
@@ -25,11 +25,11 @@ id;name;alias;p
 2001962;Alvaro Antonio Drumond Rosa;Alvaro Antonio;2
 2001912;Ana Carolina Coelho De Oliveira;Ana Carolina;14
 2001944;Ana Raquel Almeida E Franco;Ana Raquel;13
-2002197;Ander Proteus Silva De Faria;Ander Faria;3
+2002197;Ander Proteus Silva De Faria;Ander Faria;9
 2001797;Anderson Nunes De Souza;Anderson Nunes;1
 2002194;Andre Fillipe Fonseca Viana;Andre Fillipe ;13
 2002067;Andre Luiz Da Silveira Silva;Andre Silveira;12
-2002189;Andreia Sanzio Soares;Andreia Sanzio;8
+2002189;Andreia Sanzio Soares;Andreia Sanzio;2
 2001890;Antonio Aurelio Pereira;Antonio Aurelio;15
 2001700;Arthur Fernando Santos Vieira;Arthur Fernando;2
 2001959;Ayslan Rogger Da Silva Felizardo;Ayslan Rogger;15
@@ -39,9 +39,9 @@ id;name;alias;p
 2002212;Blenda Reis Teles Silva;Blenda Teles;4
 2001860;Bruna Cristina Cunha;Bruna Cristina ;2
 2002051;Bruno Duarte Alves;Bruno Duarte;1
-2002020;Bruno Martins De Faria;Bruno Martins;14
+2002020;Bruno Martins De Faria;Bruno Martins;5
 2002308;Bruno Vinicius Da Silva;Bruno Vinicius;11
-2001792;Camila Maira Pinto Cristeli;Camila Cristeli;7
+2001792;Camila Maira Pinto Cristeli;Camila Cristeli;13
 2001850;Carla Erica Da Silva;Carla Erica;3
 2001715;Carlos Eduardo Goulart De Souza;Carlos Eduardo;13
 2001894;Caroline Clarissa Leite De Aguiar;Caroline Aguiar;10
@@ -50,7 +50,7 @@ id;name;alias;p
 2001824;Claudiney Do Espirito Santo Leite;Claudiney Leite;14
 2002183;Cleber De Souza Carvalho;Cleber Carvalho;3
 2002079;Cledio Gabriel Dos Santos;Cledio Gabriel;11
-2001960;Cybele Gonçalves Braga;Cybele Braga;15
+2001960;Cybele Gonçalves Braga;Cybele Braga;9
 2001897;Daiane De Castro;Daiane De Castro;10
 2002076;Daniel Alexandre De A. Chaves Radtke;Daniel Radtke;6
 2002058;Daniel Cançado Duarte;Daniel Cançado;13
@@ -60,7 +60,7 @@ id;name;alias;p
 2001804;Danilo Cesar Ramos Duarte;Danilo Duarte;1
 2002071;David Lacerda Santos;David Lacerda;12
 2001991;Delric Lucas Bento De Jesus Ferreira;Delric Lucas;14
-2001718;Derlem Aparecida Da Silva;Derlem Aparecida;9
+2001718;Derlem Aparecida Da Silva;Derlem Aparecida;3
 2001709;Diego Almeida Santos;Diego Almeida;10
 2001795;Diego Andrade Salerno;Diego Salerno;10
 2001869;Diego Augusto Guimarães;Diego Augusto;14
@@ -96,10 +96,10 @@ id;name;alias;p
 2002025;Guilherme Fernando Teixeira Dantas;Guilherme Fernando;6
 2001807;Guilherme Gomes Da Silva;Guilherme Gomes;4
 2002310;Guilherme Henrique De Souza;Guilherme Souza;12
-2001994;Guilherme Silveira Silva;Guilherme Silveira;1
+2001994;Guilherme Silveira Silva;Guilherme Silveira;7
 2002070;Guilherme Viana Reis;Guilherme Viana;6
 2002061;Gustavo Machado Concolato;Gustavo Concolato;4
-2001705;Gustavo Mendes Cabral;Gustavo Cabral;7
+2001705;Gustavo Mendes Cabral;Gustavo Cabral;1
 2001938;Gustavo Velloso Da Matta;Gustavo Matta;6
 2002320;Hebert Da Silva Guimarães;Hebert Guimarães;6
 2002204;Helena Duarte Pedrosa Brito;Helena Brito;11
@@ -121,27 +121,27 @@ id;name;alias;p
 2001881;Jessica Cristina Carvalho;Jessica Cristina;13
 2001957;Jessica Liria Da Silva;Jessica Liria;4
 2002311;Jessica Santos De Oliveira;Jessica Santos;13
-2001985;João Pedro De Lima Coutinho;João Coutinho;8
+2001985;João Pedro De Lima Coutinho;João Coutinho;2
 2002004;João Pedro Lima Machado Santos;João Machado;14
 2002309;João Victor Cunha Pereira;João Pereira;15
-2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;2
-2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;6
-2002073;Jonathas Jacinto De Assis;Jonathas De Assis;9
+2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;8
+2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;9
+2002073;Jonathas Jacinto De Assis;Jonathas De Assis;12
 2001891;Jorge Da Silva;Jorge Silva;15
-2002055;Jose Armando Costa;Jose Armando;2
+2002055;Jose Armando Costa;Jose Armando;8
 2001817;Jose Carlos De Souza;Jose Souza;12
 2001710;Jose Carlos Grossi Dos Santos;Jose Grossi;12
 2001853;Jose Luiz De Almeida;Jose De Almeida;6
 2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;12
-2002029;Juan Paulo Reis De Souza;Juan Paulo;7
+2002029;Juan Paulo Reis De Souza;Juan Paulo;1
 2001716;Jucileia Ferreira De Sousa;Jucileia Sousa;12
-2001996;Juliana Gomes Tinoco;Juliana Gomes;1
+2001996;Juliana Gomes Tinoco;Juliana Gomes;7
 2002200;Juliana Maria De Freitas Glueck;Juliana Maria;11
 2002026;Juliana Miranda Martins Da Silva;Juliana Miranda;6
 2001954;Juliana Silva Da Silveira;Juliana Silveira;1
-2002317;Julio Cesar Vieira De Andrade;Julio Andrade;13
+2002317;Julio Cesar Vieira De Andrade;Julio Andrade;7
 2002068;Junio Jorge De Jesus;Junio Jorge;5
-2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;1
+2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;7
 2002192;Kandace Amanda Silveira Castro V. Riani;Kandace Riani;15
 2001828;Karina Da Conceição De Jesus Costa;Karina Costa;3
 2002207;Karine Zanandreis Nolasco De Melo;Karine Nolasco;10
@@ -149,7 +149,7 @@ id;name;alias;p
 2002069;Kenya Tatiana Frade Morais;Kenya Morais;14
 2002316;Lais Freitas Camara;Lais Freitas;13
 2001935;Larissa Cecilia De Marcos Silva;Larissa Cecilia;4
-2001884;Larissa Cristina Souza Santos;Larissa Santos;7
+2001884;Larissa Cristina Souza Santos;Larissa Santos;13
 2002016;Larissa De Lima Silva Elias;Larissa Elias;10
 2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;1
 2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;12
@@ -158,18 +158,18 @@ id;name;alias;p
 2002185;Leticia Da Silva Dornas Paixão;Leticia Silva;13
 2002186;Ligia De Oliveira Souza;Ligia Souza;8
 2002080;Lilian Oliveira Londe;Lilian Londe;12
-2001810;Liliane Gonçalves Curto;Liliane Curto;11
+2001810;Liliane Gonçalves Curto;Liliane Curto;8
 2001851;Lisyane Rachel De Cristo Kaizer;Lisyane Kaizer;13
 2001984;Luan Carlos Monteiro Da Silva;Luan Carlos;2
-2002319;Luan Nunes Ribeiro;Luan Nunes;3
+2002319;Luan Nunes Ribeiro;Luan Nunes;9
 2001939;Luany Rodrigues Carvalho;Luany Rodrigues;4
 2002024;Lucas Curvelano Ferreira;Lucas Curvelano;15
 2002182;Lucas Henryque Oliveira Chagas;Lucas Henryque;6
 2002005;Lucas Soares Rezende;Lucas Soares;12
-2001822;Lucas Vitor De Andrade Castilho;Lucas Vitor;12
+2001822;Lucas Vitor De Andrade Castilho;Lucas Vitor;9
 2001910;Lucia Gonçalves De Pinho;Lucia Gonçalves;5
 2001999;Luciano Malta Bahia Teixeira;Luciano Malta;14
-2001886;Lucilene Siqueira De Almeida Dias;Lucilene Siqueira;7
+2001886;Lucilene Siqueira De Almeida Dias;Lucilene Siqueira;10
 2002209;Luis Eduardo Portela Botelho;Luis Portela;12
 2002089;Luiz Guilherme Herculano Dos Santos;Luiz Herculano;5
 2002053;Luiz Henrique Tadeu Soares;Luiz Soares;4
@@ -181,9 +181,9 @@ id;name;alias;p
 2002054;Marcio Rodrigo Ribeiro;Marcio Rodrigo;13
 2001803;Marco Tulio Alves Do Nascimento;Marco Alves;15
 2002077;Marcos Vinicius Dos Santos Filho;Marcos Santos;15
-2001866;Maria Fernanda Barboza;Maria Fernanda;14
+2001866;Maria Fernanda Barboza;Maria Fernanda;9
 2002206;Maria Madalena Ferreira;Maria Madalena;6
-2001951;Maria Nazare Da Silva;Maria Silva;2
+2001951;Maria Nazare Da Silva;Maria Silva;8
 2001876;Mariana De Freitas Silvano;Mariana Silvano;13
 2002062;Marluana Almeida Ferreira Rodrigues;Marluana Almeida;10
 2001855;Mateus Acerbi Santos;Mateus Acerbi;2
@@ -194,23 +194,23 @@ id;name;alias;p
 2001913;Mayara Lorena Barbosa Maia;Mayara Maia;8
 2002057;Michelle Ribeiro De Castro Oliveira;Michelle Ribeiro;3
 2001995;Miguel Angelo Ramos Garcia;Miguel Angelo;4
-2001911;Moema Da Costa Carvalho;Moema Carvalho;3
+2001911;Moema Da Costa Carvalho;Moema Carvalho;13
 2002060;Nathalia Dias Gomes;Nathalia Dias;3
 2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;14
 2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;15
-2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;5
+2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;14
 2001893;Nelmara Ines Santos Cordeiro;Nelmara Ines;1
 2002184;Otavio Luiz Cordeiro Da Silva;Otavio Luiz;14
-2002321;Patrick Ronald Iglesias Coelho;Patrick Ronald;6
+2002321;Patrick Ronald Iglesias Coelho;Patrick Ronald;14
 2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4
 2001784;Paulo Augusto Bittencourt;Paulo Bittencourt;3
 2001992;Paulo Cesar Banfi Souza;Paulo Banfi;15
 2001933;Paulo Dener Bacelar Rabelo;Paulo Dener;15
 2001874;Paulo Henrique Soares De Salles;Paulo Henrique;5
 2001872;Paulo Renato Braga Camilo;Paulo Renato;5
-2001854;Pedro Gonçalves De Souza Junior;Pedro Gonçalves;4
+2001854;Pedro Gonçalves De Souza Junior;Pedro Gonçalves;7
 2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;14
-2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;10
+2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;7
 2001706;Pedro Henrique Vaz Monteiro;Pedro Vaz;2
 2001812;Pedro Vinicius Apolinario;Pedro Apolinario;1
 2001878;Poliana Ferreira Gomes;Poliana Ferreira;10
@@ -222,7 +222,7 @@ id;name;alias;p
 2001858;Raquel Silva Fernandes Pontes;Raquel Pontes;1
 2001864;Renan Campos Segantini;Renan Segantini;13
 2001932;Renata Goltara Souza;Renata Goltara;2
-2002085;Renata Santos Cardoso Brito;Renata Cardoso;8
+2002085;Renata Santos Cardoso Brito;Renata Cardoso;14
 2002018;Renato Alves Junior;Renato Junior;2
 2001808;Renato Fernando Dos Santos;Renato Fernando;14
 2002059;Renato Gomes Ferreira;Renato Ferreira;14
@@ -233,13 +233,13 @@ id;name;alias;p
 2002084;Rodrigo Mendonça Prado;Rodrigo Prado;1
 2002211;Rosa Lima Ferreira;Rosa Lima;7
 2002056;Roseanne Santos Rodrigues;Roseanne Rodrigues;8
-2001848;Rubens Augusto Costa Gomes;Rubens Augusto;7
+2001848;Rubens Augusto Costa Gomes;Rubens Augusto;1
 2002013;Sabrina Vieira Silva;Sabrina Vieira;11
 2002313;Samera Ferreira De Almeida Alcides;Samera Alcides;6
-2001917;Samuel Correa Campolina Salomão;Samuel Salomão;8
+2001917;Samuel Correa Campolina Salomão;Samuel Salomão;2
 2002214;Samuel Paulo Da Silva;Samuel Paulo;3
 2002208;Samura Ribeiro De Souza;Samura Ribeiro;11
-2001863;Sara Do Carmo Alves;Sara Alves;9
+2001863;Sara Do Carmo Alves;Sara Alves;15
 2001907;Scarlat Oliveira Rodrigues;Scarlat Oliveira;4
 2002021;Sergio Maia Pereira;Sergio Maia;5
 2002006;Sergio Pereira Gonçalves;Sergio Gonçalves;15
@@ -254,13 +254,13 @@ id;name;alias;p
 2001988;Tamiris Costa;Tamiris Costa;12
 2001827;Tarso Anselmo Dos Santos Valentim;Tarso Valentim;11
 2001859;Tatiana Cavalcanti Moreira;Tatiana Cavalcanti;5
-2001875;Tatiana De Almeida Silva;Tatiana Almeida;9
+2001875;Tatiana De Almeida Silva;Tatiana Almeida;3
 2001920;Tatiane Rodrigues Melo Pereira;Tatiane Rodrigues;5
 2002072;Taylla Fernanda Dos Santos;Taylla Dos Santos;6
 2001826;Thais De Almeida Macedo Santos;Thais Almeida;7
 2001801;Thais Soares Rodrigues;Thais Soares;1
-2001790;Thales Souza Teixeira;Thales Souza;9
-2001904;Thalles Lucas Da Silva Martins;Thalles Lucas;5
+2001790;Thales Souza Teixeira;Thales Souza;3
+2001904;Thalles Lucas Da Silva Martins;Thalles Lucas;8
 2001916;Thiago Philippe Soares;Thiago Philippe;9
 2002315;Thiago Rafael Silveira Santos;Thiago Rafael;15
 2002066;Thiago Tadeu Mendes Da Rocha;Thiago Mendes;14
@@ -278,7 +278,7 @@ id;name;alias;p
 2001909;Wagner Forapani Clemente;Wagner Clemente;6
 2002215;Wanderson Silva Ferreira;Wanderson Ferreira;5
 2002203;Wellington Santos Correa;Wellington Santos;2
-2002001;Wesley Elias Gomes Couto;Wesley Elias;8
+2002001;Wesley Elias Gomes Couto;Wesley Elias;11
 2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5
 2001931;Willian Da Cunha Sousa;Willian Cunha;13
 2002078;Willian Lopes Peçanha;Willian Lopes;1
