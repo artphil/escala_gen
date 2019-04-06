@@ -472,6 +472,8 @@ class aso_page(tk.Frame):
 			item = self.ctrl.data.aso.get(alias, 'alias')
 
 			if item:
+				self.fid.insert(0,item['id'])
+
 				self.name.insert(0,item['name'])
 				
 				self.alias.insert(0,item['alias'])
