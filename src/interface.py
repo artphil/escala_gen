@@ -310,11 +310,6 @@ class est_page(tk.Frame):
 			self.l_result['text'] = '** Não foi possivel remover {} **'.format(fid)
 
 
-
-
-
-
-
 class aso_page(tk.Frame):
 	
 	def __init__(self, parent, ctrl):
@@ -375,11 +370,13 @@ class aso_page(tk.Frame):
 		self.aliasLabel['font'] = self.ctrl.font_body
 		self.aliasLabel.pack(side=tk.LEFT)
   
-		self.alias = tk.Entry(self.c_alias)
-		self.alias["width"] = 30
+		self.alias =  atk.AutocompleteCombobox(self.c_alias)
+		self.alias.set_completion_list(self.ctrl.data.aso.get_list('alias'))
+		self.alias["width"] = 28
 		self.alias['text'] ="teste"
 		self.alias["font"] = self.ctrl.font_body
-		self.alias.pack(side=tk.RIGHT)
+		self.alias.pack()
+		self.alias.focus_set()
 
 		## Nome
 		self.c_name = tk.Frame(self.c_data)
@@ -445,7 +442,7 @@ class aso_page(tk.Frame):
 		fid = self.fid.get()
 		alias = self.alias.get()
 
-		if fid:
+		'''if fid:
 			self.name.delete(0,tk.END)
 			self.alias.delete(0,tk.END)
 			self.fp.delete(0,tk.END)
@@ -463,7 +460,8 @@ class aso_page(tk.Frame):
 			else:
 				self.l_result['text'] = '** ASO não encontrado **'
 		
-		elif alias:
+		el'''
+		if alias:
 			self.name.delete(0,tk.END)
 			self.fid.delete(0,tk.END)
 			self.fp.delete(0,tk.END)
@@ -472,7 +470,7 @@ class aso_page(tk.Frame):
 			item = self.ctrl.data.aso.get(alias, 'alias')
 
 			if item:
-				self.fid.insert(0,item['id '])
+				self.fid.insert(0,item['id'])
 
 				self.name.insert(0,item['name'])
 				
@@ -486,7 +484,7 @@ class aso_page(tk.Frame):
 				self.l_result['text'] = '** ASO não encontrado **'
 		
 		else:
-			self.l_result['text'] = '** Digite ID ou Alias **'
+			self.l_result['text'] = '** Digite Alias **'
 
 	# Atualiza ASO
 	def update(self):
@@ -508,6 +506,7 @@ class aso_page(tk.Frame):
 
 		if self.ctrl.data.aso.insert(item) :
 			self.l_result['text'] = '** ASO '+fid+' atualizado **'
+			self.alias.set_completion_list(self.ctrl.data.aso.get_list('alias'))
 
 		else:
 			self.l_result['text'] = '** Não foi possivel atualizar {} **'.format(fid)
@@ -519,10 +518,6 @@ class aso_page(tk.Frame):
 			self.l_result['text'] = '** ASO '+fid+' removido **'
 		else:
 			self.l_result['text'] = '** Não foi possivel remover {} **'.format(fid)
-
-
-
-
 
 
 class gen_page(tk.Frame):
