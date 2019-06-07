@@ -4,7 +4,7 @@ Gerador da planilha Excel
 autor: Arthur Phillip Silva
 '''
 
-from openpyxl import Workbook, formula, drawing
+from 	 import Workbook, formula, drawing
 from openpyxl.styles import Font, Color, Alignment, PatternFill, Border
 from openpyxl.utils import column_index_from_string
 from openpyxl.cell.cell import Cell

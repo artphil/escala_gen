@@ -1,7 +1,9 @@
 ### escala_gen
 
-# Source
+# Requisitos
 O programa foi desenvolvido em Python3. 
+Para rodar a criação da planilha o programa utiliza a [openpyxl](https://openpyxl.readthedocs.io/en/stable/). 
+As demais biblliotecas são padrrões da linguagem.
 
 ## Execução
 Na pasta raiz
