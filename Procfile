@@ -1,1 +1,1 @@
-web: python src/interface.py
+worker: python src/interface.py
