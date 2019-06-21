@@ -1,1 +1,1 @@
-web: python src.interface
+web: python src/interface.py
