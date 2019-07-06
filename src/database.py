@@ -9,8 +9,11 @@ import json
 
 class db:
 	def __init__(self):
+		print('empty')
 		self.aso = data('data/taso.csv')
+		print(self.aso)
 		self.est = data('data/test.csv')
+		print(self.est)
 		self.scl = scale('data/scale.json')
 		print(self.scl)
 

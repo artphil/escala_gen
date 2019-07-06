@@ -153,7 +153,12 @@ class gen:
 		for f in self.funcs:
 			p = []
 			p.append(f['alias'])
-			p.append(f['p'])
+			if f['3x1'] == '1':
+				if   int(f['p'])%3 == 1: p.append('7') 
+				elif int(f['p'])%3 == 2: p.append('8') 
+				elif int(f['p'])%3 == 0: p.append('9') 
+			
+			else: p.append(f['p'])
 
 			for i in range(dias):
 				if distrib[c][i] == 0:
@@ -187,23 +192,32 @@ class gen:
 
 		for func in self.funcs:
 			print (func)
-			p = func['p']
-			initp = int(self.data.folgas[p])
-			if p == '7' or p == '8' or p == '9':
+			if func['3x1'] == '1':
+				if   int(func['p'])%3 == 1: p = '7' 
+				elif int(func['p'])%3 == 2: p = '8' 
+				elif int(func['p'])%3 == 0: p = '9' 
+				else:
+					print('P fora do escopo')
+					exit()
+				
+				initp = int(self.data.folgas[p])
 				scale = self.data.scl.db['3x1']
 				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
-			elif int(p) < 16:
-				scale = self.data.scl.db['4x2']
-				init = self.data.folgas['0'] + abs(self.data_inicio - date(2019,1,1)).days 
-			elif int(p) < 19:
-				scale = self.data.scl.db['4x2a']
-				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
-			elif int(p) < 22:
-				scale = self.data.scl.db['4x2b']
-				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 			else:
-				print('P fora do escopo')
-				exit()
+				p = func['p']
+				initp = int(self.data.folgas[p])
+				if 	int(p) < 16:
+					scale = self.data.scl.db['4x2']
+					init = self.data.folgas['0'] + abs(self.data_inicio - date(2019,1,1)).days 
+				elif int(p) < 19:
+					scale = self.data.scl.db['4x2a']
+					init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
+				elif int(p) < 22:
+					scale = self.data.scl.db['4x2b']
+					init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
+				else:
+					print('P fora do escopo')
+					exit()
 
 			for d in range(dias):
 				dist_postos[f][d] = int(scale[(d+init+initp)%len(scale)])

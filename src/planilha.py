@@ -4,7 +4,7 @@ Gerador da planilha Excel
 autor: Arthur Phillip Silva
 '''
 
-from 	 import Workbook, formula, drawing
+from openpyxl import Workbook, formula, drawing
 from openpyxl.styles import Font, Color, Alignment, PatternFill, Border
 from openpyxl.utils import column_index_from_string
 from openpyxl.cell.cell import Cell
@@ -60,7 +60,7 @@ def gera_xls(tabela):
 				celula.font = Font(bold=True)
 			# Linhas cinzas intercaladas
 			if cinza:
-				celula.fill = PatternFill("solid", fgColor="F5F5F5")
+				celula.fill = PatternFill("solid", fgColor="F0F0F0")
 			# celulas de folga em negativo
 			if celula.value == 'F':
 				celula.fill = PatternFill("solid", fgColor="000000")
