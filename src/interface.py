@@ -619,6 +619,15 @@ class gen_page(tk.Frame):
 		self.ps = []
 
 		### ASOs titulares
+		self.c_asos = tk.Frame(self.c_data)
+		self.c_asos.pack()
+
+		self.l_asos = tk.Label(self.c_asos)
+		self.l_asos['text'] = "Titulares                     Reservsa" 
+		self.l_asos['font'] = self.ctrl.font_body
+		self.l_asos.pack()
+
+		'''
 		self.c_asot = tk.Frame(self.c_data)
 		self.c_asot.pack(side=tk.LEFT)
 
@@ -627,23 +636,6 @@ class gen_page(tk.Frame):
 		self.l_asot['font'] = self.ctrl.font_body
 		self.l_asot.pack()
 
-		# self.c_pt = tk.Frame(self.c_data)
-		# self.c_pt.pack(side=tk.LEFT)
-
-		# self.l_pt = tk.Label(self.c_pt)
-		# self.l_pt['text'] = "Ps  " 
-		# self.l_pt['font'] = self.ctrl.font_body
-		# self.l_pt.pack()
-
-		### ASOs reservas
-		# self.c_pr = tk.Frame(self.c_data)
-		# self.c_pr.pack(side=tk.RIGHT)
-
-		# self.l_pr = tk.Label(self.c_pr)
-		# self.l_pr['text'] = "Ps  " 
-		# self.l_pr['font'] = self.ctrl.font_body
-		# self.l_pr.pack()
-
 		self.c_asor = tk.Frame(self.c_data)
 		self.c_asor.pack(side=tk.RIGHT)
 
@@ -651,6 +643,12 @@ class gen_page(tk.Frame):
 		self.l_asor['text'] = "Resesrvas" 
 		self.l_asor['font'] = self.ctrl.font_body
 		self.l_asor.pack()
+		'''
+		## Texto
+		self.l_data2 = tk.Label(self.c_data)
+		self.l_data2['text'] = " ------------------------------------------------------- " 
+		self.l_data2['font'] = self.ctrl.font_body
+		self.l_data2.pack()
 
 		## Resultado 
 		self.l_result = tk.Label(self)
@@ -720,8 +718,55 @@ class gen_page(tk.Frame):
 				nf = int(station['peb']) + int(station['peq'])
 
 				self.l_result['text'] = '** OK **'
-				
+				asot = []
+				asor = []
+				for n in range(nf):
+					dupla = tk.Frame(self.c_asos)
+					dupla.pack()
+					item = atk.AutocompleteCombobox(dupla)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack(side=tk.LEFT)
+					item.focus_set()
+					asot.append(item)
 
+					# p = tk.Entry(self.c_pt)
+					# p["width"] = 3
+					# p["font"] = self.ctrl.font_body
+					# p.pack()
+					# self.ps.append(p)
+				
+					if aso_list and n < len(aso_list):
+						item.insert(0,aso_list[n]['alias'])
+						# p.insert(0,aso_list[n]['p'])
+						# p.configure(state='readonly')
+
+					espaco = tk.Label(dupla)
+					espaco['text'] = "       "
+					espaco.pack(side=tk.LEFT)
+
+					item = atk.AutocompleteCombobox(dupla)
+					item.set_completion_list(alias_list)
+					item["width"] = 20
+					item["font"] = self.ctrl.font_body
+					item.pack()
+					item.focus_set()
+					asor.append(item)
+
+					# p = tk.Entry(self.c_pr)
+					# p["width"] = 3
+					# p["font"] = self.ctrl.font_body
+					# p.pack()
+					# self.ps.append(p)
+					
+					if aso_list and (n+nf) < len(aso_list):
+						item.insert(0,aso_list[n+nf]['alias'])
+						# p.insert(0,aso_list[n+nf]['p'])
+						# p.configure(state='readonly')
+				
+				self.asos = asot+asor
+				'''
 				for n in range(nf):
 					item = atk.AutocompleteCombobox(self.c_asot)
 					item.set_completion_list(alias_list)
@@ -761,7 +806,7 @@ class gen_page(tk.Frame):
 						item.insert(0,aso_list[n+nf]['alias'])
 						# p.insert(0,aso_list[n+nf]['p'])
 						# p.configure(state='readonly')
-
+				'''
 			else:
 				self.l_result['text'] = '** Estação não encontrada **'
 
