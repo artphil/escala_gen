@@ -2,13 +2,13 @@ id;name;peb;peq
 UCI1;Cidade Industrial - 1° Turno;2;1
 UCI2;Cidade Industrial - 2° Turno;2;1
 UCL1;Calafate - 1° Turno;2;1
-UCL2;Calafate - 2° Turno;2;1
+UCL2;Calafate - 2° Turno;3;1
 UCP1;Carlos Prates - 1° Turno;2;3
 UCP2;Carlos Prates - 2° Turno;3;3
 UCT1;Central - 1° Turno;3;2
 UCT2;Central - 2° Turno;4;3
 UEL1;Eldorado - 1° Turno;5;4
-UEL2;Eldorado - 2° Turno;4;2
+UEL2;Eldorado - 2° Turno;4;3
 UFL1;Floramar - 1° Turno;2;1
 UFL2;Floramar - 2° Turno;2;1
 UGM1;Gameleira - 1° Turno;2;1
@@ -34,7 +34,7 @@ UST2;Santa Tereza - 2° Turno;2;2
 UVL1;Vilarinho - 1° Turno;6;3
 UVL2;Vilarinho - 2° Turno;5;3
 UVO1;Vila Oeste - 1° Turno;2;1
-UVO2;Vila Oeste - 2° Turno;2;1
+UVO2;Vila Oeste - 2° Turno;2;2
 UWL2;Waldomiro Lobo - 2° Turno;2;1
 TST;Teste de escala;2;2
 UWL1;Waldomiro Lobo - 1° Turno;2;1

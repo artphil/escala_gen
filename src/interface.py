@@ -616,6 +616,7 @@ class gen_page(tk.Frame):
 
 		## ASOs
 		self.asos = []
+		self.lines = []
 		self.ps = []
 
 		### ASOs titulares
@@ -623,7 +624,7 @@ class gen_page(tk.Frame):
 		self.c_asos.pack()
 
 		self.l_asos = tk.Label(self.c_asos)
-		self.l_asos['text'] = "Titulares                     Reservsa" 
+		self.l_asos['text'] = "Titulares                        Reservsa" 
 		self.l_asos['font'] = self.ctrl.font_body
 		self.l_asos.pack()
 
@@ -644,6 +645,7 @@ class gen_page(tk.Frame):
 		self.l_asor['font'] = self.ctrl.font_body
 		self.l_asor.pack()
 		'''
+
 		## Texto
 		self.l_data2 = tk.Label(self.c_data)
 		self.l_data2['text'] = " ------------------------------------------------------- " 
@@ -689,6 +691,9 @@ class gen_page(tk.Frame):
 		for a in self.asos:
 			a.destroy()
 
+		for l in self.lines:
+			l.destroy()
+
 		for p in self.ps:
 			p.destroy()
 		
@@ -718,16 +723,20 @@ class gen_page(tk.Frame):
 				nf = int(station['peb']) + int(station['peq'])
 
 				self.l_result['text'] = '** OK **'
+
 				asot = []
 				asor = []
 				for n in range(nf):
 					dupla = tk.Frame(self.c_asos)
+					# dupla.configure(background='black')
 					dupla.pack()
+					self.lines.append(dupla)
+
 					item = atk.AutocompleteCombobox(dupla)
 					item.set_completion_list(alias_list)
 					item["width"] = 20
 					item["font"] = self.ctrl.font_body
-					item.pack(side=tk.LEFT)
+					item.pack(side=tk.LEFT, padx=30)
 					item.focus_set()
 					asot.append(item)
 
@@ -742,15 +751,11 @@ class gen_page(tk.Frame):
 						# p.insert(0,aso_list[n]['p'])
 						# p.configure(state='readonly')
 
-					espaco = tk.Label(dupla)
-					espaco['text'] = "       "
-					espaco.pack(side=tk.LEFT)
-
 					item = atk.AutocompleteCombobox(dupla)
 					item.set_completion_list(alias_list)
 					item["width"] = 20
 					item["font"] = self.ctrl.font_body
-					item.pack()
+					item.pack(side=tk.RIGHT, padx=30)
 					item.focus_set()
 					asor.append(item)
 
