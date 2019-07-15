@@ -21,7 +21,7 @@ def gera_xls(tabela):
 	ws.print_area = 'A1:AG30'
 
 	# Titulo da aba
-	ws.title = 'tabela'
+	ws.title = 'escala-posto'
 
 	# Preenchendo com dados da tabela
 	i = 0;
@@ -60,7 +60,7 @@ def gera_xls(tabela):
 				celula.font = Font(bold=True)
 			# Linhas cinzas intercaladas
 			if cinza:
-				celula.fill = PatternFill("solid", fgColor="F0F0F0")
+				celula.fill = PatternFill("solid", fgColor="F5F5F5")
 			# celulas de folga em negativo
 			if celula.value == 'F':
 				celula.fill = PatternFill("solid", fgColor="000000")
