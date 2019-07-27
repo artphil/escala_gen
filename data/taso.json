@@ -1,0 +1,2711 @@
+{
+    "1000001": {
+        "3x1": "0",
+        "alias": "*(1)",
+        "id": "1000001",
+        "name": "* Furo De Escala",
+        "p": "1",
+        "posto": "1",
+        "turno": "0"
+    },
+    "1000002": {
+        "3x1": "0",
+        "alias": "*(2)",
+        "id": "1000002",
+        "name": "* Furo De Escala",
+        "p": "2",
+        "posto": "2",
+        "turno": "0"
+    },
+    "1000003": {
+        "3x1": "0",
+        "alias": "*(3)",
+        "id": "1000003",
+        "name": "* Furo De Escala",
+        "p": "3",
+        "posto": "3",
+        "turno": "0"
+    },
+    "1000004": {
+        "3x1": "0",
+        "alias": "*(4)",
+        "id": "1000004",
+        "name": "* Furo De Escala",
+        "p": "4",
+        "posto": "4",
+        "turno": "0"
+    },
+    "1000005": {
+        "3x1": "0",
+        "alias": "*(5)",
+        "id": "1000005",
+        "name": "* Furo De Escala",
+        "p": "5",
+        "posto": "5",
+        "turno": "0"
+    },
+    "1000006": {
+        "3x1": "0",
+        "alias": "*(6)",
+        "id": "1000006",
+        "name": "* Furo De Escala",
+        "p": "6",
+        "posto": "6",
+        "turno": "0"
+    },
+    "1000007": {
+        "3x1": "1",
+        "alias": "*(7)",
+        "id": "1000007",
+        "name": "* Furo De Escala",
+        "p": "7",
+        "posto": "7",
+        "turno": "0"
+    },
+    "1000008": {
+        "3x1": "1",
+        "alias": "*(8)",
+        "id": "1000008",
+        "name": "* Furo De Escala",
+        "p": "8",
+        "posto": "8",
+        "turno": "0"
+    },
+    "1000009": {
+        "3x1": "1",
+        "alias": "*(9)",
+        "id": "1000009",
+        "name": "* Furo De Escala",
+        "p": "9",
+        "posto": "9",
+        "turno": "0"
+    },
+    "1000010": {
+        "3x1": "0",
+        "alias": "*(10)",
+        "id": "1000010",
+        "name": "* Furo De Escala",
+        "p": "10",
+        "posto": "10",
+        "turno": "0"
+    },
+    "1000011": {
+        "3x1": "0",
+        "alias": "*(11)",
+        "id": "1000011",
+        "name": "* Furo De Escala",
+        "p": "11",
+        "posto": "11",
+        "turno": "0"
+    },
+    "1000012": {
+        "3x1": "0",
+        "alias": "*(12)",
+        "id": "1000012",
+        "name": "* Furo De Escala",
+        "p": "12",
+        "posto": "12",
+        "turno": "0"
+    },
+    "1000013": {
+        "3x1": "0",
+        "alias": "*(13)",
+        "id": "1000013",
+        "name": "* Furo De Escala",
+        "p": "13",
+        "posto": "13",
+        "turno": "0"
+    },
+    "1000014": {
+        "3x1": "0",
+        "alias": "*(14)",
+        "id": "1000014",
+        "name": "* Furo De Escala",
+        "p": "14",
+        "posto": "14",
+        "turno": "0"
+    },
+    "1000015": {
+        "3x1": "0",
+        "alias": "*(15)",
+        "id": "1000015",
+        "name": "* Furo De Escala",
+        "p": "15",
+        "posto": "15",
+        "turno": "0"
+    },
+    "1000041": {
+        "3x1": "0",
+        "alias": "P1",
+        "id": "1000041",
+        "name": "P1",
+        "p": "16",
+        "posto": "16",
+        "turno": "0"
+    },
+    "1000042": {
+        "3x1": "0",
+        "alias": "P2",
+        "id": "1000042",
+        "name": "P2",
+        "p": "17",
+        "posto": "17",
+        "turno": "0"
+    },
+    "1000043": {
+        "3x1": "0",
+        "alias": "P3",
+        "id": "1000043",
+        "name": "P3",
+        "p": "18",
+        "posto": "18",
+        "turno": "0"
+    },
+    "1000044": {
+        "3x1": "0",
+        "alias": "P4",
+        "id": "1000044",
+        "name": "P4",
+        "p": "19",
+        "posto": "19",
+        "turno": "0"
+    },
+    "1000045": {
+        "3x1": "0",
+        "alias": "P5",
+        "id": "1000045",
+        "name": "P5",
+        "p": "20",
+        "posto": "20",
+        "turno": "0"
+    },
+    "1000046": {
+        "3x1": "0",
+        "alias": "P6",
+        "id": "1000046",
+        "name": "P6",
+        "p": "2",
+        "posto": "21",
+        "turno": "0"
+    },
+    "2001692": {
+        "3x1": "0",
+        "alias": "Talita Aquino",
+        "id": "2001692",
+        "name": "Talita Aquino Da Silva",
+        "p": "1",
+        "posto": "283",
+        "turno": "2"
+    },
+    "2001693": {
+        "3x1": "0",
+        "alias": "Roberto Mundim",
+        "id": "2001693",
+        "name": "Roberto Pena Mundim",
+        "p": "4",
+        "posto": "271",
+        "turno": "2"
+    },
+    "2001694": {
+        "3x1": "0",
+        "alias": "Guilherme Araujo",
+        "id": "2001694",
+        "name": "Guilherme Da Silva Araujo",
+        "p": "11",
+        "posto": "59",
+        "turno": "1"
+    },
+    "2001698": {
+        "3x1": "0",
+        "alias": "Leandro Moraes",
+        "id": "2001698",
+        "name": "Leandro Moraes Nascimento Reis",
+        "p": "13",
+        "posto": "230",
+        "turno": "2"
+    },
+    "2001700": {
+        "3x1": "0",
+        "alias": "Arthur Fernando",
+        "id": "2001700",
+        "name": "Arthur Fernando Santos Vieira",
+        "p": "2",
+        "posto": "157",
+        "turno": "2"
+    },
+    "2001701": {
+        "3x1": "0",
+        "alias": "Glauber Figueiredo",
+        "id": "2001701",
+        "name": "Glauber Lucas Meireles De Figueiredo",
+        "p": "5",
+        "posto": "56",
+        "turno": "1"
+    },
+    "2001702": {
+        "3x1": "0",
+        "alias": "Nayara Alves",
+        "id": "2001702",
+        "name": "Nayara Carolina Pereira Da Silva Alves",
+        "p": "14",
+        "posto": "100",
+        "turno": "1"
+    },
+    "2001705": {
+        "3x1": "0",
+        "alias": "Gustavo Cabral",
+        "id": "2001705",
+        "name": "Gustavo Mendes Cabral",
+        "p": "1",
+        "posto": "193",
+        "turno": "2"
+    },
+    "2001706": {
+        "3x1": "0",
+        "alias": "Pedro Vaz",
+        "id": "2001706",
+        "name": "Pedro Henrique Vaz Monteiro",
+        "p": "2",
+        "posto": "108",
+        "turno": "1"
+    },
+    "2001707": {
+        "3x1": "0",
+        "alias": "Silvia Schiavo",
+        "id": "2001707",
+        "name": "Silvia Schiavo Siqueira",
+        "p": "3",
+        "posto": "281",
+        "turno": "2"
+    },
+    "2001708": {
+        "3x1": "0",
+        "alias": "Gabriela Correia",
+        "id": "2001708",
+        "name": "Gabriela Correia De Castro",
+        "p": "6",
+        "posto": "53",
+        "turno": "1"
+    },
+    "2001709": {
+        "3x1": "0",
+        "alias": "Diego Almeida",
+        "id": "2001709",
+        "name": "Diego Almeida Santos",
+        "p": "10",
+        "posto": "174",
+        "turno": "2"
+    },
+    "2001710": {
+        "3x1": "0",
+        "alias": "Jose Grossi",
+        "id": "2001710",
+        "name": "Jose Carlos Grossi Dos Santos",
+        "p": "12",
+        "posto": "218",
+        "turno": "2"
+    },
+    "2001713": {
+        "3x1": "0",
+        "alias": "Vanessa Spindola",
+        "id": "2001713",
+        "name": "Vanessa Francisca Dos Santos Spindola",
+        "p": "13",
+        "posto": "134",
+        "turno": "1"
+    },
+    "2001714": {
+        "3x1": "0",
+        "alias": "Yuri Paiva",
+        "id": "2001714",
+        "name": "Yuri Augusto De Paiva Silva",
+        "p": "4",
+        "posto": "146",
+        "turno": "1"
+    },
+    "2001715": {
+        "3x1": "0",
+        "alias": "Carlos Eduardo",
+        "id": "2001715",
+        "name": "Carlos Eduardo Goulart De Souza",
+        "p": "13",
+        "posto": "34",
+        "turno": "1"
+    },
+    "2001716": {
+        "3x1": "0",
+        "alias": "Jucileia Sousa",
+        "id": "2001716",
+        "name": "Jucileia Ferreira De Sousa",
+        "p": "12",
+        "posto": "73",
+        "turno": "1"
+    },
+    "2001718": {
+        "3x1": "0",
+        "alias": "Derlem Aparecida",
+        "id": "2001718",
+        "name": "Derlem Aparecida Da Silva",
+        "p": "3",
+        "posto": "173",
+        "turno": "2"
+    },
+    "2001784": {
+        "3x1": "0",
+        "alias": "Paulo Bittencourt",
+        "id": "2001784",
+        "name": "Paulo Augusto Bittencourt",
+        "p": "15",
+        "posto": "102",
+        "turno": "1"
+    },
+    "2001788": {
+        "3x1": "0",
+        "alias": "Iandra Miranda",
+        "id": "2001788",
+        "name": "Iandra Cristina Miranda Almeida",
+        "p": "6",
+        "posto": "199",
+        "turno": "2"
+    },
+    "2001789": {
+        "3x1": "0",
+        "alias": "Isabella Raniere",
+        "id": "2001789",
+        "name": "Isabella Cristina Raniere Chaves",
+        "p": "4",
+        "posto": "67",
+        "turno": "1"
+    },
+    "2001790": {
+        "3x1": "0",
+        "alias": "Thales Souza",
+        "id": "2001790",
+        "name": "Thales Souza Teixeira",
+        "p": "3",
+        "posto": "289",
+        "turno": "2"
+    },
+    "2001792": {
+        "3x1": "1",
+        "alias": "Camila Cristeli",
+        "id": "2001792",
+        "name": "Camila Maira Pinto Cristeli",
+        "p": "5",
+        "posto": "163",
+        "turno": "2"
+    },
+    "2001795": {
+        "3x1": "0",
+        "alias": "Diego Salerno",
+        "id": "2001795",
+        "name": "Diego Andrade Salerno",
+        "p": "13",
+        "posto": "43",
+        "turno": "1"
+    },
+    "2001796": {
+        "3x1": "0",
+        "alias": "Vinicius Lara",
+        "id": "2001796",
+        "name": "Vinicius Lara Braga De Souza",
+        "p": "1",
+        "posto": "138",
+        "turno": "1"
+    },
+    "2001797": {
+        "3x1": "0",
+        "alias": "Anderson Nunes",
+        "id": "2001797",
+        "name": "Anderson Nunes De Souza",
+        "p": "1",
+        "posto": "153",
+        "turno": "2"
+    },
+    "2001798": {
+        "3x1": "1",
+        "alias": "Janine Almeida",
+        "id": "2001798",
+        "name": "Janine Almeida De Oliveira",
+        "p": "2",
+        "posto": "203",
+        "turno": "2"
+    },
+    "2001799": {
+        "3x1": "0",
+        "alias": "Alan Marcelo",
+        "id": "2001799",
+        "name": "Alan Marcelo Da Silva",
+        "p": "1",
+        "posto": "23",
+        "turno": "1"
+    },
+    "2001801": {
+        "3x1": "0",
+        "alias": "Thais Soares",
+        "id": "2001801",
+        "name": "Thais Soares Rodrigues",
+        "p": "3",
+        "posto": "288",
+        "turno": "2"
+    },
+    "2001803": {
+        "3x1": "0",
+        "alias": "Marco Alves",
+        "id": "2001803",
+        "name": "Marco Tulio Alves Do Nascimento",
+        "p": "15",
+        "posto": "92",
+        "turno": "1"
+    },
+    "2001804": {
+        "3x1": "0",
+        "alias": "Danilo Duarte",
+        "id": "2001804",
+        "name": "Danilo Cesar Ramos Duarte",
+        "p": "1",
+        "posto": "172",
+        "turno": "2"
+    },
+    "2001806": {
+        "3x1": "0",
+        "alias": "Bernard Magacho",
+        "id": "2001806",
+        "name": "Bernard Pereira Magacho",
+        "p": "10",
+        "posto": "30",
+        "turno": "1"
+    },
+    "2001807": {
+        "3x1": "0",
+        "alias": "Guilherme Gomes",
+        "id": "2001807",
+        "name": "Guilherme Gomes Da Silva",
+        "p": "4",
+        "posto": "190",
+        "turno": "2"
+    },
+    "2001808": {
+        "3x1": "0",
+        "alias": "Renato Fernando",
+        "id": "2001808",
+        "name": "Renato Fernando Dos Santos",
+        "p": "14",
+        "posto": "268",
+        "turno": "2"
+    },
+    "2001809": {
+        "3x1": "0",
+        "alias": "Marcelo Augusto",
+        "id": "2001809",
+        "name": "Marcelo Augusto De Oliveira",
+        "p": "1",
+        "posto": "243",
+        "turno": "2"
+    },
+    "2001810": {
+        "3x1": "0",
+        "alias": "Liliane Curto",
+        "id": "2001810",
+        "name": "Liliane Gon\u00e7alves Curto",
+        "p": "11",
+        "posto": "233",
+        "turno": "2"
+    },
+    "2001811": {
+        "3x1": "0",
+        "alias": "Roberto Flaymer",
+        "id": "2001811",
+        "name": "Roberto Flaymer Araujo",
+        "p": "1",
+        "posto": "270",
+        "turno": "2"
+    },
+    "2001812": {
+        "3x1": "1",
+        "alias": "Pedro Apolinario",
+        "id": "2001812",
+        "name": "Pedro Vinicius Apolinario",
+        "p": "1",
+        "posto": "109",
+        "turno": "1"
+    },
+    "2001813": {
+        "3x1": "0",
+        "alias": "Igor Moreira",
+        "id": "2001813",
+        "name": "Igor Moreira De Miranda",
+        "p": "4",
+        "posto": "200",
+        "turno": "2"
+    },
+    "2001814": {
+        "3x1": "0",
+        "alias": "Gabriela Pereira",
+        "id": "2001814",
+        "name": "Gabriela Pereira Pinto",
+        "p": "14",
+        "posto": "54",
+        "turno": "1"
+    },
+    "2001815": {
+        "3x1": "1",
+        "alias": "Barbara Jaza",
+        "id": "2001815",
+        "name": "Barbara Luisa De Medeiros Estevam Jaza",
+        "p": "5",
+        "posto": "159",
+        "turno": "2"
+    },
+    "2001817": {
+        "3x1": "1",
+        "alias": "Jose Souza",
+        "id": "2001817",
+        "name": "Jose Carlos De Souza",
+        "p": "12",
+        "posto": "217",
+        "turno": "2"
+    },
+    "2001818": {
+        "3x1": "0",
+        "alias": "Izabelle Liz",
+        "id": "2001818",
+        "name": "Izabelle Liz Melo Francisco",
+        "p": "2",
+        "posto": "69",
+        "turno": "1"
+    },
+    "2001819": {
+        "3x1": "0",
+        "alias": "Kener Alexandre",
+        "id": "2001819",
+        "name": "Kener Alexandre Da Silva",
+        "p": "13",
+        "posto": "227",
+        "turno": "2"
+    },
+    "2001822": {
+        "3x1": "0",
+        "alias": "Lucas Vitor",
+        "id": "2001822",
+        "name": "Lucas Vitor De Andrade Castilho",
+        "p": "12",
+        "posto": "238",
+        "turno": "2"
+    },
+    "2001823": {
+        "3x1": "1",
+        "alias": "Adriana Godinho",
+        "id": "2001823",
+        "name": "Adriana Quadros Godinho",
+        "p": "11",
+        "posto": "22",
+        "turno": "1"
+    },
+    "2001824": {
+        "3x1": "0",
+        "alias": "Claudiney Leite",
+        "id": "2001824",
+        "name": "Claudiney Do Espirito Santo Leite",
+        "p": "14",
+        "posto": "35",
+        "turno": "1"
+    },
+    "2001825": {
+        "3x1": "0",
+        "alias": "Helisandro Oliveira",
+        "id": "2001825",
+        "name": "Helisandro Gon\u00e7alves De Oliveira",
+        "p": "2",
+        "posto": "196",
+        "turno": "2"
+    },
+    "2001826": {
+        "3x1": "0",
+        "alias": "Thais Almeida",
+        "id": "2001826",
+        "name": "Thais De Almeida Macedo Santos",
+        "p": "4",
+        "posto": "131",
+        "turno": "1"
+    },
+    "2001827": {
+        "3x1": "0",
+        "alias": "Tarso Valentim",
+        "id": "2001827",
+        "name": "Tarso Anselmo Dos Santos Valentim",
+        "p": "11",
+        "posto": "285",
+        "turno": "2"
+    },
+    "2001828": {
+        "3x1": "0",
+        "alias": "Karina Costa",
+        "id": "2001828",
+        "name": "Karina Da Concei\u00e7\u00e3o De Jesus Costa",
+        "p": "3",
+        "posto": "226",
+        "turno": "2"
+    },
+    "2001848": {
+        "3x1": "0",
+        "alias": "Rubens Augusto",
+        "id": "2001848",
+        "name": "Rubens Augusto Costa Gomes",
+        "p": "1",
+        "posto": "274",
+        "turno": "2"
+    },
+    "2001849": {
+        "3x1": "0",
+        "alias": "Felipe Augusto",
+        "id": "2001849",
+        "name": "Felipe Augusto Santiago De Castro",
+        "p": "5",
+        "posto": "49",
+        "turno": "1"
+    },
+    "2001850": {
+        "3x1": "1",
+        "alias": "Carla Erica",
+        "id": "2001850",
+        "name": "Carla Erica Da Silva",
+        "p": "3",
+        "posto": "33",
+        "turno": "1"
+    },
+    "2001851": {
+        "3x1": "0",
+        "alias": "Lisyane Kaizer",
+        "id": "2001851",
+        "name": "Lisyane Rachel De Cristo Kaizer",
+        "p": "13",
+        "posto": "85",
+        "turno": "1"
+    },
+    "2001853": {
+        "3x1": "1",
+        "alias": "Jose Almeida",
+        "id": "2001853",
+        "name": "Jose Luiz De Almeida",
+        "p": "6",
+        "posto": "219",
+        "turno": "2"
+    },
+    "2001854": {
+        "3x1": "0",
+        "alias": "Pedro Gon\u00e7alves",
+        "id": "2001854",
+        "name": "Pedro Gon\u00e7alves De Souza Junior",
+        "p": "4",
+        "posto": "262",
+        "turno": "2"
+    },
+    "2001855": {
+        "3x1": "0",
+        "alias": "Mateus Acerbi",
+        "id": "2001855",
+        "name": "Mateus Acerbi Santos",
+        "p": "2",
+        "posto": "250",
+        "turno": "2"
+    },
+    "2001856": {
+        "3x1": "0",
+        "alias": "Alexandre Dias",
+        "id": "2001856",
+        "name": "Alexandre Dias Drumond",
+        "p": "12",
+        "posto": "25",
+        "turno": "1"
+    },
+    "2001857": {
+        "3x1": "0",
+        "alias": "Flavia Cristina",
+        "id": "2001857",
+        "name": "Flavia Cristina Silva Martins",
+        "p": "6",
+        "posto": "185",
+        "turno": "2"
+    },
+    "2001858": {
+        "3x1": "0",
+        "alias": "Raquel Pontes",
+        "id": "2001858",
+        "name": "Raquel Silva Fernandes Pontes",
+        "p": "1",
+        "posto": "266",
+        "turno": "2"
+    },
+    "2001859": {
+        "3x1": "0",
+        "alias": "Tatiana Cavalcanti",
+        "id": "2001859",
+        "name": "Tatiana Cavalcanti Moreira",
+        "p": "5",
+        "posto": "286",
+        "turno": "2"
+    },
+    "2001860": {
+        "3x1": "0",
+        "alias": "Bruna Cristina",
+        "id": "2001860",
+        "name": "Bruna Cristina Cunha",
+        "p": "2",
+        "posto": "160",
+        "turno": "2"
+    },
+    "2001863": {
+        "3x1": "0",
+        "alias": "Sara Alves",
+        "id": "2001863",
+        "name": "Sara Do Carmo Alves",
+        "p": "15",
+        "posto": "278",
+        "turno": "2"
+    },
+    "2001865": {
+        "3x1": "0",
+        "alias": "Kalebe Daniel",
+        "id": "2001865",
+        "name": "Kalebe Daniel Da Rocha Dos Reis",
+        "p": "1",
+        "posto": "225",
+        "turno": "2"
+    },
+    "2001866": {
+        "3x1": "0",
+        "alias": "Maria Fernanda",
+        "id": "2001866",
+        "name": "Maria Fernanda Barboza",
+        "p": "14",
+        "posto": "247",
+        "turno": "2"
+    },
+    "2001867": {
+        "3x1": "0",
+        "alias": "Marcia Tannes",
+        "id": "2001867",
+        "name": "Marcia Cristina Bebiano Tannes",
+        "p": "10",
+        "posto": "244",
+        "turno": "2"
+    },
+    "2001868": {
+        "3x1": "0",
+        "alias": "Tiago Vinicius",
+        "id": "2001868",
+        "name": "Tiago Vinicius Gon\u00e7alves Paix\u00e3o",
+        "p": "1",
+        "posto": "293",
+        "turno": "2"
+    },
+    "2001869": {
+        "3x1": "0",
+        "alias": "Diego Augusto",
+        "id": "2001869",
+        "name": "Diego Augusto Guimar\u00e3es",
+        "p": "14",
+        "posto": "175",
+        "turno": "2"
+    },
+    "2001870": {
+        "3x1": "0",
+        "alias": "Ygor Vinicius",
+        "id": "2001870",
+        "name": "Ygor Vinicius Vieira Thibau",
+        "p": "12",
+        "posto": "145",
+        "turno": "1"
+    },
+    "2001872": {
+        "3x1": "0",
+        "alias": "Paulo Renato",
+        "id": "2001872",
+        "name": "Paulo Renato Braga Camilo",
+        "p": "5",
+        "posto": "105",
+        "turno": "1"
+    },
+    "2001874": {
+        "3x1": "0",
+        "alias": "Paulo Henrique",
+        "id": "2001874",
+        "name": "Paulo Henrique Soares De Salles",
+        "p": "5",
+        "posto": "261",
+        "turno": "2"
+    },
+    "2001875": {
+        "3x1": "0",
+        "alias": "Tatiana Almeida",
+        "id": "2001875",
+        "name": "Tatiana De Almeida Silva",
+        "p": "3",
+        "posto": "287",
+        "turno": "2"
+    },
+    "2001876": {
+        "3x1": "0",
+        "alias": "Mariana Silvano",
+        "id": "2001876",
+        "name": "Mariana De Freitas Silvano",
+        "p": "13",
+        "posto": "95",
+        "turno": "1"
+    },
+    "2001878": {
+        "3x1": "0",
+        "alias": "Poliana Ferreira",
+        "id": "2001878",
+        "name": "Poliana Ferreira Gomes",
+        "p": "10",
+        "posto": "110",
+        "turno": "1"
+    },
+    "2001879": {
+        "3x1": "0",
+        "alias": "Euler Mendes",
+        "id": "2001879",
+        "name": "Euler Mendes Junior",
+        "p": "1",
+        "posto": "180",
+        "turno": "2"
+    },
+    "2001881": {
+        "3x1": "0",
+        "alias": "Jessica Cristina",
+        "id": "2001881",
+        "name": "Jessica Cristina Carvalho",
+        "p": "13",
+        "posto": "204",
+        "turno": "2"
+    },
+    "2001882": {
+        "3x1": "1",
+        "alias": "Israel Pedrosa",
+        "id": "2001882",
+        "name": "Israel De Melo Pedrosa",
+        "p": "11",
+        "posto": "201",
+        "turno": "2"
+    },
+    "2001883": {
+        "3x1": "1",
+        "alias": "Suellen Lima",
+        "id": "2001883",
+        "name": "Suellen De Lima Pereira Da Silva",
+        "p": "10",
+        "posto": "128",
+        "turno": "1"
+    },
+    "2001884": {
+        "3x1": "0",
+        "alias": "Larissa Santos",
+        "id": "2001884",
+        "name": "Larissa Cristina Souza Santos",
+        "p": "13",
+        "posto": "229",
+        "turno": "2"
+    },
+    "2001885": {
+        "3x1": "1",
+        "alias": "Marcio Regis",
+        "id": "2001885",
+        "name": "Marcio Dias Regis",
+        "p": "4",
+        "posto": "245",
+        "turno": "2"
+    },
+    "2001886": {
+        "3x1": "0",
+        "alias": "Lucilene Siqueira",
+        "id": "2001886",
+        "name": "Lucilene Siqueira De Almeida Dias",
+        "p": "10",
+        "posto": "240",
+        "turno": "2"
+    },
+    "2001888": {
+        "3x1": "0",
+        "alias": "Pedro Rodrigues",
+        "id": "2001888",
+        "name": "Pedro Henrique Araujo Rodrigues",
+        "p": "14",
+        "posto": "106",
+        "turno": "1"
+    },
+    "2001890": {
+        "3x1": "0",
+        "alias": "Antonio Aurelio",
+        "id": "2001890",
+        "name": "Antonio Aurelio Pereira",
+        "p": "15",
+        "posto": "156",
+        "turno": "2"
+    },
+    "2001891": {
+        "3x1": "0",
+        "alias": "Jorge Silva",
+        "id": "2001891",
+        "name": "Jorge Da Silva",
+        "p": "15",
+        "posto": "215",
+        "turno": "2"
+    },
+    "2001892": {
+        "3x1": "0",
+        "alias": "Diogo Guilherme",
+        "id": "2001892",
+        "name": "Diogo Bonfim Guilherme",
+        "p": "2",
+        "posto": "44",
+        "turno": "1"
+    },
+    "2001893": {
+        "3x1": "0",
+        "alias": "Nelmara Ines",
+        "id": "2001893",
+        "name": "Nelmara Ines Santos Cordeiro",
+        "p": "1",
+        "posto": "258",
+        "turno": "2"
+    },
+    "2001894": {
+        "3x1": "0",
+        "alias": "Caroline Aguiar",
+        "id": "2001894",
+        "name": "Caroline Clarissa Leite De Aguiar",
+        "p": "10",
+        "posto": "164",
+        "turno": "2"
+    },
+    "2001896": {
+        "3x1": "0",
+        "alias": "Stefan Edberg",
+        "id": "2001896",
+        "name": "Stefan Edberg Ferreira Santos",
+        "p": "11",
+        "posto": "282",
+        "turno": "2"
+    },
+    "2001897": {
+        "3x1": "0",
+        "alias": "Daiane De Castro",
+        "id": "2001897",
+        "name": "Daiane De Castro",
+        "p": "10",
+        "posto": "36",
+        "turno": "1"
+    },
+    "2001898": {
+        "3x1": "0",
+        "alias": "Jessica Agnes",
+        "id": "2001898",
+        "name": "Jessica Agnes De Almeida Barros",
+        "p": "11",
+        "posto": "71",
+        "turno": "1"
+    },
+    "2001900": {
+        "3x1": "0",
+        "alias": "Elidiane Vilarino",
+        "id": "2001900",
+        "name": "Elidiane Gomes Vilarino",
+        "p": "1",
+        "posto": "178",
+        "turno": "2"
+    },
+    "2001901": {
+        "3x1": "0",
+        "alias": "Raphael Ferreira",
+        "id": "2001901",
+        "name": "Raphael Neves Ferreira",
+        "p": "14",
+        "posto": "113",
+        "turno": "1"
+    },
+    "2001902": {
+        "3x1": "1",
+        "alias": "Frederico Sans\u00e3o",
+        "id": "2001902",
+        "name": "Frederico Sans\u00e3o Gon\u00e7alves Ramos",
+        "p": "3",
+        "posto": "52",
+        "turno": "1"
+    },
+    "2001903": {
+        "3x1": "0",
+        "alias": "Joseanne Ferreira",
+        "id": "2001903",
+        "name": "Joseanne Cristina De Gois Ferreira",
+        "p": "12",
+        "posto": "72",
+        "turno": "1"
+    },
+    "2001904": {
+        "3x1": "0",
+        "alias": "Thalles Lucas",
+        "id": "2001904",
+        "name": "Thalles Lucas Da Silva Martins",
+        "p": "5",
+        "posto": "290",
+        "turno": "2"
+    },
+    "2001907": {
+        "3x1": "0",
+        "alias": "Scarlat Oliveira",
+        "id": "2001907",
+        "name": "Scarlat Oliveira Rodrigues",
+        "p": "4",
+        "posto": "279",
+        "turno": "2"
+    },
+    "2001909": {
+        "3x1": "0",
+        "alias": "Wagner Clemente",
+        "id": "2001909",
+        "name": "Wagner Forapani Clemente",
+        "p": "15",
+        "posto": "140",
+        "turno": "1"
+    },
+    "2001910": {
+        "3x1": "0",
+        "alias": "Lucia Gon\u00e7alves",
+        "id": "2001910",
+        "name": "Lucia Gon\u00e7alves De Pinho",
+        "p": "2",
+        "posto": "88",
+        "turno": "1"
+    },
+    "2001911": {
+        "3x1": "0",
+        "alias": "Moema Carvalho",
+        "id": "2001911",
+        "name": "Moema Da Costa Carvalho",
+        "p": "13",
+        "posto": "255",
+        "turno": "2"
+    },
+    "2001912": {
+        "3x1": "0",
+        "alias": "Ana Carolina",
+        "id": "2001912",
+        "name": "Ana Carolina Coelho De Oliveira",
+        "p": "4",
+        "posto": "26",
+        "turno": "1"
+    },
+    "2001913": {
+        "3x1": "0",
+        "alias": "Mayara Maia",
+        "id": "2001913",
+        "name": "Mayara Lorena Barbosa Maia",
+        "p": "14",
+        "posto": "98",
+        "turno": "1"
+    },
+    "2001914": {
+        "3x1": "1",
+        "alias": "Barbara Andrade",
+        "id": "2001914",
+        "name": "Barbara Andrade Neves",
+        "p": "7",
+        "posto": "158",
+        "turno": "2"
+    },
+    "2001915": {
+        "3x1": "1",
+        "alias": "Guilherme Junior",
+        "id": "2001915",
+        "name": "Guilherme Alvarenga Carvalho Junior",
+        "p": "10",
+        "posto": "189",
+        "turno": "2"
+    },
+    "2001916": {
+        "3x1": "0",
+        "alias": "Thiago Philippe",
+        "id": "2001916",
+        "name": "Thiago Philippe Soares",
+        "p": "3",
+        "posto": "132",
+        "turno": "1"
+    },
+    "2001917": {
+        "3x1": "0",
+        "alias": "Samuel Salom\u00e3o",
+        "id": "2001917",
+        "name": "Samuel Correa Campolina Salom\u00e3o",
+        "p": "15",
+        "posto": "277",
+        "turno": "2"
+    },
+    "2001919": {
+        "3x1": "0",
+        "alias": "Rodrigo Ribeiro",
+        "id": "2001919",
+        "name": "Rodrigo Cesar Da Costa Ribeiro",
+        "p": "10",
+        "posto": "117",
+        "turno": "1"
+    },
+    "2001920": {
+        "3x1": "0",
+        "alias": "Tatiane Rodrigues",
+        "id": "2001920",
+        "name": "Tatiane Rodrigues Melo Pereira",
+        "p": "5",
+        "posto": "129",
+        "turno": "1"
+    },
+    "2001921": {
+        "3x1": "0",
+        "alias": "Matheus Le\u00e3o",
+        "id": "2001921",
+        "name": "Matheus Silva Le\u00e3o",
+        "p": "1",
+        "posto": "97",
+        "turno": "1"
+    },
+    "2001925": {
+        "3x1": "0",
+        "alias": "Felipe Maciel",
+        "id": "2001925",
+        "name": "Felipe De Assis Maciel",
+        "p": "11",
+        "posto": "50",
+        "turno": "1"
+    },
+    "2001926": {
+        "3x1": "0",
+        "alias": "Victor Prata",
+        "id": "2001926",
+        "name": "Victor De Sousa Prata",
+        "p": "2",
+        "posto": "135",
+        "turno": "1"
+    },
+    "2001930": {
+        "3x1": "0",
+        "alias": "Rafael Douglas",
+        "id": "2001930",
+        "name": "Rafael Douglas Rodrigues",
+        "p": "3",
+        "posto": "265",
+        "turno": "2"
+    },
+    "2001931": {
+        "3x1": "1",
+        "alias": "Willian Cunha",
+        "id": "2001931",
+        "name": "Willian Da Cunha Sousa",
+        "p": "13",
+        "posto": "143",
+        "turno": "1"
+    },
+    "2001932": {
+        "3x1": "0",
+        "alias": "Renata Goltara",
+        "id": "2001932",
+        "name": "Renata Goltara Souza",
+        "p": "2",
+        "posto": "114",
+        "turno": "1"
+    },
+    "2001933": {
+        "3x1": "0",
+        "alias": "Paulo Dener",
+        "id": "2001933",
+        "name": "Paulo Dener Bacelar Rabelo",
+        "p": "15",
+        "posto": "104",
+        "turno": "1"
+    },
+    "2001935": {
+        "3x1": "0",
+        "alias": "Larissa Cecilia",
+        "id": "2001935",
+        "name": "Larissa Cecilia De Marcos Silva",
+        "p": "4",
+        "posto": "228",
+        "turno": "2"
+    },
+    "2001936": {
+        "3x1": "0",
+        "alias": "Paula Pessoa",
+        "id": "2001936",
+        "name": "Paula Helena Pessoa Costa Cabral",
+        "p": "4",
+        "posto": "101",
+        "turno": "1"
+    },
+    "2001938": {
+        "3x1": "1",
+        "alias": "Gustavo Matta",
+        "id": "2001938",
+        "name": "Gustavo Velloso Da Matta",
+        "p": "6",
+        "posto": "194",
+        "turno": "2"
+    },
+    "2001939": {
+        "3x1": "0",
+        "alias": "Luany Rodrigues",
+        "id": "2001939",
+        "name": "Luany Rodrigues Carvalho",
+        "p": "1",
+        "posto": "236",
+        "turno": "2"
+    },
+    "2001940": {
+        "3x1": "1",
+        "alias": "Lenise Moraes",
+        "id": "2001940",
+        "name": "Lenise Glaucia De Souza Moraes",
+        "p": "12",
+        "posto": "81",
+        "turno": "1"
+    },
+    "2001941": {
+        "3x1": "1",
+        "alias": "Francisco Monteiro",
+        "id": "2001941",
+        "name": "Francisco De Assis Monteiro",
+        "p": "10",
+        "posto": "51",
+        "turno": "1"
+    },
+    "2001942": {
+        "3x1": "1",
+        "alias": "Eliane Helena",
+        "id": "2001942",
+        "name": "Eliane Helena Dos Santos",
+        "p": "5",
+        "posto": "45",
+        "turno": "1"
+    },
+    "2001943": {
+        "3x1": "1",
+        "alias": "Alexandre Rondon",
+        "id": "2001943",
+        "name": "Alexandre Von Rondon Neto",
+        "p": "1",
+        "posto": "150",
+        "turno": "2"
+    },
+    "2001944": {
+        "3x1": "0",
+        "alias": "Ana Raquel",
+        "id": "2001944",
+        "name": "Ana Raquel Almeida E Franco",
+        "p": "6",
+        "posto": "27",
+        "turno": "1"
+    },
+    "2001951": {
+        "3x1": "0",
+        "alias": "Maria Silva",
+        "id": "2001951",
+        "name": "Maria Nazare Da Silva",
+        "p": "2",
+        "posto": "248",
+        "turno": "2"
+    },
+    "2001952": {
+        "3x1": "0",
+        "alias": "Marcela Alves",
+        "id": "2001952",
+        "name": "Marcela Alves Santos Nascimento",
+        "p": "14",
+        "posto": "90",
+        "turno": "1"
+    },
+    "2001954": {
+        "3x1": "0",
+        "alias": "Juliana Silveira",
+        "id": "2001954",
+        "name": "Juliana Silva Da Silveira",
+        "p": "1",
+        "posto": "75",
+        "turno": "1"
+    },
+    "2001955": {
+        "3x1": "0",
+        "alias": "Jonathan Alves",
+        "id": "2001955",
+        "name": "Jonathan Alves Miranda De Souza",
+        "p": "6",
+        "posto": "211",
+        "turno": "2"
+    },
+    "2001957": {
+        "3x1": "1",
+        "alias": "Jessica Liria",
+        "id": "2001957",
+        "name": "Jessica Liria Da Silva",
+        "p": "4",
+        "posto": "205",
+        "turno": "2"
+    },
+    "2001958": {
+        "3x1": "0",
+        "alias": "Diogo Romanato",
+        "id": "2001958",
+        "name": "Diogo Facundes Fontenele Romanato",
+        "p": "1",
+        "posto": "176",
+        "turno": "2"
+    },
+    "2001959": {
+        "3x1": "0",
+        "alias": "Ayslan Rogger",
+        "id": "2001959",
+        "name": "Ayslan Rogger Da Silva Felizardo",
+        "p": "15",
+        "posto": "29",
+        "turno": "1"
+    },
+    "2001960": {
+        "3x1": "0",
+        "alias": "Cybele Braga",
+        "id": "2001960",
+        "name": "Cybele Gon\u00e7alves Braga",
+        "p": "15",
+        "posto": "170",
+        "turno": "2"
+    },
+    "2001961": {
+        "3x1": "1",
+        "alias": "Stefano Hallack",
+        "id": "2001961",
+        "name": "Stefano Carvalho Hallack",
+        "p": "6",
+        "posto": "127",
+        "turno": "1"
+    },
+    "2001962": {
+        "3x1": "0",
+        "alias": "Alvaro Antonio",
+        "id": "2001962",
+        "name": "Alvaro Antonio Drumond Rosa",
+        "p": "2",
+        "posto": "151",
+        "turno": "2"
+    },
+    "2001963": {
+        "3x1": "0",
+        "alias": "Flavia Froes",
+        "id": "2001963",
+        "name": "Flavia Froes Coimbra",
+        "p": "2",
+        "posto": "186",
+        "turno": "2"
+    },
+    "2001964": {
+        "3x1": "0",
+        "alias": "Victor Oliveira",
+        "id": "2001964",
+        "name": "Victor De Jesus Oliveira",
+        "p": "15",
+        "posto": "294",
+        "turno": "2"
+    },
+    "2001965": {
+        "3x1": "0",
+        "alias": "Willy Almeida",
+        "id": "2001965",
+        "name": "Willy Thiago De Almeida",
+        "p": "15",
+        "posto": "144",
+        "turno": "1"
+    },
+    "2001966": {
+        "3x1": "0",
+        "alias": "Felipe Martins",
+        "id": "2001966",
+        "name": "Felipe Martins Vasconcelos",
+        "p": "13",
+        "posto": "184",
+        "turno": "2"
+    },
+    "2001967": {
+        "3x1": "0",
+        "alias": "Victor Santos",
+        "id": "2001967",
+        "name": "Victor De Sousa Santos",
+        "p": "13",
+        "posto": "136",
+        "turno": "1"
+    },
+    "2001968": {
+        "3x1": "0",
+        "alias": "Tiago Moreno",
+        "id": "2001968",
+        "name": "Tiago Moreno Pascoal",
+        "p": "11",
+        "posto": "133",
+        "turno": "1"
+    },
+    "2001984": {
+        "3x1": "0",
+        "alias": "Luan Carlos",
+        "id": "2001984",
+        "name": "Luan Carlos Monteiro Da Silva",
+        "p": "2",
+        "posto": "234",
+        "turno": "2"
+    },
+    "2001985": {
+        "3x1": "0",
+        "alias": "Jo\u00e3o Coutinho",
+        "id": "2001985",
+        "name": "Jo\u00e3o Pedro De Lima Coutinho",
+        "p": "2",
+        "posto": "207",
+        "turno": "2"
+    },
+    "2001986": {
+        "3x1": "0",
+        "alias": "Erick Melo",
+        "id": "2001986",
+        "name": "Erick De Moura Melo",
+        "p": "15",
+        "posto": "179",
+        "turno": "2"
+    },
+    "2001987": {
+        "3x1": "0",
+        "alias": "Rafael Vidigal",
+        "id": "2001987",
+        "name": "Rafael Celestino Vidigal",
+        "p": "12",
+        "posto": "111",
+        "turno": "1"
+    },
+    "2001988": {
+        "3x1": "0",
+        "alias": "Tamiris Costa",
+        "id": "2001988",
+        "name": "Tamiris Costa",
+        "p": "12",
+        "posto": "284",
+        "turno": "2"
+    },
+    "2001989": {
+        "3x1": "0",
+        "alias": "Vinicius Melo",
+        "id": "2001989",
+        "name": "Vinicius Melo Pedrosa",
+        "p": "4",
+        "posto": "139",
+        "turno": "1"
+    },
+    "2001991": {
+        "3x1": "0",
+        "alias": "Delric Lucas",
+        "id": "2001991",
+        "name": "Delric Lucas Bento De Jesus Ferreira",
+        "p": "14",
+        "posto": "42",
+        "turno": "1"
+    },
+    "2001992": {
+        "3x1": "0",
+        "alias": "Paulo Banfi",
+        "id": "2001992",
+        "name": "Paulo Cesar Banfi Souza",
+        "p": "15",
+        "posto": "103",
+        "turno": "1"
+    },
+    "2001993": {
+        "3x1": "0",
+        "alias": "Leo Albuquerque",
+        "id": "2001993",
+        "name": "Leonardo Pinto Albuquerque",
+        "p": "6",
+        "posto": "83",
+        "turno": "1"
+    },
+    "2001994": {
+        "3x1": "0",
+        "alias": "Guilherme Silveira",
+        "id": "2001994",
+        "name": "Guilherme Silveira Silva",
+        "p": "1",
+        "posto": "192",
+        "turno": "2"
+    },
+    "2001995": {
+        "3x1": "0",
+        "alias": "Miguel Angelo",
+        "id": "2001995",
+        "name": "Miguel Angelo Ramos Garcia",
+        "p": "4",
+        "posto": "254",
+        "turno": "2"
+    },
+    "2001996": {
+        "3x1": "0",
+        "alias": "Juliana Gomes",
+        "id": "2001996",
+        "name": "Juliana Gomes Tinoco",
+        "p": "1",
+        "posto": "221",
+        "turno": "2"
+    },
+    "2001997": {
+        "3x1": "0",
+        "alias": "Sidney Ferreira",
+        "id": "2001997",
+        "name": "Sidney Alexandre Gil Ferreira",
+        "p": "10",
+        "posto": "125",
+        "turno": "1"
+    },
+    "2001999": {
+        "3x1": "0",
+        "alias": "Luciano Malta",
+        "id": "2001999",
+        "name": "Luciano Malta Bahia Teixeira",
+        "p": "14",
+        "posto": "239",
+        "turno": "2"
+    },
+    "2002000": {
+        "3x1": "0",
+        "alias": "Elisio Rocha",
+        "id": "2002000",
+        "name": "Elisio Rocha Breguez Gon\u00e7alves",
+        "p": "11",
+        "posto": "46",
+        "turno": "1"
+    },
+    "2002001": {
+        "3x1": "0",
+        "alias": "Wesley Elias",
+        "id": "2002001",
+        "name": "Wesley Elias Gomes Couto",
+        "p": "11",
+        "posto": "299",
+        "turno": "2"
+    },
+    "2002003": {
+        "3x1": "0",
+        "alias": "Henrique Warley",
+        "id": "2002003",
+        "name": "Henrique Warley De Souza Alves",
+        "p": "10",
+        "posto": "197",
+        "turno": "2"
+    },
+    "2002004": {
+        "3x1": "0",
+        "alias": "Jo\u00e3o Machado",
+        "id": "2002004",
+        "name": "Jo\u00e3o Pedro Lima Machado Santos",
+        "p": "14",
+        "posto": "208",
+        "turno": "2"
+    },
+    "2002005": {
+        "3x1": "0",
+        "alias": "Lucas Soares",
+        "id": "2002005",
+        "name": "Lucas Soares Rezende",
+        "p": "15",
+        "posto": "87",
+        "turno": "1"
+    },
+    "2002006": {
+        "3x1": "1",
+        "alias": "Sergio Gon\u00e7alves",
+        "id": "2002006",
+        "name": "Sergio Pereira Gon\u00e7alves",
+        "p": "15",
+        "posto": "124",
+        "turno": "1"
+    },
+    "2002007": {
+        "3x1": "0",
+        "alias": "Claudinei Martins",
+        "id": "2002007",
+        "name": "Claudinei Martins",
+        "p": "12",
+        "posto": "167",
+        "turno": "2"
+    },
+    "2002008": {
+        "3x1": "0",
+        "alias": "Daniel Fernando",
+        "id": "2002008",
+        "name": "Daniel Fernando Vieira De Paula",
+        "p": "3",
+        "posto": "38",
+        "turno": "1"
+    },
+    "2002009": {
+        "3x1": "0",
+        "alias": "Israel Santos",
+        "id": "2002009",
+        "name": "Israel Dos Santos Leite Junior",
+        "p": "3",
+        "posto": "68",
+        "turno": "1"
+    },
+    "2002010": {
+        "3x1": "0",
+        "alias": "Adriano Lagares",
+        "id": "2002010",
+        "name": "Adriano Lagares Rodrigues Vidal",
+        "p": "10",
+        "posto": "148",
+        "turno": "2"
+    },
+    "2002011": {
+        "3x1": "1",
+        "alias": "Grazielle Sanches",
+        "id": "2002011",
+        "name": "Grazielle Cristine Neves Sanches",
+        "p": "3",
+        "posto": "188",
+        "turno": "2"
+    },
+    "2002012": {
+        "3x1": "0",
+        "alias": "Nayara Guedes",
+        "id": "2002012",
+        "name": "Nayara Guedes Pereira Guimar\u00e3es",
+        "p": "15",
+        "posto": "256",
+        "turno": "2"
+    },
+    "2002013": {
+        "3x1": "1",
+        "alias": "Sabrina Vieira",
+        "id": "2002013",
+        "name": "Sabrina Vieira Silva",
+        "p": "11",
+        "posto": "275",
+        "turno": "2"
+    },
+    "2002016": {
+        "3x1": "0",
+        "alias": "Larissa Elias",
+        "id": "2002016",
+        "name": "Larissa De Lima Silva Elias",
+        "p": "10",
+        "posto": "80",
+        "turno": "1"
+    },
+    "2002018": {
+        "3x1": "0",
+        "alias": "Renato Junior",
+        "id": "2002018",
+        "name": "Renato Alves Junior",
+        "p": "2",
+        "posto": "115",
+        "turno": "1"
+    },
+    "2002020": {
+        "3x1": "0",
+        "alias": "Bruno Martins",
+        "id": "2002020",
+        "name": "Bruno Martins De Faria",
+        "p": "5",
+        "posto": "161",
+        "turno": "2"
+    },
+    "2002021": {
+        "3x1": "1",
+        "alias": "Sergio Maia",
+        "id": "2002021",
+        "name": "Sergio Maia Pereira",
+        "p": "5",
+        "posto": "123",
+        "turno": "1"
+    },
+    "2002022": {
+        "3x1": "0",
+        "alias": "Silvana Souza",
+        "id": "2002022",
+        "name": "Silvana De Souza Silva",
+        "p": "1",
+        "posto": "126",
+        "turno": "1"
+    },
+    "2002024": {
+        "3x1": "0",
+        "alias": "Lucas Curvelano",
+        "id": "2002024",
+        "name": "Lucas Curvelano Ferreira",
+        "p": "15",
+        "posto": "237",
+        "turno": "2"
+    },
+    "2002025": {
+        "3x1": "0",
+        "alias": "Guilherme Fernando",
+        "id": "2002025",
+        "name": "Guilherme Fernando Teixeira Dantas",
+        "p": "6",
+        "posto": "60",
+        "turno": "1"
+    },
+    "2002026": {
+        "3x1": "0",
+        "alias": "Juliana Miranda",
+        "id": "2002026",
+        "name": "Juliana Miranda Martins Da Silva",
+        "p": "6",
+        "posto": "74",
+        "turno": "1"
+    },
+    "2002027": {
+        "3x1": "0",
+        "alias": "Daniel Ribeiro",
+        "id": "2002027",
+        "name": "Daniel Ribeiro Araujo",
+        "p": "10",
+        "posto": "39",
+        "turno": "1"
+    },
+    "2002028": {
+        "3x1": "0",
+        "alias": "Jonas Abrantes",
+        "id": "2002028",
+        "name": "Jonas Cordeiro Abrantes",
+        "p": "2",
+        "posto": "210",
+        "turno": "2"
+    },
+    "2002029": {
+        "3x1": "0",
+        "alias": "Juan Paulo",
+        "id": "2002029",
+        "name": "Juan Paulo Reis De Souza",
+        "p": "1",
+        "posto": "220",
+        "turno": "2"
+    },
+    "2002050": {
+        "3x1": "0",
+        "alias": "Leonardo Akio",
+        "id": "2002050",
+        "name": "Leonardo Akio Fonseca Hamada",
+        "p": "5",
+        "posto": "82",
+        "turno": "1"
+    },
+    "2002051": {
+        "3x1": "0",
+        "alias": "Bruno Duarte",
+        "id": "2002051",
+        "name": "Bruno Duarte Alves",
+        "p": "1",
+        "posto": "32",
+        "turno": "1"
+    },
+    "2002052": {
+        "3x1": "0",
+        "alias": "Abel Elias",
+        "id": "2002052",
+        "name": "Abel Elias Oliveira",
+        "p": "5",
+        "posto": "147",
+        "turno": "2"
+    },
+    "2002053": {
+        "3x1": "0",
+        "alias": "Luiz Soares",
+        "id": "2002053",
+        "name": "Luiz Henrique Tadeu Soares",
+        "p": "4",
+        "posto": "242",
+        "turno": "2"
+    },
+    "2002054": {
+        "3x1": "0",
+        "alias": "Marcio Rodrigo",
+        "id": "2002054",
+        "name": "Marcio Rodrigo Ribeiro",
+        "p": "13",
+        "posto": "246",
+        "turno": "2"
+    },
+    "2002055": {
+        "3x1": "0",
+        "alias": "Jose Armando",
+        "id": "2002055",
+        "name": "Jose Armando Costa",
+        "p": "2",
+        "posto": "216",
+        "turno": "2"
+    },
+    "2002056": {
+        "3x1": "0",
+        "alias": "Roseanne Rodrigues",
+        "id": "2002056",
+        "name": "Roseanne Santos Rodrigues",
+        "p": "5",
+        "posto": "120",
+        "turno": "1"
+    },
+    "2002057": {
+        "3x1": "0",
+        "alias": "Michelle Ribeiro",
+        "id": "2002057",
+        "name": "Michelle Ribeiro De Castro Oliveira",
+        "p": "3",
+        "posto": "253",
+        "turno": "2"
+    },
+    "2002058": {
+        "3x1": "0",
+        "alias": "Daniel Can\u00e7ado",
+        "id": "2002058",
+        "name": "Daniel Can\u00e7ado Duarte",
+        "p": "13",
+        "posto": "37",
+        "turno": "1"
+    },
+    "2002059": {
+        "3x1": "0",
+        "alias": "Renato Ferreira",
+        "id": "2002059",
+        "name": "Renato Gomes Ferreira",
+        "p": "14",
+        "posto": "116",
+        "turno": "1"
+    },
+    "2002060": {
+        "3x1": "0",
+        "alias": "Nathalia Dias",
+        "id": "2002060",
+        "name": "Nathalia Dias Gomes",
+        "p": "3",
+        "posto": "99",
+        "turno": "1"
+    },
+    "2002061": {
+        "3x1": "1",
+        "alias": "Gustavo Concolato",
+        "id": "2002061",
+        "name": "Gustavo Machado Concolato",
+        "p": "4",
+        "posto": "62",
+        "turno": "1"
+    },
+    "2002062": {
+        "3x1": "0",
+        "alias": "Marluana Almeida",
+        "id": "2002062",
+        "name": "Marluana Almeida Ferreira Rodrigues",
+        "p": "10",
+        "posto": "249",
+        "turno": "2"
+    },
+    "2002063": {
+        "3x1": "0",
+        "alias": "Adriano Manna",
+        "id": "2002063",
+        "name": "Adriano Manna Brito",
+        "p": "15",
+        "posto": "149",
+        "turno": "2"
+    },
+    "2002064": {
+        "3x1": "1",
+        "alias": "Guaracy Dantas",
+        "id": "2002064",
+        "name": "Guaracy Dantas Junior",
+        "p": "1",
+        "posto": "58",
+        "turno": "1"
+    },
+    "2002065": {
+        "3x1": "0",
+        "alias": "Wildenberg Paezante",
+        "id": "2002065",
+        "name": "Wildenberg Bernardes Paezante",
+        "p": "5",
+        "posto": "142",
+        "turno": "1"
+    },
+    "2002066": {
+        "3x1": "0",
+        "alias": "Thiago Mendes",
+        "id": "2002066",
+        "name": "Thiago Tadeu Mendes Da Rocha",
+        "p": "14",
+        "posto": "292",
+        "turno": "2"
+    },
+    "2002067": {
+        "3x1": "0",
+        "alias": "Andre Silveira",
+        "id": "2002067",
+        "name": "Andre Luiz Da Silveira Silva",
+        "p": "12",
+        "posto": "28",
+        "turno": "1"
+    },
+    "2002068": {
+        "3x1": "0",
+        "alias": "Junio Jorge",
+        "id": "2002068",
+        "name": "Junio Jorge De Jesus",
+        "p": "5",
+        "posto": "224",
+        "turno": "2"
+    },
+    "2002069": {
+        "3x1": "0",
+        "alias": "Kenya Morais",
+        "id": "2002069",
+        "name": "Kenya Tatiana Frade Morais",
+        "p": "5",
+        "posto": "78",
+        "turno": "1"
+    },
+    "2002070": {
+        "3x1": "0",
+        "alias": "Guilherme Viana",
+        "id": "2002070",
+        "name": "Guilherme Viana Reis",
+        "p": "6",
+        "posto": "61",
+        "turno": "1"
+    },
+    "2002071": {
+        "3x1": "1",
+        "alias": "David Lacerda",
+        "id": "2002071",
+        "name": "David Lacerda Santos",
+        "p": "12",
+        "posto": "41",
+        "turno": "1"
+    },
+    "2002072": {
+        "3x1": "1",
+        "alias": "Taylla Santos",
+        "id": "2002072",
+        "name": "Taylla Fernanda Dos Santos",
+        "p": "6",
+        "posto": "130",
+        "turno": "1"
+    },
+    "2002073": {
+        "3x1": "0",
+        "alias": "Jonathas De Assis",
+        "id": "2002073",
+        "name": "Jonathas Jacinto De Assis",
+        "p": "12",
+        "posto": "213",
+        "turno": "2"
+    },
+    "2002075": {
+        "3x1": "0",
+        "alias": "Victor Schrier",
+        "id": "2002075",
+        "name": "Victor Schrier Alves",
+        "p": "12",
+        "posto": "137",
+        "turno": "1"
+    },
+    "2002076": {
+        "3x1": "1",
+        "alias": "Daniel Radtke",
+        "id": "2002076",
+        "name": "Daniel Alexandre De A. Chaves Radtke",
+        "p": "6",
+        "posto": "171",
+        "turno": "2"
+    },
+    "2002077": {
+        "3x1": "0",
+        "alias": "Marcos Santos",
+        "id": "2002077",
+        "name": "Marcos Vinicius Dos Santos Filho",
+        "p": "3",
+        "posto": "93",
+        "turno": "1"
+    },
+    "2002078": {
+        "3x1": "0",
+        "alias": "Willian Lopes",
+        "id": "2002078",
+        "name": "Willian Lopes Pe\u00e7anha",
+        "p": "1",
+        "posto": "300",
+        "turno": "2"
+    },
+    "2002079": {
+        "3x1": "0",
+        "alias": "Cledio Gabriel",
+        "id": "2002079",
+        "name": "Cledio Gabriel Dos Santos",
+        "p": "11",
+        "posto": "169",
+        "turno": "2"
+    },
+    "2002080": {
+        "3x1": "0",
+        "alias": "Lilian Londe",
+        "id": "2002080",
+        "name": "Lilian Oliveira Londe",
+        "p": "12",
+        "posto": "84",
+        "turno": "1"
+    },
+    "2002081": {
+        "3x1": "0",
+        "alias": "Mateus Rodrigues",
+        "id": "2002081",
+        "name": "Mateus Rodrigues Da Silva",
+        "p": "1",
+        "posto": "96",
+        "turno": "1"
+    },
+    "2002082": {
+        "3x1": "0",
+        "alias": "Grazielle Oliveira",
+        "id": "2002082",
+        "name": "Grazielle Silva De Oliveira",
+        "p": "11",
+        "posto": "57",
+        "turno": "1"
+    },
+    "2002083": {
+        "3x1": "0",
+        "alias": "Esther Dias",
+        "id": "2002083",
+        "name": "Esther Dias De Souza",
+        "p": "13",
+        "posto": "47",
+        "turno": "1"
+    },
+    "2002084": {
+        "3x1": "0",
+        "alias": "Rodrigo Prado",
+        "id": "2002084",
+        "name": "Rodrigo Mendon\u00e7a Prado",
+        "p": "1",
+        "posto": "118",
+        "turno": "1"
+    },
+    "2002085": {
+        "3x1": "0",
+        "alias": "Renata Cardoso",
+        "id": "2002085",
+        "name": "Renata Santos Cardoso Brito",
+        "p": "14",
+        "posto": "267",
+        "turno": "2"
+    },
+    "2002086": {
+        "3x1": "0",
+        "alias": "Jeferson Prado",
+        "id": "2002086",
+        "name": "Jeferson Prado Maciel Duarte",
+        "p": "3",
+        "posto": "70",
+        "turno": "1"
+    },
+    "2002087": {
+        "3x1": "1",
+        "alias": "Marcelo Vilhena",
+        "id": "2002087",
+        "name": "Marcelo De Vilhena Guimar\u00e3es",
+        "p": "4",
+        "posto": "91",
+        "turno": "1"
+    },
+    "2002088": {
+        "3x1": "0",
+        "alias": "Izabella Louren\u00e7a",
+        "id": "2002088",
+        "name": "Izabella Louren\u00e7a Amorim Romualdo",
+        "p": "15",
+        "posto": "202",
+        "turno": "2"
+    },
+    "2002089": {
+        "3x1": "0",
+        "alias": "Luiz Herculano",
+        "id": "2002089",
+        "name": "Luiz Guilherme Herculano Dos Santos",
+        "p": "14",
+        "posto": "89",
+        "turno": "1"
+    },
+    "2002181": {
+        "3x1": "0",
+        "alias": "Daniella Dutra",
+        "id": "2002181",
+        "name": "Daniella Bruno Dutra",
+        "p": "6",
+        "posto": "40",
+        "turno": "1"
+    },
+    "2002182": {
+        "3x1": "0",
+        "alias": "Lucas Henryque",
+        "id": "2002182",
+        "name": "Lucas Henryque Oliveira Chagas",
+        "p": "6",
+        "posto": "86",
+        "turno": "1"
+    },
+    "2002183": {
+        "3x1": "0",
+        "alias": "Cleber Carvalho",
+        "id": "2002183",
+        "name": "Cleber De Souza Carvalho",
+        "p": "3",
+        "posto": "168",
+        "turno": "2"
+    },
+    "2002184": {
+        "3x1": "0",
+        "alias": "Otavio Luiz",
+        "id": "2002184",
+        "name": "Otavio Luiz Cordeiro Da Silva",
+        "p": "14",
+        "posto": "259",
+        "turno": "2"
+    },
+    "2002185": {
+        "3x1": "0",
+        "alias": "Leticia Silva",
+        "id": "2002185",
+        "name": "Leticia Da Silva Dornas Paix\u00e3o",
+        "p": "10",
+        "posto": "231",
+        "turno": "2"
+    },
+    "2002186": {
+        "3x1": "0",
+        "alias": "Ligia Souza",
+        "id": "2002186",
+        "name": "Ligia De Oliveira Souza",
+        "p": "2",
+        "posto": "232",
+        "turno": "2"
+    },
+    "2002187": {
+        "3x1": "0",
+        "alias": "Mauricio Moura",
+        "id": "2002187",
+        "name": "Mauricio De Moura Almada",
+        "p": "4",
+        "posto": "252",
+        "turno": "2"
+    },
+    "2002188": {
+        "3x1": "0",
+        "alias": "Felipe Quintela",
+        "id": "2002188",
+        "name": "Felipe Da Silva Quintela",
+        "p": "1",
+        "posto": "183",
+        "turno": "2"
+    },
+    "2002189": {
+        "3x1": "0",
+        "alias": "Andreia Sanzio",
+        "id": "2002189",
+        "name": "Andreia Sanzio Soares",
+        "p": "2",
+        "posto": "155",
+        "turno": "2"
+    },
+    "2002190": {
+        "3x1": "1",
+        "alias": "Fabiana Tornelli",
+        "id": "2002190",
+        "name": "Fabiana Tornelli Rocha",
+        "p": "9",
+        "posto": "181",
+        "turno": "2"
+    },
+    "2002191": {
+        "3x1": "1",
+        "alias": "Igor Alves",
+        "id": "2002191",
+        "name": "Igor Alves Da Silva",
+        "p": "2",
+        "posto": "66",
+        "turno": "1"
+    },
+    "2002192": {
+        "3x1": "0",
+        "alias": "Kandace Riani",
+        "id": "2002192",
+        "name": "Kandace Amanda Silveira Castro V. Riani",
+        "p": "15",
+        "posto": "76",
+        "turno": "1"
+    },
+    "2002193": {
+        "3x1": "0",
+        "alias": "Hudson Rodrigo",
+        "id": "2002193",
+        "name": "Hudson Rodrigo Da Silva Oliveira",
+        "p": "11",
+        "posto": "64",
+        "turno": "1"
+    },
+    "2002194": {
+        "3x1": "0",
+        "alias": "Andre Fillipe",
+        "id": "2002194",
+        "name": "Andre Fillipe Fonseca Viana",
+        "p": "13",
+        "posto": "154",
+        "turno": "2"
+    },
+    "2002195": {
+        "3x1": "0",
+        "alias": "Matheus Felix",
+        "id": "2002195",
+        "name": "Matheus Augusto Felix",
+        "p": "1",
+        "posto": "251",
+        "turno": "2"
+    },
+    "2002196": {
+        "3x1": "0",
+        "alias": "Everton Marques",
+        "id": "2002196",
+        "name": "Everton Geraldo Marques Mour\u00e3o",
+        "p": "2",
+        "posto": "48",
+        "turno": "1"
+    },
+    "2002197": {
+        "3x1": "0",
+        "alias": "Ander Faria",
+        "id": "2002197",
+        "name": "Ander Proteus Silva De Faria",
+        "p": "3",
+        "posto": "152",
+        "turno": "2"
+    },
+    "2002198": {
+        "3x1": "0",
+        "alias": "Icaro Roosewelt",
+        "id": "2002198",
+        "name": "Icaro Roosewelt Faria Xavier",
+        "p": "4",
+        "posto": "65",
+        "turno": "1"
+    },
+    "2002199": {
+        "3x1": "0",
+        "alias": "Rafaela Faria",
+        "id": "2002199",
+        "name": "Rafaela Faria Barbosa",
+        "p": "15",
+        "posto": "112",
+        "turno": "1"
+    },
+    "2002200": {
+        "3x1": "0",
+        "alias": "Juliana Maria",
+        "id": "2002200",
+        "name": "Juliana Maria De Freitas Glueck",
+        "p": "11",
+        "posto": "222",
+        "turno": "2"
+    },
+    "2002201": {
+        "3x1": "0",
+        "alias": "Vinicius Hernandez",
+        "id": "2002201",
+        "name": "Vinicius Teixeira Generoso Hernandez",
+        "p": "6",
+        "posto": "296",
+        "turno": "2"
+    },
+    "2002202": {
+        "3x1": "0",
+        "alias": "Silvana Soares",
+        "id": "2002202",
+        "name": "Silvana Evangelista Soares Da Silva",
+        "p": "12",
+        "posto": "280",
+        "turno": "2"
+    },
+    "2002203": {
+        "3x1": "1",
+        "alias": "Wellington Santos",
+        "id": "2002203",
+        "name": "Wellington Santos Correa",
+        "p": "2",
+        "posto": "141",
+        "turno": "1"
+    },
+    "2002204": {
+        "3x1": "0",
+        "alias": "Helena Brito",
+        "id": "2002204",
+        "name": "Helena Duarte Pedrosa Brito",
+        "p": "11",
+        "posto": "63",
+        "turno": "1"
+    },
+    "2002205": {
+        "3x1": "0",
+        "alias": "Neimar Monteiro",
+        "id": "2002205",
+        "name": "Neimar Monteiro Gon\u00e7alves",
+        "p": "14",
+        "posto": "257",
+        "turno": "2"
+    },
+    "2002206": {
+        "3x1": "0",
+        "alias": "Maria Madalena",
+        "id": "2002206",
+        "name": "Maria Madalena Ferreira",
+        "p": "3",
+        "posto": "94",
+        "turno": "1"
+    },
+    "2002207": {
+        "3x1": "0",
+        "alias": "Karine Nolasco",
+        "id": "2002207",
+        "name": "Karine Zanandreis Nolasco De Melo",
+        "p": "10",
+        "posto": "77",
+        "turno": "1"
+    },
+    "2002208": {
+        "3x1": "1",
+        "alias": "Samura Ribeiro",
+        "id": "2002208",
+        "name": "Samura Ribeiro De Souza",
+        "p": "11",
+        "posto": "122",
+        "turno": "1"
+    },
+    "2002209": {
+        "3x1": "0",
+        "alias": "Luis Portela",
+        "id": "2002209",
+        "name": "Luis Eduardo Portela Botelho",
+        "p": "12",
+        "posto": "241",
+        "turno": "2"
+    },
+    "2002211": {
+        "3x1": "0",
+        "alias": "Rosa Lima",
+        "id": "2002211",
+        "name": "Rosa Lima Ferreira",
+        "p": "1",
+        "posto": "119",
+        "turno": "1"
+    },
+    "2002212": {
+        "3x1": "0",
+        "alias": "Blenda Teles",
+        "id": "2002212",
+        "name": "Blenda Reis Teles Silva",
+        "p": "4",
+        "posto": "31",
+        "turno": "1"
+    },
+    "2002213": {
+        "3x1": "1",
+        "alias": "Robson Reis",
+        "id": "2002213",
+        "name": "Robson Pereira Dos Reis",
+        "p": "3",
+        "posto": "272",
+        "turno": "2"
+    },
+    "2002214": {
+        "3x1": "0",
+        "alias": "Samuel Paulo",
+        "id": "2002214",
+        "name": "Samuel Paulo Da Silva",
+        "p": "3",
+        "posto": "121",
+        "turno": "1"
+    },
+    "2002215": {
+        "3x1": "0",
+        "alias": "Wanderson Ferreira",
+        "id": "2002215",
+        "name": "Wanderson Silva Ferreira",
+        "p": "5",
+        "posto": "298",
+        "turno": "2"
+    },
+    "2002216": {
+        "3x1": "0",
+        "alias": "Gisele Lacerda",
+        "id": "2002216",
+        "name": "Gisele Lacerda Da Silva",
+        "p": "2",
+        "posto": "55",
+        "turno": "1"
+    },
+    "2002308": {
+        "3x1": "0",
+        "alias": "Bruno Vinicius",
+        "id": "2002308",
+        "name": "Bruno Vinicius Da Silva",
+        "p": "11",
+        "posto": "162",
+        "turno": "2"
+    },
+    "2002309": {
+        "3x1": "0",
+        "alias": "Jo\u00e3o Pereira",
+        "id": "2002309",
+        "name": "Jo\u00e3o Victor Cunha Pereira",
+        "p": "3",
+        "posto": "209",
+        "turno": "2"
+    },
+    "2002310": {
+        "3x1": "1",
+        "alias": "Guilherme Souza",
+        "id": "2002310",
+        "name": "Guilherme Henrique De Souza",
+        "p": "12",
+        "posto": "191",
+        "turno": "2"
+    },
+    "2002311": {
+        "3x1": "0",
+        "alias": "Jessica Santos",
+        "id": "2002311",
+        "name": "Jessica Santos De Oliveira",
+        "p": "13",
+        "posto": "206",
+        "turno": "2"
+    },
+    "2002312": {
+        "3x1": "0",
+        "alias": "Victor Mattiello",
+        "id": "2002312",
+        "name": "Victor Hugo Mattiello",
+        "p": "2",
+        "posto": "295",
+        "turno": "2"
+    },
+    "2002313": {
+        "3x1": "0",
+        "alias": "Samera Alcides",
+        "id": "2002313",
+        "name": "Samera Ferreira De Almeida Alcides",
+        "p": "6",
+        "posto": "276",
+        "turno": "2"
+    },
+    "2002314": {
+        "3x1": "0",
+        "alias": "Gisele Soares",
+        "id": "2002314",
+        "name": "Gisele Soares Duarte Souza Da Cruz",
+        "p": "3",
+        "posto": "187",
+        "turno": "2"
+    },
+    "2002315": {
+        "3x1": "0",
+        "alias": "Thiago Rafael",
+        "id": "2002315",
+        "name": "Thiago Rafael Silveira Santos",
+        "p": "15",
+        "posto": "291",
+        "turno": "2"
+    },
+    "2002316": {
+        "3x1": "0",
+        "alias": "Lais Freitas",
+        "id": "2002316",
+        "name": "Lais Freitas Camara",
+        "p": "3",
+        "posto": "79",
+        "turno": "1"
+    },
+    "2002317": {
+        "3x1": "0",
+        "alias": "Julio Andrade",
+        "id": "2002317",
+        "name": "Julio Cesar Vieira De Andrade",
+        "p": "13",
+        "posto": "223",
+        "turno": "2"
+    },
+    "2002318": {
+        "3x1": "0",
+        "alias": "Alex Santos",
+        "id": "2002318",
+        "name": "Alex Paulo Maia Dos Santos",
+        "p": "13",
+        "posto": "24",
+        "turno": "1"
+    },
+    "2002319": {
+        "3x1": "0",
+        "alias": "Luan Nunes",
+        "id": "2002319",
+        "name": "Luan Nunes Ribeiro",
+        "p": "3",
+        "posto": "235",
+        "turno": "2"
+    },
+    "2002320": {
+        "3x1": "0",
+        "alias": "Hebert Guimar\u00e3es",
+        "id": "2002320",
+        "name": "Hebert Da Silva Guimar\u00e3es",
+        "p": "6",
+        "posto": "195",
+        "turno": "2"
+    },
+    "2002321": {
+        "3x1": "0",
+        "alias": "Patrick Ronald",
+        "id": "2002321",
+        "name": "Patrick Ronald Iglesias Coelho",
+        "p": "14",
+        "posto": "260",
+        "turno": "2"
+    },
+    "2002322": {
+        "3x1": "0",
+        "alias": "Priscila Viana",
+        "id": "2002322",
+        "name": "Priscila De Souza Viana",
+        "p": "5",
+        "posto": "264",
+        "turno": "2"
+    },
+    "2002323": {
+        "3x1": "1",
+        "alias": "Fabricio Cesar",
+        "id": "2002323",
+        "name": "Fabricio Cesar Da Silva",
+        "p": "5",
+        "posto": "182",
+        "turno": "2"
+    },
+    "2002324": {
+        "3x1": "0",
+        "alias": "Pedro Fernandes",
+        "id": "2002324",
+        "name": "Pedro Henrique Fernandes Silva",
+        "p": "13",
+        "posto": "107",
+        "turno": "1"
+    },
+    "2002325": {
+        "3x1": "0",
+        "alias": "Celio Santana",
+        "id": "2002325",
+        "name": "Celio Santana Lopes",
+        "p": "1",
+        "posto": "166",
+        "turno": "2"
+    },
+    "2002339": {
+        "3x1": "0",
+        "alias": "Philippe Prata",
+        "id": "2002339",
+        "name": "Philippe Matheus Sousa Prata",
+        "p": "13",
+        "posto": "263",
+        "turno": "2"
+    },
+    "2002340": {
+        "3x1": "1",
+        "alias": "Jonathan Santana",
+        "id": "2002340",
+        "name": "Jonathan De Souza Santana",
+        "p": "11",
+        "posto": "212",
+        "turno": "2"
+    },
+    "2002341": {
+        "3x1": "1",
+        "alias": "Jonnys Gomes",
+        "id": "2002341",
+        "name": "Jonnys Gomes Da Silva",
+        "p": "10",
+        "posto": "214",
+        "turno": "2"
+    },
+    "2002342": {
+        "3x1": "0",
+        "alias": "Roberta Bento",
+        "id": "2002342",
+        "name": "Roberta Da Silva Bento",
+        "p": "6",
+        "posto": "269",
+        "turno": "2"
+    },
+    "2002343": {
+        "3x1": "1",
+        "alias": "Edvaldo Duarte",
+        "id": "2002343",
+        "name": "Edvaldo Dias Duarte",
+        "p": "4",
+        "posto": "177",
+        "turno": "2"
+    },
+    "2002344": {
+        "3x1": "0",
+        "alias": "Yuri Lobo",
+        "id": "2002344",
+        "name": "Yuri Lobo Rodrigues Da Cunha",
+        "p": "3",
+        "posto": "301",
+        "turno": "2"
+    },
+    "2002345": {
+        "3x1": "1",
+        "alias": "Hudson Soares",
+        "id": "2002345",
+        "name": "Hudson Coelho Soares",
+        "p": "10",
+        "posto": "198",
+        "turno": "2"
+    },
+    "2002346": {
+        "3x1": "0",
+        "alias": "Rodinei Messias",
+        "id": "2002346",
+        "name": "Rodinei Messias Saquetti Chagas",
+        "p": "13",
+        "posto": "273",
+        "turno": "2"
+    },
+    "2002347": {
+        "3x1": "1",
+        "alias": "Vladimir Santos",
+        "id": "2002347",
+        "name": "Vladimir Dos Santos Paula",
+        "p": "12",
+        "posto": "297",
+        "turno": "2"
+    },
+    "2002348": {
+        "3x1": "0",
+        "alias": "Catia Regina",
+        "id": "2002348",
+        "name": "Catia Regina Nascimento De Paula",
+        "p": "2",
+        "posto": "165",
+        "turno": "2"
+    }
+}

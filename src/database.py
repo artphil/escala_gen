@@ -16,6 +16,8 @@ class db:
 		print(self.est)
 		self.scl = scale('data/scale.json')
 		print(self.scl)
+		self.wps = scale('data/tpos.json')
+		print(self.wps)
 
 		self.folgas = {
 				"0": 55, 	"00": 9,
@@ -135,6 +137,18 @@ class data:
 		else:
 			return
 
+	def get_by(self, title):
+		if title and title in self.titles:
+			colum = {}
+			for data in self.db:
+				colum[self.db[data][title]] = self.db[data].copy()
+				colum[self.db[data]][self.titles[0]] = data
+			
+			return colum
+		
+		else:
+			return
+
 	def save(self):
 		self.write()
 			
@@ -151,3 +165,4 @@ class scale:
 		except:
 			print('Arquivo {} não encontrado'.format(path))
 			return
+

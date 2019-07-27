@@ -25,11 +25,14 @@ for line in csv_file.readlines():
 	lines.append(line[:-1].split(';'))
 
 dictionary = {}
-for line in lines:
+titles = lines[0]
+for line in lines[1:]:
 	dictionary[line[0]] = {}
-	dictionary[line[0]]['nome'] = capita(line[1])
-	dictionary[line[0]]['alias'] = capita(line[2])
-	dictionary[line[0]]['p'] = '1'
+	for i in range(len(titles)):
+		if titles[i] == "name" or titles[i] == "alias":
+			dictionary[line[0]][titles[i]] = capita(line[i])
+		else:
+			dictionary[line[0]][titles[i]] = line[i]
 
 json_file = open(sys.argv[1][:-3]+'json', 'w') 
 json_file.write(json.dumps(dictionary, sort_keys=True, indent=4))
