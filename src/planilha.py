@@ -36,7 +36,7 @@ def gera_xls(tabela):
 	qrcode.width = qrcode.height = 120
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
-	ws.add_image(qrcode, 'AE23')
+	ws.add_image(qrcode, 'AD23')
 
 	# Inserindo Data
 	ws["A30"].value = date.today().strftime("%d/%m/%y")
