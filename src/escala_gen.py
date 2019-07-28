@@ -108,15 +108,24 @@ class gen:
 		
 		return True
 
-	# Primeiro sabado do mes
+	# Primeiro sabado do meses
 	def sabado(self):
 		for n in range(1,8):
-			dia = date(int(self.ano), self.mes['id'], n)
+			dia_i = date(int(self.ano), self.mes['id'], n)
 			# Se sabado
-			if dia.weekday() == 6 : 
+			if dia_i.weekday() == 6 : 
 				self.dia_inicio = n-1
-				self.data_inicio = dia
+				self.data_inicio = dia_i
 				break
+			
+		dia_f = dia_i + timedelta(days=self.mes['dias'])
+		# Se sabado
+		while dia_f.weekday() != 6 : 
+			print(dia_f)
+			dia_f = dia_f + timedelta(days=1)
+
+		self.dias = (dia_f-dia_i).days
+		self.data_fim = dia_f
 
 	# cria a matriz da escala
 	def gera_tabela(self):
@@ -125,12 +134,12 @@ class gen:
 		# Titulo
 		self.escala.append(["Escala ASO1 - "+self.estacao['name']+" - "+self.mes['name'], ""])
 
-		dias = self.mes['dias']
+		# dias = self.mes['dias']
 
 		# Sequencia de dias
 		lista_dias = ["", "Dias"]
-		for d in range(dias):
-			lista_dias.append((self.dia_inicio+d-1)%dias+1)
+		for d in range(self.dias):
+			lista_dias.append((self.dia_inicio+d-1)%self.mes['dias']+1)
 		
 		self.escala.append(lista_dias)
 
@@ -138,7 +147,7 @@ class gen:
 		lista_sem = ["", "Ps"]
 		data_dia = datetime(int(self.ano), self.mes['id'], self.dia_inicio)
 		
-		for d in range(dias):
+		for d in range(self.dias):
 			lista_sem.append(self.data.semana[int(data_dia.strftime('%w'))])
 			data_dia += timedelta(days=1)
 
@@ -160,7 +169,7 @@ class gen:
 			
 			else: p.append(f['p'])
 
-			for i in range(dias):
+			for i in range(self.dias):
 				if distrib[c][i] == 0:
 					p.append("")
 				elif distrib[c][i] == 1:
@@ -177,10 +186,10 @@ class gen:
 	def aloca(self):
 		func = len(self.funcs)	# Quantidade de funcionarios
 		fixos = int(func/2)		# Quantidade de postos
-		dias = self.mes['dias']
+		# dias = self.mes['dias']
 
 		# Tabela de distribuicao de postos
-		dist_postos = np.zeros((func,dias))
+		dist_postos = np.zeros((func,self.dias))
 
 		# Tabela de balanceamento de postos
 		balanc_postos = np.zeros((func,fixos))
@@ -219,7 +228,7 @@ class gen:
 					print('P fora do escopo')
 					exit()
 
-			for d in range(dias):
+			for d in range(self.dias):
 				dist_postos[f][d] = int(scale[(d+init+initp)%len(scale)])
 
 			f += 1
@@ -242,7 +251,7 @@ class gen:
 		# Aloca os postos aos funcionarios
 		d = a = t = 0
 		limite = 1 # Nivel de erro no banlanco de postos
-		while d < dias:
+		while d < self.dias:
 			print ("\nTentando dia", d)
 
 			# Coloca uma combinacao
