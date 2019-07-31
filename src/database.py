@@ -149,6 +149,39 @@ class data:
 		else:
 			return
 
+	def get_tree(self):
+		tree = {
+			"1":{
+				"a":{},
+				"b":{},
+				"c":{}
+			},
+			"2":{
+				"a":{},
+				"b":{},
+				"c":{}
+			}
+		}
+		for data in self.db:
+			if self.db[data]["turno"] == "1":
+				if self.db[data]["trecho"] == "a":
+					tree["1"]["a"][self.db[data]["posto"]] = self.db[data].copy()
+				elif self.db[data]["trecho"] == "b":
+					tree["1"]["b"][self.db[data]["posto"]] = self.db[data].copy()
+				elif self.db[data]["trecho"] == "c":
+					tree["1"]["c"][self.db[data]["posto"]] = self.db[data].copy()
+
+			elif self.db[data]["turno"] == "2":
+				if self.db[data]["trecho"] == "a":
+					tree["2"]["a"][self.db[data]["posto"]] = self.db[data].copy()
+				elif self.db[data]["trecho"] == "b":
+					tree["2"]["b"][self.db[data]["posto"]] = self.db[data].copy()
+				elif self.db[data]["trecho"] == "c":
+					tree["2"]["c"][self.db[data]["posto"]] = self.db[data].copy()
+			
+		return tree
+
+
 	def save(self):
 		self.write()
 			
