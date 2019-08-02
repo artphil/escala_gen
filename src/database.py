@@ -16,8 +16,9 @@ class db:
 		print(self.est)
 		self.scl = scale('data/scale.json')
 		print(self.scl)
-		self.wps = scale('data/tpos.json')
-		print(self.wps)
+		self.pds = places('data/tpos.json')
+		print(self.pds)
+		# print(json.dumps(self.pds.db))
 
 		self.folgas = {
 				"0": 55, 	"00": 9,
@@ -67,7 +68,7 @@ class data:
 		for line in file[1:]:
 			item = {}
 			data = line[:-1].split(';')
-			for i in range(1, len(data)):
+			for i in range(len(data)):
 				item[self.titles[i]] = data[i]
 			self.db[data[0]] = item
 
@@ -80,7 +81,7 @@ class data:
 
 			for item in self.db:
 				
-				file.write(item)
+				# file.write(item)
 				for value in self.db[item]:
 					file.write(';'+self.db[item][value])
 			
@@ -95,7 +96,7 @@ class data:
 			if title not in jdata:
 				return False
 		item = {}
-		for title in self.titles[1:]:
+		for title in self.titles:
 			item[title] = jdata[title]
 
 		self.db[jdata[self.titles[0]]] = item
@@ -128,11 +129,11 @@ class data:
 			for data in self.db:
 				if self.db[data][title] == item:
 					i = self.db[data].copy()
-					i[self.titles[0]] = data
+					# i[self.titles[0]] = data
 					return i
 		elif item in self.db:
 			i = self.db[item].copy()
-			i[self.titles[0]] = item
+			# i[self.titles[0]] = item
 			return i
 		else:
 			return
@@ -142,7 +143,7 @@ class data:
 			colum = {}
 			for data in self.db:
 				colum[self.db[data][title]] = self.db[data].copy()
-				colum[self.db[data]][self.titles[0]] = data
+				# colum[self.db[data]][self.titles[0]] = data
 			
 			return colum
 		
@@ -181,6 +182,16 @@ class data:
 			
 		return tree
 
+	def set_posto(self,ano,mes,data):
+		posicao = (ano-2000)*12 + mes
+		print (posicao)
+
+		for a in self.db:
+			if self.db[a]["trecho"] == 'd': continue
+			j = self.db[a]
+			print( j["turno"], j["trecho"], j["p"], (int(j["p"]))%3 )
+			if self.db[a]["posto"] in data[ j["turno"] ][ j["trecho"] ][ (int(j["p"])+1)%3 ]:
+				self.db[a]["pos"] = str(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"])+1)%3 ].index(j["posto"]))
 
 	def save(self):
 		self.write()
@@ -198,4 +209,22 @@ class scale:
 		except:
 			print('Arquivo {} não encontrado'.format(path))
 			return
+
+class places:
+	def __init__(self, path):
+		self.path = path
+		self.read()
+
+	def read(self):
+		try:
+			file = open(self.path, 'r')
+			self.db = json.load(file)
+			file.close()
+		except:
+			print('Arquivo {} não encontrado'.format(path))
+			return
+
+		# print(json.dumps(self.db))
+		
+
 
