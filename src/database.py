@@ -82,8 +82,10 @@ class data:
 			for item in self.db:
 				
 				# file.write(item)
-				for value in self.db[item]:
-					file.write(';'+self.db[item][value])
+				# for value in self.db[item]:
+					# file.write(';'+self.db[item][value])
+
+				file.write(';'.join([ self.db[item][value] for value in self.titles ]))
 			
 				file.write('\n')
 		
@@ -189,9 +191,34 @@ class data:
 		for a in self.db:
 			if self.db[a]["trecho"] == 'd': continue
 			j = self.db[a]
-			print( j["turno"], j["trecho"], j["p"], (int(j["p"]))%3 )
-			if self.db[a]["posto"] in data[ j["turno"] ][ j["trecho"] ][ (int(j["p"])+1)%3 ]:
-				self.db[a]["pos"] = str(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"])+1)%3 ].index(j["posto"]))
+			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
+
+			# Encontra o posto pela posicao
+			if j["pos"]:
+				# self.db[a]["posto"] = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ][ (int(j["pos"])+posicao)%list_size ]
+				print (data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ][ (int(j["pos"])+posicao)%list_size ])
+			
+		self.save()
+
+	def set_pos(self,ano,mes,data):
+		posicao = (ano-2000)*12 + mes
+		print (posicao)
+
+		for a in self.db:
+			if self.db[a]["trecho"] == 'd': continue
+			j = self.db[a]
+			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
+
+			# Encontra a posicao do posto na lista
+			print( j["turno"], j["trecho"], j["p"], (int(j["p"]))%3)
+			print(j["posto"],)
+			try: print(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]))
+			except: print('-')
+
+			if self.db[a]["posto"] in data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]:
+				self.db[a]["pos"] = str(list_size + data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]) - posicao%list_size)
+			
+		self.save()
 
 	def save(self):
 		self.write()

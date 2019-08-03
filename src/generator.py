@@ -8,6 +8,7 @@ import sys
 import os
 import json
 from database import db
+import escala_gen  as esc
 
 
 class gen:
@@ -17,6 +18,8 @@ class gen:
 		except:
 			print("Erro no Banco de Dados")
 			quit()
+
+		self.ests = {}
 
 		if len(sys.argv) <= 2: 
 			self.read_input()
@@ -67,6 +70,8 @@ class gen:
 
 			print(json.dumps(file))
 
+			self.ests[st] = file
+
 			with open('data/ests/a'+st, "w") as new_file:
 				new_file.write(json.dumps(file, indent=4))
 
@@ -74,5 +79,26 @@ class gen:
 if __name__ == '__main__':
 	
 	e = gen()
-	e.stations()
+	g = esc.gen()
 
+	while True:
+		try:
+			action = int(input("1.Gera escalas\n2.Gera estações\n3.Atualiza postos\n4.Attualiza posições\n0.Sair\n"))
+		except:
+			print("Comando invalido")
+			continue
+		
+		if action == 0:
+			quit()
+		elif action == 1:
+			for dat in e.ests:
+				g.esc_int(e.data, e.ests[dat])
+				g.pdf()
+		elif action == 2:
+			e.stations()
+		elif action == 3:
+			e.data.aso.set_posto(e.ano, e.data.mes[e.mes]["id"], e.data.pds.db)
+		elif action == 4:
+			e.data.aso.set_pos(e.ano, e.data.mes[e.mes]["id"], e.data.pds.db)
+		else:
+			print("Comando invalido")

@@ -113,19 +113,35 @@ class gen:
 		for n in range(1,8):
 			dia_i = date(int(self.ano), self.mes['id'], n)
 			# Se sabado
-			if dia_i.weekday() == 6 : 
-				self.dia_inicio = n-1
+			if dia_i.weekday() == 5 : 
+				self.dia_inicio = n
 				self.data_inicio = dia_i
 				break
-			
-		dia_f = dia_i + timedelta(days=self.mes['dias'])
-		# Se sabado
-		while dia_f.weekday() != 6 : 
-			print(dia_f)
-			dia_f = dia_f + timedelta(days=1)
 
-		self.dias = (dia_f-dia_i).days
-		self.data_fim = dia_f
+		next_month = self.mes['id']+1
+		next_year = int(self.ano)
+		if next_month > 12: 
+			next_month = 1
+			next_year += 1
+
+		for n in range(1,8):
+			dia_f = date(next_year, next_month, n)
+			# Se sabado
+			if dia_f.weekday() == 5 : 
+				self.dias = (dia_f-dia_i).days
+				self.data_fim = dia_f
+				break
+
+
+		# dia_f = dia_i + timedelta(days=self.mes['dias'])
+		# # Se sabado
+		# for n in range(1,8):
+		# 	dia_f = date(int(self.ano), self.mes['id']+1, n)
+		# # while dia_f.weekday() != 6 : 
+		# 	# print(dia_f)
+		# 	dia_f = dia_f + timedelta(days=1)
+		# self.dias = (dia_f-dia_i).days
+		# self.data_fim = dia_f
 
 	# cria a matriz da escala
 	def gera_tabela(self):
@@ -143,6 +159,7 @@ class gen:
 		
 		self.escala.append(lista_dias)
 
+		print("inicia em",  self.dia_inicio)
 		# Sequencia de dias da semana
 		lista_sem = ["", "Ps"]
 		data_dia = datetime(int(self.ano), self.mes['id'], self.dia_inicio)
@@ -251,8 +268,16 @@ class gen:
 		# Aloca os postos aos funcionarios
 		d = a = t = 0
 		limite = 1 # Nivel de erro no banlanco de postos
+		dtd = 0
+		s = 0
+		simb = ['|','/','-','\\','-','/'] 
 		while d < self.dias:
-			print ("\nTentando dia", d)
+			if dtd != d:
+				dtd = d
+				print ("\nTentando dia", d)
+			
+			print('''simb[s]''' '|', '''flush=True,''' end = '')
+			s = (s+1)%len(simb)
 
 			# Coloca uma combinacao
 			if self.insere_p(dist_postos, d, arranjos[a], postos, balanc_postos):

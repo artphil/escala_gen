@@ -460,7 +460,7 @@ class aso_page(tk.Frame):
 			else:
 				self.l_result['text'] = '** ASO não encontrado **'
 		
-		el'''
+		'''
 		if alias:
 			self.name.delete(0,tk.END)
 			self.fid.delete(0,tk.END)
