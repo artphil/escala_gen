@@ -15,115 +15,98 @@ class db:
 	
 	# Inicializa a classe
 	def __init__(self,HOST='localhost',PORT=27017):
+		self.client = MongoClient(HOST, PORT) # conecta num cliente do MongoDB rodando na sua máquina
+		
 		try:
-			self.client = MongoClient(HOST, PORT) # conecta num cliente do MongoDB rodando na sua máquina
+			self.test = self.client['test']['test']
+
+			self.people = self.client['data']['people']
+			self.places = self.client['data']['places']
+			self.scale = self.client['data']['scale']
+			self.time = self.client['data']['time']
 		except:
 			print(self.DB_NOT_FOUND)
 			quit()
-	
+
+	# Insere um funcionario no banco
+	def insert_employer(self, employer):
+		return self.insert(self.people, employer)
+
+	# Recupera um funcionario do banco
+	def get_employer(self, employer):
+		return self.get(self.people, employer)
+
+	# Recupera todos os funcionarios
+	def get_all_employers(self):
+		return self.get_all(self.people, {})
+
+	# Remove um funcionario do banco
+	def delete_employer(self,  employer):
+		return self.delete(self.people, employer)
+
 	# Recupera um item do DB
 	def get(self, db, item):
-		if not db or type(item) != type(dict()):
+		if not db or type(item) is not dict:
 			print(self.INVALID_PARAMETERS)
 			return
 		return db.find_one(item)
 	
 	# Recupera vários itens do DB
 	def get_all(self, db, item):
-		if not db or type(item) != type(dict()):
+		if not db or type(item) is not dict:
 			print(self.INVALID_PARAMETERS)
 			return
-		return db.find_many(item)
+		return list (db.find(item))
 	
 	# Insere um item do DB
 	def insert(self, db, item):
-		if not db or type(item) != type(dict()):
+		if not db or type(item) is not dict:
 			print(self.INVALID_PARAMETERS)
-			return
+			return False
 		if not "_id" in item:
 			print(self.NOT_ID)
-			return
+			return False
 		db.insert_one(item)	
+		return True
 
 	# Atualisa um item do DB
 	def update(self, db, item):
-		if not db or type(item) != type(dict()):
+		if not db or type(item) is not dict:
 			print(self.INVALID_PARAMETERS)
-			return
+			return False
 		if not "_id" in item:
 			print(self.NOT_ID)
-			return
+			return False
 		old = self.get(db, {"_id":item["_id"]})
 		if not old:
-			return
+			return False
 		new = {}
 		for data in item:
 			if (data not in old) or (old[data] != item[data]):
 				new[data] = item[data]
-		db.update_one({"_id":item["_id"]}, {'$set': new})
 
+		if new:
+			db.update_one({"_id":item["_id"]}, {'$set': new})
+			
+		return True
+			
 	# Remove um item do DB
 	def delete(self, db, item):
-		if not db or type(item) != type(dict()):
+		if not db or type(item) is not dict:
 			print(self.INVALID_PARAMETERS)
 			return
 		if not "_id" in item:
 			print(self.NOT_ID)
 			return
-		album.delete_one({"_id": item["_id"]})
+		db.delete_one({"_id": item["_id"]})
+		return True
 
 
 
 
 		# ''' ------------------- ^^^ Updated ^^^ ------------------- '''
 				
-				
-				
-				
-				
-class data:
-	def __init__(self, path):
-		self.path = path
-		self.read()
-
-	def read(self):
-		try:
-			file = open(self.path, 'r').readlines()
-		except:
-			print('Arquivo {} não encontrado'.format(path))
-			return
-
-		self.titles = file[0][:-1].split(';')
-		
-		self.db = {}
-
-		for line in file[1:]:
-			item = {}
-			data = line[:-1].split(';')
-			for i in range(len(data)):
-				item[self.titles[i]] = data[i]
-			self.db[data[0]] = item
-
-	def write(self):
-		p_tmp = self.path+'.tmp'
-
-		with open(p_tmp, 'w') as file:
-
-			file.write(';'.join(self.titles)+'\n')
-
-			for item in self.db:
-				
-				# file.write(item)
-				# for value in self.db[item]:
-					# file.write(';'+self.db[item][value])
-
-				file.write(';'.join([ self.db[item][value] for value in self.titles ]))
-			
-				file.write('\n')
-		
-		
-		os.remove(self.path)
-		os.rename(p_tmp, self.path)
+class hhh:				
 
 	def insert(self, jdata):
 		for title in self.titles:
