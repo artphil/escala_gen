@@ -3,7 +3,8 @@
 # Requisitos
 O programa foi desenvolvido em [Python3](https://www.python.org/downloads/).<br/>
 * [Openpyxl](https://openpyxl.readthedocs.io/en/stable/) é a biblioteca utilizada para a criar da planilha (A criação autoática dos PDFs só acontece no Linux com OpenOffice instalado).<br/>
-* [Tkinter]() é necessária para gerar a interface.
+* [Tkinter]() é necessária para gerar a interface desktop.
+* [Flask]() é necessária para gerar as APIs e web services.
 As demais biblliotecas utilizadas são padrões da linguagem.
 
 ## Execução

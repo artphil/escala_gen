@@ -1,4 +1,4 @@
-id;name;alias;p;3x1;turno;posto;trecho;pos
+_id;name;alias;p;3x1;turno;posto;trecho;pos
 1000002;* Furo de escala;*(2);2;0;0;2;d;
 1000003;* Furo de escala;*(3);3;0;0;3;d;
 1000005;* Furo de escala;*(5);5;0;0;5;d;

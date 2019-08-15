@@ -1,0 +1,40 @@
+_id;code;name;peb;peq
+101;UEL1;Eldorado - 1° Turno;5;4
+102;UCI1;Cidade Industrial - 1° Turno;2;1
+103;UVO1;Vila Oeste - 1° Turno;2;1
+104;UGM1;Gameleira - 1° Turno;2;1
+105;UCL1;Calafate - 1° Turno;2;1
+106;UCP1;Carlos Prates - 1° Turno;2;3
+107;ULG1;Lagoinha - 1° Turno;3;2
+108;UCT1;Central - 1° Turno;3;2
+109;USE1;Santa Efigênia - 1° Turno;2;1
+110;UST1;Santa Tereza - 1° Turno;2;1
+111;UHF1;Horto Florestal - 1° Turno;2;1
+112;USI1;Santa Inês - 1° Turno;2;1
+113;UJC1;Jose Cândido - 1° Turno;2;1
+114;UMS1;Minas Shopping - 1° Turno;2;1
+115;USG1;São Gabriel - 1° Turno;3;2
+116;UPM1;Primeiro de Maio - 1° Turno;2;1
+117;UWL2;Waldomiro Lobo - 2° Turno;2;1
+118;UFL1;Floramar - 1° Turno;2;1
+119;UVL1;Vilarinho - 1° Turno;6;3
+202;UCI2;Cidade Industrial - 2° Turno;2;1
+201;UEL2;Eldorado - 2° Turno;4;3
+203;UVO2;Vila Oeste - 2° Turno;2;2
+204;UGM2;Gameleira - 2° Turno;2;2
+205;UCL2;Calafate - 2° Turno;3;1
+206;UCP2;Carlos Prates - 2° Turno;3;3
+207;ULG2;Lagoinha - 2° Turno;4;2
+208;UCT2;Central - 2° Turno;4;3
+209;USE2;Santa Efigênia - 2° Turno;3;2
+210;UST2;Santa Tereza - 2° Turno;2;2
+211;UHF2;Horto Florestal - 2° Turno;2;2
+212;USI2;Santa Inês - 2° Turno;2;2
+213;UJC2;Jose Cândido - 2° Turno;2;2
+214;UMS2;Minas Shopping - 2° Turno;3;2
+215;USG2;São Gabriel - 2° Turno;2;2
+216;UPM2;Primeiro de Maio - 2° Turno;2;1
+217;UWL1;Waldomiro Lobo - 1° Turno;2;1
+218;UFL2;Floramar - 2° Turno;2;1
+219;UVL2;Vilarinho - 2° Turno;5;3
+999;TST;Teste de escala;2;2

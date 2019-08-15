@@ -1,0 +1,302 @@
+{"_id": 1000002, "name": "* Furo De Escala", "alias": "*(2)", "p": 2, "3x1": 0, "turno": 0, "posto": 2, "trecho": "d"}
+{"_id": 1000003, "name": "* Furo De Escala", "alias": "*(3)", "p": 3, "3x1": 0, "turno": 0, "posto": 3, "trecho": "d"}
+{"_id": 1000005, "name": "* Furo De Escala", "alias": "*(5)", "p": 5, "3x1": 0, "turno": 0, "posto": 5, "trecho": "d"}
+{"_id": 1000006, "name": "* Furo De Escala", "alias": "*(6)", "p": 6, "3x1": 0, "turno": 0, "posto": 6, "trecho": "d"}
+{"_id": 1000007, "name": "* Furo De Escala", "alias": "*(7)", "p": 7, "3x1": 1, "turno": 0, "posto": 7, "trecho": "d"}
+{"_id": 1000008, "name": "* Furo De Escala", "alias": "*(8)", "p": 8, "3x1": 1, "turno": 0, "posto": 8, "trecho": "d"}
+{"_id": 1000009, "name": "* Furo De Escala", "alias": "*(9)", "p": 9, "3x1": 1, "turno": 0, "posto": 9, "trecho": "d"}
+{"_id": 1000011, "name": "* Furo De Escala", "alias": "*(11)", "p": 11, "3x1": 0, "turno": 0, "posto": 11, "trecho": "d"}
+{"_id": 1000012, "name": "* Furo De Escala", "alias": "*(12)", "p": 12, "3x1": 0, "turno": 0, "posto": 12, "trecho": "d"}
+{"_id": 1000013, "name": "* Furo De Escala", "alias": "*(13)", "p": 13, "3x1": 0, "turno": 0, "posto": 13, "trecho": "d"}
+{"_id": 1000014, "name": "* Furo De Escala", "alias": "*(14)", "p": 14, "3x1": 0, "turno": 0, "posto": 14, "trecho": "d"}
+{"_id": 1000015, "name": "* Furo De Escala", "alias": "*(15)", "p": 15, "3x1": 0, "turno": 0, "posto": 15, "trecho": "d"}
+{"_id": 1000041, "name": "P1", "alias": "P1", "p": 16, "3x1": 0, "turno": 0, "posto": 16, "trecho": "d"}
+{"_id": 1000042, "name": "P2", "alias": "P2", "p": 17, "3x1": 0, "turno": 0, "posto": 17, "trecho": "d"}
+{"_id": 1000043, "name": "P3", "alias": "P3", "p": 18, "3x1": 0, "turno": 0, "posto": 18, "trecho": "d"}
+{"_id": 1000044, "name": "P4", "alias": "P4", "p": 19, "3x1": 0, "turno": 0, "posto": 19, "trecho": "d"}
+{"_id": 1000045, "name": "P5", "alias": "P5", "p": 20, "3x1": 0, "turno": 0, "posto": 20, "trecho": "d"}
+{"_id": 1000046, "name": "P6", "alias": "P6", "p": 2, "3x1": 0, "turno": 0, "posto": 21, "trecho": "d"}
+{"_id": 1000001, "name": "* Furo De Escala", "alias": "*(1)", "p": 1, "3x1": 0, "turno": 0, "posto": 100023, "trecho": "d"}
+{"_id": 1000004, "name": "* Furo De Escala", "alias": "*(4)", "p": 4, "3x1": 0, "turno": 0, "posto": 100113, "trecho": "d"}
+{"_id": 1000010, "name": "* Furo De Escala", "alias": "*(10)", "p": 10, "3x1": 0, "turno": 0, "posto": 100163, "trecho": "d"}
+{"_id": 2002050, "name": "Leonardo Akio Fonseca Hamada", "alias": "Leonardo Akio", "p": 5, "3x1": 0, "turno": 1, "posto": 100011, "trecho": "a", "pos": 17}
+{"_id": 2002182, "name": "Lucas Henryque Oliveira Chagas", "alias": "Lucas Henryque", "p": 6, "3x1": 0, "turno": 1, "posto": 100021, "trecho": "a", "pos": 17}
+{"_id": 2001789, "name": "Isabella Cristina Raniere Chaves", "alias": "Isabella Raniere", "p": 4, "3x1": 0, "turno": 1, "posto": 101021, "trecho": "a", "pos": 17}
+{"_id": 2002021, "name": "Sergio Maia Pereira", "alias": "Sergio Maia", "p": 5, "3x1": 0, "turno": 1, "posto": 100071, "trecho": "b", "pos": 17}
+{"_id": 2001961, "name": "Stefano Carvalho Hallack", "alias": "Stefano Hallack", "p": 6, "3x1": 0, "turno": 1, "posto": 100091, "trecho": "b", "pos": 17}
+{"_id": 2002061, "name": "Gustavo Machado Concolato", "alias": "Gustavo Concolato", "p": 4, "3x1": 0, "turno": 1, "posto": 107091, "trecho": "b", "pos": 17}
+{"_id": 2002080, "name": "Lilian Oliveira Londe", "alias": "Lilian Londe", "p": 12, "3x1": 1, "turno": 1, "posto": 100181, "trecho": "c", "pos": 17}
+{"_id": 2001925, "name": "Felipe De Assis Maciel", "alias": "Felipe Maciel", "p": 11, "3x1": 1, "turno": 1, "posto": 100191, "trecho": "c", "pos": 17}
+{"_id": 2001897, "name": "Daiane De Castro", "alias": "Daiane De Castro", "p": 10, "3x1": 1, "turno": 1, "posto": 118191, "trecho": "c", "pos": 17}
+{"_id": 2001702, "name": "Nayara Carolina Pereira Da Silva Alves", "alias": "Nayara Alves", "p": 14, "3x1": 0, "turno": 1, "posto": 100061, "trecho": "a", "pos": 20}
+{"_id": 2002318, "name": "Alex Paulo Maia Dos Santos", "alias": "Alex Santos", "p": 13, "3x1": 0, "turno": 1, "posto": 106001, "trecho": "a", "pos": 20}
+{"_id": 2002204, "name": "Helena Duarte Pedrosa Brito", "alias": "Helena Brito", "p": 11, "3x1": 0, "turno": 1, "posto": 100081, "trecho": "b", "pos": 20}
+{"_id": 2001870, "name": "Ygor Vinicius Vieira Thibau", "alias": "Ygor Vinicius", "p": 12, "3x1": 0, "turno": 1, "posto": 100132, "trecho": "b", "pos": 20}
+{"_id": 2002016, "name": "Larissa De Lima Silva Elias", "alias": "Larissa Elias", "p": 10, "3x1": 0, "turno": 1, "posto": 108131, "trecho": "b", "pos": 20}
+{"_id": 2001901, "name": "Raphael Neves Ferreira", "alias": "Raphael Ferreira", "p": 14, "3x1": 0, "turno": 1, "posto": 100151, "trecho": "c", "pos": 20}
+{"_id": 2001965, "name": "Willy Thiago De Almeida", "alias": "Willy Almeida", "p": 15, "3x1": 0, "turno": 1, "posto": 100183, "trecho": "c", "pos": 20}
+{"_id": 2001876, "name": "Mariana De Freitas Silvano", "alias": "Mariana Silvano", "p": 13, "3x1": 0, "turno": 1, "posto": 115181, "trecho": "c", "pos": 20}
+{"_id": 2002056, "name": "Rosiane Santos Rodrigues", "alias": "Rosiane Rodrigues", "p": 5, "3x1": 0, "turno": 1, "posto": 100012, "trecho": "a", "pos": 23}
+{"_id": 2001708, "name": "Gabriela Correia De Castro", "alias": "Gabriela Correia", "p": 6, "3x1": 0, "turno": 1, "posto": 100031, "trecho": "a", "pos": 23}
+{"_id": 2001826, "name": "Thais De Almeida Macedo Santos", "alias": "Thais Almeida", "p": 4, "3x1": 0, "turno": 1, "posto": 101031, "trecho": "a", "pos": 23}
+{"_id": 2001888, "name": "Pedro Henrique Araujo Rodrigues", "alias": "Pedro Rodrigues", "p": 14, "3x1": 0, "turno": 1, "posto": 100133, "trecho": "b", "pos": 23}
+{"_id": 2002058, "name": "Daniel Can\u00e7ado Duarte", "alias": "Daniel Can\u00e7ado", "p": 13, "3x1": 0, "turno": 1, "posto": 113001, "trecho": "b", "pos": 23}
+{"_id": 2001716, "name": "Jucileia Ferreira De Sousa", "alias": "Jucileia Sousa", "p": 12, "3x1": 0, "turno": 1, "posto": 100174, "trecho": "c", "pos": 23}
+{"_id": 2002082, "name": "Grazielle Silva De Oliveira", "alias": "Grazielle Oliveira", "p": 11, "3x1": 0, "turno": 1, "posto": 100192, "trecho": "c", "pos": 23}
+{"_id": 2002027, "name": "Daniel Ribeiro Araujo", "alias": "Daniel Ribeiro", "p": 10, "3x1": 0, "turno": 1, "posto": 117191, "trecho": "c", "pos": 23}
+{"_id": 2002193, "name": "Hudson Rodrigo Da Silva Oliveira", "alias": "Hudson Rodrigo", "p": 11, "3x1": 0, "turno": 1, "posto": 100065, "trecho": "a", "pos": 26}
+{"_id": 2001919, "name": "Rodrigo Cesar Da Costa Ribeiro", "alias": "Rodrigo Ribeiro", "p": 10, "3x1": 0, "turno": 1, "posto": 106002, "trecho": "a", "pos": 26}
+{"_id": 2001926, "name": "Victor De Sousa Prata", "alias": "Victor Prata", "p": 2, "3x1": 0, "turno": 1, "posto": 100072, "trecho": "b", "pos": 26}
+{"_id": 2001916, "name": "Thiago Philippe Soares", "alias": "Thiago Philippe", "p": 3, "3x1": 0, "turno": 1, "posto": 100101, "trecho": "b", "pos": 26}
+{"_id": 2002211, "name": "Rosa Lima Ferreira", "alias": "Rosa Lima", "p": 1, "3x1": 0, "turno": 1, "posto": 107101, "trecho": "b", "pos": 26}
+{"_id": 1000114, "name": "* Furo De Escala", "alias": "- ", "p": 14, "3x1": 0, "turno": 1, "posto": 100152, "trecho": "c", "pos": 26}
+{"_id": 2002006, "name": "Sergio Pereira Gon\u00e7alves", "alias": "Sergio Gon\u00e7alves", "p": 15, "3x1": 0, "turno": 1, "posto": 100173, "trecho": "c", "pos": 26}
+{"_id": 2001931, "name": "Willian Da Cunha Sousa", "alias": "Willian Cunha", "p": 13, "3x1": 0, "turno": 1, "posto": 115171, "trecho": "c", "pos": 26}
+{"_id": 2001706, "name": "Pedro Henrique Vaz Monteiro", "alias": "Pedro Vaz", "p": 2, "3x1": 1, "turno": 1, "posto": 100013, "trecho": "a", "pos": 29}
+{"_id": 2002009, "name": "Israel Dos Santos Leite Junior", "alias": "Israel Santos", "p": 3, "3x1": 1, "turno": 1, "posto": 100041, "trecho": "a", "pos": 29}
+{"_id": 2001796, "name": "Vinicius Lara Braga De Souza", "alias": "Vinicius Lara", "p": 1, "3x1": 1, "turno": 1, "posto": 101041, "trecho": "a", "pos": 29}
+{"_id": 2001701, "name": "Glauber Lucas Meireles De Figueiredo", "alias": "Glauber Figueiredo", "p": 5, "3x1": 0, "turno": 1, "posto": 100082, "trecho": "b", "pos": 29}
+{"_id": 2001944, "name": "Ana Raquel Almeida E Franco", "alias": "Ana Raquel", "p": 6, "3x1": 0, "turno": 1, "posto": 100112, "trecho": "b", "pos": 29}
+{"_id": 2001936, "name": "Paula Helena Pessoa Costa Cabral", "alias": "Paula Pessoa", "p": 4, "3x1": 0, "turno": 1, "posto": 108111, "trecho": "b", "pos": 29}
+{"_id": 2002214, "name": "Samuel Paulo Da Silva", "alias": "Samuel Paulo", "p": 3, "3x1": 1, "turno": 1, "posto": 100161, "trecho": "c", "pos": 29}
+{"_id": 2001932, "name": "Renata Goltara Souza", "alias": "Renata Goltara", "p": 2, "3x1": 1, "turno": 1, "posto": 100193, "trecho": "c", "pos": 29}
+{"_id": 2001799, "name": "Alan Marcelo Da Silva", "alias": "Alan Marcelo", "p": 1, "3x1": 1, "turno": 1, "posto": 116191, "trecho": "c", "pos": 29}
+{"_id": 2002191, "name": "Igor Alves Da Silva", "alias": "Igor Alves", "p": 2, "3x1": 0, "turno": 1, "posto": 100014, "trecho": "a", "pos": 32}
+{"_id": 2001902, "name": "Frederico Sans\u00e3o Gon\u00e7alves Ramos", "alias": "Frederico Sans\u00e3o", "p": 3, "3x1": 0, "turno": 1, "posto": 100051, "trecho": "a", "pos": 32}
+{"_id": 2001812, "name": "Pedro Vinicius Apolinario", "alias": "Pedro Apolinario", "p": 1, "3x1": 0, "turno": 1, "posto": 101051, "trecho": "a", "pos": 32}
+{"_id": 2002000, "name": "Elisio Rocha Breguez Gon\u00e7alves", "alias": "Elisio Rocha", "p": 11, "3x1": 0, "turno": 1, "posto": 100103, "trecho": "b", "pos": 32}
+{"_id": 2001806, "name": "Bernard Pereira Magacho", "alias": "Bernard Magacho", "p": 10, "3x1": 0, "turno": 1, "posto": 110001, "trecho": "b", "pos": 32}
+{"_id": 2002026, "name": "Juliana Miranda Martins Da Silva", "alias": "Juliana Miranda", "p": 6, "3x1": 0, "turno": 1, "posto": 100141, "trecho": "c", "pos": 32}
+{"_id": 2001872, "name": "Paulo Renato Braga Camilo", "alias": "Paulo Renato", "p": 5, "3x1": 0, "turno": 1, "posto": 100194, "trecho": "c", "pos": 32}
+{"_id": 2001912, "name": "Ana Carolina Coelho De Oliveira", "alias": "Ana Carolina", "p": 4, "3x1": 0, "turno": 1, "posto": 114191, "trecho": "c", "pos": 32}
+{"_id": 2002025, "name": "Guilherme Fernando Teixeira Dantas", "alias": "Guilherme Fernando", "p": 6, "3x1": 1, "turno": 1, "posto": 100032, "trecho": "a", "pos": 35}
+{"_id": 2001920, "name": "Tatiane Rodrigues Melo Pereira", "alias": "Tatiane Rodrigues", "p": 5, "3x1": 1, "turno": 1, "posto": 100064, "trecho": "a", "pos": 35}
+{"_id": 2002212, "name": "Blenda Reis Teles Silva", "alias": "Blenda Teles", "p": 4, "3x1": 1, "turno": 1, "posto": 103061, "trecho": "a", "pos": 35}
+{"_id": 2001913, "name": "Mayara Lorena Barbosa Maia", "alias": "Mayara Maia", "p": 14, "3x1": 0, "turno": 1, "posto": 100073, "trecho": "b", "pos": 35}
+{"_id": 2001803, "name": "Marco Tulio Alves Do Nascimento", "alias": "Marco Alves", "p": 15, "3x1": 0, "turno": 1, "posto": 100111, "trecho": "b", "pos": 35}
+{"_id": 2001967, "name": "Victor De Sousa Santos", "alias": "Victor Santos", "p": 13, "3x1": 0, "turno": 1, "posto": 107111, "trecho": "b", "pos": 35}
+{"_id": 2001968, "name": "Tiago Moreno Pascoal", "alias": "Tiago Moreno", "p": 11, "3x1": 0, "turno": 1, "posto": 100153, "trecho": "c", "pos": 35}
+{"_id": 2001997, "name": "Sidney Alexandre Gil Ferreira", "alias": "Sidney Ferreira", "p": 10, "3x1": 0, "turno": 1, "posto": 115001, "trecho": "c", "pos": 35}
+{"_id": 2001989, "name": "Vinicius Melo Pedrosa", "alias": "Vinicius Melo", "p": 4, "3x1": 0, "turno": 1, "posto": 115001, "trecho": "c", "pos": 35}
+{"_id": 2001694, "name": "Guilherme Da Silva Araujo", "alias": "Guilherme Araujo", "p": 11, "3x1": 0, "turno": 1, "posto": 100015, "trecho": "a", "pos": 38}
+{"_id": 2001903, "name": "Joseanne Cristina De Gois Ferreira", "alias": "Joseanne Ferreira", "p": 12, "3x1": 0, "turno": 1, "posto": 100022, "trecho": "a", "pos": 38}
+{"_id": 2002207, "name": "Karine Zanandreis Nolasco De Melo", "alias": "Karine Nolasco", "p": 10, "3x1": 0, "turno": 1, "posto": 101022, "trecho": "a", "pos": 38}
+{"_id": 2001910, "name": "Lucia Gon\u00e7alves De Pinho", "alias": "Lucia Gon\u00e7alves", "p": 2, "3x1": 0, "turno": 1, "posto": 100083, "trecho": "b", "pos": 38}
+{"_id": 2002206, "name": "Maria Madalena Ferreira", "alias": "Maria Madalena", "p": 3, "3x1": 0, "turno": 1, "posto": 100122, "trecho": "b", "pos": 38}
+{"_id": 2002084, "name": "Rodrigo Mendon\u00e7a Prado", "alias": "Rodrigo Prado", "p": 1, "3x1": 0, "turno": 1, "posto": 108121, "trecho": "b", "pos": 38}
+{"_id": 2001991, "name": "Delric Lucas Bento De Jesus Ferreira", "alias": "Delric Lucas", "p": 14, "3x1": 0, "turno": 1, "posto": 100195, "trecho": "c", "pos": 38}
+{"_id": 2001851, "name": "Lisyane Rachel De Cristo Kaizer", "alias": "Lisyane Kaizer", "p": 13, "3x1": 0, "turno": 1, "posto": 119001, "trecho": "c", "pos": 38}
+{"_id": 2002059, "name": "Renato Gomes Ferreira", "alias": "Renato Ferreira", "p": 14, "3x1": 0, "turno": 1, "posto": 100016, "trecho": "a", "pos": 41}
+{"_id": 2001909, "name": "Wagner Forapani Clemente", "alias": "Wagner Clemente", "p": 15, "3x1": 0, "turno": 1, "posto": 100033, "trecho": "a", "pos": 41}
+{"_id": 2002022, "name": "Silvana De Souza Silva", "alias": "Silvana Souza", "p": 13, "3x1": 0, "turno": 1, "posto": 101032, "trecho": "a", "pos": 41}
+{"_id": 2002008, "name": "Daniel Fernando Vieira De Paula", "alias": "Daniel Fernando", "p": 3, "3x1": 0, "turno": 1, "posto": 100123, "trecho": "b", "pos": 41}
+{"_id": 2002051, "name": "Bruno Duarte Alves", "alias": "Bruno Duarte", "p": 1, "3x1": 0, "turno": 1, "posto": 112001, "trecho": "b", "pos": 41}
+{"_id": 2002060, "name": "Nathalia Dias Gomes", "alias": "Nathalia Dias", "p": 3, "3x1": 0, "turno": 1, "posto": 100182, "trecho": "c", "pos": 41}
+{"_id": 2002018, "name": "Renato Alves Junior", "alias": "Renato Junior", "p": 2, "3x1": 0, "turno": 1, "posto": 100196, "trecho": "c", "pos": 41}
+{"_id": 2002081, "name": "Mateus Rodrigues Da Silva", "alias": "Mateus Rodrigues", "p": 1, "3x1": 0, "turno": 1, "posto": 118192, "trecho": "c", "pos": 41}
+{"_id": 2001959, "name": "Ayslan Rogger Da Silva Felizardo", "alias": "Ayslan Rogger", "p": 15, "3x1": 0, "turno": 1, "posto": 100042, "trecho": "a", "pos": 44}
+{"_id": 2001952, "name": "Marcela Alves Santos Nascimento", "alias": "Marcela Alves", "p": 14, "3x1": 0, "turno": 1, "posto": 100063, "trecho": "a", "pos": 44}
+{"_id": 2001715, "name": "Carlos Eduardo Goulart De Souza", "alias": "Carlos Eduardo", "p": 13, "3x1": 0, "turno": 1, "posto": 104061, "trecho": "a", "pos": 44}
+{"_id": 2002203, "name": "Wellington Santos Correa", "alias": "Wellington Santos", "p": 2, "3x1": 0, "turno": 1, "posto": 100074, "trecho": "b", "pos": 44}
+{"_id": 2001850, "name": "Carla Erica Da Silva", "alias": "Carla Erica", "p": 3, "3x1": 0, "turno": 1, "posto": 100121, "trecho": "b", "pos": 44}
+{"_id": 2002064, "name": "Guaracy Dantas Junior", "alias": "Guaracy Dantas", "p": 1, "3x1": 0, "turno": 1, "posto": 107121, "trecho": "b", "pos": 44}
+{"_id": 2001940, "name": "Lenise Glaucia De Souza Moraes", "alias": "Lenise Moraes", "p": 6, "3x1": 0, "turno": 1, "posto": 100143, "trecho": "c", "pos": 44}
+{"_id": 2002208, "name": "Samura Ribeiro De Souza", "alias": "Samura Ribeiro", "p": 5, "3x1": 0, "turno": 1, "posto": 100154, "trecho": "c", "pos": 44}
+{"_id": 2001941, "name": "Francisco De Assis Monteiro", "alias": "Francisco Monteiro", "p": 4, "3x1": 0, "turno": 1, "posto": 114151, "trecho": "c", "pos": 44}
+{"_id": 2001933, "name": "Paulo Dener Bacelar Rabelo", "alias": "Paulo Dener", "p": 15, "3x1": 1, "turno": 1, "posto": 100017, "trecho": "a", "pos": 47}
+{"_id": 2001824, "name": "Claudiney Do Espirito Santo Leite", "alias": "Claudiney Leite", "p": 14, "3x1": 1, "turno": 1, "posto": 100043, "trecho": "a", "pos": 47}
+{"_id": 2001713, "name": "Vanessa Francisca Dos Santos Spindola", "alias": "Vanessa Spindola", "p": 13, "3x1": 1, "turno": 1, "posto": 101042, "trecho": "a", "pos": 47}
+{"_id": 2001849, "name": "Felipe Augusto Santiago De Castro", "alias": "Felipe Augusto", "p": 5, "3x1": 0, "turno": 1, "posto": 100084, "trecho": "b", "pos": 47}
+{"_id": 2001993, "name": "Leonardo Pinto Albuquerque", "alias": "Leo Albuquerque", "p": 6, "3x1": 0, "turno": 1, "posto": 100102, "trecho": "b", "pos": 47}
+{"_id": 2001714, "name": "Yuri Augusto De Paiva Silva", "alias": "Yuri Paiva", "p": 4, "3x1": 0, "turno": 1, "posto": 108101, "trecho": "b", "pos": 47}
+{"_id": 2002072, "name": "Taylla Fernanda Dos Santos", "alias": "Taylla Santos", "p": 12, "3x1": 0, "turno": 1, "posto": 100172, "trecho": "c", "pos": 47}
+{"_id": 2001942, "name": "Eliane Helena Dos Santos", "alias": "Eliane Helena", "p": 11, "3x1": 0, "turno": 1, "posto": 100197, "trecho": "c", "pos": 47}
+{"_id": 2002087, "name": "Marcelo De Vilhena Guimar\u00e3es", "alias": "Marcelo Vilhena", "p": 10, "3x1": 0, "turno": 1, "posto": 117192, "trecho": "c", "pos": 47}
+{"_id": 2001823, "name": "Adriana Quadros Godinho", "alias": "Adriana Godinho", "p": 11, "3x1": 0, "turno": 1, "posto": 100018, "trecho": "a", "pos": 50}
+{"_id": 2002071, "name": "David Lacerda Santos", "alias": "David Lacerda", "p": 12, "3x1": 0, "turno": 1, "posto": 100053, "trecho": "a", "pos": 50}
+{"_id": 2001883, "name": "Suellen De Lima Pereira Da Silva", "alias": "Suellen Lima", "p": 10, "3x1": 0, "turno": 1, "posto": 101052, "trecho": "a", "pos": 50}
+{"_id": 2002075, "name": "Victor Schrier Alves", "alias": "Victor Schrier", "p": 12, "3x1": 1, "turno": 1, "posto": 100093, "trecho": "b", "pos": 50}
+{"_id": 2001878, "name": "Poliana Ferreira Gomes", "alias": "Poliana Ferreira", "p": 10, "3x1": 1, "turno": 1, "posto": 109001, "trecho": "b", "pos": 50}
+{"_id": 2002005, "name": "Lucas Soares Rezende", "alias": "Lucas Soares", "p": 15, "3x1": 0, "turno": 1, "posto": 100162, "trecho": "c", "pos": 50}
+{"_id": 2001814, "name": "Gabriela Pereira Pinto", "alias": "Gabriela Pereira", "p": 14, "3x1": 0, "turno": 1, "posto": 100198, "trecho": "c", "pos": 50}
+{"_id": 2002083, "name": "Esther Dias De Souza", "alias": "Esther Dias", "p": 13, "3x1": 0, "turno": 1, "posto": 116192, "trecho": "c", "pos": 50}
+{"_id": 2002086, "name": "Jeferson Prado Maciel Duarte", "alias": "Jeferson Prado", "p": 3, "3x1": 0, "turno": 1, "posto": 100052, "trecho": "a", "pos": 53}
+{"_id": 2002196, "name": "Everton Geraldo Marques Mour\u00e3o", "alias": "Everton Marques", "p": 2, "3x1": 0, "turno": 1, "posto": 100062, "trecho": "a", "pos": 53}
+{"_id": 2002324, "name": "Pedro Henrique Fernandes Silva", "alias": "Pedro Fernandes", "p": 1, "3x1": 0, "turno": 1, "posto": 105061, "trecho": "a", "pos": 53}
+{"_id": 2002089, "name": "Luiz Guilherme Herculano Dos Santos", "alias": "Luiz Herculano", "p": 14, "3x1": 0, "turno": 1, "posto": 100075, "trecho": "b", "pos": 53}
+{"_id": 2001992, "name": "Paulo Cesar Banfi Souza", "alias": "Paulo Banfi", "p": 15, "3x1": 0, "turno": 1, "posto": 100131, "trecho": "b", "pos": 53}
+{"_id": 2002198, "name": "Icaro Roosewelt Faria Xavier", "alias": "Icaro Roosewelt", "p": 4, "3x1": 0, "turno": 1, "posto": 107131, "trecho": "b", "pos": 53}
+{"_id": 2002065, "name": "Wildenberg Bernardes Paezante", "alias": "Wildenberg Paezante", "p": 5, "3x1": 0, "turno": 1, "posto": 100155, "trecho": "c", "pos": 53}
+{"_id": 2002216, "name": "Gisele Lacerda Da Silva", "alias": "Gisele Lacerda", "p": 2, "3x1": 0, "turno": 1, "posto": 100019, "trecho": "a", "pos": 56}
+{"_id": 2001954, "name": "Juliana Silva Da Silveira", "alias": "Juliana Silveira", "p": 1, "3x1": 0, "turno": 1, "posto": 101001, "trecho": "a", "pos": 56}
+{"_id": 2002069, "name": "Kenya Tatiana Frade Morais", "alias": "Kenya Morais", "p": 5, "3x1": 0, "turno": 1, "posto": 100085, "trecho": "b", "pos": 56}
+{"_id": 2002181, "name": "Daniella Bruno Dutra", "alias": "Daniella Dutra", "p": 6, "3x1": 0, "turno": 1, "posto": 100092, "trecho": "b", "pos": 56}
+{"_id": 2001795, "name": "Diego Andrade Salerno", "alias": "Diego Salerno", "p": 13, "3x1": 0, "turno": 1, "posto": 108091, "trecho": "b", "pos": 56}
+{"_id": 2002077, "name": "Marcos Vinicius Dos Santos Filho", "alias": "Marcos Santos", "p": 3, "3x1": 0, "turno": 1, "posto": 100142, "trecho": "c", "pos": 56}
+{"_id": 2001892, "name": "Diogo Bonfim Guilherme", "alias": "Diogo Guilherme", "p": 2, "3x1": 0, "turno": 1, "posto": 100199, "trecho": "c", "pos": 56}
+{"_id": 2001921, "name": "Matheus Silva Le\u00e3o", "alias": "Matheus Le\u00e3o", "p": 1, "3x1": 0, "turno": 1, "posto": 114192, "trecho": "c", "pos": 56}
+{"_id": 2002199, "name": "Rafaela Faria Barbosa", "alias": "Rafaela Faria", "p": 15, "3x1": 0, "turno": 1, "posto": 199001, "trecho": "a"}
+{"_id": 2001987, "name": "Rafael Celestino Vidigal", "alias": "Rafael Vidigal", "p": 12, "3x1": 0, "turno": 1, "posto": 199002, "trecho": "a"}
+{"_id": 2002316, "name": "Lais Freitas Camara", "alias": "Lais Freitas", "p": 3, "3x1": 0, "turno": 1, "posto": 199003, "trecho": "a"}
+{"_id": 2001784, "name": "Paulo Augusto Bittencourt", "alias": "Paulo Bittencourt", "p": 15, "3x1": 0, "turno": 1, "posto": 199004, "trecho": "b"}
+{"_id": 2001818, "name": "Izabelle Liz Melo Francisco", "alias": "Izabelle Liz", "p": 2, "3x1": 0, "turno": 1, "posto": 199005, "trecho": "b"}
+{"_id": 2002067, "name": "Andre Luiz Da Silveira Silva", "alias": "Andre Silveira", "p": 12, "3x1": 0, "turno": 1, "posto": 199006, "trecho": "b"}
+{"_id": 2001898, "name": "Jessica Agnes De Almeida Barros", "alias": "Jessica Agnes", "p": 11, "3x1": 1, "turno": 1, "posto": 199007, "trecho": "b"}
+{"_id": 2002192, "name": "Kandace Amanda Silveira Castro V. Riani", "alias": "Kandace Riani", "p": 15, "3x1": 0, "turno": 1, "posto": 199008, "trecho": "c"}
+{"_id": 2001856, "name": "Alexandre Dias Drumond", "alias": "Alexandre Dias", "p": 12, "3x1": 0, "turno": 1, "posto": 199009, "trecho": "c"}
+{"_id": 2002070, "name": "Guilherme Viana Reis", "alias": "Guilherme Viana", "p": 6, "3x1": 0, "turno": 1, "posto": 199010, "trecho": "c"}
+{"_id": 2001907, "name": "Scarlat Oliveira Rodrigues", "alias": "Scarlat Oliveira", "p": 4, "3x1": 0, "turno": 1, "posto": 100951, "trecho": "d"}
+{"_id": 2001813, "name": "Igor Moreira De Miranda", "alias": "Igor Moreira", "p": 4, "3x1": 0, "turno": 1, "posto": 100952, "trecho": "d"}
+{"_id": 2001811, "name": "Roberto Flaymer Araujo", "alias": "Roberto Flaymer", "p": 1, "3x1": 0, "turno": 1, "posto": 100961, "trecho": "d"}
+{"_id": 2001879, "name": "Euler Mendes Junior", "alias": "Euler Mendes", "p": 1, "3x1": 0, "turno": 1, "posto": 100963, "trecho": "d"}
+{"_id": 2002186, "name": "Ligia De Oliveira Souza", "alias": "Ligia Souza", "p": 2, "3x1": 0, "turno": 1, "posto": 100962, "trecho": "d"}
+{"_id": 2001804, "name": "Danilo Cesar Ramos Duarte", "alias": "Danilo Duarte", "p": 1, "3x1": 0, "turno": 1, "posto": 100964, "trecho": "d"}
+{"_id": 2001894, "name": "Caroline Clarissa Leite De Aguiar", "alias": "Caroline Aguiar", "p": 10, "3x1": 0, "turno": 1, "posto": 100965, "trecho": "d"}
+{"_id": 2001859, "name": "Tatiana Cavalcanti Moreira", "alias": "Tatiana Cavalcanti", "p": 5, "3x1": 0, "turno": 1, "posto": 100991, "trecho": "d"}
+{"_id": 2002311, "name": "Jessica Santos De Oliveira", "alias": "Jessica Santos", "p": 13, "3x1": 0, "turno": 1, "posto": 100992, "trecho": "d"}
+{"_id": 2002012, "name": "Nayara Guedes Pereira Guimar\u00e3es", "alias": "Nayara Guedes", "p": 15, "3x1": 0, "turno": 1, "posto": 100993, "trecho": "d"}
+{"_id": 2002024, "name": "Lucas Curvelano Ferreira", "alias": "Lucas Curvelano", "p": 15, "3x1": 0, "turno": 1, "posto": 100995, "trecho": "d"}
+{"_id": 2002057, "name": "Michelle Ribeiro De Castro Oliveira", "alias": "Michelle Ribeiro", "p": 3, "3x1": 0, "turno": 1, "posto": 100996, "trecho": "d"}
+{"_id": 2002011, "name": "Grazielle Cristine Neves Sanches", "alias": "Grazielle Sanches", "p": 3, "3x1": 1, "turno": 1, "posto": 100994, "trecho": "d"}
+{"_id": 2001914, "name": "Barbara Andrade Neves", "alias": "Barbara Andrade", "p": 7, "3x1": 0, "turno": 1, "posto": 199011, "trecho": "d"}
+{"_id": 2002190, "name": "Fabiana Tornelli Rocha", "alias": "Fabiana Tornelli", "p": 9, "3x1": 1, "turno": 1, "posto": 199012, "trecho": "d"}
+{"_id": 2001962, "name": "Alvaro Antonio Drumond Rosa", "alias": "Alvaro Antonio", "p": 2, "3x1": 0, "turno": 1, "posto": 199013, "trecho": "d"}
+{"_id": 2002020, "name": "Bruno Martins De Faria", "alias": "Bruno Martins", "p": 5, "3x1": 0, "turno": 2, "posto": 200031, "trecho": "a", "pos": 20}
+{"_id": 2001693, "name": "Roberto Pena Mundim", "alias": "Roberto Mundim", "p": 4, "3x1": 0, "turno": 2, "posto": 200061, "trecho": "a", "pos": 20}
+{"_id": 2002313, "name": "Samera Ferreira De Almeida Alcides", "alias": "Samera Alcides", "p": 6, "3x1": 0, "turno": 2, "posto": 203061, "trecho": "a", "pos": 20}
+{"_id": 2002003, "name": "Henrique Warley De Souza Alves", "alias": "Henrique Warley", "p": 10, "3x1": 0, "turno": 2, "posto": 200081, "trecho": "b", "pos": 17}
+{"_id": 2002200, "name": "Juliana Maria De Freitas Glueck", "alias": "Juliana Maria", "p": 11, "3x1": 0, "turno": 2, "posto": 200101, "trecho": "b", "pos": 17}
+{"_id": 2002202, "name": "Silvana Evangelista Soares Da Silva", "alias": "Silvana Soares", "p": 12, "3x1": 0, "turno": 2, "posto": 208101, "trecho": "b", "pos": 17}
+{"_id": 2001885, "name": "Marcio Dias Regis", "alias": "Marcio Regis", "p": 4, "3x1": 0, "turno": 2, "posto": 200141, "trecho": "c", "pos": 38}
+{"_id": 2001815, "name": "Barbara Luisa De Medeiros Estevam Jaza", "alias": "Barbara Jaza", "p": 5, "3x1": 0, "turno": 2, "posto": 200151, "trecho": "c", "pos": 38}
+{"_id": 2001853, "name": "Jose Luiz De Almeida", "alias": "Jose De Almeida", "p": 6, "3x1": 0, "turno": 2, "posto": 214151, "trecho": "c", "pos": 38}
+{"_id": 2002078, "name": "Willian Lopes Pe\u00e7anha", "alias": "Willian Lopes", "p": 1, "3x1": 0, "turno": 2, "posto": 200011, "trecho": "a", "pos": 23}
+{"_id": 2001700, "name": "Arthur Fernando Santos Vieira", "alias": "Arthur Fernando", "p": 2, "3x1": 0, "turno": 2, "posto": 200021, "trecho": "a", "pos": 23}
+{"_id": 2002183, "name": "Cleber De Souza Carvalho", "alias": "Cleber Carvalho", "p": 3, "3x1": 0, "turno": 2, "posto": 201021, "trecho": "a", "pos": 23}
+{"_id": 2002346, "name": "Rodinei Messias Saquetti Chagas", "alias": "Rodinei Messias", "p": 13, "3x1": 0, "turno": 2, "posto": 200091, "trecho": "b", "pos": 20}
+{"_id": 2001999, "name": "Luciano Malta Bahia Teixeira", "alias": "Luciano Malta", "p": 14, "3x1": 0, "turno": 2, "posto": 200121, "trecho": "b", "pos": 20}
+{"_id": 2001986, "name": "Erick De Moura Melo", "alias": "Erick Melo", "p": 15, "3x1": 0, "turno": 2, "posto": 209121, "trecho": "b", "pos": 20}
+{"_id": 2002079, "name": "Cledio Gabriel Dos Santos", "alias": "Cledio Gabriel", "p": 11, "3x1": 1, "turno": 2, "posto": 200161, "trecho": "c", "pos": 41}
+{"_id": 2002010, "name": "Adriano Lagares Rodrigues Vidal", "alias": "Adriano Lagares", "p": 10, "3x1": 1, "turno": 2, "posto": 200191, "trecho": "c", "pos": 41}
+{"_id": 2001988, "name": "Tamiris Costa", "alias": "Tamiris Costa", "p": 12, "3x1": 1, "turno": 2, "posto": 216191, "trecho": "c", "pos": 41}
+{"_id": 2002004, "name": "Jo\u00e3o Pedro Lima Machado Santos", "alias": "Jo\u00e3o Machado", "p": 14, "3x1": 0, "turno": 2, "posto": 200041, "trecho": "a", "pos": 26}
+{"_id": 2001966, "name": "Felipe Martins Vasconcelos", "alias": "Felipe Martins", "p": 13, "3x1": 0, "turno": 2, "posto": 200071, "trecho": "a", "pos": 26}
+{"_id": 2002315, "name": "Thiago Rafael Silveira Santos", "alias": "Thiago Rafael", "p": 15, "3x1": 0, "turno": 2, "posto": 204071, "trecho": "a", "pos": 26}
+{"_id": 2002195, "name": "Matheus Augusto Felix", "alias": "Matheus Felix", "p": 1, "3x1": 0, "turno": 2, "posto": 200082, "trecho": "b", "pos": 23}
+{"_id": 2001855, "name": "Mateus Acerbi Santos", "alias": "Mateus Acerbi", "p": 2, "3x1": 0, "turno": 2, "posto": 200131, "trecho": "b", "pos": 23}
+{"_id": 2002314, "name": "Gisele Soares Duarte Souza Da Cruz", "alias": "Gisele Soares", "p": 3, "3x1": 0, "turno": 2, "posto": 208131, "trecho": "b", "pos": 23}
+{"_id": 2001869, "name": "Diego Augusto Guimar\u00e3es", "alias": "Diego Augusto", "p": 14, "3x1": 1, "turno": 2, "posto": 200181, "trecho": "c", "pos": 44}
+{"_id": 2001911, "name": "Moema Da Costa Carvalho", "alias": "Moema Carvalho", "p": 13, "3x1": 1, "turno": 2, "posto": 200192, "trecho": "c", "pos": 44}
+{"_id": 2001890, "name": "Antonio Aurelio Pereira", "alias": "Antonio Aurelio", "p": 15, "3x1": 1, "turno": 2, "posto": 218191, "trecho": "c", "pos": 44}
+{"_id": 2001865, "name": "Kalebe Daniel Da Rocha Dos Reis", "alias": "Kalebe Daniel", "p": 1, "3x1": 0, "turno": 2, "posto": 200012, "trecho": "a", "pos": 29}
+{"_id": 2002055, "name": "Jose Armando Costa", "alias": "Jose Armando", "p": 2, "3x1": 0, "turno": 2, "posto": 200051, "trecho": "a", "pos": 29}
+{"_id": 2002197, "name": "Ander Proteus Silva De Faria", "alias": "Ander Faria", "p": 3, "3x1": 0, "turno": 2, "posto": 201051, "trecho": "a", "pos": 29}
+{"_id": 2001943, "name": "Alexandre Von Rondon Neto", "alias": "Alexandre Rondon", "p": 1, "3x1": 0, "turno": 2, "posto": 200102, "trecho": "b", "pos": 26}
+{"_id": 2001798, "name": "Janine Almeida De Oliveira", "alias": "Janine Almeida", "p": 2, "3x1": 0, "turno": 2, "posto": 200111, "trecho": "b", "pos": 26}
+{"_id": 2002213, "name": "Robson Pereira Dos Reis", "alias": "Robson Reis", "p": 3, "3x1": 0, "turno": 2, "posto": 210111, "trecho": "b", "pos": 26}
+{"_id": 2002029, "name": "Juan Paulo Reis De Souza", "alias": "Juan Paulo", "p": 1, "3x1": 0, "turno": 2, "posto": 200142, "trecho": "c", "pos": 47}
+{"_id": 2001985, "name": "Jo\u00e3o Pedro De Lima Coutinho", "alias": "Jo\u00e3o Coutinho", "p": 2, "3x1": 0, "turno": 2, "posto": 200152, "trecho": "c", "pos": 47}
+{"_id": 2001718, "name": "Derlem Aparecida Da Silva", "alias": "Derlem Aparecida", "p": 3, "3x1": 0, "turno": 2, "posto": 214152, "trecho": "c", "pos": 47}
+{"_id": 2002028, "name": "Jonas Cordeiro Abrantes", "alias": "Jonas Abrantes", "p": 2, "3x1": 0, "turno": 2, "posto": 200022, "trecho": "a", "pos": 32}
+{"_id": 2001996, "name": "Juliana Gomes Tinoco", "alias": "Juliana Gomes", "p": 1, "3x1": 0, "turno": 2, "posto": 200062, "trecho": "a", "pos": 32}
+{"_id": 2002319, "name": "Luan Nunes Ribeiro", "alias": "Luan Nunes", "p": 3, "3x1": 0, "turno": 2, "posto": 202061, "trecho": "a", "pos": 32}
+{"_id": 2002325, "name": "Celio Santana Lopes", "alias": "Celio Santana", "p": 1, "3x1": 1, "turno": 2, "posto": 200083, "trecho": "b", "pos": 29}
+{"_id": 2001860, "name": "Bruna Cristina Cunha", "alias": "Bruna Cristina", "p": 2, "3x1": 1, "turno": 2, "posto": 200122, "trecho": "b", "pos": 29}
+{"_id": 2001930, "name": "Rafael Douglas Rodrigues", "alias": "Rafael Douglas", "p": 3, "3x1": 1, "turno": 2, "posto": 208121, "trecho": "b", "pos": 29}
+{"_id": 2001951, "name": "Maria Nazare Da Silva", "alias": "Maria Silva", "p": 2, "3x1": 0, "turno": 2, "posto": 200171, "trecho": "c", "pos": 50}
+{"_id": 2001994, "name": "Guilherme Silveira Silva", "alias": "Guilherme Silveira", "p": 1, "3x1": 0, "turno": 2, "posto": 200193, "trecho": "c", "pos": 50}
+{"_id": 2002344, "name": "Yuri Lobo Rodrigues Da Cunha", "alias": "Yuri Lobo", "p": 3, "3x1": 0, "turno": 2, "posto": 217191, "trecho": "c", "pos": 50}
+{"_id": 2001904, "name": "Thalles Lucas Da Silva Martins", "alias": "Thalles Lucas", "p": 5, "3x1": 0, "turno": 2, "posto": 200032, "trecho": "a", "pos": 35}
+{"_id": 2001854, "name": "Pedro Gon\u00e7alves De Souza Junior", "alias": "Pedro Gon\u00e7alves", "p": 4, "3x1": 0, "turno": 2, "posto": 200072, "trecho": "a", "pos": 35}
+{"_id": 2001955, "name": "Jonathan Alves Miranda De Souza", "alias": "Jonathan Alves", "p": 6, "3x1": 0, "turno": 2, "posto": 203071, "trecho": "a", "pos": 35}
+{"_id": 2001935, "name": "Larissa Cecilia De Marcos Silva", "alias": "Larissa Cecilia", "p": 4, "3x1": 1, "turno": 2, "posto": 200092, "trecho": "b", "pos": 32}
+{"_id": 2002068, "name": "Junio Jorge De Jesus", "alias": "Junio Jorge", "p": 5, "3x1": 1, "turno": 2, "posto": 200132, "trecho": "b", "pos": 32}
+{"_id": 2002201, "name": "Vinicius Teixeira Generoso Hernandez", "alias": "Vinicius Hernandez", "p": 6, "3x1": 1, "turno": 2, "posto": 209131, "trecho": "b", "pos": 32}
+{"_id": 2002052, "name": "Abel Elias Oliveira", "alias": "Abel Elias", "p": 5, "3x1": 0, "turno": 2, "posto": 200162, "trecho": "c", "pos": 53}
+{"_id": 2001995, "name": "Miguel Angelo Ramos Garcia", "alias": "Miguel Angelo", "p": 4, "3x1": 0, "turno": 2, "posto": 200194, "trecho": "c", "pos": 53}
+{"_id": 2002320, "name": "Hebert Da Silva Guimar\u00e3es", "alias": "Hebert Guimar\u00e3es", "p": 6, "3x1": 0, "turno": 2, "posto": 216192, "trecho": "c", "pos": 53}
+{"_id": 2002341, "name": "Jonnys Gomes Da Silva", "alias": "Jonnys Silva", "p": 10, "3x1": 0, "turno": 2, "posto": 200013, "trecho": "a", "pos": 38}
+{"_id": 2002013, "name": "Sabrina Vieira Silva", "alias": "Sabrina Vieira", "p": 11, "3x1": 0, "turno": 2, "posto": 200042, "trecho": "a", "pos": 38}
+{"_id": 2002310, "name": "Guilherme Henrique De Souza", "alias": "Guilherme Souza", "p": 12, "3x1": 0, "turno": 2, "posto": 201041, "trecho": "a", "pos": 38}
+{"_id": 2001886, "name": "Lucilene Siqueira De Almeida Dias", "alias": "Lucilene Siqueira", "p": 10, "3x1": 0, "turno": 2, "posto": 200084, "trecho": "b", "pos": 35}
+{"_id": 2002001, "name": "Wesley Elias Gomes Couto", "alias": "Wesley Elias", "p": 11, "3x1": 0, "turno": 2, "posto": 200103, "trecho": "b", "pos": 35}
+{"_id": 2002073, "name": "Jonathas Jacinto De Assis", "alias": "Jonathas Assis", "p": 12, "3x1": 0, "turno": 2, "posto": 208102, "trecho": "b", "pos": 35}
+{"_id": 2001709, "name": "Diego Almeida Santos", "alias": "Diego Almeida", "p": 10, "3x1": 0, "turno": 2, "posto": 200143, "trecho": "c", "pos": 56}
+{"_id": 2001896, "name": "Stefan Edberg Ferreira Santos", "alias": "Stefan Edberg", "p": 11, "3x1": 0, "turno": 2, "posto": 200153, "trecho": "c", "pos": 56}
+{"_id": 2002007, "name": "Claudinei Martins", "alias": "Claudinei Martins", "p": 12, "3x1": 0, "turno": 2, "posto": 214153, "trecho": "c", "pos": 56}
+{"_id": 2002066, "name": "Thiago Tadeu Mendes Da Rocha", "alias": "Thiago Mendes", "p": 14, "3x1": 1, "turno": 2, "posto": 200052, "trecho": "a", "pos": 41}
+{"_id": 2001881, "name": "Jessica Cristina Carvalho", "alias": "Jessica Cristina", "p": 13, "3x1": 1, "turno": 2, "posto": 200063, "trecho": "a", "pos": 41}
+{"_id": 2001964, "name": "Victor De Jesus Oliveira", "alias": "Victor Oliveira", "p": 15, "3x1": 1, "turno": 2, "posto": 205061, "trecho": "a", "pos": 41}
+{"_id": 2002339, "name": "Philippe Matheus Sousa Prata", "alias": "Philippe Prata", "p": 13, "3x1": 0, "turno": 2, "posto": 200093, "trecho": "b", "pos": 38}
+{"_id": 2002085, "name": "Renata Santos Cardoso Brito", "alias": "Renata Cardoso", "p": 14, "3x1": 0, "turno": 2, "posto": 200112, "trecho": "b", "pos": 38}
+{"_id": 2001863, "name": "Sara Do Carmo Alves", "alias": "Sara Alves", "p": 15, "3x1": 0, "turno": 2, "posto": 209111, "trecho": "b", "pos": 38}
+{"_id": 2002321, "name": "Patrick Ronald Iglesias Coelho", "alias": "Patrick Ronald", "p": 14, "3x1": 0, "turno": 2, "posto": 200182, "trecho": "c", "pos": 59}
+{"_id": 2001884, "name": "Larissa Cristina Souza Santos", "alias": "Larissa Santos", "p": 13, "3x1": 0, "turno": 2, "posto": 200195, "trecho": "c", "pos": 59}
+{"_id": 2002063, "name": "Adriano Manna Brito", "alias": "Adriano Manna", "p": 15, "3x1": 0, "turno": 2, "posto": 218192, "trecho": "c", "pos": 59}
+{"_id": 2001963, "name": "Flavia Froes Coimbra", "alias": "Flavia Froes", "p": 2, "3x1": 1, "turno": 2, "posto": 200023, "trecho": "a", "pos": 44}
+{"_id": 2001958, "name": "Diogo Facundes Fontenele Romanato", "alias": "Diogo Romanato", "p": 1, "3x1": 1, "turno": 2, "posto": 200073, "trecho": "a", "pos": 44}
+{"_id": 2001801, "name": "Thais Soares Rodrigues", "alias": "Thais Soares", "p": 3, "3x1": 1, "turno": 2, "posto": 202071, "trecho": "a", "pos": 44}
+{"_id": 2001848, "name": "Rubens Augusto Costa Gomes", "alias": "Rubens Augusto", "p": 1, "3x1": 0, "turno": 2, "posto": 200085, "trecho": "b", "pos": 41}
+{"_id": 2002348, "name": "Catia Regina Nascimento De Paula", "alias": "Catia Regina", "p": 2, "3x1": 0, "turno": 2, "posto": 200123, "trecho": "b", "pos": 41}
+{"_id": 2001790, "name": "Thales Souza Teixeira", "alias": "Thales Souza", "p": 3, "3x1": 0, "turno": 2, "posto": 208122, "trecho": "b", "pos": 41}
+{"_id": 2002189, "name": "Andreia Sanzio Soares", "alias": "Andreia Sanzio", "p": 2, "3x1": 0, "turno": 2, "posto": 200172, "trecho": "c", "pos": 62}
+{"_id": 2001705, "name": "Gustavo Mendes Cabral", "alias": "Gustavo Cabral", "p": 1, "3x1": 0, "turno": 2, "posto": 200196, "trecho": "c", "pos": 62}
+{"_id": 2001875, "name": "Tatiana De Almeida Silva", "alias": "Tatiana Almeida", "p": 3, "3x1": 0, "turno": 2, "posto": 217192, "trecho": "c", "pos": 62}
+{"_id": 2001957, "name": "Jessica Liria Da Silva", "alias": "Jessica Liria", "p": 4, "3x1": 0, "turno": 2, "posto": 200014, "trecho": "a", "pos": 47}
+{"_id": 2002323, "name": "Fabricio Cesar Da Silva", "alias": "Fabricio Cesar", "p": 5, "3x1": 0, "turno": 2, "posto": 200033, "trecho": "a", "pos": 47}
+{"_id": 2002076, "name": "Daniel Alexandre De A. Chaves Radtke", "alias": "Daniel Radtke", "p": 6, "3x1": 0, "turno": 2, "posto": 201031, "trecho": "a", "pos": 47}
+{"_id": 2002343, "name": "Edvaldo Dias Duarte", "alias": "Edvaldo Duarte", "p": 4, "3x1": 0, "turno": 2, "posto": 200094, "trecho": "b", "pos": 44}
+{"_id": 2001792, "name": "Camila Maira Pinto Cristeli", "alias": "Camila Cristeli", "p": 5, "3x1": 0, "turno": 2, "posto": 200113, "trecho": "b", "pos": 44}
+{"_id": 2001938, "name": "Gustavo Velloso Da Matta", "alias": "Gustavo Matta", "p": 6, "3x1": 0, "turno": 2, "posto": 209112, "trecho": "b", "pos": 44}
+{"_id": 2002187, "name": "Mauricio De Moura Almada", "alias": "Mauricio Moura", "p": 4, "3x1": 0, "turno": 2, "posto": 200144, "trecho": "c", "pos": 65}
+{"_id": 2002215, "name": "Wanderson Silva Ferreira", "alias": "Wanderson Ferreira", "p": 5, "3x1": 0, "turno": 2, "posto": 200154, "trecho": "c", "pos": 65}
+{"_id": 2001857, "name": "Flavia Cristina Silva Martins", "alias": "Flavia Cristina", "p": 6, "3x1": 0, "turno": 2, "posto": 214154, "trecho": "c", "pos": 65}
+{"_id": 2002308, "name": "Bruno Vinicius Da Silva", "alias": "Bruno Vinicius", "p": 11, "3x1": 0, "turno": 2, "posto": 200043, "trecho": "a", "pos": 50}
+{"_id": 2001867, "name": "Marcia Cristina Bebiano Tannes", "alias": "Marcia Tannes", "p": 10, "3x1": 0, "turno": 2, "posto": 200064, "trecho": "a", "pos": 50}
+{"_id": 2001710, "name": "Jose Carlos Grossi Dos Santos", "alias": "Jose Grossi", "p": 12, "3x1": 0, "turno": 2, "posto": 204061, "trecho": "a", "pos": 50}
+{"_id": 2002185, "name": "Leticia Da Silva Dornas Paix\u00e3o", "alias": "Leticia Silva", "p": 10, "3x1": 0, "turno": 2, "posto": 200086, "trecho": "b", "pos": 47}
+{"_id": 2001810, "name": "Liliane Gon\u00e7alves Curto", "alias": "Liliane Curto", "p": 11, "3x1": 0, "turno": 2, "posto": 200133, "trecho": "b", "pos": 47}
+{"_id": 2001822, "name": "Lucas Vitor De Andrade Castilho", "alias": "Lucas Vitor", "p": 12, "3x1": 0, "turno": 2, "posto": 208132, "trecho": "b", "pos": 47}
+{"_id": 2001882, "name": "Israel De Melo Pedrosa", "alias": "Israel Pedrosa", "p": 11, "3x1": 0, "turno": 2, "posto": 200163, "trecho": "c", "pos": 68}
+{"_id": 2001915, "name": "Guilherme Alvarenga Carvalho Junior", "alias": "Guilherme Junior", "p": 10, "3x1": 0, "turno": 2, "posto": 200197, "trecho": "c", "pos": 68}
+{"_id": 2001817, "name": "Jose Carlos De Souza", "alias": "Jose Souza", "p": 12, "3x1": 0, "turno": 2, "posto": 216193, "trecho": "c", "pos": 68}
+{"_id": 2002205, "name": "Neimar Monteiro Gon\u00e7alves", "alias": "Neimar Monteiro", "p": 14, "3x1": 1, "turno": 2, "posto": 200053, "trecho": "a", "pos": 53}
+{"_id": 2002054, "name": "Marcio Rodrigo Ribeiro", "alias": "Marcio Rodrigo", "p": 13, "3x1": 1, "turno": 2, "posto": 200074, "trecho": "a", "pos": 53}
+{"_id": 2001891, "name": "Jorge Da Silva", "alias": "Jorge Silva", "p": 15, "3x1": 1, "turno": 2, "posto": 205071, "trecho": "a", "pos": 53}
+{"_id": 2002317, "name": "Julio Cesar Vieira De Andrade", "alias": "Julio Andrade", "p": 13, "3x1": 0, "turno": 2, "posto": 200104, "trecho": "b", "pos": 50}
+{"_id": 2001866, "name": "Maria Fernanda Barboza", "alias": "Maria Fernanda", "p": 14, "3x1": 0, "turno": 2, "posto": 200124, "trecho": "b", "pos": 50}
+{"_id": 2001960, "name": "Cybele Gon\u00e7alves Braga", "alias": "Cybele Braga", "p": 15, "3x1": 0, "turno": 2, "posto": 210121, "trecho": "b", "pos": 50}
+{"_id": 2001698, "name": "Leandro Moraes Nascimento Reis", "alias": "Leandro Moraes", "p": 13, "3x1": 0, "turno": 2, "posto": 200145, "trecho": "c", "pos": 71}
+{"_id": 2002184, "name": "Otavio Luiz Cordeiro Da Silva", "alias": "Otavio Luiz", "p": 14, "3x1": 0, "turno": 2, "posto": 200173, "trecho": "c", "pos": 71}
+{"_id": 2001917, "name": "Samuel Correa Campolina Salom\u00e3o", "alias": "Samuel Salom\u00e3o", "p": 15, "3x1": 0, "turno": 2, "posto": 214171, "trecho": "c", "pos": 71}
+{"_id": 2001692, "name": "Talita Aquino Da Silva", "alias": "Talita Aquino", "p": 1, "3x1": 0, "turno": 2, "posto": 200015, "trecho": "a", "pos": 56}
+{"_id": 2001825, "name": "Helisandro Gon\u00e7alves De Oliveira", "alias": "Helisandro Oliveira", "p": 2, "3x1": 0, "turno": 2, "posto": 200034, "trecho": "a", "pos": 56}
+{"_id": 2001828, "name": "Karina Da Concei\u00e7\u00e3o De Jesus Costa", "alias": "Karina Costa", "p": 3, "3x1": 0, "turno": 2, "posto": 201032, "trecho": "a", "pos": 56}
+{"_id": 2001939, "name": "Luany Rodrigues Carvalho", "alias": "Luany Rodrigues", "p": 1, "3x1": 0, "turno": 2, "posto": 200087, "trecho": "b", "pos": 53}
+{"_id": 2002312, "name": "Victor Hugo Mattiello", "alias": "Victor Mattiello", "p": 2, "3x1": 0, "turno": 2, "posto": 200114, "trecho": "b", "pos": 53}
+{"_id": 2002309, "name": "Jo\u00e3o Victor Cunha Pereira", "alias": "Jo\u00e3o Pereira", "p": 3, "3x1": 0, "turno": 2, "posto": 208111, "trecho": "b", "pos": 53}
+{"_id": 2001984, "name": "Luan Carlos Monteiro Da Silva", "alias": "Luan Carlos", "p": 2, "3x1": 0, "turno": 2, "posto": 200183, "trecho": "c", "pos": 74}
+{"_id": 2002188, "name": "Felipe Da Silva Quintela", "alias": "Felipe Quintela", "p": 1, "3x1": 0, "turno": 2, "posto": 200198, "trecho": "c", "pos": 74}
+{"_id": 2001707, "name": "Silvia Schiavo Siqueira", "alias": "Silvia Schiavo", "p": 3, "3x1": 0, "turno": 2, "posto": 218193, "trecho": "c", "pos": 74}
+{"_id": 2002053, "name": "Luiz Henrique Tadeu Soares", "alias": "Luiz Soares", "p": 4, "3x1": 0, "turno": 2, "posto": 200065, "trecho": "a", "pos": 59}
+{"_id": 2001874, "name": "Paulo Henrique Soares De Salles", "alias": "Paulo Henrique", "p": 5, "3x1": 0, "turno": 2, "posto": 200075, "trecho": "a", "pos": 59}
+{"_id": 2001788, "name": "Iandra Cristina Miranda Almeida", "alias": "Iandra Miranda", "p": 6, "3x1": 0, "turno": 2, "posto": 206071, "trecho": "a", "pos": 59}
+{"_id": 2001807, "name": "Guilherme Gomes Da Silva", "alias": "Guilherme Gomes", "p": 4, "3x1": 0, "turno": 2, "posto": 200095, "trecho": "b", "pos": 56}
+{"_id": 2002322, "name": "Priscila De Souza Viana", "alias": "Priscila Viana", "p": 5, "3x1": 0, "turno": 2, "posto": 200134, "trecho": "b", "pos": 56}
+{"_id": 2002342, "name": "Roberta Da Silva Bento", "alias": "Roberta Bento", "p": 6, "3x1": 0, "turno": 2, "posto": 209132, "trecho": "b", "pos": 56}
+{"_id": 2002062, "name": "Marluana Almeida Ferreira Rodrigues", "alias": "Marluana Almeida", "p": 10, "3x1": 0, "turno": 2, "posto": 200016, "trecho": "a", "pos": 62}
+{"_id": 2001827, "name": "Tarso Anselmo Dos Santos Valentim", "alias": "Tarso Valentim", "p": 11, "3x1": 0, "turno": 2, "posto": 200044, "trecho": "a", "pos": 62}
+{"_id": 2002209, "name": "Luis Eduardo Portela Botelho", "alias": "Luis Portela", "p": 12, "3x1": 0, "turno": 2, "posto": 201042, "trecho": "a", "pos": 62}
+{"_id": 2001819, "name": "Kener Alexandre Da Silva", "alias": "Kener Alexandre", "p": 13, "3x1": 0, "turno": 2, "posto": 200066, "trecho": "a", "pos": 65}
+{"_id": 2001808, "name": "Renato Fernando Dos Santos", "alias": "Renato Fernando", "p": 14, "3x1": 0, "turno": 2, "posto": 200076, "trecho": "a", "pos": 65}
+{"_id": 2002088, "name": "Izabella Louren\u00e7a Amorim Romualdo", "alias": "Izabella Louren\u00e7a", "p": 15, "3x1": 0, "turno": 2, "posto": 206072, "trecho": "a", "pos": 65}
+{"_id": 2002345, "name": "Hudson Coelho Soares", "alias": "Hudson Soares", "p": 10, "3x1": 0, "turno": 2, "posto": 200017, "trecho": "a", "pos": 68}
+{"_id": 2002340, "name": "Jonathan De Souza Santana", "alias": "Jonathan Santana", "p": 11, "3x1": 0, "turno": 2, "posto": 200054, "trecho": "a", "pos": 68}
+{"_id": 2002347, "name": "Vladimir Dos Santos Paula", "alias": "Vladimir Santos", "p": 12, "3x1": 0, "turno": 2, "posto": 201052, "trecho": "a", "pos": 68}
+{"_id": 2001809, "name": "Marcelo Augusto De Oliveira", "alias": "Marcelo Augusto", "p": 1, "3x1": 0, "turno": 2, "posto": 299001, "trecho": "a"}
+{"_id": 2001868, "name": "Tiago Vinicius Gon\u00e7alves Paix\u00e3o", "alias": "Tiago Vinicius", "p": 6, "3x1": 1, "turno": 2, "posto": 299002, "trecho": "a"}
+{"_id": 2001858, "name": "Raquel Silva Fernandes Pontes", "alias": "Raquel Pontes", "p": 1, "3x1": 0, "turno": 2, "posto": 200961, "trecho": "d"}
+{"_id": 2001900, "name": "Elidiane Gomes Vilarino", "alias": "Elidiane Vilarino", "p": 1, "3x1": 0, "turno": 2, "posto": 200965, "trecho": "d"}
+{"_id": 2001893, "name": "Nelmara Ines Santos Cordeiro", "alias": "Nelmara Ines", "p": 1, "3x1": 0, "turno": 2, "posto": 200962, "trecho": "d"}
+{"_id": 2002194, "name": "Andre Fillipe Fonseca Viana", "alias": "Andre Fillipe", "p": 13, "3x1": 0, "turno": 2, "posto": 200963, "trecho": "d"}
+{"_id": 2001797, "name": "Anderson Nunes De Souza", "alias": "Anderson Nunes", "p": 1, "3x1": 0, "turno": 2, "posto": 200964, "trecho": "d"}
