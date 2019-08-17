@@ -1,6 +1,6 @@
 version: '3.5'
 services:
- web_dev:
+ escala_gen:
   build: .
   ports:
    - "4000:4000"
@@ -9,6 +9,8 @@ services:
   environment:
    - ENV=development
    - PORT=4000
-   - DB=mongodb://mongodb:27017/todoDevnetworks:
+   - DB=mongodb://mongodb:27017/:
+
+networks:
  default:
-  name: web_dev
+  name: escala_gen
