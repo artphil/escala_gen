@@ -11,6 +11,7 @@ sys.path.append(os.path.join(ROOT_PATH, 'modules'))
 
 import logger
 from app import app
+import db
 
 # Create a logger object to log the info and debug
 LOG = logger.get_root_logger(os.environ.get(
@@ -24,7 +25,8 @@ PORT = os.environ.get('PORT')
 def not_found(error):
     """ error handler """
     LOG.error(error)
-    return make_response(jsonify({'error': 'Not found'}), 404)
+    return send_from_directory('dist', '404.html')
+    # return make_response(jsonify({'error': 'Not found'}), 404)
 
 
 @app.route('/')
@@ -32,11 +34,17 @@ def index():
     """ static files serve """
     return send_from_directory('dist', 'index.html')
 
+@app.route('/est', methods=['GET', 'POST', 'DELETE', 'PATCH'])
+def est():
+    if request.method == 'GET':
+        query = request.args
+        data = db.get_employer(query)
+        return jsonify(data), 200
 
 @app.route('/<path:path>')
 def static_proxy(path):
     """ static folder serve """
-    file_name = path.split('/')[-1]
+    file_name = path.split('/')[-1] + ".html"
     dir_name = os.path.join('dist', '/'.join(path.split('/')[:-1]))
     return send_from_directory(dir_name, file_name)
 
