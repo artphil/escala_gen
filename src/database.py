@@ -185,7 +185,7 @@ class data:
 		return tree
 
 	def set_posto(self,ano,mes,data):
-		posicao = (ano-2000)*12 + mes
+		posicao = (ano-2000)*12 + mes + 16
 		print (posicao)
 
 		for a in self.db:
@@ -194,15 +194,14 @@ class data:
 			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
 
 			# Encontra o posto pela posicao
+			seq = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]
 			if j["pos"]:
-				# self.db[a]["posto"] = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ][ (int(j["pos"])+posicao)%list_size ]
-				print (data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ][ (int(j["pos"])+posicao)%list_size ])
+				# print ("posicao", seq[ seq.index(int(j["pos"])+posicao)%list_size ])
+				self.db[a]["posto"] = seq[ int(j["pos"]) ]
 			
 		self.save()
 
 	def set_pos(self,ano,mes,data):
-		posicao = (ano-2000)*12 + mes
-		print (posicao)
 
 		for a in self.db:
 			if self.db[a]["trecho"] == 'd': continue
@@ -210,13 +209,49 @@ class data:
 			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
 
 			# Encontra a posicao do posto na lista
-			print( j["turno"], j["trecho"], j["p"], (int(j["p"]))%3)
-			print(j["posto"],)
 			try: print(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]))
 			except: print('-')
 
-			if self.db[a]["posto"] in data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]:
-				self.db[a]["pos"] = str(list_size + data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]) - posicao%list_size)
+			seq = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]
+			if self.db[a]["posto"] in seq:
+				self.db[a]["pos"] = str(seq.index(j["posto"]))
+			
+		self.save()
+
+	def plus_pos(self,data):
+	
+		for a in self.db:
+			if self.db[a]["trecho"] == 'd': continue
+			j = self.db[a]
+			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
+
+			# Encontra a posicao do posto na lista
+			try: print(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]))
+			except: print('-')
+
+			seq = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]
+			if self.db[a]["posto"] in seq:
+				self.db[a]["pos"] = str( ( int( self.db[a]["pos"] ) + 1 ) % list_size )
+				print( seq[ int( db[a]["pos"] ) ])
+				self.db[a]["posto"] = str( seq[ int( db[a]["pos"] ) ] )
+			
+		self.save()
+
+	def minus_pos(self,data):
+		
+		for a in self.db:
+			if self.db[a]["trecho"] == 'd': continue
+			j = self.db[a]
+			list_size = len(data[ j["turno"] ][ j["trecho"] ][ 0 ])
+
+			# Encontra a posicao do posto na lista
+			try: print(data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ].index(j["posto"]))
+			except: print('-')
+
+			seq = data[ j["turno"] ][ j["trecho"] ][ (int(j["p"]))%3 ]
+			if self.db[a]["posto"] in seq:
+				self.db[a]["pos"] = str( ( int( self.db[a]["pos"] ) - 1 ) % list_size )
+				self.db[a]["posto"] = str(seq[int(db[a]["pos"])])
 			
 		self.save()
 

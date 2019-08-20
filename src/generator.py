@@ -60,11 +60,12 @@ class gen:
 
 			aso_list = []
 			for p in self.data.pds.db[turno][estacao]:
-				# print("-- ",p)
-				# a = self.data.pds.db[turno]["postos"][p]
-				# print( "-- ", a,  type(a))
-				# print( "-- ", asos[a])
-				aso_list.append(asos[self.data.pds.db[turno]["postos"][p]]["id"])
+				print("-- ",p)
+				a = self.data.pds.db[turno]["postos"][p]
+				print( "-- ", a,  type(a))
+				print( "-- ", asos[a])
+				print(asos[ self.data.pds.db[turno]["postos"][p] ]["id"])
+				aso_list.append( asos[ self.data.pds.db[turno]["postos"][p] ]["id"] )
 			
 			file["asos"] = aso_list
 
@@ -72,7 +73,7 @@ class gen:
 
 			self.ests[st] = file
 
-			with open('data/ests/a'+st, "w") as new_file:
+			with open('data/ests/'+st, "w") as new_file:
 				new_file.write(json.dumps(file, indent=4))
 
 
@@ -83,7 +84,7 @@ if __name__ == '__main__':
 
 	while True:
 		try:
-			action = int(input("1.Gera escalas\n2.Gera estações\n3.Atualiza postos\n4.Attualiza posições\n0.Sair\n"))
+			action = int(input("1.Gera escalas\n2.Gera estações\n3.Atualiza postos\n4.Atualiza posições\n5. Proximo\n6. Anterior\n0.Sair\n"))
 		except:
 			print("Comando invalido")
 			continue
@@ -100,5 +101,9 @@ if __name__ == '__main__':
 			e.data.aso.set_posto(e.ano, e.data.mes[e.mes]["id"], e.data.pds.db)
 		elif action == 4:
 			e.data.aso.set_pos(e.ano, e.data.mes[e.mes]["id"], e.data.pds.db)
+		elif action == 5:
+			e.data.aso.plus_pos(e.data.pds.db)
+		elif action == 6:
+			e.data.aso.minus_pos(e.data.pds.db)
 		else:
 			print("Comando invalido")

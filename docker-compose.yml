@@ -9,7 +9,7 @@ services:
   environment:
    - ENV=development
    - PORT=4000
-   - DB=mongodb://mongodb:27017/todoDev
+   - DB=mongodb://mongodb:27017
  mongodb:
   image: mongo:latest
   container_name: "mongodb"
@@ -20,7 +20,7 @@ services:
    - ./data/db:/data/db
   ports:
    - 27017:27017
-  command: mongod --logpath=/dev/null #--smallfiles --quiet
+  command: mongod --logpath=/dev/null --dbpath=/data/db #--smallfiles --quiet
 networks:
  default:
   name: escala_gen

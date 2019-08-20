@@ -276,7 +276,7 @@ class gen:
 				dtd = d
 				print ("\nTentando dia", d)
 			
-			print('''simb[s]''' '|', '''flush=True,''' end = '')
+			# print('''simb[s]''' '|', '''flush=True,''' end = '')
 			s = (s+1)%len(simb)
 
 			# Coloca uma combinacao
