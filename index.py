@@ -1,4 +1,3 @@
-
 """ index file for REST APIs using Flask """
 import os
 import sys
