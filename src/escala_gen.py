@@ -228,7 +228,7 @@ class gen:
 				
 				initp = int(self.data.folgas[p])
 				scale = self.data.scl.db['3x1']
-				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
+				init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days
 			else:
 				p = func['p']
 				initp = int(self.data.folgas[p])
@@ -246,7 +246,7 @@ class gen:
 					exit()
 
 			for d in range(self.dias):
-				dist_postos[f][d] = int(scale[(d+init+initp)%len(scale)])
+				dist_postos[f][d] = int(scale[(d+init+initp+1)%len(scale)])
 
 			f += 1
 
