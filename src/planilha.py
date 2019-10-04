@@ -67,7 +67,7 @@ def gera_xls(tabela):
 				celula.font = Font(color='FFFFFF')
 
 	# Definindo largura das células
-	ws.row_dimensions[ws['A1'].row].height = 30.0
+	ws.row_dimensions[ws['A1'].row].height = 30
 	ws.column_dimensions[ws['A1'].column].width = 20.0
 	ws.column_dimensions[ws['B1'].column].width = 5.0
 	for col in ws['B:AK']:
