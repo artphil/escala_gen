@@ -109,7 +109,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;1;0;1;108101;c;31
 1000114;* Furo de escala;- ;14;0;1;100152;c;10
 2001799;Alan Marcelo Da Silva;Alan Marcelo;1;0;1;116191;c;13
-2001856;Alexandre Dias Drumond;Alexandre Dias;12;0;1;199009;c;
+2001856;Alexandre Dias Drumond;Alexandre Dias;12;1;1;199009;c;
 2001912;Ana Carolina Coelho De Oliveira;Ana Carolina;4;0;1;114191;c;16
 2001897;Daiane De Castro;Daiane De Castro;10;0;1;118191;c;1
 2002027;Daniel Ribeiro Araujo;Daniel Ribeiro;10;0;1;117191;c;7
@@ -128,25 +128,25 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;12;0;1;100143;c;28
 2002080;Lilian Oliveira Londe;Lilian Londe;12;0;1;100181;c;1
 2001851;Lisyane Rachel De Cristo Kaizer;Lisyane Kaizer;13;0;1;119001;c;22
-2002005;Lucas Soares Rezende;Lucas Soares;15;0;1;100162;c;34
+2002005;Lucas Soares Rezende;Lucas Soares;14;0;1;100162;c;34
 2002087;Marcelo De Vilhena Guimarães;Marcelo Vilhena;4;0;1;117192;c;31
 2002077;Marcos Vinicius Dos Santos Filho;Marcos Santos;3;0;1;100142;c;40
 2001876;Mariana De Freitas Silvano;Mariana Silvano;13;0;1;115181;c;4
 2002081;Mateus Rodrigues Da Silva;Mateus Rodrigues;1;0;1;118192;c;25
 2001921;Matheus Silva Leão;Matheus Leão;1;0;1;114192;c;40
-2002060;Nathalia Dias Gomes;Nathalia Dias;14;0;1;100182;c;25
+2002060;Nathalia Dias Gomes;Nathalia Dias;15;0;1;100182;c;25
 2001872;Paulo Renato Braga Camilo;Paulo Renato;5;0;1;100194;c;16
-2001901;Raphael Neves Ferreira;Raphael Ferreira;14;1;1;100151;c;4
-2001932;Renata Goltara Souza;Renata Goltara;2;1;1;100193;c;13
+2001901;Raphael Neves Ferreira;Raphael Ferreira;14;0;1;100151;c;4
+2001932;Renata Goltara Souza;Renata Goltara;2;0;1;100193;c;13
 2002018;Renato Alves Junior;Renato Junior;2;1;1;100196;c;25
 2002214;Samuel Paulo Da Silva;Samuel Paulo;3;0;1;100161;c;13
-2002208;Samura Ribeiro De Souza;Samura Ribeiro;11;0;1;100154;c;28
+2002208;Samura Ribeiro De Souza;Samura Ribeiro;11;1;1;100154;c;28
 2002006;Sergio Pereira Gonçalves;Sergio Gonçalves;15;0;1;100173;c;10
 2001997;Sidney Alexandre Gil Ferreira;Sidney Ferreira;10;0;1;115001;c;19
 2002072;Taylla Fernanda Dos Santos;Taylla Santos;6;0;1;100172;c;31
-2001968;Tiago Moreno Pascoal;Tiago Moreno;11;1;1;100153;c;19
+2001968;Tiago Moreno Pascoal;Tiago Moreno;11;0;1;100153;c;19
 2001989;Vinicius Melo Pedrosa;Vinicius Melo;4;1;1;115001;c;19
-2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5;1;1;100155;c;37
+2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5;0;1;100155;c;37
 2001931;Willian Da Cunha Sousa;Willian Cunha;13;0;1;115171;c;10
 2001965;Willy Thiago De Almeida;Willy Almeida;15;0;1;100183;c;4
 2002057;Michelle Ribeiro De Castro Oliveira;Michelle Ribeiro;3;0;1;100996;c;
