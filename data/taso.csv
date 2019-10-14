@@ -154,7 +154,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001894;Caroline Clarissa Leite De Aguiar;Caroline Aguiar;10;0;1;100965;d;
 2001804;Danilo Cesar Ramos Duarte;Danilo Duarte;1;0;1;100964;d;
 2001879;Euler Mendes Junior;Euler Mendes;1;0;1;100963;d;
-2002190;Fabiana Tornelli Rocha;Fabiana Tornelli;9;0;1;199012;d;
+2002190;Fabiana Tornelli Rocha;Fabiana Tornelli;12;1;1;199012;d;
 2002011;Grazielle Cristine Neves Sanches;Grazielle Sanches;3;0;1;100994;d;
 2001813;Igor Moreira De Miranda;Igor Moreira;4;0;1;100952;d;
 2002186;Ligia De Oliveira Souza;Ligia Souza;2;0;1;100962;d;
@@ -183,11 +183,11 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;2;0;2;200022;a;13
 2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;6;1;2;203071;a;16
 2002340;Jonathan de Souza Santana;Jonathan Santana;11;1;2;200054;a;49
-2002341;Jonnys Gomes da Silva;Jonnys Silva;10;1;2;200013;a;19
+2002341;Jonnys Gomes da Silva;Jonnys Silva;10;0;2;200013;a;19
 2001891;Jorge Da Silva;Jorge Silva;15;0;2;205071;a;34
 2002055;Jose Armando Costa;Jose Armando;2;1;2;200051;a;10
 2001710;Jose Carlos Grossi Dos Santos;Jose Grossi;12;1;2;204061;a;31
-2001996;Juliana Gomes Tinoco;Juliana Gomes;1;1;2;200062;a;13
+2001996;Juliana Gomes Tinoco;Juliana Gomes;12;0;2;200062;a;13
 2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;1;0;2;200012;a;10
 2001828;Karina Da Conceição De Jesus Costa;Karina Costa;3;0;2;201032;a;37
 2001819;Kener Alexandre Da Silva;Kener Alexandre;13;0;2;200066;a;46
@@ -195,7 +195,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002209;Luis Eduardo Portela Botelho;Luis Portela;12;0;2;201042;a;43
 2002053;Luiz Henrique Tadeu Soares;Luiz Soares;4;0;2;200065;a;40
 2001809;Marcelo Augusto De Oliveira;Marcelo Augusto;1;0;2;299001;a;
-2001867;Marcia Cristina Bebiano Tannes;Marcia Tannes;10;1;2;200064;a;31
+2001867;Marcia Cristina Bebiano Tannes;Marcia Tannes;10;0;2;200064;a;31
 2002054;Marcio Rodrigo Ribeiro;Marcio Rodrigo;13;1;2;200074;a;34
 2002062;Marluana Almeida Ferreira Rodrigues;Marluana Almeida;10;0;2;200016;a;43
 2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;14;0;2;200053;a;34
