@@ -1,303 +1,303 @@
 id;name;alias;p;3x1;turno;posto;trecho;pos
-1000002;* Furo de escala;*(2);2;0;0;2;d;
-1000003;* Furo de escala;*(3);3;0;0;3;d;
-1000005;* Furo de escala;*(5);5;0;0;5;d;
-1000006;* Furo de escala;*(6);6;0;0;6;d;
-1000007;* Furo de escala;*(7);7;1;0;7;d;
-1000008;* Furo de escala;*(8);8;1;0;8;d;
-1000009;* Furo de escala;*(9);9;1;0;9;d;
+1000001;* Furo de escala;*(1);1;0;0;100023;d;
+1000010;* Furo de escala;*(10);10;0;0;100163;d;
 1000011;* Furo de escala;*(11);11;0;0;11;d;
 1000012;* Furo de escala;*(12);12;0;0;12;d;
 1000013;* Furo de escala;*(13);13;0;0;13;d;
 1000014;* Furo de escala;*(14);14;0;0;14;d;
 1000015;* Furo de escala;*(15);15;0;0;15;d;
-1000001;* Furo de escala;*(1);1;0;0;100023;d;
+1000002;* Furo de escala;*(2);2;0;0;2;d;
+1000003;* Furo de escala;*(3);3;0;0;3;d;
 1000004;* Furo de escala;*(4);4;0;0;100113;d;
-1000010;* Furo de escala;*(10);10;0;0;100163;d;
-1000041;P1;P1;16;0;0;16;d;
-1000042;P2;P2;17;0;0;17;d;
-1000043;P3;P3;18;0;0;18;d;
-1000044;P4;P4;19;0;0;19;d;
-1000045;P5;P5;20;0;0;20;d;
-1000046;P6;P6;2;0;0;21;d;
-2001823;Adriana Quadros Godinho;Adriana Godinho;11;0;1;100018;a;34
-2002318;Alex Paulo Maia Dos Santos;Alex Santos;13;0;1;106001;a;4
-2001959;Ayslan Rogger Da Silva Felizardo;Ayslan Rogger;15;0;1;100042;a;28
-2002212;Blenda Reis Teles Silva;Blenda Teles;4;0;1;103061;a;19
-2001715;Carlos Eduardo Goulart De Souza;Carlos Eduardo;13;0;1;104061;a;28
-2001824;Claudiney Do Espirito Santo Leite;Claudiney Leite;14;0;1;100043;a;31
-2002071;David Lacerda Santos;David Lacerda;12;0;1;100053;a;34
-2002196;Everton Geraldo Marques Mourão;Everton Marques;2;0;1;100062;a;37
-2001902;Frederico Sansão Gonçalves Ramos;Frederico Sansão;3;0;1;100051;a;16
-2001708;Gabriela Correia De Castro;Gabriela Correia;6;1;1;100031;a;7
-2002216;Gisele Lacerda Da Silva;Gisele Lacerda;2;1;1;100019;a;40
-2001694;Guilherme Da Silva Araujo;Guilherme Araujo;11;0;1;100015;a;22
-2002025;Guilherme Fernando Teixeira Dantas;Guilherme Fernando;6;0;1;100032;a;19
-2002193;Hudson Rodrigo Da Silva Oliveira;Hudson Rodrigo;11;0;1;100065;a;10
-2002191;Igor Alves Da Silva;Igor Alves;2;0;1;100014;a;16
-2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;4;0;1;101021;a;1
-2002009;Israel Dos Santos Leite Junior;Israel Santos;3;0;1;100041;a;13
-2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;3;0;1;100052;a;37
-2002311;Jessica Santos De Oliveira;Jessica Santos;4;0;1;100992;a;
-2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;12;0;1;100022;a;22
-2001954;Juliana Silva Da Silveira;Juliana Silveira;1;0;1;101001;a;40
-2002207;Karine Zanandreis Nolasco De Melo;Karine Nolasco;10;0;1;101022;a;22
-2002316;Lais Freitas Camara;Lais Freitas;3;1;1;199003;a;
-2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;5;0;1;100011;a;1
-2002182;Lucas Henryque Oliveira Chagas;Lucas Henryque;6;0;1;100021;a;1
-2001952;Marcela Alves Santos Nascimento;Marcela Alves;14;0;1;100063;a;28
-2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;14;0;1;100061;a;4
-2001933;Paulo Dener Bacelar Rabelo;Paulo Dener;15;0;1;100017;a;31
-2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;13;0;1;105061;a;37
-2001706;Pedro Henrique Vaz Monteiro;Pedro Vaz;2;0;1;100013;a;13
-2001812;Pedro Vinicius Apolinario;Pedro Apolinario;1;0;1;101051;a;16
-2001987;Rafael Celestino Vidigal;Rafael Vidigal;12;0;1;199002;a;
-2002199;Rafaela Faria Barbosa;Rafaela Faria;15;0;1;199001;a;
-2002059;Renato Gomes Ferreira;Renato Ferreira;14;0;1;100016;a;25
-2001919;Rodrigo Cesar Da Costa Ribeiro;Rodrigo Ribeiro;10;0;1;106002;a;10
-2002056;Rosiane Santos Rodrigues;Rosiane Rodrigues;5;1;1;100012;a;7
-2002022;Silvana De Souza Silva;Silvana Souza;1;0;1;101032;a;25
-2001883;Suellen De Lima Pereira Da Silva;Suellen Lima;10;0;1;101052;a;34
-2001920;Tatiane Rodrigues Melo Pereira;Tatiane Rodrigues;5;0;1;100064;a;19
-2001826;Thais De Almeida Macedo Santos;Thais Almeida;4;1;1;101031;a;7
-2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;13;0;1;101042;a;31
-2001796;Vinicius Lara Braga De Souza;Vinicius Lara;1;0;1;101041;a;13
-2001909;Wagner Forapani Clemente;Wagner Clemente;15;0;1;100033;a;25
-2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;6;0;1;100993;a;
+1000005;* Furo de escala;*(5);5;0;0;5;d;
+1000006;* Furo de escala;*(6);6;0;0;6;d;
+1000007;* Furo de escala;*(7);7;1;0;7;d;
+1000008;* Furo de escala;*(8);8;1;0;8;d;
+1000009;* Furo de escala;*(9);9;1;0;9;d;
+1000041;P1;P1;1;0;0;16;d;
+1000042;P2;P2;2;0;0;17;d;
+1000043;P3;P3;3;0;0;18;d;
+1000044;P4;P4;4;0;0;19;d;
+1000045;P5;P5;5;0;0;20;d;
+1000046;P6;P6;6;0;0;21;d;
+1000114;* Furo de escala;- ;14;0;1;100152;c;10
+2001823;Adriana Quadros Godinho;Adriana Godinho;2;0;1;100018;a;34
+2001799;Alan Marcelo Da Silva;Alan Marcelo;1;0;1;116191;c;13
+2002318;Alex Paulo Maia Dos Santos;Alex Santos;4;0;1;106001;a;4
+2001856;Alexandre Dias Drumond;Alexandre Dias;3;0;1;199009;c;
+2001962;Alvaro Antonio Drumond Rosa;Alvaro Antonio;4;0;1;199013;b;
+2001912;Ana Carolina Coelho De Oliveira;Ana Carolina;4;0;1;114191;c;16
 2001944;Ana Raquel Almeida E Franco;Ana Raquel;6;0;1;100112;b;13
-2002067;Andre Luiz Da Silveira Silva;Andre Silveira;12;1;1;199006;b;
-2001806;Bernard Pereira Magacho;Bernard Magacho;10;1;1;110001;b;16
+2002067;Andre Luiz Da Silveira Silva;Andre Silveira;3;0;1;199006;b;
+2001959;Ayslan Rogger Da Silva Felizardo;Ayslan Rogger;6;0;1;100042;a;28
+2001914;Barbara Andrade Neves;Barbara Andrade;0;0;1;199011;d;
+2001806;Bernard Pereira Magacho;Bernard Magacho;1;0;1;110001;b;16
+2002212;Blenda Reis Teles Silva;Blenda Teles;4;0;1;103061;a;19
 2002051;Bruno Duarte Alves;Bruno Duarte;1;0;1;112001;b;25
 2001850;Carla Erica Da Silva;Carla Erica;3;0;1;100121;b;28
-2002058;Daniel Cançado Duarte;Daniel Cançado;13;0;1;113001;b;7
-2002008;Daniel Fernando Vieira De Paula;Daniel Fernando;3;0;1;100123;b;25
-2002181;Daniella Bruno Dutra;Daniella Dutra;6;1;1;100092;b;40
-2001795;Diego Andrade Salerno;Diego Salerno;13;1;1;108091;b;40
-2002000;Elisio Rocha Breguez Gonçalves;Elisio Rocha;11;1;1;100103;b;16
-2001849;Felipe Augusto Santiago De Castro;Felipe Augusto;5;0;1;100084;b;31
-2001701;Glauber Lucas Meireles De Figueiredo;Glauber Figueiredo;5;0;1;100082;b;13
-2002064;Guaracy Dantas Junior;Guaracy Dantas;1;0;1;107121;b;28
-2002061;Gustavo Machado Concolato;Gustavo Concolato;4;0;1;107091;b;1
-2002204;Helena Duarte Pedrosa Brito;Helena Brito;11;0;1;100081;b;4
-2002198;Icaro Roosewelt Faria Xavier;Icaro Roosewelt;4;1;1;107131;b;37
-2001818;Izabelle Liz Melo Francisco;Izabelle Liz;2;0;1;199005;b;
-2001898;Jessica Agnes De Almeida Barros;Jessica Agnes;11;0;1;199007;b;
-2002069;Kenya Tatiana Frade Morais;Kenya Morais;5;1;1;100085;b;40
-2002016;Larissa De Lima Silva Elias;Larissa Elias;10;0;1;108131;b;4
-2001993;Leonardo Pinto Albuquerque;Leo Albuquerque;6;0;1;100102;b;31
-2001910;Lucia Gonçalves De Pinho;Lucia Gonçalves;2;0;1;100083;b;22
-2002089;Luiz Guilherme Herculano Dos Santos;Luiz Herculano;14;1;1;100075;b;37
-2001803;Marco Tulio Alves Do Nascimento;Marco Alves;15;0;1;100111;b;19
-2002206;Maria Madalena Ferreira;Maria Madalena;3;0;1;100122;b;22
-2001913;Mayara Lorena Barbosa Maia;Mayara Maia;14;0;1;100073;b;19
-2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4;0;1;108111;b;13
-2001784;Paulo Augusto Bittencourt;Paulo Bittencourt;15;0;1;199004;b;
-2001992;Paulo Cesar Banfi Souza;Paulo Banfi;15;0;1;100131;b;37
-2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;14;0;1;100133;b;7
-2001878;Poliana Ferreira Gomes;Poliana Ferreira;10;0;1;109001;b;34
-2002084;Rodrigo Mendonça Prado;Rodrigo Prado;1;0;1;108121;b;22
-2002211;Rosa Lima Ferreira;Rosa Lima;1;0;1;107101;b;10
-2002021;Sergio Maia Pereira;Sergio Maia;5;0;1;100071;b;1
-2001961;Stefano Carvalho Hallack;Stefano Hallack;6;0;1;100091;b;1
-2001916;Thiago Philippe Soares;Thiago Philippe;3;0;1;100101;b;10
-2001926;Victor De Sousa Prata;Victor Prata;2;0;1;100072;b;10
-2001967;Victor De Sousa Santos;Victor Santos;13;0;1;107111;b;19
-2002075;Victor Schrier Alves;Victor Schrier;12;0;1;100093;b;34
-2002203;Wellington Santos Correa;Wellington Santos;2;0;1;100074;b;28
-2001870;Ygor Vinicius Vieira Thibau;Ygor Vinicius;12;0;1;100132;b;4
-2001962;Alvaro Antonio Drumond Rosa;Alvaro Antonio;13;0;1;199013;b;
-2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;1;0;1;108101;c;31
-1000114;* Furo de escala;- ;14;0;1;100152;c;10
-2001799;Alan Marcelo Da Silva;Alan Marcelo;1;0;1;116191;c;13
-2001856;Alexandre Dias Drumond;Alexandre Dias;12;1;1;199009;c;
-2001912;Ana Carolina Coelho De Oliveira;Ana Carolina;4;0;1;114191;c;16
-2001897;Daiane De Castro;Daiane De Castro;10;0;1;118191;c;1
-2002027;Daniel Ribeiro Araujo;Daniel Ribeiro;10;0;1;117191;c;7
-2001991;Delric Lucas Bento De Jesus Ferreira;Delric Lucas;14;0;1;100195;c;22
+2001715;Carlos Eduardo Goulart De Souza;Carlos Eduardo;4;0;1;104061;a;28
+2001894;Caroline Clarissa Leite De Aguiar;Caroline Aguiar;0;0;1;100965;d;
+2001824;Claudiney Do Espirito Santo Leite;Claudiney Leite;5;0;1;100043;a;31
+2001897;Daiane De Castro;Daiane De Castro;1;0;1;118191;c;1
+2002058;Daniel Cançado Duarte;Daniel Cançado;0;0;1;113001;b;7
+2002008;Daniel Fernando Vieira De Paula;Daniel Fernando;6;0;1;100123;b;25
+2002027;Daniel Ribeiro Araujo;Daniel Ribeiro;1;0;1;117191;c;7
+2002181;Daniella Bruno Dutra;Daniella Dutra;6;0;1;100092;b;40
+2001804;Danilo Cesar Ramos Duarte;Danilo Duarte;1;0;1;100964;d;
+2002071;David Lacerda Santos;David Lacerda;3;0;1;100053;a;34
+2001991;Delric Lucas Bento De Jesus Ferreira;Delric Lucas;5;0;1;100195;c;22
+2001795;Diego Andrade Salerno;Diego Salerno;4;0;1;108091;b;40
 2001892;Diogo Bonfim Guilherme;Diogo Guilherme;2;0;1;100199;c;40
 2001942;Eliane Helena Dos Santos;Eliane Helena;5;0;1;100197;c;31
-2002083;Esther Dias De Souza;Esther Dias;11;0;1;116192;c;34
-2001925;Felipe De Assis Maciel;Felipe Maciel;11;0;1;100191;c;1
-2001941;Francisco De Assis Monteiro;Francisco Monteiro;10;0;1;114151;c;28
-2001814;Gabriela Pereira Pinto;Gabriela Pereira;14;0;1;100198;c;34
-2002082;Grazielle Silva De Oliveira;Grazielle Oliveira;13;0;1;100192;c;7
+2002000;Elisio Rocha Breguez Gonçalves;Elisio Rocha;2;0;1;100103;b;16
+2002083;Esther Dias De Souza;Esther Dias;2;0;1;116192;c;34
+2001879;Euler Mendes Junior;Euler Mendes;1;0;1;100963;d;
+2002196;Everton Geraldo Marques Mourão;Everton Marques;2;0;1;100062;a;37
+2002190;Fabiana Tornelli Rocha;Fabiana Tornelli;0;0;1;199012;d;
+2001849;Felipe Augusto Santiago De Castro;Felipe Augusto;5;0;1;100084;b;31
+2001925;Felipe De Assis Maciel;Felipe Maciel;2;0;1;100191;c;1
+2001941;Francisco De Assis Monteiro;Francisco Monteiro;1;0;1;114151;c;28
+2001902;Frederico Sansão Gonçalves Ramos;Frederico Sansão;3;0;1;100051;a;16
+2001708;Gabriela Correia De Castro;Gabriela Correia;6;0;1;100031;a;7
+2001814;Gabriela Pereira Pinto;Gabriela Pereira;5;0;1;100198;c;34
+2002216;Gisele Lacerda Da Silva;Gisele Lacerda;2;0;1;100019;a;40
+2001701;Glauber Lucas Meireles De Figueiredo;Glauber Figueiredo;5;0;1;100082;b;13
+2002082;Grazielle Silva De Oliveira;Grazielle Oliveira;4;0;1;100192;c;7
+2002011;Grazielle Cristine Neves Sanches;Grazielle Sanches;3;0;1;100994;d;
+2002064;Guaracy Dantas Junior;Guaracy Dantas;1;0;1;107121;b;28
+2001694;Guilherme Da Silva Araujo;Guilherme Araujo;2;0;1;100015;a;22
+2002025;Guilherme Fernando Teixeira Dantas;Guilherme Fernando;6;0;1;100032;a;19
 2002070;Guilherme Viana Reis;Guilherme Viana;6;0;1;199010;c;
-2001716;Jucileia Ferreira De Sousa;Jucileia Sousa;12;0;1;100174;c;7
+2002061;Gustavo Machado Concolato;Gustavo Concolato;4;0;1;107091;b;1
+2002204;Helena Duarte Pedrosa Brito;Helena Brito;2;0;1;100081;b;4
+2002193;Hudson Rodrigo Da Silva Oliveira;Hudson Rodrigo;1;0;1;100065;a;10
+2002198;Icaro Roosewelt Faria Xavier;Icaro Roosewelt;4;0;1;107131;b;37
+2002191;Igor Alves Da Silva;Igor Alves;3;0;1;100014;a;16
+2001813;Igor Moreira De Miranda;Igor Moreira;4;0;1;100952;d;
+2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;4;0;1;101021;a;1
+2002009;Israel Dos Santos Leite Junior;Israel Santos;3;0;1;100041;a;13
+2001818;Izabelle Liz Melo Francisco;Izabelle Liz;2;0;1;199005;b;
+2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;2;0;1;100052;a;37
+2001898;Jessica Agnes De Almeida Barros;Jessica Agnes;2;0;1;199007;b;
+2002311;Jessica Santos De Oliveira;Jessica Santos;3;0;1;100992;a;
+2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;3;0;1;100022;a;22
+2001716;Jucileia Ferreira De Sousa;Jucileia Sousa;3;0;1;100174;c;7
 2002026;Juliana Miranda Martins Da Silva;Juliana Miranda;6;0;1;100141;c;16
-2002192;Kandace Amanda Silveira Castro V. Riani;Kandace Riani;15;0;1;199008;c;
-2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;12;0;1;100143;c;28
-2002080;Lilian Oliveira Londe;Lilian Londe;12;0;1;100181;c;1
-2001851;Lisyane Rachel De Cristo Kaizer;Lisyane Kaizer;13;0;1;119001;c;22
-2002005;Lucas Soares Rezende;Lucas Soares;14;0;1;100162;c;34
+2001954;Juliana Silva Da Silveira;Juliana Silveira;1;0;1;101001;a;40
+2002192;Kandace Amanda Silveira Castro V. Riani;Kandace Riani;6;0;1;199008;c;
+2002207;Karine Zanandreis Nolasco De Melo;Karine Nolasco;0;0;1;101022;a;22
+2002069;Kenya Tatiana Frade Morais;Kenya Morais;5;0;1;100085;b;40
+2002316;Lais Freitas Camara;Lais Freitas;3;0;1;199003;a;
+2002016;Larissa De Lima Silva Elias;Larissa Elias;1;0;1;108131;b;4
+2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;3;0;1;100143;c;28
+2001993;Leonardo Pinto Albuquerque;Leo Albuquerque;6;0;1;100102;b;31
+2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;5;0;1;100011;a;1
+2002186;Ligia De Oliveira Souza;Ligia Souza;2;0;1;100962;d;
+2002080;Lilian Oliveira Londe;Lilian Londe;3;0;1;100181;c;1
+2001851;Lisyane Rachel De Cristo Kaizer;Lisyane Kaizer;4;0;1;119001;c;22
+2002024;Lucas Curvelano Ferreira;Lucas Curvelano;0;0;1;100995;d;
+2002182;Lucas Henryque Oliveira Chagas;Lucas Henryque;6;0;1;100021;a;1
+2002005;Lucas Soares Rezende;Lucas Soares;5;0;1;100162;c;34
+2001910;Lucia Gonçalves De Pinho;Lucia Gonçalves;2;0;1;100083;b;22
+2002089;Luiz Guilherme Herculano Dos Santos;Luiz Herculano;5;0;1;100075;b;37
+2001952;Marcela Alves Santos Nascimento;Marcela Alves;5;0;1;100063;a;28
 2002087;Marcelo De Vilhena Guimarães;Marcelo Vilhena;4;0;1;117192;c;31
+2001803;Marco Tulio Alves Do Nascimento;Marco Alves;6;0;1;100111;b;19
 2002077;Marcos Vinicius Dos Santos Filho;Marcos Santos;3;0;1;100142;c;40
-2001876;Mariana De Freitas Silvano;Mariana Silvano;13;0;1;115181;c;4
+2002206;Maria Madalena Ferreira;Maria Madalena;3;0;1;100122;b;22
+2001876;Mariana De Freitas Silvano;Mariana Silvano;4;0;1;115181;c;4
 2002081;Mateus Rodrigues Da Silva;Mateus Rodrigues;1;0;1;118192;c;25
 2001921;Matheus Silva Leão;Matheus Leão;1;0;1;114192;c;40
-2002060;Nathalia Dias Gomes;Nathalia Dias;15;0;1;100182;c;25
-2001872;Paulo Renato Braga Camilo;Paulo Renato;5;0;1;100194;c;16
-2001901;Raphael Neves Ferreira;Raphael Ferreira;14;0;1;100151;c;4
-2001932;Renata Goltara Souza;Renata Goltara;2;0;1;100193;c;13
-2002018;Renato Alves Junior;Renato Junior;2;1;1;100196;c;25
-2002214;Samuel Paulo Da Silva;Samuel Paulo;3;0;1;100161;c;13
-2002208;Samura Ribeiro De Souza;Samura Ribeiro;11;1;1;100154;c;28
-2002006;Sergio Pereira Gonçalves;Sergio Gonçalves;15;0;1;100173;c;10
-2001997;Sidney Alexandre Gil Ferreira;Sidney Ferreira;10;0;1;115001;c;19
-2002072;Taylla Fernanda Dos Santos;Taylla Santos;6;0;1;100172;c;31
-2001968;Tiago Moreno Pascoal;Tiago Moreno;11;0;1;100153;c;19
-2001989;Vinicius Melo Pedrosa;Vinicius Melo;4;1;1;115001;c;19
-2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5;0;1;100155;c;37
-2001931;Willian Da Cunha Sousa;Willian Cunha;13;0;1;115171;c;10
-2001965;Willy Thiago De Almeida;Willy Almeida;15;0;1;100183;c;4
+2001913;Mayara Lorena Barbosa Maia;Mayara Maia;5;0;1;100073;b;19
 2002057;Michelle Ribeiro De Castro Oliveira;Michelle Ribeiro;3;0;1;100996;c;
-2001914;Barbara Andrade Neves;Barbara Andrade;7;0;1;199011;d;
-2001894;Caroline Clarissa Leite De Aguiar;Caroline Aguiar;10;0;1;100965;d;
-2001804;Danilo Cesar Ramos Duarte;Danilo Duarte;1;0;1;100964;d;
-2001879;Euler Mendes Junior;Euler Mendes;1;0;1;100963;d;
-2002190;Fabiana Tornelli Rocha;Fabiana Tornelli;12;1;1;199012;d;
-2002011;Grazielle Cristine Neves Sanches;Grazielle Sanches;3;0;1;100994;d;
-2001813;Igor Moreira De Miranda;Igor Moreira;4;0;1;100952;d;
-2002186;Ligia De Oliveira Souza;Ligia Souza;2;0;1;100962;d;
-2002024;Lucas Curvelano Ferreira;Lucas Curvelano;15;0;1;100995;d;
+2002060;Nathalia Dias Gomes;Nathalia Dias;6;0;1;100182;c;25
+2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;5;0;1;100061;a;4
+2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;6;0;1;100993;a;
+2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4;0;1;108111;b;13
+2001992;Paulo Cesar Banfi Souza;Paulo Banfi;6;0;1;100131;b;37
+2001784;Paulo Augusto Bittencourt;Paulo Bittencourt;0;0;1;199004;b;
+2001933;Paulo Dener Bacelar Rabelo;Paulo Dener;6;0;1;100017;a;31
+2001872;Paulo Renato Braga Camilo;Paulo Renato;5;0;1;100194;c;16
+2001812;Pedro Vinicius Apolinario;Pedro Apolinario;1;0;1;101051;a;16
+2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;4;0;1;105061;a;37
+2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;5;0;1;100133;b;7
+2001706;Pedro Henrique Vaz Monteiro;Pedro Vaz;2;0;1;100013;a;13
+2001878;Poliana Ferreira Gomes;Poliana Ferreira;1;0;1;109001;b;34
+2001987;Rafael Celestino Vidigal;Rafael Vidigal;0;0;1;199002;a;
+2002199;Rafaela Faria Barbosa;Rafaela Faria;6;0;1;199001;a;
+2001901;Raphael Neves Ferreira;Raphael Ferreira;5;0;1;100151;c;4
+2001932;Renata Goltara Souza;Renata Goltara;2;0;1;100193;c;13
+2002059;Renato Gomes Ferreira;Renato Ferreira;5;0;1;100016;a;25
+2002018;Renato Alves Junior;Renato Junior;2;0;1;100196;c;25
 2001811;Roberto Flaymer Araujo;Roberto Flaymer;1;0;1;100961;d;
+2002084;Rodrigo Mendonça Prado;Rodrigo Prado;1;0;1;108121;b;22
+2001919;Rodrigo Cesar Da Costa Ribeiro;Rodrigo Ribeiro;1;0;1;106002;a;10
+2002211;Rosa Lima Ferreira;Rosa Lima;1;0;1;107101;b;10
+2002056;Rosiane Santos Rodrigues;Rosiane Rodrigues;5;0;1;100012;a;7
+2002214;Samuel Paulo Da Silva;Samuel Paulo;3;0;1;100161;c;13
+2002208;Samura Ribeiro De Souza;Samura Ribeiro;2;0;1;100154;c;28
 2001907;Scarlat Oliveira Rodrigues;Scarlat Oliveira;4;0;1;100951;d;
+2002006;Sergio Pereira Gonçalves;Sergio Gonçalves;6;0;1;100173;c;10
+2002021;Sergio Maia Pereira;Sergio Maia;5;0;1;100071;b;1
+2001997;Sidney Alexandre Gil Ferreira;Sidney Ferreira;1;0;1;115001;c;19
+2002022;Silvana De Souza Silva;Silvana Souza;1;0;1;101032;a;25
+2001961;Stefano Carvalho Hallack;Stefano Hallack;6;0;1;100091;b;1
+2001883;Suellen De Lima Pereira Da Silva;Suellen Lima;1;0;1;101052;a;34
 2001859;Tatiana Cavalcanti Moreira;Tatiana Cavalcanti;5;0;1;100991;d;
+2001920;Tatiane Rodrigues Melo Pereira;Tatiane Rodrigues;5;0;1;100064;a;19
+2002072;Taylla Fernanda Dos Santos;Taylla Santos;6;0;1;100172;c;31
+2001826;Thais De Almeida Macedo Santos;Thais Almeida;4;0;1;101031;a;7
+2001916;Thiago Philippe Soares;Thiago Philippe;3;0;1;100101;b;10
+2001968;Tiago Moreno Pascoal;Tiago Moreno;2;0;1;100153;c;19
+2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;4;0;1;101042;a;31
+2001926;Victor De Sousa Prata;Victor Prata;2;0;1;100072;b;10
+2001967;Victor De Sousa Santos;Victor Santos;4;0;1;107111;b;19
+2002075;Victor Schrier Alves;Victor Schrier;3;0;1;100093;b;34
+2001796;Vinicius Lara Braga De Souza;Vinicius Lara;1;0;1;101041;a;13
+2001989;Vinicius Melo Pedrosa;Vinicius Melo;4;0;1;115001;c;19
+2001909;Wagner Forapani Clemente;Wagner Forapani;6;0;1;100033;a;25
+2002203;Wellington Santos Correa;Wellington Santos;2;0;1;100074;b;28
+2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5;0;1;100155;c;37
+2001931;Willian Da Cunha Sousa;Willian Cunha;4;0;1;115171;c;10
+2001965;Willy Thiago De Almeida;Willy Almeida;6;0;1;100183;c;4
+2001870;Ygor Vinicius Vieira Thibau;Ygor Vinicius;3;0;1;100132;b;4
+2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;1;0;1;108101;c;31
+2002052;Abel Elias Oliveira;Abel Elias;5;0;2;200162;c;16
+2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;1;0;2;200191;c;4
+2002063;Adriano Manna Brito;Adriano Manna;1;0;2;218192;c;22
+2001943;Alexandre Von Rondon Neto;Alexandre Rondon;1;0;2;200102;b;10
 2002197;Ander Proteus Silva De Faria;Ander Faria;3;0;2;201051;a;10
+2001797;Anderson Nunes De Souza;Anderson Nunes;1;0;2;200964;d;
+2002194;Andre Fillipe Fonseca Viana;Andre Fillipe;1;0;2;200963;d;
+2002189;Andreia Sanzio Soares;Andreia Sanzio;2;0;2;200172;c;25
+2001890;Antonio Aurelio Pereira;Antonio Aurelio;1;0;2;218191;c;7
 2001700;Arthur Fernando Santos Vieira;Arthur Fernando;2;0;2;200021;a;4
+2001815;Barbara Luisa De Medeiros Estevam Jaza;Barbara Jaza;5;0;2;200151;c;1
+2001860;Bruna Cristina Cunha;Bruna Cristina;2;0;2;200122;b;13
 2002020;Bruno Martins De Faria;Bruno Martins;5;0;2;200031;a;1
-2002308;Bruno Vinicius Da Silva;Bruno Vinicius;11;0;2;200043;a;31
+2002308;Bruno Vinicius Da Silva;Bruno Vinicius;1;0;2;200043;a;31
+2001792;Camila Maira Pinto Cristeli;Camila Cristeli;5;0;2;200113;b;28
+2002348;Catia Regina Nascimento de Paula;Catia Regina;2;0;2;200123;b;25
+2002325;Celio Santana Lopes;Celio Santana;1;0;2;200083;b;13
+2002007;Claudinei Martins;Claudinei Martins;1;0;2;214153;c;19
 2002183;Cleber De Souza Carvalho;Cleber Carvalho;3;0;2;201021;a;4
+2002079;Cledio Gabriel Dos Santos;Cledio Gabriel;11;0;2;200161;c;4
+2001960;Cybele Gonçalves Braga;Cybele Braga;15;0;2;210121;b;34
 2002076;Daniel Alexandre De A. Chaves Radtke;Daniel Radtke;6;0;2;201031;a;28
+2001718;Derlem Aparecida Da Silva;Derlem Aparecida;3;0;2;214152;c;10
+2001709;Diego Almeida Santos;Diego Almeida;10;0;2;200143;c;19
+2001869;Diego Augusto Guimarães;Diego Augusto;14;0;2;200181;c;7
 2001958;Diogo Facundes Fontenele Romanato;Diogo Romanato;1;0;2;200073;a;25
+2002343;Edvaldo Dias Duarte;Edvaldo Duarte;4;0;2;200094;b;28
+2001900;Elidiane Gomes Vilarino;Elidiane Vilarino;1;0;2;200965;d;
+2001986;Erick De Moura Melo;Erick Melo;15;0;2;209121;b;4
 2002323;Fabricio Cesar Da Silva;Fabricio Cesar;5;0;2;200033;a;28
 2001966;Felipe Martins Vasconcelos;Felipe Martins;13;0;2;200071;a;7
+2002188;Felipe Da Silva Quintela;Felipe Quintela;1;0;2;200198;c;37
+2001857;Flavia Cristina Silva Martins;Flavia Cristina;6;0;2;214154;c;28
 2001963;Flavia Froes Coimbra;Flavia Froes;2;0;2;200023;a;25
+2002314;Gisele Soares Duarte Souza Da Cruz;Gisele Soares;3;0;2;208131;b;7
+2001807;Guilherme Gomes Da Silva;Guilherme Gomes;4;0;2;200095;b;40
+2001915;Guilherme Alvarenga Carvalho Junior;Guilherme Junior;10;0;2;200197;c;31
+2001994;Guilherme Silveira Silva;Guilherme Silveira;1;0;2;200193;c;13
 2002310;Guilherme Henrique De Souza;Guilherme Souza;12;0;2;201041;a;19
+2001705;Gustavo Mendes Cabral;Gustavo Cabral;1;0;2;200196;c;25
+2001938;Gustavo Velloso Da Matta;Gustavo Matta;6;0;2;209112;b;28
+2002320;Hebert Da Silva Guimarães;Hebert Guimarães;6;0;2;216192;c;16
 2001825;Helisandro Gonçalves De Oliveira;Helisandro Oliveira;2;0;2;200034;a;37
+2002003;Henrique Warley De Souza Alves;Henrique Warley;10;0;2;200081;b;1
 2002345;Hudson Coelho Soares;Hudson Soares;10;0;2;200017;a;49
 2001788;Iandra Cristina Miranda Almeida;Iandra Miranda;6;0;2;206071;a;40
+2001882;Israel De Melo Pedrosa;Israel Pedrosa;11;0;2;200163;c;31
 2002088;Izabella Lourença Amorim Romualdo;Izabella Lourença;15;0;2;206072;a;46
+2001798;Janine Almeida De Oliveira;Janine Almeida;2;0;2;200111;b;10
 2001881;Jessica Cristina Carvalho;Jessica Cristina;13;0;2;200063;a;22
 2001957;Jessica Liria Da Silva;Jessica Liria;4;0;2;200014;a;28
+2001985;João Pedro De Lima Coutinho;João Coutinho;2;0;2;200152;c;10
 2002004;João Pedro Lima Machado Santos;João Machado;14;0;2;200041;a;7
+2002309;João Victor Cunha Pereira;João Pereira;3;0;2;208111;b;37
 2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;2;0;2;200022;a;13
-2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;6;1;2;203071;a;16
-2002340;Jonathan de Souza Santana;Jonathan Santana;11;1;2;200054;a;49
+2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;6;0;2;203071;a;16
+2002340;Jonathan de Souza Santana;Jonathan Santana;11;0;2;200054;a;49
+2002073;Jonathas Jacinto De Assis;Jonathas Assis;12;0;2;208102;b;19
 2002341;Jonnys Gomes da Silva;Jonnys Silva;10;0;2;200013;a;19
 2001891;Jorge Da Silva;Jorge Silva;15;0;2;205071;a;34
-2002055;Jose Armando Costa;Jose Armando;2;1;2;200051;a;10
-2001710;Jose Carlos Grossi Dos Santos;Jose Grossi;12;1;2;204061;a;31
+2002055;Jose Armando Costa;Jose Armando;2;0;2;200051;a;10
+2001853;Jose Luiz De Almeida;Jose de Almeida;6;0;2;214151;c;1
+2001710;Jose Carlos Grossi Dos Santos;Jose Grossi;12;0;2;204061;a;31
+2001817;Jose Carlos De Souza;Jose Souza;12;0;2;216193;c;31
+2002029;Juan Paulo Reis De Souza;Juan Paulo;1;0;2;200142;c;10
 2001996;Juliana Gomes Tinoco;Juliana Gomes;12;0;2;200062;a;13
+2002200;Juliana Maria De Freitas Glueck;Juliana Maria;11;0;2;200101;b;1
+2002317;Julio Cesar Vieira De Andrade;Julio Andrade;13;0;2;200104;b;34
+2002068;Junio Jorge De Jesus;Junio Jorge;5;0;2;200132;b;16
 2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;1;0;2;200012;a;10
 2001828;Karina Da Conceição De Jesus Costa;Karina Costa;3;0;2;201032;a;37
 2001819;Kener Alexandre Da Silva;Kener Alexandre;13;0;2;200066;a;46
-2002319;Luan Nunes Ribeiro;Luan Nunes;3;1;2;202061;a;13
-2002209;Luis Eduardo Portela Botelho;Luis Portela;12;0;2;201042;a;43
-2002053;Luiz Henrique Tadeu Soares;Luiz Soares;4;0;2;200065;a;40
-2001809;Marcelo Augusto De Oliveira;Marcelo Augusto;1;0;2;299001;a;
-2001867;Marcia Cristina Bebiano Tannes;Marcia Tannes;10;0;2;200064;a;31
-2002054;Marcio Rodrigo Ribeiro;Marcio Rodrigo;13;1;2;200074;a;34
-2002062;Marluana Almeida Ferreira Rodrigues;Marluana Almeida;10;0;2;200016;a;43
-2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;14;0;2;200053;a;34
-2001874;Paulo Henrique Soares De Salles;Paulo Henrique;5;0;2;200075;a;40
-2001854;Pedro Gonçalves De Souza Junior;Pedro Junior;4;0;2;200072;a;16
-2001808;Renato Fernando Dos Santos;Renato Fernando;14;0;2;200076;a;46
-2001693;Roberto Pena Mundim;Roberto Mundim;4;0;2;200061;a;1
-2002013;Sabrina Vieira Silva;Sabrina Vieira;11;0;2;200042;a;19
-2002313;Samera Ferreira De Almeida Alcides;Samera Alcides;6;0;2;203061;a;1
-2001692;Talita Aquino Da Silva;Talita Aquino;1;0;2;200015;a;37
-2001827;Tarso Anselmo Dos Santos Valentim;Tarso Valentim;11;0;2;200044;a;43
-2001801;Thais Soares Rodrigues;Thais Soares;3;0;2;202071;a;25
-2001904;Thalles Lucas Da Silva Martins;Thalles Lucas;5;0;2;200032;a;16
-2002315;Thiago Rafael Silveira Santos;Thiago Rafael;15;0;2;204071;a;7
-2002066;Thiago Tadeu Mendes Da Rocha;Thiago Mendes;14;0;2;200052;a;22
-2001868;Tiago Vinicius Gonçalves Paixão;Tiago Vinicius;6;0;2;299002;a;
-2001964;Victor De Jesus Oliveira;Victor Oliveira;15;0;2;205061;a;22
-2002347;Vladimir dos Santos Paula;Vladimir Paula;12;0;2;201052;a;49
-2002078;Willian Lopes Peçanha;Willian Lopes;1;0;2;200011;a;4
-2001943;Alexandre Von Rondon Neto;Alexandre Rondon;1;0;2;200102;b;10
-2001860;Bruna Cristina Cunha;Bruna Cristina;2;0;2;200122;b;13
-2001792;Camila Maira Pinto Cristeli;Camila Cristeli;5;0;2;200113;b;28
-2002348;Catia Regina Nascimento de Paula;Catia Regina;2;1;2;200123;b;25
-2002325;Celio Santana Lopes;Celio Santana;1;0;2;200083;b;13
-2001960;Cybele Gonçalves Braga;Cybele Braga;15;1;2;210121;b;34
-2002343;Edvaldo Dias Duarte;Edvaldo Duarte;4;0;2;200094;b;28
-2001986;Erick De Moura Melo;Erick Melo;15;0;2;209121;b;4
-2002314;Gisele Soares Duarte Souza Da Cruz;Gisele Soares;3;0;2;208131;b;7
-2001807;Guilherme Gomes Da Silva;Guilherme Gomes;4;0;2;200095;b;40
-2001938;Gustavo Velloso Da Matta;Gustavo Matta;6;0;2;209112;b;28
-2002003;Henrique Warley De Souza Alves;Henrique Warley;10;0;2;200081;b;1
-2001798;Janine Almeida De Oliveira;Janine Almeida;2;0;2;200111;b;10
-2002309;João Victor Cunha Pereira;João Pereira;3;0;2;208111;b;37
-2002073;Jonathas Jacinto De Assis;Jonathas Assis;12;0;2;208102;b;19
-2002200;Juliana Maria De Freitas Glueck;Juliana Maria;11;0;2;200101;b;1
-2002317;Julio Cesar Vieira De Andrade;Julio Andrade;13;1;2;200104;b;34
-2002068;Junio Jorge De Jesus;Junio Jorge;5;0;2;200132;b;16
 2001935;Larissa Cecilia De Marcos Silva;Larissa Cecilia;4;0;2;200092;b;16
+2001884;Larissa Cristina Souza Santos;Larissa Santos;13;0;2;200195;c;22
+2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;13;0;2;200145;c;34
 2002185;Leticia Da Silva Dornas Paixão;Leticia Silva;10;0;2;200086;b;31
 2001810;Liliane Gonçalves Curto;Liliane Curto;11;0;2;200133;b;31
+2001984;Luan Carlos Monteiro Da Silva;Luan Carlos;2;0;2;200183;c;37
+2002319;Luan Nunes Ribeiro;Luan Nunes;3;0;2;202061;a;13
 2001939;Luany Rodrigues Carvalho;Luany Rodrigues;1;0;2;200087;b;37
 2001822;Lucas Vitor De Andrade Castilho;Lucas Vitor;12;0;2;208132;b;31
 2001999;Luciano Malta Bahia Teixeira;Luciano Malta;14;0;2;200121;b;4
 2001886;Lucilene Siqueira De Almeida Dias;Lucilene Siqueira;10;0;2;200084;b;19
-2001866;Maria Fernanda Barboza;Maria Fernanda;14;1;2;200124;b;34
+2002209;Luis Eduardo Portela Botelho;Luis Portela;12;0;2;201042;a;43
+2002053;Luiz Henrique Tadeu Soares;Luiz Soares;4;0;2;200065;a;40
+2001809;Marcelo Augusto De Oliveira;Marcelo Augusto;1;0;2;299001;a;
+2001867;Marcia Cristina Bebiano Tannes;Marcia Tannes;10;0;2;200064;a;31
+2001885;Marcio Dias Regis;Marcio Regis;4;0;2;200141;c;1
+2002054;Marcio Rodrigo Ribeiro;Marcio Rodrigo;13;0;2;200074;a;34
+2001866;Maria Fernanda Barboza;Maria Fernanda;14;0;2;200124;b;34
+2001951;Maria Nazare Da Silva;Maria Silva;2;0;2;200171;c;13
+2002062;Marluana Almeida Ferreira Rodrigues;Marluana Almeida;10;0;2;200016;a;43
 2001855;Mateus Acerbi Santos;Mateus Acerbi;2;0;2;200131;b;7
 2002195;Matheus Augusto Felix;Matheus Felix;1;0;2;200082;b;7
-2002339;Philippe Matheus Sousa Prata;Philippe Prata;13;0;2;200093;b;22
-2002322;Priscila De Souza Viana;Priscila Viana;5;0;2;200134;b;40
-2001930;Rafael Douglas Rodrigues;Rafael Douglas;3;0;2;208121;b;13
-2002085;Renata Santos Cardoso Brito;Renata Cardoso;14;0;2;200112;b;22
-2002342;Roberta da Silva Bento;Roberta Bento;6;0;2;209132;b;40
-2002213;Robson Pereira Dos Reis;Robson Reis;3;0;2;210111;b;10
-2002346;Rodinei Messias Saquetti Chagas;Rodinei Messias;13;0;2;200091;b;4
-2001848;Rubens Augusto Costa Gomes;Rubens Augusto;1;1;2;200085;b;25
-2001863;Sara Do Carmo Alves;Sara Alves;15;0;2;209111;b;22
-2002202;Silvana Evangelista Soares Da Silva;Silvana Soares;12;0;2;208101;b;1
-2001790;Thales Souza Teixeira;Thales Souza;3;1;2;208122;b;25
-2002312;Victor Hugo Mattiello;Victor Mattiello;2;0;2;200114;b;37
-2002201;Vinicius Teixeira Generoso Hernandez;Vinicius Hernandez;6;0;2;209131;b;16
-2002001;Wesley Elias Gomes Couto;Wesley Elias;11;0;2;200103;b;19
-2002052;Abel Elias Oliveira;Abel Elias;5;0;2;200162;c;16
-2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;10;0;2;200191;c;4
-2002063;Adriano Manna Brito;Adriano Manna;15;0;2;218192;c;22
-2002189;Andreia Sanzio Soares;Andreia Sanzio;2;0;2;200172;c;25
-2001890;Antonio Aurelio Pereira;Antonio Aurelio;15;0;2;218191;c;7
-2001815;Barbara Luisa De Medeiros Estevam Jaza;Barbara Jaza;5;0;2;200151;c;1
-2002007;Claudinei Martins;Claudinei Martins;12;0;2;214153;c;19
-2002079;Cledio Gabriel Dos Santos;Cledio Gabriel;11;0;2;200161;c;4
-2001718;Derlem Aparecida Da Silva;Derlem Aparecida;3;1;2;214152;c;10
-2001709;Diego Almeida Santos;Diego Almeida;10;0;2;200143;c;19
-2001869;Diego Augusto Guimarães;Diego Augusto;14;0;2;200181;c;7
-2002188;Felipe Da Silva Quintela;Felipe Quintela;1;0;2;200198;c;37
-2001857;Flavia Cristina Silva Martins;Flavia Cristina;6;0;2;214154;c;28
-2001915;Guilherme Alvarenga Carvalho Junior;Guilherme Junior;10;0;2;200197;c;31
-2001994;Guilherme Silveira Silva;Guilherme Silveira;1;1;2;200193;c;13
-2001705;Gustavo Mendes Cabral;Gustavo Cabral;1;0;2;200196;c;25
-2002320;Hebert Da Silva Guimarães;Hebert Guimarães;6;0;2;216192;c;16
-2001882;Israel De Melo Pedrosa;Israel Pedrosa;11;0;2;200163;c;31
-2001985;João Pedro De Lima Coutinho;João Coutinho;2;1;2;200152;c;10
-2001817;Jose Carlos De Souza;Jose Souza;12;0;2;216193;c;31
-2001853;Jose Luiz De Almeida;Jose de Almeida;6;0;2;214151;c;1
-2002029;Juan Paulo Reis De Souza;Juan Paulo;1;1;2;200142;c;10
-2001884;Larissa Cristina Souza Santos;Larissa Santos;13;0;2;200195;c;22
-2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;13;0;2;200145;c;34
-2001984;Luan Carlos Monteiro Da Silva;Luan Carlos;2;0;2;200183;c;37
-2001885;Marcio Dias Regis;Marcio Regis;4;0;2;200141;c;1
-2001951;Maria Nazare Da Silva;Maria Silva;2;1;2;200171;c;13
 2002187;Mauricio De Moura Almada;Mauricio Moura;4;0;2;200144;c;28
 2001995;Miguel Angelo Ramos Garcia;Miguel Angelo;4;0;2;200194;c;16
 2001911;Moema Da Costa Carvalho;Moema Carvalho;13;0;2;200192;c;7
+2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;14;0;2;200053;a;34
+2001893;Nelmara Ines Santos Cordeiro;Nelmara Ines;1;0;2;200962;d;
 2002184;Otavio Luiz Cordeiro Da Silva;Otavio Luiz;14;0;2;200173;c;34
 2002321;Patrick Ronald Iglesias Coelho;Patrick Ronald;14;0;2;200182;c;22
+2001874;Paulo Henrique Soares De Salles;Paulo Henrique;5;0;2;200075;a;40
+2001854;Pedro Gonçalves De Souza Junior;Pedro Junior;4;0;2;200072;a;16
+2002339;Philippe Matheus Sousa Prata;Philippe Prata;13;0;2;200093;b;22
+2002322;Priscila De Souza Viana;Priscila Viana;5;0;2;200134;b;40
+2001930;Rafael Douglas Rodrigues;Rafael Douglas;3;0;2;208121;b;13
+2001858;Raquel Silva Fernandes Pontes;Raquel Pontes;1;0;2;200961;d;
+2002085;Renata Santos Cardoso Brito;Renata Cardoso;14;0;2;200112;b;22
+2001808;Renato Fernando Dos Santos;Renato Fernando;14;0;2;200076;a;46
+2002342;Roberta da Silva Bento;Roberta Bento;6;0;2;209132;b;40
+2001693;Roberto Pena Mundim;Roberto Mundim;4;0;2;200061;a;1
+2002213;Robson Pereira Dos Reis;Robson Reis;3;0;2;210111;b;10
+2002346;Rodinei Messias Saquetti Chagas;Rodinei Messias;13;0;2;200091;b;4
+2001848;Rubens Augusto Costa Gomes;Rubens Augusto;1;0;2;200085;b;25
+2002013;Sabrina Vieira Silva;Sabrina Vieira;11;0;2;200042;a;19
+2002313;Samera Ferreira De Almeida Alcides;Samera Alcides;6;0;2;203061;a;1
 2001917;Samuel Correa Campolina Salomão;Samuel Salomão;15;0;2;214171;c;34
+2001863;Sara Do Carmo Alves;Sara Alves;15;0;2;209111;b;22
+2002202;Silvana Evangelista Soares Da Silva;Silvana Soares;12;0;2;208101;b;1
 2001707;Silvia Schiavo Siqueira;Silvia Schiavo;3;0;2;218193;c;37
 2001896;Stefan Edberg Ferreira Santos;Stefan Edberg;11;0;2;200153;c;19
+2001692;Talita Aquino Da Silva;Talita Aquino;1;0;2;200015;a;37
 2001988;Tamiris Costa;Tamiris Costa;12;0;2;216191;c;4
+2001827;Tarso Anselmo Dos Santos Valentim;Tarso Valentim;11;0;2;200044;a;43
 2001875;Tatiana De Almeida Silva;Tatiana Almeida;3;0;2;217192;c;25
+2001801;Thais Soares Rodrigues;Thais Soares;3;0;2;202071;a;25
+2001790;Thales Souza Teixeira;Thales Souza;3;0;2;208122;b;25
+2001904;Thalles Lucas Da Silva Martins;Thalles Lucas;5;0;2;200032;a;16
+2002066;Thiago Tadeu Mendes Da Rocha;Thiago Mendes;14;0;2;200052;a;22
+2002315;Thiago Rafael Silveira Santos;Thiago Rafael;15;0;2;204071;a;7
+2001868;Tiago Vinicius Gonçalves Paixão;Tiago Vinicius;6;0;2;299002;a;
+2002312;Victor Hugo Mattiello;Victor Mattiello;2;0;2;200114;b;37
+2001964;Victor De Jesus Oliveira;Victor Oliveira;15;0;2;205061;a;22
+2002201;Vinicius Teixeira Generoso Hernandez;Vinicius Hernandez;6;0;2;209131;b;16
+2002347;Vladimir dos Santos Paula;Vladimir Paula;12;0;2;201052;a;49
 2002215;Wanderson Silva Ferreira;Wanderson Ferreira;5;0;2;200154;c;28
-2002344;Yuri Lobo Rodrigues da Cunha;Yuri Lobo;3;1;2;217191;c;13
-2001797;Anderson Nunes De Souza;Anderson Nunes;1;0;2;200964;d;
-2002194;Andre Fillipe Fonseca Viana;Andre Fillipe;13;0;2;200963;d;
-2001900;Elidiane Gomes Vilarino;Elidiane Vilarino;1;0;2;200965;d;
-2001893;Nelmara Ines Santos Cordeiro;Nelmara Ines;1;0;2;200962;d;
-2001858;Raquel Silva Fernandes Pontes;Raquel Pontes;1;0;2;200961;d;
+2002001;Wesley Elias Gomes Couto;Wesley Elias;11;0;2;200103;b;19
+2002078;Willian Lopes Peçanha;Willian Lopes;1;0;2;200011;a;4
+2002344;Yuri Lobo Rodrigues da Cunha;Yuri Lobo;3;0;2;217191;c;13

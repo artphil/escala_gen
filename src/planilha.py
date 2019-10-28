@@ -33,7 +33,8 @@ def gera_xls(tabela):
 
 	# Aplicando QRCODE
 	qrcode = drawing.image.Image('img/qrcode.png')
-	qrcode.width = qrcode.height = 120
+	qrcode.width = 50.0
+	qrcode.height = 50.0
 	# qrcode.anchor(ws.cell('AD20'))
 	# ws.add_image(qrcode)
 	ws.add_image(qrcode, 'AD23')
@@ -99,5 +100,5 @@ def gera_xls(tabela):
 		ws["AV"+str(i)].set_explicit_value(value='=COUNTIF(B'+str(i)+':AG'+str(i)+'; "Q4")', data_type=Cell.TYPE_FORMULA)
 
 	# Salva a planilha
-	nome_arquivo = 'planilha/'+tabela[0][0]+'.xls'
+	nome_arquivo = 'planilha/'+tabela[0][0]+'.xlsx'
 	wb.save(filename=nome_arquivo)

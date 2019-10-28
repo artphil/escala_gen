@@ -6,57 +6,54 @@ autor: Arthur Phillip Silva
 
 import numpy as np
 from random import shuffle
+import sys
 
 p = []
 
 # Arranja e lista todas as combinacoes
-def gerador(final, vetor, vistos, aux):
-	tam = len(vetor)
+# Gera uma matriz das permutacoes como listas
+def permut(rlist):
+    if len(rlist) <=1 : 
+        return rlist
+    if len(rlist) == 2 :
+        return [rlist, rlist[::-1]]
 
-	if len(aux) == tam:
-		# print(aux)
-		final.append(aux)
-	else:
-		for i in range(tam):
-			if vistos[i] == 0:
-				a = aux.copy()
-				v = vistos.copy()
-				a.append(vetor[i])
-				v[i] = 1
-				gerador(final, vetor, v, a)
+    result = []
+    for i in range(len(rlist)):
+        aux = rlist[:i] + rlist[i+1:] 
+        a=rlist[i]
+        for b in permut(aux):
+            result.append([a]+b) 
+    
+    return result
 
 # Lista de combinacoes de um vetor
-def gera_p(vetor):
-	global p
-	v_name = ""
-	for i in vetor:
-		v_name += str(i)
+def gera_p(vetor, f_name="data/seqs/"):
+
+	v_name = "".join(map(str,vetor))
 	
-	print(v_name)
-	f_name = "data/seqs/"+v_name
-	print(f_name)
+	f_name += v_name
+
 	try:
 		final = []
 		# recupera uma sequencia gravada
-		file = open(f_name,"r")
-		for line in file.readlines():
-			final.append([int(x) for x in line.split(',')])
+		with open(f_name,'r') as file: 
+			for line in file.readlines():
+				final.append(list(map(int,line[:-1].split(','))))
 	except:
-		tam = len(vetor)
-		vistos = np.zeros(tam)
-		aux = []
-		final = []
-
 		# Gera combinacoes
-		gerador(final, vetor, vistos, aux)
+		final = permut(vetor)
 
 		# Embaralha resultado
 		shuffle(final)
 
 		# Grava a sequencia
-		file = open(f_name,"w")
-		for line in final:
-			file.write(str(line)[1:-1]+"\n")
+		with open(f_name,'w') as file: 
+			for line in final:
+				file.write(str(line)[1:-1]+'\n')
 		
-	p = final
 	return final
+
+if __name__ == "__main__":
+	klist = sys.argv[1:]
+	gera_p(klist, f_name="")

@@ -232,15 +232,15 @@ class gen:
 			else:
 				p = func['p']
 				initp = int(self.data.folgas[p])
-				if 	int(p) < 16:
-					scale = self.data.scl.db['4x2']
+				if 	int(p) < 4:
+					scale = self.data.scl.db['4x2a']
 					init = self.data.folgas['0'] + abs(self.data_inicio - date(2019,1,1)).days 
-				elif int(p) < 19:
+				elif int(p) < 7:
 					scale = self.data.scl.db['4x2a']
 					init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
-				elif int(p) < 22:
-					scale = self.data.scl.db['4x2b']
-					init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
+				# elif int(p) < 22:
+				# 	scale = self.data.scl.db['4x2b']
+				# 	init = self.data.folgas['00'] + abs(self.data_inicio - date(2019,1,1)).days 
 				else:
 					print('P fora do escopo')
 					exit()
@@ -387,10 +387,10 @@ class gen:
 
 			file_name += a
 
-		print('\nsoffice --convert-to pdf planilha/'+file_name+'.xls --outdir pdf/ \n')
+		print('\nsoffice --convert-to pdf planilha/'+file_name+'.xlsx --outdir pdf/ \n')
 
 		# Codigo valido para LibreOffife
-		os.system('soffice --convert-to pdf planilha/'+file_name+'.xls --outdir pdf/ ')
+		os.system('soffice --convert-to pdf planilha/'+file_name+'.xlsx --outdir pdf/ ')
 		os.system('gvfs-open pdf/'+file_name+'.pdf')
 
 
