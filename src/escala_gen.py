@@ -110,6 +110,13 @@ class gen:
 
 	# Primeiro sabado do meses
 	def sabado(self):
+		self.dia_inicio = 4
+		self.data_inicio = date(2019, 11, 4)
+		self.data_fim = date(2019, 12, 7)
+		self.dias = (self.data_fim - self.data_inicio).days
+
+		return
+
 		for n in range(1,8):
 			dia_i = date(int(self.ano), self.mes['id'], n)
 			# Se sabado
