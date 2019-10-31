@@ -442,25 +442,6 @@ class aso_page(tk.Frame):
 		fid = self.fid.get()
 		alias = self.alias.get()
 
-		'''if fid:
-			self.name.delete(0,tk.END)
-			self.alias.delete(0,tk.END)
-			self.fp.delete(0,tk.END)
-			
-			item = self.ctrl.data.aso.get(fid)
-
-			if item:
-				self.name.insert(0,item['name'])
-				
-				self.alias.insert(0,item['alias'])
-				
-				self.fp.insert(0,item['p'])
-
-				self.l_result['text'] = '** OK **'
-			else:
-				self.l_result['text'] = '** ASO não encontrado **'
-		
-		'''
 		if alias:
 			self.name.delete(0,tk.END)
 			self.fid.delete(0,tk.END)
@@ -566,9 +547,15 @@ class gen_page(tk.Frame):
 		self.sidLabel.pack(side=tk.LEFT)
   
 		self.sid = tk.Entry(self.c_sid)
-		self.sid["width"] = 30
+		self.sid["width"] = 20
 		self.sid["font"] = self.ctrl.font_body
-		self.sid.pack(side=tk.RIGHT)
+		self.sid.pack(side=tk.LEFT)
+
+		## Botao de busca
+		self.button_search = tk.Button(self.c_sid)
+		self.button_search['text'] = "Buscar"
+		self.button_search['command'] = lambda: self.search()
+		self.button_search.pack(side=tk.RIGHT)
 
 		## Estação
 		self.c_name = tk.Frame(self.c_data)
@@ -628,24 +615,6 @@ class gen_page(tk.Frame):
 		self.l_asos['font'] = self.ctrl.font_body
 		self.l_asos.pack()
 
-		'''
-		self.c_asot = tk.Frame(self.c_data)
-		self.c_asot.pack(side=tk.LEFT)
-
-		self.l_asot = tk.Label(self.c_asot)
-		self.l_asot['text'] = "Titulares" 
-		self.l_asot['font'] = self.ctrl.font_body
-		self.l_asot.pack()
-
-		self.c_asor = tk.Frame(self.c_data)
-		self.c_asor.pack(side=tk.RIGHT)
-
-		self.l_asor = tk.Label(self.c_asor)
-		self.l_asor['text'] = "Resesrvas" 
-		self.l_asor['font'] = self.ctrl.font_body
-		self.l_asor.pack()
-		'''
-
 		## Texto
 		self.l_data2 = tk.Label(self.c_data)
 		self.l_data2['text'] = " ------------------------------------------------------- " 
@@ -663,12 +632,6 @@ class gen_page(tk.Frame):
 		self.button_start['text'] = "Inicio"
 		self.button_start['command'] = lambda: self.ctrl.show_frame("start_page")
 		self.button_start.pack(side=tk.LEFT)
-
-		## Busca
-		self.button_search = tk.Button(self.c_button)
-		self.button_search['text'] = "Buscar"
-		self.button_search['command'] = lambda: self.search()
-		self.button_search.pack(side=tk.LEFT)
 
 		# ## Atualiza
 		self.button_update = tk.Button(self.c_button)
