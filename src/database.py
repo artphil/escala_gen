@@ -45,7 +45,7 @@ class db:
 			"Agosto": 	{'name':"Agosto",	"dias": 31,"id": 8},
 			"Setembro": {'name':"Setembro",	"dias": 30,"id": 9},
 			"Outubro": 	{'name':"Outubro",	"dias": 31,"id": 10},
-			"Novembro": {'name':"Novembro",	"dias": 31,"id": 11},
+			"Novembro": {'name':"Novembro",	"dias": 30,"id": 11},
 			"Dezembro": {'name':"Dezembro",	"dias": 31,"id": 12}
 		}
 
