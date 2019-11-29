@@ -110,20 +110,17 @@ class gen:
 
 	# Primeiro sabado do meses
 	def sabado(self):
-		# self.dia_inicio = 4
-		# self.data_inicio = date(2019, 11, 4)
-		# self.data_fim = date(2019, 12, 7)
-		# self.dias = (self.data_fim - self.data_inicio).days
+		self.dia_inicio = 1
+		self.data_inicio = date(int(self.ano), self.mes['id'], 1)
 
-		# return
-
-		for n in range(1,8):
-			dia_i = date(int(self.ano), self.mes['id'], n)
+		# Recupera o primeiro sábado do mês
+		# for n in range(1,8):
+			# dia_i = date(int(self.ano), self.mes['id'], n)
 			# Se sabado
-			if dia_i.weekday() == 5 : 
-				self.dia_inicio = n
-				self.data_inicio = dia_i
-				break
+			# if dia_i.weekday() == 5 : 
+				# self.dia_inicio = n
+				# self.data_inicio = dia_i
+				# break
 
 		next_month = self.mes['id']+1
 		next_year = int(self.ano)
@@ -131,24 +128,19 @@ class gen:
 			next_month = 1
 			next_year += 1
 
-		for n in range(1,8):
-			dia_f = date(next_year, next_month, n)
-			# Se sabado
-			if dia_f.weekday() == 5 : 
-				self.dias = (dia_f-dia_i).days
-				self.data_fim = dia_f
-				break
+		# dia_f = date(next_year, next_month, 1)
+		# self.data_fim = dia_f + timedelta(days=-1)
+		self.data_fim = date(next_year, next_month, 1)
+		self.dias = (self.data_fim - self.data_inicio).days
 
-
-		# dia_f = dia_i + timedelta(days=self.mes['dias'])
-		# # Se sabado
+		# Recupera o primeiro sábado do mês seguinte
 		# for n in range(1,8):
-		# 	dia_f = date(int(self.ano), self.mes['id']+1, n)
-		# # while dia_f.weekday() != 6 : 
-		# 	# print(dia_f)
-		# 	dia_f = dia_f + timedelta(days=1)
-		# self.dias = (dia_f-dia_i).days
-		# self.data_fim = dia_f
+			# dia_f = date(next_year, next_month, n)
+			# Se sabado
+			# if dia_f.weekday() == 5 : 
+				# self.dias = (dia_f-dia_i).days
+				# self.data_fim = dia_f
+				# break
 
 	# cria a matriz da escala
 	def gera_tabela(self):
