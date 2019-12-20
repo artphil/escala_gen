@@ -290,8 +290,9 @@ class gen:
 					# Reduz o erro do balanco
 					if limite > 1:
 						limite -= 1
+				# Remove combinacao se nao passa no teste
 				else:
-					# Remove combinacao se nao passa no teste
+					print (limite, end=' ')
 					self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
 					t += 1
 			else: 
