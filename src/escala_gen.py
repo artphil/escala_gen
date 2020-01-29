@@ -270,6 +270,7 @@ class gen:
 		dtd = 0
 		s = 0
 		simb = ['|','/','-','\\','-','/'] 
+		limite_atual = 0
 		while d < self.dias:
 			if dtd != d:
 				dtd = d
@@ -283,6 +284,7 @@ class gen:
 
 				# Testa parametros
 				if self.checksum(dist_postos, d, balanc_postos, limite):
+					limite_atual = 0
 					print ("\nDia {} alocado\n".format(d+1))
 					d += 1
 					t = 0
@@ -292,7 +294,9 @@ class gen:
 						limite -= 1
 				# Remove combinacao se nao passa no teste
 				else:
-					print (limite, end=' ')
+					if limite != limite_atual:
+						limite_atual = limite
+						print (limite, end=' ')
 					self.remove_p(dist_postos, d, arranjos[a], postos, balanc_postos)
 					t += 1
 			else: 
