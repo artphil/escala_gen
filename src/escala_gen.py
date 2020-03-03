@@ -177,7 +177,8 @@ class gen:
 		c = 0
 		for f in self.funcs:
 			p = []
-			p.append(f['alias'])
+			f_nome = ' ' if f['alias'][0] == '*' else f['alias']
+			p.append(f_nome)
 			if f['3x1'] == '1':
 				if   int(f['p'])%3 == 1: p.append('7') 
 				elif int(f['p'])%3 == 2: p.append('8') 

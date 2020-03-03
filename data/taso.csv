@@ -71,7 +71,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002061;Gustavo Machado Concolato;Gustavo Concolato;4;0;1;107091;b;1
 2002204;Helena Duarte Pedrosa Brito;Helena Brito;2;0;1;100081;b;4
 2002193;Hudson Rodrigo Da Silva Oliveira;Hudson Rodrigo;1;0;1;100065;a;10
-2002198;Icaro Roosewelt Faria Xavier;Icaro Roosewelt;4;0;1;107131;b;37
+2002198;Icaro Roosewelt Faria Xavier;Icaro Roosewelt;1;0;1;107131;b;37
 2002191;Igor Alves Da Silva;Igor Alves;3;0;1;100014;a;16
 2001813;Igor Moreira De Miranda;Igor Moreira;4;0;1;100952;d;
 2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;4;0;1;101021;a;1
@@ -102,7 +102,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002089;Luiz Guilherme Herculano Dos Santos;Luiz Herculano;5;0;1;100075;b;37
 2001952;Marcela Alves Santos Nascimento;Marcela Alves;5;0;1;100063;a;28
 2002087;Marcelo De Vilhena Guimarães;Marcelo Vilhena;4;0;1;117192;c;31
-2001803;Marco Tulio Alves Do Nascimento;Marco Alves;6;0;1;100111;b;19
+2001803;Marco Tulio Alves Do Nascimento;Marco Alves;5;0;1;100111;b;19
 2002077;Marcos Vinicius Dos Santos Filho;Marcos Santos;3;0;1;100142;c;40
 2002206;Maria Madalena Ferreira;Maria Madalena;3;0;1;100122;b;22
 2001876;Mariana De Freitas Silvano;Mariana Silvano;4;0;1;115181;c;4
@@ -120,7 +120,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001872;Paulo Renato Braga Camilo;Paulo Renato;5;0;1;100194;c;16
 2001812;Pedro Vinicius Apolinario;Pedro Apolinario;1;0;1;101051;a;16
 2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;4;0;1;105061;a;37
-2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;5;0;1;100133;b;7
+2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;6;0;1;100133;b;7
 2001706;Pedro Henrique Vaz Monteiro;Pedro Vaz;2;0;1;100013;a;13
 2001878;Poliana Ferreira Gomes;Poliana Ferreira;1;0;1;109001;b;34
 2001987;Rafael Celestino Vidigal;Rafael Vidigal;0;0;1;199002;a;
