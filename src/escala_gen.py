@@ -191,6 +191,8 @@ class gen:
 					p.append("")
 				elif distrib[c][i] == 1:
 					p.append("F")
+				elif distrib[c][i] == 99:
+					p.append("R")
 				elif (distrib[c][i]%2)==0:
 					p.append("B"+str(int(distrib[c][i]/2)))
 				else:
