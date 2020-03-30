@@ -164,12 +164,12 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;1;0;1;108101;c;31
 2002052;Abel Elias Oliveira;Abel Elias;5;0;2;200162;c;16
 2002010;Adriano Lagares Rodrigues Vidal;Adriano Lagares;1;0;2;200191;c;4
-2002063;Adriano Manna Brito;Adriano Manna;1;0;2;218192;c;22
+2002063;Adriano Manna Brito;Adriano Manna;6;0;2;218192;c;22
 2001943;Alexandre Von Rondon Neto;Alexandre Rondon;1;0;2;200102;b;10
 2002197;Ander Proteus Silva De Faria;Ander Faria;3;0;2;201051;a;10
 2001797;Anderson Nunes De Souza;Anderson Nunes;1;0;2;200964;d;
 2002194;Andre Fillipe Fonseca Viana;Andre Fillipe;1;0;2;200963;d;
-2002189;Andreia Sanzio Soares;Andreia Sanzio;5;0;2;200172;c;25
+2002189;Andreia Sanzio Soares;Andreia Sanzio;2;0;2;200172;c;25
 2001890;Antonio Aurelio Pereira;Antonio Aurelio;6;0;2;218191;c;7
 2001700;Arthur Fernando Santos Vieira;Arthur Fernando;2;0;2;200021;a;4
 2001815;Barbara Luisa De Medeiros Estevam Jaza;Barbara Jaza;5;0;2;200151;c;1
@@ -185,7 +185,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001960;Cybele Gonçalves Braga;Cybele Braga;6;0;2;210121;b;34
 2002076;Daniel Alexandre De A. Chaves Radtke;Daniel Radtke;6;0;2;201031;a;28
 2001718;Derlem Aparecida Da Silva;Derlem Aparecida;3;0;2;214152;c;10
-2001709;Diego Almeida Santos;Diego Almeida;4;0;2;200143;c;19
+2001709;Diego Almeida Santos;Diego Almeida;1;0;2;200143;c;19
 2001869;Diego Augusto Guimarães;Diego Augusto;5;0;2;200181;c;7
 2001958;Diogo Facundes Fontenele Romanato;Diogo Romanato;1;0;2;200073;a;25
 2002343;Edvaldo Dias Duarte;Edvaldo Duarte;4;0;2;200094;b;28
@@ -216,7 +216,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001985;João Pedro De Lima Coutinho;João Coutinho;2;0;2;200152;c;10
 2002004;João Pedro Lima Machado Santos;João Machado;5;0;2;200041;a;7
 2002309;João Victor Cunha Pereira;João Pereira;6;0;2;208111;b;37
-2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;5;0;2;200022;a;13
+2002028;Jonas Cordeiro Abrantes;Jonas Abrantes;2;0;2;200022;a;13
 2001955;Jonathan Alves Miranda De Souza;Jonathan Alves;6;0;2;203071;a;16
 2002340;Jonathan de Souza Santana;Jonathan Santana;2;0;2;200054;a;49
 2002073;Jonathas Jacinto De Assis;Jonathas Assis;3;0;2;208102;b;19
@@ -258,18 +258,18 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002195;Matheus Augusto Felix;Matheus Felix;1;0;2;200082;b;7
 2002187;Mauricio De Moura Almada;Mauricio Moura;4;0;2;200144;c;28
 2001995;Miguel Angelo Ramos Garcia;Miguel Angelo;4;0;2;200194;c;16
-2001911;Moema Da Costa Carvalho;Moema Carvalho;1;0;2;200192;c;7
+2001911;Moema Da Costa Carvalho;Moema Carvalho;4;0;2;200192;c;7
 2002205;Neimar Monteiro Gonçalves;Neimar Monteiro;5;0;2;200053;a;34
 2001893;Nelmara Ines Santos Cordeiro;Nelmara Ines;1;0;2;200962;d;
 2002184;Otavio Luiz Cordeiro Da Silva;Otavio Luiz;5;0;2;200173;c;34
-2002321;Patrick Ronald Iglesias Coelho;Patrick Ronald;2;0;2;200182;c;22
+2002321;Patrick Ronald Iglesias Coelho;Patrick Ronald;5;0;2;200182;c;22
 2001874;Paulo Henrique Soares De Salles;Paulo Henrique;5;0;2;200075;a;40
 2001854;Pedro Gonçalves De Souza Junior;Pedro Junior;4;0;2;200072;a;16
 2002339;Philippe Matheus Sousa Prata;Philippe Prata;5;0;2;200093;b;22
 2002322;Priscila De Souza Viana;Priscila Viana;5;0;2;200134;b;40
 2001930;Rafael Douglas Rodrigues;Rafael Douglas;3;0;2;208121;b;13
 2001858;Raquel Silva Fernandes Pontes;Raquel Pontes;0;0;2;200961;d;
-2002085;Renata Santos Cardoso Brito;Renata Cardoso;5;0;2;200112;b;22
+2002085;Renata Santos Cardoso Brito;Renata Cardoso;1;0;2;200112;b;22
 2001808;Renato Fernando Dos Santos;Renato Fernando;5;0;2;200076;a;46
 2002342;Roberta da Silva Bento;Roberta Bento;6;0;2;209132;b;40
 2001693;Roberto Pena Mundim;Roberto Mundim;4;0;2;200061;a;1
