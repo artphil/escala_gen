@@ -37,7 +37,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001850;Carla Erica Da Silva;Carla Erica;3;0;1;100121;b;28
 2001715;Carlos Eduardo Goulart De Souza;Carlos Eduardo;4;0;1;104061;a;28
 2001894;Caroline Clarissa Leite De Aguiar;Caroline Aguiar;0;0;1;100965;d;
-2001824;Claudiney Do Espirito Santo Leite;Claudiney Leite;5;0;1;100043;a;31
+2001824;Claudiney Do Espirito Santo Leite;Claudiney Leite;3;0;1;100043;a;31
 2001897;Daiane De Castro;Daiane De Castro;1;0;1;118191;c;1
 2002058;Daniel Cançado Duarte;Daniel Cançado;0;0;1;113001;b;7
 2002008;Daniel Fernando Vieira De Paula;Daniel Fernando;6;0;1;100123;b;25
@@ -79,7 +79,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001818;Izabelle Liz Melo Francisco;Izabelle Liz;2;0;1;199005;b;
 2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;2;0;1;100052;a;37
 2001898;Jessica Agnes De Almeida Barros;Jessica Agnes;2;0;1;199007;b;
-2002311;Jessica Santos De Oliveira;Jessica Santos;4;0;1;100992;a;
+2002311;Jessica Santos De Oliveira;Jessica Santos;5;0;1;100992;a;
 2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;3;0;1;100022;a;22
 2001716;Jucileia Ferreira De Sousa;Jucileia Sousa;3;0;1;100174;c;7
 2002026;Juliana Miranda Martins Da Silva;Juliana Miranda;6;0;1;100141;c;16
@@ -91,7 +91,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002016;Larissa De Lima Silva Elias;Larissa Elias;1;0;1;108131;b;4
 2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;6;0;1;100143;c;28
 2001993;Leonardo Pinto Albuquerque;Leo Albuquerque;6;0;1;100102;b;31
-2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;5;0;1;100011;a;1
+2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;4;0;1;100011;a;1
 2002186;Ligia De Oliveira Souza;Ligia Souza;2;0;1;100962;d;
 2002080;Lilian Oliveira Londe;Lilian Londe;3;0;1;100181;c;1
 2001851;Lisyane Rachel De Cristo Kaizer;Lisyane Kaizer;4;0;1;119001;c;22
@@ -100,7 +100,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002005;Lucas Soares Rezende;Lucas Soares;5;0;1;100162;c;34
 2001910;Lucia Gonçalves De Pinho;Lucia Gonçalves;2;0;1;100083;b;22
 2002089;Luiz Guilherme Herculano Dos Santos;Luiz Herculano;5;0;1;100075;b;37
-2001952;Marcela Alves Santos Nascimento;Marcela Alves;1;0;1;100063;a;28
+2001952;Marcela Alves Santos Nascimento;Marcela Alves;5;0;1;100063;a;28
 2002087;Marcelo De Vilhena Guimarães;Marcelo Vilhena;4;0;1;117192;c;31
 2001803;Marco Tulio Alves Do Nascimento;Marco Alves;5;0;1;100111;b;19
 2002077;Marcos Vinicius Dos Santos Filho;Marcos Santos;3;0;1;100142;c;40
@@ -116,10 +116,10 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4;0;1;108111;b;13
 2001992;Paulo Cesar Banfi Souza;Paulo Banfi;6;0;1;100131;b;37
 2001784;Paulo Augusto Bittencourt;Paulo Bittencourt;0;0;1;199004;b;
-2001933;Paulo Dener Bacelar Rabelo;Paulo Dener;3;0;1;100017;a;31
+2001933;Paulo Dener Bacelar Rabelo;Paulo Dener;6;0;1;100017;a;31
 2001872;Paulo Renato Braga Camilo;Paulo Renato;5;0;1;100194;c;16
 2001812;Pedro Vinicius Apolinario;Pedro Apolinario;1;0;1;101051;a;16
-2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;4;0;1;105061;a;37
+2002324;Pedro Henrique Fernandes Silva;Pedro Fernandes;1;0;1;105061;a;37
 2001888;Pedro Henrique Araujo Rodrigues;Pedro Rodrigues;6;0;1;100133;b;7
 2001706;Pedro Henrique Vaz Monteiro;Pedro Vaz;2;0;1;100013;a;13
 2001878;Poliana Ferreira Gomes;Poliana Ferreira;1;0;1;109001;b;34
@@ -187,7 +187,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001718;Derlem Aparecida Da Silva;Derlem Aparecida;3;0;2;214152;c;10
 2001709;Diego Almeida Santos;Diego Almeida;1;0;2;200143;c;19
 2001869;Diego Augusto Guimarães;Diego Augusto;5;0;2;200181;c;7
-2001958;Diogo Facundes Fontenele Romanato;Diogo Romanato;1;0;2;200073;a;25
+2001958;Diogo Facundes Fontenele Romanato;Diogo Romanato;2;0;2;200073;a;25
 2002343;Edvaldo Dias Duarte;Edvaldo Duarte;4;0;2;200094;b;28
 2001900;Elidiane Gomes Vilarino;Elidiane Vilarino;1;0;2;200965;d;
 2001986;Erick De Moura Melo;Erick Melo;6;0;2;209121;b;4
@@ -231,7 +231,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2002200;Juliana Maria De Freitas Glueck;Juliana Maria;2;0;2;200101;b;1
 2002317;Julio Cesar Vieira De Andrade;Julio Andrade;4;0;2;200104;b;34
 2002068;Junio Jorge De Jesus;Junio Jorge;5;0;2;200132;b;16
-2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;1;0;2;200012;a;10
+2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;4;0;2;200012;a;10
 2001828;Karina Da Conceição De Jesus Costa;Karina Costa;3;0;2;201032;a;37
 2001819;Kener Alexandre Da Silva;Kener Alexandre;4;0;2;200066;a;46
 2001935;Larissa Cecilia De Marcos Silva;Larissa Cecilia;4;0;2;200092;b;16
