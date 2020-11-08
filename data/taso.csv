@@ -77,7 +77,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001789;Isabella Cristina Raniere Chaves;Isabella Raniere;4;0;1;101021;a;1
 2002009;Israel Dos Santos Leite Junior;Israel Santos;3;0;1;100041;a;13
 2001818;Izabelle Liz Melo Francisco;Izabelle Liz;2;0;1;199005;b;
-2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;2;0;1;100052;a;37
+2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;1;0;1;100052;a;37
 2001898;Jessica Agnes De Almeida Barros;Jessica Agnes;2;0;1;199007;b;
 2002311;Jessica Santos De Oliveira;Jessica Santos;5;0;1;100992;a;
 2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;3;0;1;100022;a;22
@@ -149,7 +149,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001826;Thais De Almeida Macedo Santos;Thais Almeida;4;0;1;101031;a;7
 2001916;Thiago Philippe Soares;Thiago Philippe;3;0;1;100101;b;10
 2001968;Tiago Moreno Pascoal;Tiago Moreno;2;0;1;100153;c;19
-2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;4;0;1;101042;a;31
+2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;1;0;1;101042;a;31
 2001926;Victor De Sousa Prata;Victor Prata;2;0;1;100072;b;10
 2001967;Victor De Sousa Santos;Victor Santos;4;0;1;107111;b;19
 2002075;Victor Schrier Alves;Victor Schrier;3;0;1;100093;b;34
@@ -195,7 +195,7 @@ id;name;alias;p;3x1;turno;posto;trecho;pos
 2001966;Felipe Martins Vasconcelos;Felipe Martins;4;0;2;200071;a;7
 2002188;Felipe Da Silva Quintela;Felipe Quintela;1;0;2;200198;c;37
 2001857;Flavia Cristina Silva Martins;Flavia Cristina;6;0;2;214154;c;28
-2001963;Flavia Froes Coimbra;Flavia Froes;2;0;2;200023;a;25
+2001963;Flavia Froes Coimbra;Flavia Froes;5;0;2;200023;a;25
 2002314;Gisele Soares Duarte Souza Da Cruz;Gisele Soares;3;0;2;208131;b;7
 2001807;Guilherme Gomes Da Silva;Guilherme Gomes;4;0;2;200095;b;40
 2001915;Guilherme Alvarenga Carvalho Junior;Guilherme Junior;1;0;2;200197;c;31
