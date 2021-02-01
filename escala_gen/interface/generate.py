@@ -286,7 +286,7 @@ class Gen_page(Base_page):
 
 		self.l_result['text'] = self.ctrl.gen.gen(dat)
 		
-		# self.ctrl.gen.pdf()
+		self.ctrl.gen.pdf()
 
 	def aso_alias(self):
 		self.alias_list = ['  ']

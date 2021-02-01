@@ -10,11 +10,12 @@ from openpyxl.utils import column_index_from_string, get_column_letter
 from openpyxl.cell.cell import Cell
 from datetime import date
 
+import os
+
 path_qrcode = r'img/qrcode.png'
-path_output = r'planilha/'
 
 # Cria a planilha excel
-def Gen_xls(tabela):
+def Gen_xls(tabela, path_output):
 
 	# Definindo a planilha
 	wb = Workbook()
@@ -82,7 +83,7 @@ def Gen_xls(tabela):
 	# Salva a planilha
 	filename = tabela[0][0].replace(" ", "")
 	
-	xls_file = path_output+f'{filename}.xlsx'
+	xls_file = os.path.join(path_output, f'{filename}.xlsx')
 	
 	wb.save(filename=xls_file)
 

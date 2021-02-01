@@ -12,19 +12,34 @@ from xls import Gen_xls
 from datetime import datetime, timedelta, date
 import prob
 import os
+from win32com import client
+import win32api
 
 from database import DB
+
+import platform
+OS_ = platform.system()
 
 class Generator:
 
 	def __init__(self, db):
 		self.data = db
 
+
 	def gen(self, station):
 
-		self.estacao = self.data.stations.get(station['station'])
-		self.ano = station['year']
-		self.mes = self.data.months[station['month']] 
+		self.station = self.data.stations.get(station['station'])
+		self.year = station['year']
+		self.month = self.data.months[station['month']] 
+
+		pwd = os.path.abspath('.')
+		self.xls_folder = os.path.join(pwd, 'planilha', str(self.year), str(self.month['name']))
+		self.pdf_folder = os.path.join(pwd, 'pdf', str(self.year), str(self.month['name']))
+
+		if not os.path.isdir(self.xls_folder):
+			os.mkdir(self.xls_folder)
+		if not os.path.isdir(self.pdf_folder):
+			os.mkdir(self.pdf_folder)
 		
 		self.funcs = []
 		for aso in station['asos']:
@@ -36,7 +51,7 @@ class Generator:
 		# Gera tabela
 		self.gera_tabela()
 
-		Gen_xls(self.escala)
+		Gen_xls(self.escala, self.xls_folder)
 
 		return "Arquivo gerado no diretorio:\n"
 
@@ -47,19 +62,19 @@ class Generator:
 	# Primeiro sabado do meses
 	def sabado(self):
 		self.dia_inicio = 1
-		self.data_inicio = date(int(self.ano), self.mes['id'], 1)
+		self.data_inicio = date(int(self.year), self.month['id'], 1)
 
 		# Recupera o primeiro sábado do mês
 		# for n in range(1,8):
-			# dia_i = date(int(self.ano), self.mes['id'], n)
+			# dia_i = date(int(self.year), self.month['id'], n)
 			# Se sabado
 			# if dia_i.weekday() == 5 : 
 				# self.dia_inicio = n
 				# self.data_inicio = dia_i
 				# break
 
-		next_month = self.mes['id']+1
-		next_year = int(self.ano)
+		next_month = self.month['id']+1
+		next_year = int(self.year)
 		if next_month > 12: 
 			next_month = 1
 			next_year += 1
@@ -83,21 +98,21 @@ class Generator:
 
 		self.escala = []
 		# Titulo
-		self.escala.append([f"Escala ASO1 - {self.estacao['name']} - {self.mes['name']}", ""])
+		self.escala.append([f"Escala ASO1 - {self.station['name']} - {self.month['name']}", ""])
 
-		# dias = self.mes['dias']
+		# dias = self.month['dias']
 
 		# Sequencia de dias
 		lista_dias = ["", "Dias"]
 		for d in range(self.dias):
-			lista_dias.append((self.dia_inicio+d-1)%self.mes['dias']+1)
+			lista_dias.append((self.dia_inicio+d-1)%self.month['dias']+1)
 		
 		self.escala.append(lista_dias)
 
 		print("inicia em",  self.dia_inicio)
 		# Sequencia de dias da semana
 		lista_sem = ["", "Ps"]
-		data_dia = datetime(int(self.ano), self.mes['id'], self.dia_inicio)
+		data_dia = datetime(int(self.year), self.month['id'], self.dia_inicio)
 		
 		for d in range(self.dias):
 			lista_sem.append(self.data.weekdays[int(data_dia.strftime('%w'))])
@@ -136,7 +151,7 @@ class Generator:
 	def aloca(self):
 		func = len(self.funcs)	# Quantidade de funcionarios
 		fixos = int(func/2)		# Quantidade de postos
-		# dias = self.mes['dias']
+		# dias = self.month['dias']
 
 		# Tabela de distribuicao de postos
 		dist_postos = np.zeros((func,self.dias))
@@ -175,11 +190,11 @@ class Generator:
 		# Cria a sequencia de postos a trabalhar
 		postos = []
 		i = 2
-		for x in range(int(self.estacao['peb'])):
+		for x in range(int(self.station['peb'])):
 			postos.append(i)
 			i += 2
 		i = 3
-		for x in range(int(self.estacao['peq'])):
+		for x in range(int(self.station['peq'])):
 			postos.append(i)
 			i += 2
 
@@ -307,18 +322,36 @@ class Generator:
 
 	# Gera o PDF a partir da planilha
 	def pdf(self):
-		file_name = ''
-		for a in self.escala[0][0]:
-			if a == ' ':
-				file_name += "\\"
+		filename = self.escala[0][0].replace(' ','')
+		xls_file = os.path.join(self.xls_folder, f'{filename}.xlsx')
+		pdf_file = os.path.join(self.pdf_folder, f'{filename}.pdf')
 
-			file_name += a
+		if OS_ == 'Linux':
 
-		print('\nsoffice --convert-to pdf planilha/'+file_name+'.xlsx --outdir pdf/ \n')
+			print(f'\nsoffice --convert-to pdf {xls_file} --outdir {self.pdf_folder} \n')
 
-		# Codigo valido para LibreOffife
-		os.system('soffice --convert-to pdf planilha/'+file_name+'.xlsx --outdir pdf/ ')
-		os.system('gvfs-open pdf/'+file_name+'.pdf')
+			# Codigo valido para LibreOffife
+			os.system(f'soffice --convert-to pdf {xls_file} --outdir {self.pdf_folder} ')
+			os.system(f'gvfs-open {pdf_file}')
+	
+		elif OS_ == 'Windows':
+
+			#give valid output file name and path
+			app = client.DispatchEx("Excel.Application")
+			app.Interactive = False
+			app.Visible = False
+			Workbook = app.Workbooks.Open(xls_file)
+			try:
+				Workbook.ActiveSheet.ExportAsFixedFormat(0, pdf_file)
+				os.filestart(pdf_file)
+			except Exception as e:
+				print("Failed to convert in PDF format.Please confirm environment meets all the requirements  and try again")
+				print(str(e))
+			finally:
+				Workbook.Close()
+				app.Exit()
+
+
 
 
 if __name__ == '__main__':
