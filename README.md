@@ -5,9 +5,9 @@
 
 ### Código
 
-[Documentação](https://artphil.github.io/escala_gen/src/src)
+[Documentação](https://artphil.github.io/escala_gen/doc/src)
 
-[Código](https://github.com/artphil/escala_gen/tree/master/src)
+[Código](https://github.com/artphil/escala_gen/tree/master/escala_gen)
 
 [Banco de dados](https://github.com/artphil/escala_gen/tree/master/data)
 
