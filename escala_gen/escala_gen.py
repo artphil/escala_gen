@@ -4,21 +4,24 @@ Escalas mensais de bloqueio e bilheteria (PEQ/PEB) por estacao
 autor: Arthur Phillip Silva
 '''
 
-import random
-import json
-import sys
-import numpy as np
-from xls import Gen_xls
-from datetime import datetime, timedelta, date
-import prob
 import os
+import sys
+import platform
+
+import json
+import random
+import numpy as np
+from datetime import datetime, timedelta, date
+
 from win32com import client
 import win32api
 
+import prob
 from database import DB
+from xls import Gen_xls
 
-import platform
 OS_ = platform.system()
+
 
 class Generator:
 
