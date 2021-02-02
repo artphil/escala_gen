@@ -17,7 +17,6 @@ from win32com import client
 import win32api
 
 import prob
-from database import DB
 from xls import Gen_xls
 
 OS_ = platform.system()

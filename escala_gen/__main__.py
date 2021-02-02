@@ -1,6 +1,6 @@
 from interface import Application
 from database import DB
-from escala_gen import Generator
+from gen import Generator
 
 
 # Criando aplicação
