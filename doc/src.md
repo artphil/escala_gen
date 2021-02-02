@@ -37,11 +37,11 @@ python escala_gen
 ```
  escala_gen
      |               
-	 v                               +----------------+
+     v                               +----------------+
 > interface <------ database.py <--- |  pessoas.csv   |
      |               |               |  estacoes.csv  |
      v               |               |  UEL1          |
->   gen.py <----------+              |  ...       	  |
+>   gen.py <---------+               |  ...           |
      |               |               +----------------+
      v             prop.py
   planilha.py
