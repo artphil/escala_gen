@@ -35,21 +35,24 @@ python escala_gen
  
 ## Estrutura
 ```
-                                     +------------+
-> interface.py <--- database.py <--- |  taso.csv  |
-     |               |               |  test.csv  |
-     v               |               |  UEL1      |
-> escala_gen.py <-----+              |  ...       |
-     |               |               +------------+
+ escala_gen
+     |               
+	 v                               +----------------+
+> interface <------ database.py <--- |  pessoas.csv   |
+     |               |               |  estacoes.csv  |
+     v               |               |  UEL1          |
+>   gen.py <----------+              |  ...       	  |
+     |               |               +----------------+
      v             prop.py
   planilha.py
 ```
 
-[interface.py](./interface.py) é o gerenciagor da interface. <br />
-[escala_gen.py](./interface.py) é a parte que cria a escala comom uma matriz. <br />
-[planilha.py](./interface.py) é quem transforma a matriz em uma planilha `.xls`. <br />
-[prop.py](./interface.py) é o "gerador de improbabilidade infinita" coma as possiveis sequencias de postos de cada dia. <br />
-[database.py](./interface.py) é o gerenciagor de arquivos de dados. <br />
-[taso.csv](./interface.py) é o arquivo com os dados dos ASOs.<br />
-[test.csv](./interface.py) é o arquivo com os dados das estações. <br />
-Os demais arquivos da pasta [ests](./ests) são os dados volateis das estações como os ASOs escalados para determinado mês.
+[interface](https://github.com/artphil/escala_gen/tree/master/escala_gen/interface) é o gerenciagor da interface. <br />
+[gen.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/gen.py) é a parte que cria a escala comom uma matriz. <br />
+[xls.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/xls.py) é quem transforma a matriz em uma planilha `.xls`. <br />
+[prob.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/prob.py) é o "gerador de improbabilidade infinita" coma as possiveis sequencias de postos de cada dia. <br />
+[database.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/database.py) é o gerenciagor de arquivos de dados. <br />
+[pessoas.csv](https://github.com/artphil/escala_gen/tree/master/data/pessoas.csv) é o arquivo com os dados dos ASOs.<br />
+[estacoes.csv](https://github.com/artphil/escala_gen/tree/master/data/estacoes.csv) é o arquivo com os dados das estações. <br />
+[escalas.json](https://github.com/artphil/escala_gen/tree/master/data/escalas.json) é o arquivo com os dados das escalas. <br />
+Os demais arquivos da pasta [ests](https://github.com/artphil/escala_gen/tree/master/data/ests) são os dados volateis das estações como os ASOs escalados para determinado mês.
