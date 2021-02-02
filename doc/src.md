@@ -3,15 +3,33 @@
 # Requisitos
 O programa foi desenvolvido em [Python3](https://www.python.org/downloads/).<br/>
 * [Openpyxl](https://openpyxl.readthedocs.io/en/stable/) é a biblioteca utilizada para a criar da planilha (A criação autoática dos PDFs só acontece no Linux com OpenOffice instalado).<br/>
-* [Flask](https://palletsprojects.com/p/flask/) é necessária para gerar as APIs e web services.
-As demais biblliotecas utilizadas são padrões da linguagem.
+Todas as biblliotecas utilizadas estão no arquivo [requeriments.txt](https://github.com/artphil/escala_gen/tree/master/requeriments.txt).
 
-O banco de dados utilizado é o [MongoDB](https://www.mongodb.com/)
+## Preparando o ambiente
+Criando o ambiente com venv
+``` 
+python3 -m venv env
+```
+
+Ativando o ambiente
+Windows
+```
+env\Scripts\activate
+```
+Linux
+```
+env/bin/activate
+```
+
+Desativando o ambiente
+```
+deactivate
+```
 
 ## Execução
-Na pasta raiz executar o comando
+Na pasta raiz executar o comando após ativar o ambiente
 ```
-python src/interface.py
+python escala_gen
 ```
 
  
