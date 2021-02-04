@@ -869,7 +869,7 @@ class help_page(tk.Frame):
 
 		# Campo do titulo
 		label = tk.Label(self.c_title)
-		label['text'] = "AJUDA" 
+		label['text'] = "Créditos" 
 		label['font'] = self.ctrl.font_title
 		label['pady'] = 10
 		label.pack()
@@ -877,14 +877,19 @@ class help_page(tk.Frame):
 		# Campo dos dados
 		## Texto
 		self.l_data = tk.Label(self.c_data)
-		self.l_data['text'] = "Perguntas frequentes" 
+		self.l_data['text'] = "Escala Gen" 
 		self.l_data['font'] = self.ctrl.font_body
 		self.l_data.pack()
 
-		self.l_q1 = tk.Label(self.c_data)
-		self.l_q1['text'] = "Perguntas frequentes" 
-		self.l_q1['font'] = self.ctrl.font_body
-		self.l_q1.pack()
+		self.l_desc = tk.Label(self.c_data)
+		self.l_desc['text'] = "Gerador automático de escala PEB/PEQ" 
+		self.l_desc['font'] = self.ctrl.font_body
+		self.l_desc.pack()
+
+		self.l_version = tk.Label(self.c_data)
+		self.l_version['text'] = "Versão 1.0" 
+		self.l_version['font'] = self.ctrl.font_body
+		self.l_version.pack()
 
 		# Campo dos botões
 		button_back = tk.Button(self.c_button)
