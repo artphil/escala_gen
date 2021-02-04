@@ -1,6 +1,6 @@
 from interface import Application
 from database import DB
-from gen import Generator
+from generate.gen import Generator
 
 
 # Criando aplicação

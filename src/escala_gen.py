@@ -10,7 +10,7 @@ import sys
 import numpy as np
 from planilha import gera_xls
 from datetime import datetime, timedelta, date
-import prob
+import permute
 import os
 from database import db
 
@@ -264,7 +264,7 @@ class gen:
 			i += 2
 
 		# Lista todas as combinacoes possiveis de postos
-		arranjos = prob.gera_p(postos)
+		arranjos = permute.gera_p(postos)
 		n_arranjos = len(arranjos)
 
 		# Aloca os postos aos funcionarios

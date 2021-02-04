@@ -13,14 +13,16 @@ import random
 import numpy as np
 from datetime import datetime, timedelta, date
 
-from win32com import client
-import win32api
 
-import prob
-from xls import Gen_xls
+
+from .permute import gera_p
+from .xls import Gen_xls
 
 OS_ = platform.system()
 
+if OS_ == 'Windows':
+	import win32api
+	from win32com import client
 
 class Generator:
 
@@ -201,7 +203,7 @@ class Generator:
 			i += 2
 
 		# Lista todas as combinacoes possiveis de postos
-		arranjos = prob.gera_p(postos)
+		arranjos = gera_p(postos)
 		n_arranjos = len(arranjos)
 
 		# Aloca os postos aos funcionarios

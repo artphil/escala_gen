@@ -50,7 +50,7 @@ python escala_gen
 [interface](https://github.com/artphil/escala_gen/tree/master/escala_gen/interface) é o gerenciagor da interface. <br />
 [gen.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/gen.py) é a parte que cria a escala comom uma matriz. <br />
 [xls.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/xls.py) é quem transforma a matriz em uma planilha `.xls`. <br />
-[prob.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/prob.py) é o "gerador de improbabilidade infinita" coma as possiveis sequencias de postos de cada dia. <br />
+[permute.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/prob.py) é o "gerador de improbabilidade infinita" coma as possiveis sequencias de postos de cada dia. <br />
 [database.py](https://github.com/artphil/escala_gen/tree/master/escala_gen/database.py) é o gerenciagor de arquivos de dados. <br />
 [pessoas.csv](https://github.com/artphil/escala_gen/tree/master/data/pessoas.csv) é o arquivo com os dados dos ASOs.<br />
 [estacoes.csv](https://github.com/artphil/escala_gen/tree/master/data/estacoes.csv) é o arquivo com os dados das estações. <br />
