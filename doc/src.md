@@ -18,7 +18,7 @@ env\Scripts\activate
 ```
 Linux
 ```
-env/bin/activate
+source env/bin/activate
 ```
 
 Desativando o ambiente
