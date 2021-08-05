@@ -9,23 +9,24 @@ import json
 
 path_source = r'data/'
 file_people = 'pessoas.csv'
-file_stations = 'estacoes.csv'
+file_stations = 'estacao.csv'
 file_scales = 'escalas.json'
 
 class DB:
 	def __init__(self):
-		try: 
-			print('Carregando dados de pessoas ...')
-			self.people = Data(path_source+file_people)
-		except:
-			print('Dados de pessoas não encontrado.')
-			quit()
 
 		try: 
 			print('Carregando dados de estações ...')
 			self.stations = Data(path_source+file_stations)
 		except:
 			print('Dados de estações não encontrado.')
+			quit()
+
+		try: 
+			print('Carregando dados de pessoas ...')
+			self.people = Data(path_source+file_people)
+		except:
+			print('Dados de pessoas não encontrado.')
 			quit()
 
 		try: 
@@ -76,9 +77,9 @@ class Data:
 	def load(self):
 		try:
 			file = open(self.path, 'r', encoding="utf-8").readlines()
-		except:
+		except e:
 			print(f'Arquivo {self.path} não encontrado')
-			return
+			return e
 
 		self.titles = file[0][:-1].split(';')
 		
