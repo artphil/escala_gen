@@ -341,13 +341,16 @@ class Generator:
 		elif OS_ == 'Windows':
 
 			#give valid output file name and path
-			app = client.DispatchEx("Excel.Application")
+			app = client.Dispatch("Excel.Application")
+			# app = client.DispatchEx("Excel.Application")
 			app.Interactive = False
 			app.Visible = False
 			Workbook = app.Workbooks.Open(xls_file)
+			work_sheets = Workbook.Worksheets[0]
 			try:
-				Workbook.ActiveSheet.ExportAsFixedFormat(0, pdf_file)
-				os.filestart(pdf_file)
+				# Workbook.ActiveSheet.ExportAsFixedFormat(0, pdf_file)
+				work_sheets.ExportAsFixedFormat(0, pdf_file)
+				os.system(pdf_file)
 			except Exception as e:
 				print("Failed to convert in PDF format.Please confirm environment meets all the requirements  and try again")
 				print(str(e))
