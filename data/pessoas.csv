@@ -42,7 +42,7 @@ id;name;alias;p;turno;posto;trecho
 2002058;Daniel Cançado Duarte;Daniel Cançado;0;1;113001;b
 2002008;Daniel Fernando Vieira De Paula;Daniel Fernando;6;1;100123;b
 2002027;Daniel Ribeiro Araujo;Daniel Ribeiro;1;1;117191;c
-2002181;Daniella Bruno Dutra;Daniella Dutra;6;1;100092;b
+2002181;Daniella Bruno Dutra;Daniella Dutra;1;1;100092;b
 2001804;Danilo Cesar Ramos Duarte;Danilo Duarte;1;1;100964;d
 2002071;David Lacerda Santos;David Lacerda;4;1;100053;a
 2001991;Delric Lucas Bento De Jesus Ferreira;Delric Lucas;2;1;100195;c
@@ -211,7 +211,7 @@ id;name;alias;p;turno;posto;trecho
 2001882;Israel De Melo Pedrosa;Israel Pedrosa;11;2;200163;c
 2002088;Izabella Lourença Amorim Romualdo;Izabella Lourença;6;2;206072;a
 2001798;Janine Almeida De Oliveira;Janine Almeida;2;2;200111;b
-2001881;Jessica Cristina Carvalho;Jessica Cristina;4;2;200063;a
+2001881;Jessica Cristina Carvalho;Jessica Cristina;3;2;200063;a
 2001957;Jessica Liria Da Silva;Jessica Liria;4;2;200014;a
 2001985;João Pedro De Lima Coutinho;João Coutinho;2;2;200152;c
 2002004;João Pedro Lima Machado Santos;João Machado;5;2;200041;a
@@ -238,13 +238,13 @@ id;name;alias;p;turno;posto;trecho
 2001884;Larissa Cristina Souza Santos;Larissa Santos;4;2;200195;c
 2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;4;2;200145;c
 2002185;Leticia Da Silva Dornas Paixão;Leticia Silva;1;2;200086;b
-2001810;Liliane Gonçalves Curto;Liliane Curto;2;2;200133;b
+2001810;Liliane Gonçalves Curto;Liliane Curto;4;2;200133;b
 2001984;Luan Carlos Monteiro Da Silva;Luan Carlos;2;2;200183;c
 2002319;Luan Nunes Ribeiro;Luan Nunes;3;2;202061;a
 2001939;Luany Rodrigues Carvalho;Luany Rodrigues;1;2;200087;b
 2001822;Lucas Vitor De Andrade Castilho;Lucas Vitor;3;2;208132;b
-2001999;Luciano Malta Bahia Teixeira;Luciano Malta;5;2;200121;b
-2001886;Lucilene Siqueira De Almeida Dias;Lucilene Siqueira;1;2;200084;b
+2001999;Luciano Malta Bahia Teixeira;Luciano Malta;4;2;200121;b
+2001886;Lucilene Siqueira De Almeida Dias;Lucilene Siqueira;4;2;200084;b
 2002209;Luis Eduardo Portela Botelho;Luis Portela;3;2;201042;a
 2002053;Luiz Henrique Tadeu Soares;Luiz Soares;4;2;200065;a
 2001809;Marcelo Augusto De Oliveira;Marcelo Augusto;1;2;299001;a
