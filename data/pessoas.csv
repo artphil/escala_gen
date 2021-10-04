@@ -32,7 +32,7 @@ id;name;alias;p;turno;posto;trecho
 2001959;Ayslan Rogger Da Silva Felizardo;Ayslan Rogger;6;1;100042;a
 2001914;Barbara Andrade Neves;Barbara Andrade;4;1;199011;d
 2001806;Bernard Pereira Magacho;Bernard Magacho;1;1;110001;b
-2002212;Blenda Reis Teles Silva;Blenda Teles;4;1;103061;a
+2002212;Blenda Reis Teles Silva;Blenda Teles;2;1;103061;a
 2002051;Bruno Duarte Alves;Bruno Duarte;4;1;112001;b
 2001850;Carla Erica Da Silva;Carla Erica;3;1;100121;b
 2001715;Carlos Eduardo Goulart De Souza;Carlos Eduardo;4;1;104061;a
@@ -112,7 +112,7 @@ id;name;alias;p;turno;posto;trecho
 2002057;Michelle Ribeiro De Castro Oliveira;Michelle Ribeiro;3;1;100996;c
 2002060;Nathalia Dias Gomes;Nathalia Dias;6;1;100182;c
 2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;5;1;100061;a
-2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;6;1;100993;a
+2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;4;1;100993;a
 2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4;1;108111;b
 2001992;Paulo Cesar Banfi Souza;Paulo Banfi;6;1;100131;b
 2001784;Paulo Augusto Bittencourt;Paulo Bittencourt;0;1;199004;b
@@ -212,7 +212,7 @@ id;name;alias;p;turno;posto;trecho
 2002088;Izabella Lourença Amorim Romualdo;Izabella Lourença;6;2;206072;a
 2001798;Janine Almeida De Oliveira;Janine Almeida;2;2;200111;b
 2001881;Jessica Cristina Carvalho;Jessica Cristina;3;2;200063;a
-2001957;Jessica Liria Da Silva;Jessica Liria;4;2;200014;a
+2001957;Jessica Liria Da Silva;Jessica Liria;5;2;200014;a
 2001985;João Pedro De Lima Coutinho;João Coutinho;2;2;200152;c
 2002004;João Pedro Lima Machado Santos;João Machado;5;2;200041;a
 2002309;João Victor Cunha Pereira;João Pereira;6;2;208111;b
@@ -299,5 +299,5 @@ id;name;alias;p;turno;posto;trecho
 2002347;Vladimir dos Santos Paula;Vladimir Paula;3;2;201052;a
 2002215;Wanderson Silva Ferreira;Wanderson Ferreira;5;2;200154;c
 2002001;Wesley Elias Gomes Couto;Wesley Elias;2;2;200103;b
-2002078;Willian Lopes Peçanha;Willian Lopes;1;2;200011;a
+2002078;Willian Lopes Peçanha;Willian Lopes;2;2;200011;a
 2002344;Yuri Lobo Rodrigues da Cunha;Yuri Lobo;3;2;217191;c
