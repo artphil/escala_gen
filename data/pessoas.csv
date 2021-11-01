@@ -80,7 +80,7 @@ id;name;alias;p;turno;posto;trecho
 2002086;Jeferson Prado Maciel Duarte;Jeferson Prado;2;1;100052;a
 2001898;Jessica Agnes De Almeida Barros;Jessica Agnes;2;1;199007;b
 2002311;Jessica Santos De Oliveira;Jessica Santos;5;1;100992;a
-2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;3;1;100022;a
+2001903;Joseanne Cristina De Gois Ferreira;Joseanne Ferreira;6;1;100022;a
 2001716;Jucileia Ferreira De Sousa;Jucileia Sousa;3;1;100174;c
 2002026;Juliana Miranda Martins Da Silva;Juliana Miranda;6;1;100141;c
 2001954;Juliana Silva Da Silveira;Juliana Silveira;1;1;101001;a
@@ -111,7 +111,7 @@ id;name;alias;p;turno;posto;trecho
 2001913;Mayara Lorena Barbosa Maia;Mayara Maia;5;1;100073;b
 2002057;Michelle Ribeiro De Castro Oliveira;Michelle Ribeiro;3;1;100996;c
 2002060;Nathalia Dias Gomes;Nathalia Dias;6;1;100182;c
-2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;5;1;100061;a
+2001702;Nayara Carolina Pereira Da Silva Alves;Nayara Alves;6;1;100061;a
 2002012;Nayara Guedes Pereira Guimarães;Nayara Guedes;4;1;100993;a
 2001936;Paula Helena Pessoa Costa Cabral;Paula Pessoa;4;1;108111;b
 2001992;Paulo Cesar Banfi Souza;Paulo Banfi;6;1;100131;b
@@ -221,7 +221,7 @@ id;name;alias;p;turno;posto;trecho
 2002340;Jonathan de Souza Santana;Jonathan Santana;2;2;200054;a
 2002073;Jonathas Jacinto De Assis;Jonathas Assis;3;2;208102;b
 2002341;Jonnys Gomes da Silva;Jonnys Silva;1;2;200013;a
-2001891;Jorge Da Silva;Jorge Silva;6;2;205071;a
+2001891;Jorge Da Silva;Jorge Silva;3;2;205071;a
 2002055;Jose Armando Costa;Jose Armando;2;2;200051;a
 2001853;Jose Luiz De Almeida;Jose de Almeida;6;2;214151;c
 2001710;Jose Carlos Grossi Dos Santos;Jose Grossi;1;2;204061;a
