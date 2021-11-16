@@ -1,0 +1,286 @@
+1,'1000041','__________','(*)P1',1,0
+2,'1000042','__________','(*)P2',2,0
+3,'1000043','__________','(*)P3',3,0
+4,'1000044','__________','(*)P4',4,0
+5,'1000045','__________','(*)P5',5,0
+6,'1000046','__________','(*)P6',6,0
+7,'2001823','Adriana Quadros Godinho','Adriana Godinho',2,1
+8,'2001799','Alan Marcelo Da Silva','Alan Marcelo',1,1
+9,'2002318','Alex Paulo Maia Dos Santos','Alex Santos',4,1
+10,'2001856','Alexandre Dias Drumond','Alexandre Dias',3,1
+11,'2001962','Alvaro Antonio Drumond Rosa','Alvaro Antonio',1,1
+12,'2001912','Ana Carolina Coelho De Oliveira','Ana Carolina',4,1
+13,'2001944','Ana Raquel Almeida E Franco','Ana Raquel',6,1
+14,'2002067','Andre Luiz Da Silveira Silva','Andre Silveira',3,1
+15,'2001959','Ayslan Rogger Da Silva Felizardo','Ayslan Rogger',6,1
+16,'2001914','Barbara Andrade Neves','Barbara Andrade',4,1
+17,'2001806','Bernard Pereira Magacho','Bernard Magacho',1,1
+18,'2002212','Blenda Reis Teles Silva','Blenda Teles',2,1
+19,'2002051','Bruno Duarte Alves','Bruno Duarte',4,1
+20,'2001850','Carla Erica Da Silva','Carla Erica',3,1
+21,'2001715','Carlos Eduardo Goulart De Souza','Carlos Eduardo',4,1
+22,'2001894','Caroline Clarissa Leite De Aguiar','Caroline Aguiar',0,1
+23,'2001824','Claudiney Do Espirito Santo Leite','Claudiney Leite',3,1
+24,'2001897','Daiane De Castro','Daiane De Castro',1,1
+25,'2002058','Daniel Cançado Duarte','Daniel Cançado',0,1
+26,'2002008','Daniel Fernando Vieira De Paula','Daniel Fernando',6,1
+27,'2002027','Daniel Ribeiro Araujo','Daniel Ribeiro',1,1
+28,'2002181','Daniella Bruno Dutra','Daniella Dutra',1,1
+29,'2001804','Danilo Cesar Ramos Duarte','Danilo Duarte',1,1
+30,'2002071','David Lacerda Santos','David Lacerda',4,1
+31,'2001991','Delric Lucas Bento De Jesus Ferreira','Delric Lucas',2,1
+32,'2001795','Diego Andrade Salerno','Diego Salerno',4,1
+33,'2001892','Diogo Bonfim Guilherme','Diogo Guilherme',2,1
+34,'2001942','Eliane Helena Dos Santos','Eliane Helena',5,1
+35,'2002000','Elisio Rocha Breguez Gonçalves','Elisio Rocha',2,1
+36,'2002083','Esther Dias De Souza','Esther Dias',2,1
+37,'2001879','Euler Mendes Junior','Euler Mendes',1,1
+38,'2002196','Everton Geraldo Marques Mourão','Everton Marques',2,1
+39,'2002190','Fabiana Tornelli Rocha','Fabiana Tornelli',3,1
+40,'2001849','Felipe Augusto Santiago De Castro','Felipe Augusto',5,1
+41,'2001925','Felipe De Assis Maciel','Felipe Maciel',2,1
+42,'2001941','Francisco De Assis Monteiro','Francisco Monteiro',1,1
+43,'2001902','Frederico Sansão Gonçalves Ramos','Frederico Sansão',3,1
+44,'2001708','Gabriela Correia De Castro','Gabriela Correia',6,1
+45,'2001814','Gabriela Pereira Pinto','Gabriela Pereira',5,1
+46,'2002216','Gisele Lacerda Da Silva','Gisele Lacerda',5,1
+47,'2001701','Glauber Lucas Meireles De Figueiredo','Glauber Figueiredo',5,1
+48,'2002082','Grazielle Silva De Oliveira','Grazielle Oliveira',4,1
+49,'2002011','Grazielle Cristine Neves Sanches','Grazielle Sanches',3,1
+50,'2002064','Guaracy Dantas Junior','Guaracy Dantas',4,1
+51,'2001694','Guilherme Da Silva Araujo','Guilherme Araujo',2,1
+52,'2002025','Guilherme Fernando Teixeira Dantas','Guilherme Fernando',6,1
+53,'2002070','Guilherme Viana Reis','Guilherme Viana',3,1
+54,'2002061','Gustavo Machado Concolato','Gustavo Concolato',4,1
+55,'2002204','Helena Duarte Pedrosa Brito','Helena Brito',2,1
+56,'2002193','Hudson Rodrigo Da Silva Oliveira','Hudson Rodrigo',1,1
+57,'2002198','Icaro Roosewelt Faria Xavier','Icaro Roosewelt',1,1
+58,'2002191','Igor Alves Da Silva','Igor Alves',3,1
+59,'2001813','Igor Moreira De Miranda','Igor Moreira',4,1
+60,'2001789','Isabella Cristina Raniere Chaves','Isabella Raniere',4,1
+61,'2002009','Israel Dos Santos Leite Junior','Israel Santos',3,1
+62,'2001818','Izabelle Liz Melo Francisco','Izabelle Liz',2,1
+63,'2002086','Jeferson Prado Maciel Duarte','Jeferson Prado',2,1
+64,'2001898','Jessica Agnes De Almeida Barros','Jessica Agnes',2,1
+65,'2002311','Jessica Santos De Oliveira','Jessica Santos',5,1
+66,'2001903','Joseanne Cristina De Gois Ferreira','Joseanne Ferreira',6,1
+67,'2001716','Jucileia Ferreira De Sousa','Jucileia Sousa',3,1
+68,'2002026','Juliana Miranda Martins Da Silva','Juliana Miranda',6,1
+69,'2001954','Juliana Silva Da Silveira','Juliana Silveira',1,1
+70,'2002192','Kandace Amanda Silveira Castro V. Riani','Kandace Riani',6,1
+71,'2002207','Karine Zanandreis Nolasco De Melo','Karine Nolasco',0,1
+72,'2002069','Kenya Tatiana Frade Morais','Kenya Morais',5,1
+73,'2002316','Lais Freitas Camara','Lais Freitas',3,1
+74,'2002016','Larissa De Lima Silva Elias','Larissa Elias',1,1
+75,'2001940','Lenise Glaucia De Souza Moraes','Lenise Moraes',6,1
+76,'2001993','Leonardo Pinto Albuquerque','Leo Albuquerque',6,1
+77,'2002050','Leonardo Akio Fonseca Hamada','Leonardo Akio',4,1
+78,'2002186','Ligia De Oliveira Souza','Ligia Souza',2,1
+79,'2002080','Lilian Oliveira Londe','Lilian Londe',3,1
+80,'2001851','Lisyane Rachel De Cristo Kaizer','Lisyane Kaizer',4,1
+81,'2002024','Lucas Curvelano Ferreira','Lucas Curvelano',2,1
+82,'2002182','Lucas Henryque Oliveira Chagas','Lucas Henryque',6,1
+83,'2002005','Lucas Soares Rezende','Lucas Soares',5,1
+84,'2001910','Lucia Gonçalves De Pinho','Lucia Gonçalves',1,1
+85,'2002089','Luiz Guilherme Herculano Dos Santos','Luiz Herculano',5,1
+86,'2001952','Marcela Alves Santos Nascimento','Marcela Alves',5,1
+87,'2002087','Marcelo De Vilhena Guimarães','Marcelo Vilhena',4,1
+88,'2001803','Marco Tulio Alves Do Nascimento','Marco Alves',5,1
+89,'2002077','Marcos Vinicius Dos Santos Filho','Marcos Santos',3,1
+90,'2002206','Maria Madalena Ferreira','Maria Madalena',3,1
+91,'2001876','Mariana De Freitas Silvano','Mariana Silvano',4,1
+92,'2002081','Mateus Rodrigues Da Silva','Mateus Rodrigues',1,1
+93,'2001921','Matheus Silva Leão','Matheus Leão',1,1
+94,'2001913','Mayara Lorena Barbosa Maia','Mayara Maia',5,1
+95,'2002057','Michelle Ribeiro De Castro Oliveira','Michelle Ribeiro',3,1
+96,'2002060','Nathalia Dias Gomes','Nathalia Dias',6,1
+97,'2001702','Nayara Carolina Pereira Da Silva Alves','Nayara Alves',6,1
+98,'2002012','Nayara Guedes Pereira Guimarães','Nayara Guedes',4,1
+99,'2001936','Paula Helena Pessoa Costa Cabral','Paula Pessoa',4,1
+100,'2001992','Paulo Cesar Banfi Souza','Paulo Banfi',6,1
+101,'2001784','Paulo Augusto Bittencourt','Paulo Bittencourt',0,1
+102,'2001933','Paulo Dener Bacelar Rabelo','Paulo Dener',6,1
+103,'2001872','Paulo Renato Braga Camilo','Paulo Renato',5,1
+104,'2001812','Pedro Vinicius Apolinario','Pedro Apolinario',1,1
+105,'2002324','Pedro Henrique Fernandes Silva','Pedro Fernandes',1,1
+106,'2001888','Pedro Henrique Araujo Rodrigues','Pedro Rodrigues',6,1
+107,'2001706','Pedro Henrique Vaz Monteiro','Pedro Vaz',2,1
+108,'2001878','Poliana Ferreira Gomes','Poliana Ferreira',1,1
+109,'2001987','Rafael Celestino Vidigal','Rafael Vidigal',0,1
+110,'2002199','Rafaela Faria Barbosa','Rafaela Faria',6,1
+111,'2001901','Raphael Neves Ferreira','Raphael Ferreira',5,1
+112,'2001932','Renata Goltara Souza','Renata Goltara',2,1
+113,'2002059','Renato Gomes Ferreira','Renato Ferreira',5,1
+114,'2002018','Renato Alves Junior','Renato Junior',2,1
+115,'2001811','Roberto Flaymer Araujo','Roberto Flaymer',1,1
+116,'2002084','Rodrigo Mendonça Prado','Rodrigo Prado',1,1
+117,'2001919','Rodrigo Cesar Da Costa Ribeiro','Rodrigo Ribeiro',1,1
+118,'2002211','Rosa Lima Ferreira','Rosa Lima',1,1
+119,'2002056','Rosiane Santos Rodrigues','Rosiane Rodrigues',5,1
+120,'2002214','Samuel Paulo Da Silva','Samuel Paulo',3,1
+121,'2002208','Samura Ribeiro De Souza','Samura Ribeiro',5,1
+122,'2001907','Scarlat Oliveira Rodrigues','Scarlat Oliveira',4,1
+123,'2002006','Sergio Pereira Gonçalves','Sergio Gonçalves',6,1
+124,'2002021','Sergio Maia Pereira','Sergio Maia',5,1
+125,'2001997','Sidney Alexandre Gil Ferreira','Sidney Ferreira',1,1
+126,'2002022','Silvana De Souza Silva','Silvana Souza',1,1
+127,'2001961','Stefano Carvalho Hallack','Stefano Hallack',6,1
+128,'2001883','Suellen De Lima Pereira Da Silva','Suellen Lima',5,1
+129,'2001859','Tatiana Cavalcanti Moreira','Tatiana Cavalcanti',2,1
+130,'2001920','Tatiane Rodrigues Melo Pereira','Tatiane Rodrigues',5,1
+131,'2002072','Taylla Fernanda Dos Santos','Taylla Santos',6,1
+132,'2001826','Thais De Almeida Macedo Santos','Thais Almeida',4,1
+133,'2001916','Thiago Philippe Soares','Thiago Philippe',3,1
+134,'2001968','Tiago Moreno Pascoal','Tiago Moreno',2,1
+135,'2001713','Vanessa Francisca Dos Santos Spindola','Vanessa Spindola',1,1
+136,'2001926','Victor De Sousa Prata','Victor Prata',2,1
+137,'2001967','Victor De Sousa Santos','Victor Santos',4,1
+138,'2002075','Victor Schrier Alves','Victor Schrier',3,1
+139,'2001796','Vinicius Lara Braga De Souza','Vinicius Lara',1,1
+140,'2001989','Vinicius Melo Pedrosa','Vinicius Melo',4,1
+141,'2001909','Wagner Forapani Clemente','Wagner Forapani',6,1
+142,'2002203','Wellington Santos Correa','Wellington Santos',2,1
+143,'2002065','Wildenberg Bernardes Paezante','Wildenberg Paezante',5,1
+144,'2001931','Willian Da Cunha Sousa','Willian Cunha',4,1
+145,'2001965','Willy Thiago De Almeida','Willy Almeida',6,1
+146,'2001870','Ygor Vinicius Vieira Thibau','Ygor Vinicius',3,1
+147,'2001714','Yuri Augusto De Paiva Silva','Yuri Paiva',1,1
+148,'2002052','Abel Elias Oliveira','Abel Elias',5,2
+149,'2002010','Adriano Lagares Rodrigues Vidal','Adriano Lagares',1,2
+150,'2002063','Adriano Manna Brito','Adriano Manna',6,2
+151,'2001943','Alexandre Von Rondon Neto','Alexandre Rondon',1,2
+152,'2002197','Ander Proteus Silva De Faria','Ander Faria',3,2
+153,'2001797','Anderson Nunes De Souza','Anderson Nunes',1,2
+154,'2002194','Andre Fillipe Fonseca Viana','Andre Fillipe',1,2
+155,'2002189','Andreia Sanzio Soares','Andreia Sanzio',2,2
+156,'2001890','Antonio Aurelio Pereira','Antonio Aurelio',6,2
+157,'2001700','Arthur Fernando Santos Vieira','Arthur Fernando',2,2
+158,'2001815','Barbara Luisa De Medeiros Estevam Jaza','Barbara Jaza',5,2
+159,'2001860','Bruna Cristina Cunha','Bruna Cristina',2,2
+160,'2002020','Bruno Martins De Faria','Bruno Martins',5,2
+161,'2002308','Bruno Vinicius Da Silva','Bruno Vinicius',2,2
+162,'2001792','Camila Maira Pinto Cristeli','Camila Cristeli',5,2
+163,'2002348','Catia Regina Nascimento de Paula','Catia Regina',2,2
+164,'2002325','Celio Santana Lopes','Celio Santana',1,2
+165,'2002007','Claudinei Martins','Claudinei Martins',3,2
+166,'2002183','Cleber De Souza Carvalho','Cleber Carvalho',3,2
+167,'2002079','Cledio Gabriel Dos Santos','Cledio Gabriel',2,2
+168,'2001960','Cybele Gonçalves Braga','Cybele Braga',6,2
+169,'2002076','Daniel Alexandre De A. Chaves Radtke','Daniel Radtke',6,2
+170,'2001718','Derlem Aparecida Da Silva','Derlem Aparecida',3,2
+171,'2001709','Diego Almeida Santos','Diego Almeida',1,2
+172,'2001869','Diego Augusto Guimarães','Diego Augusto',5,2
+173,'2001958','Diogo Facundes Fontenele Romanato','Diogo Romanato',2,2
+174,'2002343','Edvaldo Dias Duarte','Edvaldo Duarte',4,2
+175,'2001900','Elidiane Gomes Vilarino','Elidiane Vilarino',1,2
+176,'2001986','Erick De Moura Melo','Erick Melo',6,2
+177,'2002323','Fabricio Cesar Da Silva','Fabricio Cesar',5,2
+178,'2001966','Felipe Martins Vasconcelos','Felipe Martins',4,2
+179,'2002188','Felipe Da Silva Quintela','Felipe Quintela',1,2
+180,'2001857','Flavia Cristina Silva Martins','Flavia Cristina',6,2
+181,'2001963','Flavia Froes Coimbra','Flavia Froes',5,2
+182,'2002314','Gisele Soares Duarte Souza Da Cruz','Gisele Soares',3,2
+183,'2001807','Guilherme Gomes Da Silva','Guilherme Gomes',4,2
+184,'2001915','Guilherme Alvarenga Carvalho Junior','Guilherme Junior',1,2
+185,'2001994','Guilherme Silveira Silva','Guilherme Silveira',1,2
+186,'2002310','Guilherme Henrique De Souza','Guilherme Souza',3,2
+187,'2001705','Gustavo Mendes Cabral','Gustavo Cabral',1,2
+188,'2001938','Gustavo Velloso Da Matta','Gustavo Matta',6,2
+189,'2002320','Hebert Da Silva Guimarães','Hebert Guimarães',6,2
+190,'2001825','Helisandro Gonçalves De Oliveira','Helisandro Oliveira',2,2
+191,'2002003','Henrique Warley De Souza Alves','Henrique Warley',1,2
+192,'2002345','Hudson Coelho Soares','Hudson Coelho',1,2
+193,'2001788','Iandra Cristina Miranda Almeida','Iandra Miranda',6,2
+194,'2001882','Israel De Melo Pedrosa','Israel Pedrosa',11,2
+195,'2002088','Izabella Lourença Amorim Romualdo','Izabella Lourença',6,2
+196,'2001798','Janine Almeida De Oliveira','Janine Almeida',2,2
+197,'2001881','Jessica Cristina Carvalho','Jessica Cristina',3,2
+198,'2001957','Jessica Liria Da Silva','Jessica Liria',5,2
+199,'2001985','João Pedro De Lima Coutinho','João Coutinho',2,2
+200,'2002004','João Pedro Lima Machado Santos','João Machado',5,2
+201,'2002309','João Victor Cunha Pereira','João Pereira',6,2
+202,'2002028','Jonas Cordeiro Abrantes','Jonas Abrantes',2,2
+203,'2001955','Jonathan Alves Miranda De Souza','Jonathan Alves',6,2
+204,'2002340','Jonathan de Souza Santana','Jonathan Santana',2,2
+205,'2002073','Jonathas Jacinto De Assis','Jonathas Assis',3,2
+206,'2002341','Jonnys Gomes da Silva','Jonnys Silva',1,2
+207,'2001891','Jorge Da Silva','Jorge Silva',3,2
+208,'2002055','Jose Armando Costa','Jose Armando',2,2
+209,'2001853','Jose Luiz De Almeida','Jose de Almeida',6,2
+210,'2001710','Jose Carlos Grossi Dos Santos','Jose Grossi',1,2
+211,'2001817','Jose Carlos De Souza','Jose Souza',3,2
+212,'2002029','Juan Paulo Reis De Souza','Juan Paulo',1,2
+213,'2001996','Juliana Gomes Tinoco','Juliana Gomes',3,2
+214,'2002200','Juliana Maria De Freitas Glueck','Juliana Maria',2,2
+215,'2002317','Julio Cesar Vieira De Andrade','Julio Andrade',4,2
+216,'2002068','Junio Jorge De Jesus','Junio Jorge',5,2
+217,'2001865','Kalebe Daniel Da Rocha Dos Reis','Kalebe Daniel',4,2
+218,'2001828','Karina Da Conceição De Jesus Costa','Karina Costa',3,2
+219,'2001819','Kener Alexandre Da Silva','Kener Alexandre',4,2
+220,'2001935','Larissa Cecilia De Marcos Silva','Larissa Cecilia',4,2
+221,'2001884','Larissa Cristina Souza Santos','Larissa Santos',4,2
+222,'2001698','Leandro Moraes Nascimento Reis','Leandro Moraes',4,2
+223,'2002185','Leticia Da Silva Dornas Paixão','Leticia Silva',1,2
+224,'2001810','Liliane Gonçalves Curto','Liliane Curto',4,2
+225,'2001984','Luan Carlos Monteiro Da Silva','Luan Carlos',2,2
+226,'2002319','Luan Nunes Ribeiro','Luan Nunes',3,2
+227,'2001939','Luany Rodrigues Carvalho','Luany Rodrigues',1,2
+228,'2001822','Lucas Vitor De Andrade Castilho','Lucas Vitor',3,2
+229,'2001999','Luciano Malta Bahia Teixeira','Luciano Malta',4,2
+230,'2001886','Lucilene Siqueira De Almeida Dias','Lucilene Siqueira',4,2
+231,'2002209','Luis Eduardo Portela Botelho','Luis Portela',3,2
+232,'2002053','Luiz Henrique Tadeu Soares','Luiz Soares',4,2
+233,'2001809','Marcelo Augusto De Oliveira','Marcelo Augusto',1,2
+234,'2001867','Marcia Cristina Bebiano Tannes','Marcia Tannes',10,2
+235,'2001885','Marcio Dias Regis','Marcio Regis',4,2
+236,'2002054','Marcio Rodrigo Ribeiro','Marcio Rodrigo',4,2
+237,'2001866','Maria Fernanda Barboza','Maria Fernanda',5,2
+238,'2001951','Maria Nazare Da Silva','Maria Silva',2,2
+239,'2002062','Marluana Almeida Ferreira Rodrigues','Marluana Almeida',1,2
+240,'2001855','Mateus Acerbi Santos','Mateus Acerbi',2,2
+241,'2002195','Matheus Augusto Felix','Matheus Felix',1,2
+242,'2002187','Mauricio De Moura Almada','Mauricio Moura',4,2
+243,'2001995','Miguel Angelo Ramos Garcia','Miguel Angelo',4,2
+244,'2001911','Moema Da Costa Carvalho','Moema Carvalho',4,2
+245,'2002205','Neimar Monteiro Gonçalves','Neimar Monteiro',5,2
+246,'2001893','Nelmara Ines Santos Cordeiro','Nelmara Ines',1,2
+247,'2002184','Otavio Luiz Cordeiro Da Silva','Otavio Luiz',5,2
+248,'2002321','Patrick Ronald Iglesias Coelho','Patrick Ronald',5,2
+249,'2001874','Paulo Henrique Soares De Salles','Paulo Henrique',5,2
+250,'2001854','Pedro Gonçalves De Souza Junior','Pedro Junior',4,2
+251,'2002339','Philippe Matheus Sousa Prata','Philippe Prata',5,2
+252,'2002322','Priscila De Souza Viana','Priscila Viana',5,2
+253,'2001930','Rafael Douglas Rodrigues','Rafael Douglas',3,2
+254,'2001858','Raquel Silva Fernandes Pontes','Raquel Pontes',0,2
+255,'2002085','Renata Santos Cardoso Brito','Renata Cardoso',1,2
+256,'2001808','Renato Fernando Dos Santos','Renato Fernando',5,2
+257,'2002342','Roberta da Silva Bento','Roberta Bento',6,2
+258,'2001693','Roberto Pena Mundim','Roberto Mundim',4,2
+259,'2002213','Robson Pereira Dos Reis','Robson Reis',3,2
+260,'2002346','Rodinei Messias Saquetti Chagas','Rodinei Messias',4,2
+261,'2001848','Rubens Augusto Costa Gomes','Rubens Augusto',1,2
+262,'2002013','Sabrina Vieira Silva','Sabrina Vieira',3,2
+263,'2002313','Samera Ferreira De Almeida Alcides','Samera Alcides',6,2
+264,'2001917','Samuel Correa Campolina Salomão','Samuel Salomão',6,2
+265,'2001863','Sara Do Carmo Alves','Sara Alves',4,2
+266,'2002202','Silvana Evangelista Soares Da Silva','Silvana Soares',3,2
+267,'2001707','Silvia Schiavo Siqueira','Silvia Schiavo',3,2
+268,'2001896','Stefan Edberg Ferreira Santos','Stefan Edberg',2,2
+269,'2001692','Talita Aquino Da Silva','Talita Aquino',1,2
+270,'2001988','Tamiris Costa','Tamiris Costa',3,2
+271,'2001827','Tarso Anselmo Dos Santos Valentim','Tarso Valentim',2,2
+272,'2001875','Tatiana De Almeida Silva','Tatiana Almeida',3,2
+273,'2001801','Thais Soares Rodrigues','Thais Soares',3,2
+274,'2001790','Thales Souza Teixeira','Thales Souza',3,2
+275,'2001904','Thalles Lucas Da Silva Martins','Thalles Lucas',5,2
+276,'2002066','Thiago Tadeu Mendes Da Rocha','Thiago Mendes',5,2
+277,'2002315','Thiago Rafael Silveira Santos','Thiago Rafael',4,2
+278,'2001868','Tiago Vinicius Gonçalves Paixão','Tiago Vinicius',6,2
+279,'2002312','Victor Hugo Mattiello','Victor Mattiello',5,2
+280,'2001964','Victor De Jesus Oliveira','Victor Oliveira',6,2
+281,'2002201','Vinicius Teixeira Generoso Hernandez','Vinicius Hernandez',1,1
+282,'2002347','Vladimir dos Santos Paula','Vladimir Paula',3,2
+283,'2002215','Wanderson Silva Ferreira','Wanderson Ferreira',5,2
+284,'2002001','Wesley Elias Gomes Couto','Wesley Elias',2,2
+285,'2002078','Willian Lopes Peçanha','Willian Lopes',2,2
+286,'2002344','Yuri Lobo Rodrigues da Cunha','Yuri Lobo',3,2
