@@ -1,5 +1,5 @@
 CREATE TABLE postos ( id INTEGER, codigo TEXT, posto TEXT, desc TEXT, turno INTEGER, trecho INTEGER, ordem INTEGER, estacao_id INTEGER, pessoa_id INTEGER, PRIMARY KEY(id AUTOINCREMENT) );
-CREATE TABLE estacoes ( id INTEGER, codigo INTEGER, nome TEXT, sigla INTEGER, ordem INTEGER, PRIMARY KEY(id AUTOINCREMENT));
+CREATE TABLE estacoes ( id INTEGER, codigo INTEGER, nome TEXT, sigla INTEGER, PRIMARY KEY(id AUTOINCREMENT));
 CREATE TABLE pessoas ( id INTEGER, matricula TEXT, nome TEXT, apelido TEXT, posto INTEGER, turno INTEGER, PRIMARY KEY(id AUTOINCREMENT));
 CREATE TABLE trechos ( id INTEGER, letra TEXT, turno INTEGER, num_postos INTEGER, PRIMARY KEY(id AUTOINCREMENT));
 CREATE TABLE escalas ( id INTEGER, codigo TEXT, sigla TEXT, turno INTEGER, trecho INTEGER, estacao_id INTEGER, pessoa_id INTEGER, PRIMARY KEY(id AUTOINCREMENT));

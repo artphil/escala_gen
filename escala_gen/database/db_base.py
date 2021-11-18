@@ -24,12 +24,15 @@ class DB_base:
 		ordenacao = ''
 		condicao = ''
 		primeiro = True
-		for chave, valor in parametros.items():
-			if primeiro:
-				primeiro = False
-				condicao += f'WHERE {chave}={valor}'
-			else:
-				condicao += f' AND {chave}={valor}'
+		if parametros:
+			condicao = 'WHERE'  
+			param = []
+			for chave, valor in parametros.items():
+				if type(valor) == str and valor.startswith('LIKE'):
+					param.append(f' {chave} {valor} ')
+				else: 
+					param.append(f' {chave}={valor} ')
+			condicao = 'WHERE' + 'AND'.join(param)  
 		if ordem:
 			ordenacao = f'ORDER BY {ordem}'
 			if reverso:
@@ -37,8 +40,8 @@ class DB_base:
 		agrupamento = ''
 		if grupos:
 			agrupamento = 'GROUP BY '+ ','.join(grupos)
-
 		query = f'SELECT {colunas} FROM {self.tabela} {condicao} {agrupamento} {ordenacao};'
+		print(query)
 		self.db.cursor.execute(query)
 		return self.to_json()
 
@@ -68,7 +71,6 @@ class DB_base:
 		self.busca()
 		colunas = self.colunas()
 		colunas.remove('id')
-		colunas.remove('ordem')
 		valores = []
 		print('col:', colunas)
 		for chave in colunas:

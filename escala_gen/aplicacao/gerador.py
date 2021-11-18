@@ -30,10 +30,14 @@ class Gerador(Base):
 		self.estacoes = self.app.db.estacoes.busca_tudo(ordem='codigo')
 		self.lista_estacoes = ['Todos'] + list(self.estacoes.keys())
 
-	def estacao_secionada(self):
+	def estacao_secionada(self, texto=False):
 		estacao = self.seletor_estacoes.get()
+		if texto: 
+			return estacao
 		if estacao == 'Todos':
 			return 0
+		if not estacao:
+			return 
 		return self.estacoes[estacao]['id']
 
 	def turno_secionado(self):
@@ -48,6 +52,18 @@ class Gerador(Base):
 		estacao_id = self.estacao_secionada()
 		turno_id = self.turno_secionado()
 		print(estacao_id, turno_id)
+		if estacao_id == 0:
+			self.escreve_mensagem(f'Gerando todas as escalas')
+		elif estacao_id:
+			if not turno_id:
+				self.escreve_mensagem(f'Nenhum turno escolhido')
+			else:
+				estacao = self.estacao_secionada(True)
+				self.app.ge.gera_escala(2021, 1, turno_id, estacao_id)
+				self.escreve_mensagem(f'Gerando escala da estação {estacao}')
+		else:
+			self.escreve_mensagem(f'Nenhuma estação escolhida')
+
 		# self.escala_codigo.texto(self.escala['codigo'])
 		# self.escala_sigla.texto(self.escala['sigla'])
 		# self.escala_turno.texto(self.escala['turno'])
@@ -74,101 +90,8 @@ class Gerador(Base):
 
 		## Botões
 		self.botoes = Container(self.body, altura=30)
-		Botao(self.botoes, 'Gerar', lambda: self.gerar_escala(), posicao=tk.LEFT)
-		Botao(self.botoes, 'Limpar', lambda: self.gerar_escala(), posicao=tk.LEFT)
-
-	# 	self.c_data = tk.Frame(self)
-	# 	self.c_data["padx"] = 40
-	# 	self.c_data.pack()
-		
-	# 	## Botões
-	# 	self.c_button = tk.Frame(self)
-	# 	self.c_button["padx"] = 40
-	# 	self.c_button['pady'] = 10
-	# 	self.c_button.pack()
-
-	# 	# Campo do titulo
-	# 	label = tk.Label(self.c_title)
-	# 	label['text'] = "Gerador de escala" 
-	# 	label['font'] = self.app.font_title
-	# 	label['pady'] = 10
-	# 	label.pack()
-
-	# 	# Campo dos dados
-	# 	## Texto
-	# 	self.l_data = tk.Label(self.c_title)
-	# 	self.l_data['text'] = "Procure por ID - exemplo: Central 1º turno = UCT1" 
-	# 	self.l_data['font'] = self.app.font_body
-	# 	self.l_data.pack()
-
-	# 	## Id
-	# 	self.c_sid = tk.Frame(self.c_data)
-	# 	self.c_sid.pack()
-
-	# 	self.sidLabel = tk.Label(self.c_sid)
-	# 	self.sidLabel["width"] = 10
-	# 	self.sidLabel['text'] ="ID estação"
-	# 	self.sidLabel['font'] = self.app.font_body
-	# 	self.sidLabel.pack(side=tk.LEFT)
-  
-	# 	self.sid = tk.Entry(self.c_sid)
-	# 	self.sid["width"] = 20
-	# 	self.sid["font"] = self.app.font_body
-	# 	self.sid.pack(side=tk.LEFT)
-
-	# 	## Botao de busca
-	# 	self.button_search = tk.Button(self.c_sid)
-	# 	self.button_search["width"] = 10
-	# 	self.button_search['text'] = "Buscar"
-	# 	self.button_search['command'] = lambda: self.search()
-	# 	self.button_search.pack(side=tk.RIGHT)
-
-	# 	## Estação
-	# 	self.c_name = tk.Frame(self.c_data)
-	# 	self.c_name.pack()
-		
-	# 	self.nameLabel = tk.Label(self.c_name)
-	# 	self.nameLabel["width"] = 10
-	# 	self.nameLabel['text'] ="Nome"
-	# 	self.nameLabel['font'] = self.app.font_body
-	# 	self.nameLabel.pack(side=tk.LEFT)
-  
-	# 	self.name = tk.Entry(self.c_name)
-	# 	self.name["width"] = 32
-	# 	self.name["font"] = self.app.font_body
-	# 	self.name.pack(side=tk.RIGHT)
-
-	# 	## Mes e Ano
-	# 	self.c_date = tk.Frame(self.c_data)
-	# 	self.c_date.pack()
-		
-	# 	self.monthLabel = tk.Label(self.c_date)
-	# 	self.monthLabel["width"] = 10
-	# 	self.monthLabel['text'] ="Mes"
-	# 	self.monthLabel['font'] = self.app.font_body
-	# 	self.monthLabel.pack(side=tk.LEFT)
-
-	# 	self.month = ttk.Combobox(self.c_date, values=[' ','Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'])#, state='readonly')
-	# 	self.month["width"] = 12
-	# 	self.month["font"] = self.app.font_body
-	# 	self.month.pack(side=tk.LEFT)
-
-	# 	self.yearLabel = tk.Label(self.c_date)
-	# 	self.yearLabel["width"] = 10
-	# 	self.yearLabel['text'] ="Ano"
-	# 	self.yearLabel['font'] = self.app.font_body
-	# 	self.yearLabel.pack(side=tk.LEFT)
-  
-	# 	self.year = tk.Entry(self.c_date)
-	# 	self.year["width"] = 4
-	# 	self.year["font"] = self.app.font_body
-	# 	self.year.pack(side=tk.LEFT)
-
-	# 	## Texto
-	# 	self.l_data = tk.Label(self.c_data)
-	# 	self.l_data['text'] = " ------------------------------------------------------- " 
-	# 	self.l_data['font'] = self.app.font_body
-	# 	self.l_data.pack()
+		Botao(self.botoes, 'Gerar', lambda: self.preenche_campos(), posicao=tk.LEFT)
+		# Botao(self.botoes, 'Limpar', lambda: self.gerar_escala(), posicao=tk.LEFT)
 
 	# 	## ASOs
 	# 	self.asos = []

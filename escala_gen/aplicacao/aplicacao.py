@@ -21,10 +21,10 @@ from .creditos import Creditos
 # Gerenciador da aplicação
 class App(tk.Tk):
 
-	def __init__(self, db, gen):
+	def __init__(self, db, ge):
 		tk.Tk.__init__(self)
 		self.db = db
-		self.gen = gen
+		self.ge = ge
 
 		# Fontes padrão
 		self.font_title = tkfont.Font(family='Arial', size=12, weight="bold")
