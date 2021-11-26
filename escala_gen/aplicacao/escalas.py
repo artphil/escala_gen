@@ -49,9 +49,13 @@ class Escalas(Base):
 		else:
 			self.escreve_mensagem(f'Nenhuma alteração encontrada')
 
-	def remove_escala(self, id):
+	def remove_escala(self):
 		escala = self.escala_secionada()
-		self.app.db.escalas.remove(escala['id'])
+		if escala:
+			self.app.db.escalas.remove(escala['id'])
+			self.limpa_campos()
+			self.busca_escalas()
+			self.seletor_escalas.set_completion_list(self.escalas.keys())
 
 	def le_campos(self):
 		dados = {}
@@ -59,8 +63,8 @@ class Escalas(Base):
 		dados['sigla'] =  self.escala_sigla.get().upper()
 		dados['turno'] = int(self.escala_turno.get())
 		dados['trecho'] = int(self.escala_trecho.get())
+		dados['ordem'] = int(self.escala_ordem.get())
 		dados['pessoa_id'] = self.pessoa_secionada()
-		dados['estacao_id'] = self.estacao_secionada()
 		return dados
 
 	def preenche_campos(self):
@@ -69,10 +73,9 @@ class Escalas(Base):
 		self.escala_sigla.texto(self.escala['sigla'])
 		self.escala_turno.texto(self.escala['turno'])
 		self.escala_trecho.texto(self.escala['trecho'])
+		self.escala_ordem.texto(self.escala['ordem'])
 		pessoa = self.app.db.pessoas.busca_por_id(self.escala['pessoa_id'])
 		self.escala_pessoa.texto(pessoa['apelido'])
-		estacao = self.app.db.estacoes.busca_por_id(self.escala['estacao_id'])
-		self.escala_estacao.texto(estacao['sigla'])
 
 	def limpa_campos(self):
 		self.escala = {}
@@ -92,10 +95,6 @@ class Escalas(Base):
 	def pessoa_secionada(self):
 		pessoa = self.pessoas[self.escala_pessoa.get()]
 		return pessoa['id']
-
-	def estacao_secionada(self):
-		estacao = self.estacoes[self.escala_estacao.get()]
-		return estacao['id']
 
 	def desenha_tela(self):
 		# Campos da janela
@@ -119,14 +118,15 @@ class Escalas(Base):
 		self.escala_turno = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
 		Texto(self.identificacao, "Trecho", posicao=tk.LEFT, largura=10)
 		self.escala_trecho = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
+		Texto(self.identificacao, "Ordem", posicao=tk.LEFT, largura=10)
+		self.escala_ordem = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
 		
 		self.ocupante = Container(self.dados, altura=20)
-		Texto(self.ocupante, "Estacao", posicao=tk.LEFT, largura=20)
-		self.escala_estacao = SeletorAutocomplete(self.ocupante, self.estacoes.keys(), posicao=tk.LEFT, largura=20)
 		Texto(self.ocupante, "Pessoa", posicao=tk.LEFT, largura=20)
 		self.escala_pessoa = SeletorAutocomplete(self.ocupante, self.pessoas.keys(), posicao=tk.LEFT, largura=30)
 		
 		## Botões
 		self.botoes = Container(self.body, altura=30)
 		Botao(self.botoes, 'Salvar', lambda: self.salva_escala(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Remove', lambda: self.remove_escala(), posicao=tk.LEFT)
 		Botao(self.botoes, 'Limpar', lambda: self.limpa_campos(), posicao=tk.LEFT)

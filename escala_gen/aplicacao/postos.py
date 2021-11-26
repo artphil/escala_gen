@@ -29,7 +29,7 @@ class Postos(Base):
 		self.pessoas = self.app.db.pessoas.nomes()
 		self.estacoes = self.app.db.estacoes.busca_tudo(ordem='codigo')
 
-	def atualiza_posto(self):
+	def salva_posto(self):
 		dados = {}
 		campos = self.le_campos()
 		print('campos lidos:', campos)
@@ -48,32 +48,31 @@ class Postos(Base):
 		else:
 			self.escreve_mensagem(f'Nenhuma alteração encontrada')
 
-	def remove_posto(self, id):
+	def remove_posto(self):
 		posto = self.posto_secionado()
-		self.app.db.postos.remove(posto['id'])
+		if posto:
+			self.app.db.postos.remove(posto['id'])
+			self.limpa_campos()
+			self.busca_postos()
+			self.seletor_postos.set_completion_list(self.postos.keys())
 
 	def preenche_campos(self):
 		self.posto = self.posto_secionado()
 		self.posto_codigo.texto(self.posto['codigo'])
 		self.posto_turno.texto(self.posto['turno'])
-		self.posto_trecho.texto(self.posto['trecho'])
 		self.posto_ordem.texto(self.posto['ordem'])
 		self.posto_posto.texto(self.posto['posto'])
 		self.posto_descricao.texto(self.posto['desc'])
-		pessoa = self.app.db.pessoas.busca_por_id(self.posto['pessoa_id'])
-		self.posto_pessoa.texto(pessoa['apelido'])
 		estacao = self.app.db.estacoes.busca_por_id(self.posto['estacao_id'])
 		self.posto_estacao.texto(estacao['sigla'])
 
 	def limpa_campos(self):
 		self.posto = {}
 		self.posto_codigo.texto('')
-		self.posto_trecho.texto('')
 		self.posto_descricao.texto('')
 		self.posto_posto.texto('')
 		self.posto_ordem.texto('')
 		self.posto_turno.texto('')
-		self.posto_pessoa.texto('')
 		self.posto_estacao.texto('')
 
 	def le_campos(self):
@@ -82,10 +81,8 @@ class Postos(Base):
 		dados['posto'] = self.posto_posto.get().upper()
 		dados['desc'] = self.posto_descricao.get()
 		dados['turno'] = int(self.posto_turno.get())
-		dados['trecho'] = int(self.posto_trecho.get())
 		dados['ordem'] = int(self.posto_ordem.get())
 		dados['estacao_id'] = self.estacao_secionada()
-		dados['pessoa_id'] = self.pessoa_secionada()
 		return dados
 
 	def escreve_mensagem(self, msg):
@@ -118,26 +115,21 @@ class Postos(Base):
 		self.identificacao = Container(self.dados)
 		Texto(self.identificacao, "Código", posicao=tk.LEFT, largura=20)
 		self.posto_codigo = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
+		Texto(self.identificacao, "Posto", posicao=tk.LEFT, largura=10)
+		self.posto_posto = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
 		Texto(self.identificacao, "Turno", posicao=tk.LEFT, largura=10)
 		self.posto_turno = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
-		Texto(self.identificacao, "Trecho", posicao=tk.LEFT, largura=10)
-		self.posto_trecho = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
-		Texto(self.identificacao, "Ordem", posicao=tk.LEFT, largura=10)
-		self.posto_ordem = Entrada(self.identificacao, posicao=tk.LEFT, largura=10)
+		Texto(self.identificacao, "Estacao", posicao=tk.LEFT, largura=10)
+		self.posto_estacao = SeletorAutocomplete(self.identificacao, self.estacoes.keys(), posicao=tk.LEFT, largura=10)
 		
 		self.descricao = Container(self.dados, altura=20)
-		Texto(self.descricao, "Posto", posicao=tk.LEFT, largura=20)
-		self.posto_posto = Entrada(self.descricao, posicao=tk.LEFT, largura=10)
 		Texto(self.descricao, "Descrição", posicao=tk.LEFT, largura=20)
-		self.posto_descricao = Entrada(self.descricao, posicao=tk.LEFT, largura=44)
+		self.posto_descricao = Entrada(self.descricao, posicao=tk.LEFT, largura=58)
+		Texto(self.descricao, "Ordem", posicao=tk.LEFT, largura=10)
+		self.posto_ordem = Entrada(self.descricao, posicao=tk.LEFT, largura=10)
 
-		self.ocupante = Container(self.dados)
-		Texto(self.ocupante, "Estacao", posicao=tk.LEFT, largura=20)
-		self.posto_estacao = SeletorAutocomplete(self.ocupante, self.estacoes.keys(), posicao=tk.LEFT, largura=20)
-		Texto(self.ocupante, "Pessoa", posicao=tk.LEFT, largura=20)
-		self.posto_pessoa = SeletorAutocomplete(self.ocupante, self.pessoas.keys(), posicao=tk.LEFT, largura=30)
-		
 		## Botões
 		self.botoes = Container(self.body, altura=30)
-		Botao(self.botoes, 'Atualizar', lambda: self.atualiza_posto(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Salvar', lambda: self.salva_posto(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Remove', lambda: self.remove_posto(), posicao=tk.LEFT)
 		Botao(self.botoes, 'Limpar', lambda: self.limpa_campos(), posicao=tk.LEFT)

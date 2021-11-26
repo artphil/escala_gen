@@ -1,5 +1,4 @@
 [
-	{},
 	{ "numero": 1, "abrev": "Jan", "dias": 31 , "nome": "Janeiro" },
 	{ "numero": 2, "abrev": "Fev", "dias": 29 , "nome": "Fevereiro" },
 	{ "numero": 3, "abrev": "Mar", "dias": 31 , "nome": "Março" },

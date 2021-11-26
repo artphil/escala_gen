@@ -6,4 +6,4 @@ class DB_escalas(DB_base):
 		super().__init__(db, 'escalas', 'codigo')
 
 	def busca_por_estacao(self, estacao, turno):
-		return self.busca_por({'sigla': f"LIKE '%{estacao}%'", 'turno': turno}, 'sigla')
+		return self.busca_por({'codigo': f"LIKE '%{estacao}%'", 'turno': turno}, 'ordem')

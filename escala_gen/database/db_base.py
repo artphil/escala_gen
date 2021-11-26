@@ -41,7 +41,6 @@ class DB_base:
 		if grupos:
 			agrupamento = 'GROUP BY '+ ','.join(grupos)
 		query = f'SELECT {colunas} FROM {self.tabela} {condicao} {agrupamento} {ordenacao};'
-		print(query)
 		self.db.cursor.execute(query)
 		return self.to_json()
 
@@ -72,7 +71,6 @@ class DB_base:
 		colunas = self.colunas()
 		colunas.remove('id')
 		valores = []
-		print('col:', colunas)
 		for chave in colunas:
 			valor = "'"+dados[chave]+"'" if type(dados[chave]) == str else str(dados[chave])
 			valores.append(valor)

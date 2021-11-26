@@ -51,10 +51,14 @@ class Pessoas(Base):
 		else:
 			self.escreve_mensagem(f'Nenhuma alteração encontrada')
 
-	def remove_pessoa(self, id):
+	def remove_pessoa(self):
 		pessoa = self.pessoa_secionada()
-		self.app.db.pessoas.remove(pessoa['id'])
-
+		if pessoa:
+			self.app.db.pessoas.remove(pessoa['id'])
+			self.limpa_campos()
+			self.busca_pessoas()
+			self.seletor_pessoas.set_completion_list(self.pessoas.keys())
+			
 	def preenche_campos(self):
 		self.pessoa = self.pessoa_secionada()
 		self.pessoa_nome.texto(self.pessoa['nome'])
@@ -104,5 +108,7 @@ class Pessoas(Base):
 		
 		## Botões
 		self.botoes = Container(self.body, altura=30)
-		Botao(self.botoes, 'Atualizar', lambda: self.atualiza_pessoa(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Salva', lambda: self.atualiza_pessoa(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Remove', lambda: self.remove_pessoa(), posicao=tk.LEFT)
+		Botao(self.botoes, 'Limpa', lambda: self.limpa_campos(), posicao=tk.LEFT)
 

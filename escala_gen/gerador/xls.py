@@ -15,7 +15,7 @@ import os
 path_qrcode = r'img/qrcode.png'
 
 # Cria a planilha excel
-def Gen_xls(tabela, path_output):
+def Gen_xls(tabela, path_output, filename):
 
 	# Definindo a planilha
 	wb = Workbook()
@@ -29,9 +29,7 @@ def Gen_xls(tabela, path_output):
 	ws.title = 'escala-posto'
 
 	# Preenchendo com dados da tabela
-	i = 0
 	for linha in tabela:
-		i += 1
 		ws.append(linha)
 
 	# ws.append(('','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','@artphil'))
@@ -58,9 +56,11 @@ def Gen_xls(tabela, path_output):
 		ws.row_dimensions[linha[0].row].height = 20.0
 		# Linhas de postos
 		cinza = linha[0].row % 2 == 0 and linha[0].value
+		pessoa = bool(linha[0].value)
 		for celula in linha:
 			# Orientacao do texto
-			celula.alignment = Alignment(horizontal='center', vertical='center')
+			if pessoa or celula.row < 4:
+				celula.alignment = Alignment(horizontal='center', vertical='center')
 			# Titulos e nomes em negrito
 			if celula.col_idx < 3 or celula.row < 4:
 				celula.font = Font(bold=True)
@@ -81,10 +81,8 @@ def Gen_xls(tabela, path_output):
 
 
 	# Salva a planilha
-	filename = tabela[0][0].replace(" ", "")
-	
 	xls_file = os.path.join(path_output, f'{filename}.xlsx')
 	
 	wb.save(filename=xls_file)
 
-	print(f'Arquivo {xls_file} gravado.')
+	print(f'Arquivo {filename} gravado.')
