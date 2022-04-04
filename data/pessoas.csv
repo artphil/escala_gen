@@ -21,7 +21,7 @@ id;name;alias;p;turno;posto;trecho
 1000045;P5;P5;5;0;20;d
 1000046;P6;P6;6;0;21;d
 1000114;* Furo de escala;- ;14;1;100152;c
-2001823;Adriana Quadros Godinho;Adriana Godinho;2;1;100018;a
+2001823;Adriana Quadros Godinho;Adriana Godinho;5;1;100018;a
 2001799;Alan Marcelo Da Silva;Alan Marcelo;1;1;116191;c
 2002318;Alex Paulo Maia Dos Santos;Alex Santos;4;1;106001;a
 2001856;Alexandre Dias Drumond;Alexandre Dias;3;1;199009;c
@@ -131,7 +131,7 @@ id;name;alias;p;turno;posto;trecho
 2002018;Renato Alves Junior;Renato Junior;2;1;100196;c
 2001811;Roberto Flaymer Araujo;Roberto Flaymer;1;1;100961;d
 2002084;Rodrigo Mendonça Prado;Rodrigo Prado;1;1;108121;b
-2001919;Rodrigo Cesar Da Costa Ribeiro;Rodrigo Ribeiro;1;1;106002;a
+2001919;Rodrigo Cesar Da Costa Ribeiro;Rodrigo Ribeiro;3;1;106002;a
 2002211;Rosa Lima Ferreira;Rosa Lima;1;1;107101;b
 2002056;Rosiane Santos Rodrigues;Rosiane Rodrigues;5;1;100012;a
 2002214;Samuel Paulo Da Silva;Samuel Paulo;3;1;100161;c
@@ -142,14 +142,14 @@ id;name;alias;p;turno;posto;trecho
 2001997;Sidney Alexandre Gil Ferreira;Sidney Ferreira;1;1;115001;c
 2002022;Silvana De Souza Silva;Silvana Souza;1;1;101032;a
 2001961;Stefano Carvalho Hallack;Stefano Hallack;6;1;100091;b
-2001883;Suellen De Lima Pereira Da Silva;Suellen Lima;5;1;101052;a
+2001883;Suellen De Lima Pereira Da Silva;Suellen Lima;1;1;101052;a
 2001859;Tatiana Cavalcanti Moreira;Tatiana Cavalcanti;2;1;100991;d
 2001920;Tatiane Rodrigues Melo Pereira;Tatiane Rodrigues;5;1;100064;a
 2002072;Taylla Fernanda Dos Santos;Taylla Santos;6;1;100172;c
 2001826;Thais De Almeida Macedo Santos;Thais Almeida;4;1;101031;a
 2001916;Thiago Philippe Soares;Thiago Philippe;3;1;100101;b
 2001968;Tiago Moreno Pascoal;Tiago Moreno;2;1;100153;c
-2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;1;1;101042;a
+2001713;Vanessa Francisca Dos Santos Spindola;Vanessa Spindola;4;1;101042;a
 2001926;Victor De Sousa Prata;Victor Prata;2;1;100072;b
 2001967;Victor De Sousa Santos;Victor Santos;4;1;107111;b
 2002075;Victor Schrier Alves;Victor Schrier;3;1;100093;b
