@@ -30,7 +30,7 @@ id;name;alias;p;turno;posto;trecho
 2001944;Ana Raquel Almeida E Franco;Ana Raquel;6;1;100112;b
 2002067;Andre Luiz Da Silveira Silva;Andre Silveira;3;1;199006;b
 2001959;Ayslan Rogger Da Silva Felizardo;Ayslan Rogger;6;1;100042;a
-2001914;Barbara Andrade Neves;Barbara Andrade;4;1;199011;d
+2001914;Barbara Andrade Neves;Barbara Andrade;2;1;199011;d
 2001806;Bernard Pereira Magacho;Bernard Magacho;1;1;110001;b
 2002212;Blenda Reis Teles Silva;Blenda Teles;2;1;103061;a
 2002051;Bruno Duarte Alves;Bruno Duarte;4;1;112001;b
@@ -88,7 +88,7 @@ id;name;alias;p;turno;posto;trecho
 2002207;Karine Zanandreis Nolasco De Melo;Karine Nolasco;2;1;101022;a
 2002069;Kenya Tatiana Frade Morais;Kenya Morais;5;1;100085;b
 2002316;Lais Freitas Camara;Lais Freitas;3;1;199003;a
-2002016;Larissa De Lima Silva Elias;Larissa Elias;1;1;108131;b
+2002016;Larissa De Lima Silva Elias;Larissa Elias;4;1;108131;b
 2001940;Lenise Glaucia De Souza Moraes;Lenise Moraes;6;1;100143;c
 2001993;Leonardo Pinto Albuquerque;Leo Albuquerque;6;1;100102;b
 2002050;Leonardo Akio Fonseca Hamada;Leonardo Akio;4;1;100011;a
@@ -140,7 +140,7 @@ id;name;alias;p;turno;posto;trecho
 2002006;Sergio Pereira Gonçalves;Sergio Gonçalves;6;1;100173;c
 2002021;Sergio Maia Pereira;Sergio Maia;5;1;100071;b
 2001997;Sidney Alexandre Gil Ferreira;Sidney Ferreira;1;1;115001;c
-2002022;Silvana De Souza Silva;Silvana Souza;1;1;101032;a
+2002022;Silvana De Souza Silva;Silvana Souza;3;1;101032;a
 2001961;Stefano Carvalho Hallack;Stefano Hallack;6;1;100091;b
 2001883;Suellen De Lima Pereira Da Silva;Suellen Lima;1;1;101052;a
 2001859;Tatiana Cavalcanti Moreira;Tatiana Cavalcanti;2;1;100991;d
@@ -158,7 +158,7 @@ id;name;alias;p;turno;posto;trecho
 2001909;Wagner Forapani Clemente;Wagner Forapani;6;1;100033;a
 2002203;Wellington Santos Correa;Wellington Santos;2;1;100074;b
 2002065;Wildenberg Bernardes Paezante;Wildenberg Paezante;5;1;100155;c
-2001931;Willian Da Cunha Sousa;Willian Cunha;4;1;115171;c
+2001931;Willian Da Cunha Sousa;Willian Cunha;5;1;115171;c
 2001965;Willy Thiago De Almeida;Willy Almeida;6;1;100183;c
 2001870;Ygor Vinicius Vieira Thibau;Ygor Vinicius;3;1;100132;b
 2001714;Yuri Augusto De Paiva Silva;Yuri Paiva;1;1;108101;c
@@ -234,7 +234,7 @@ id;name;alias;p;turno;posto;trecho
 2001865;Kalebe Daniel Da Rocha Dos Reis;Kalebe Daniel;4;2;200012;a
 2001828;Karina Da Conceição De Jesus Costa;Karina Costa;3;2;201032;a
 2001819;Kener Alexandre Da Silva;Kener Alexandre;4;2;200066;a
-2001935;Larissa Cecilia De Marcos Silva;Larissa Cecilia;4;2;200092;b
+2001935;Larissa Cecilia De Marcos Silva;Larissa Cecilia;5;2;200092;b
 2001884;Larissa Cristina Souza Santos;Larissa Santos;4;2;200195;c
 2001698;Leandro Moraes Nascimento Reis;Leandro Moraes;4;2;200145;c
 2002185;Leticia Da Silva Dornas Paixão;Leticia Silva;1;2;200086;b
@@ -301,4 +301,4 @@ id;name;alias;p;turno;posto;trecho
 2002001;Wesley Elias Gomes Couto;Wesley Elias;2;2;200103;b
 2002078;Willian Lopes Peçanha;Willian Lopes;2;2;200011;a
 2002344;Yuri Lobo Rodrigues da Cunha;Yuri Lobo;3;2;217191;c
-2002391;Barbara Eduarda Carmo Rocha Oliveira;Barbara Eduarda;6;1;212121;a
+2002391;Barbara Eduarda Carmo Rocha Oliveira;Barbara Eduarda;4;1;212121;a
